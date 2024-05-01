@@ -30,16 +30,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Map 2",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "map2"
+                                    "map"
                                 ]
                             }
                         }
@@ -81,16 +72,7 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Map 2",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "map2"
+                                    "map"
                                 ]
                             }
                         }
