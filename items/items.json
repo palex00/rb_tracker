@@ -1,56 +1,329 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+
 [
     {
-        "name": "Toggle",
+        "name": "Boulder Badge",
         "type": "toggle",
-        "img": "images/items/toggle.png",
-        "codes": "toggle"
+        "img": "images/items/boulder.png",
+        "codes": "boulder,badge"
     },
     {
-        "name": "Progressive",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Cascade Badge",
+        "type": "toggle",
+        "img": "images/items/cascade.png",
+        "codes": "cascade,badge"
     },
     {
-        "name": "Consumable",
-        "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
+        "name": "Thunder Badge",
+        "type": "toggle",
+        "img": "images/items/thunder.png",
+        "codes": "thunder,badge"
     },
     {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Rainbow Badge",
+        "type": "toggle",
+        "img": "images/items/rainbow.png",
+        "codes": "rainbow,badge"
+    },
+    {
+        "name": "Soul Badge",
+        "type": "toggle",
+        "img": "images/items/soul.png",
+        "codes": "soul,badge"
+    },
+    {
+        "name": "Marsh Badge",
+        "type": "toggle",
+        "img": "images/items/marsh.png",
+        "codes": "marsh,badge"
+    },
+    {
+        "name": "Volcano Badge",
+        "type": "toggle",
+        "img": "images/items/volcano.png",
+        "codes": "volcano,badge"
+    },
+    {
+        "name": "Earth Badge",
+        "type": "toggle",
+        "img": "images/items/earth.png",
+        "codes": "earth,badge"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "toggle",
+        "img": "images/items/hm01.png",
+        "codes": "cut,keyitem"
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "toggle",
+        "img": "images/items/hm02.png",
+        "codes": "fly,keyitem"
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "toggle",
+        "img": "images/items/hm03.png",
+        "codes": "surf,keyitem"
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "toggle",
+        "img": "images/items/hm04.png",
+        "codes": "strength,keyitem"
+    },
+    {
+        "name": "HM05 Cut",
+        "type": "toggle",
+        "img": "images/items/hm05.png",
+        "codes": "flash,keyitem"
+    },
+    {
+        "name": "Oak's Parcel",
+        "type": "toggle",
+        "img": "images/items/oaksparcel.png",
+        "codes": "parcel"
+    },
+    {
+        "name": "Pokedex",
+        "type": "toggle",
+        "img": "images/pokedex.png",
+        "codes": "pokedex"
+    },
+    {
+        "name": "Town Map",
+        "type": "toggle",
+        "img": "images/items/townmap.png",
+        "codes": "townmap,keyitem"
+    },
+    {
+        "name": "Bicycle",
+        "type": "toggle",
+        "img": "images/items/bicycle.png",
+        "codes": "bicycle,keyitem"
+    },
+    {
+        "name": "Item Finder",
+        "type": "toggle",
+        "img": "images/items/itemfinder.png",
+        "codes": "itemfinder,keyitem"
+    },
+    {
+        "name": "Silph Scope",
+        "type": "toggle",
+        "img": "images/items/silphscope.png",
+        "codes": "silphscope,keyitem"
+    },
+    {
+        "name": "Coin Case",
+        "type": "toggle",
+        "img": "images/items/coincase.png",
+        "codes": "coincase,keyitem"
+    },
+    {
+        "name": "Poke Flute",
+        "type": "toggle",
+        "img": "images/items/pokeflute.png",
+        "codes": "pokeflute,keyitem"
+    },
+    {
+        "name": "Old Rod",
+        "type": "toggle",
+        "img": "images/items/oldrod.png",
+        "codes": "oldrod,keyitem"
+    },
+    {
+        "name": "Good Rod",
+        "type": "toggle",
+        "img": "images/items/goodrod.png",
+        "codes": "goodrod,keyitem"
+    },
+    {
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "images/items/superrod.png",
+        "codes": "superrod,keyitem"
+    },
+    {
+        "name": "Gold Teeth",
+        "type": "toggle",
+        "img": "images/items/goldteeth.png",
+        "codes": "goldteeth,teeth"
+    },
+    {
+        "name": "Secret Key",
+        "type": "toggle",
+        "img": "images/items/secretkey.png",
+        "codes": "secretkey,keyitem"
+    },
+    {
+        "name": "Bike Voucher",
+        "type": "toggle",
+        "img": "images/items/bikevoucher.png",
+        "codes": "voucher"
+    },
+    {
+        "name": "Lift Key",
+        "type": "toggle",
+        "img": "images/items/liftkey.png",
+        "codes": "liftkey,keyitem"
+    },
+    {
+        "name": "Card Key",
+        "type": "toggle",
+        "img": "images/items/cardkey.png",
+        "codes": "cardkey,keyitem"
+    },
+    {
+        "name": "Progressive Card Key",
+        "type": "consumable", 
+        "max_quantity": 10,
+        "initial_quantity": 0,
+        "img": "images/items/cardkeyprog.png",
+        "codes": "cardkey_progressive,keyitem"
+    },
+    {
+        "name": "Card Key 2F",
+        "type": "toggle",
+        "img": "images/items/cardkey2.png",
+        "codes": "cardkey2f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 3F",
+        "type": "toggle",
+        "img": "images/items/cardkey3.png",
+        "codes": "cardkey3f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 4F",
+        "type": "toggle",
+        "img": "images/items/cardkey4.png",
+        "codes": "cardkey4f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 5F",
+        "type": "toggle",
+        "img": "images/items/cardkey5.png",
+        "codes": "cardkey5f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 6F",
+        "type": "toggle",
+        "img": "images/items/cardkey6.png",
+        "codes": "cardkey6f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 7F",
+        "type": "toggle",
+        "img": "images/items/cardkey7.png",
+        "codes": "cardkey7f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 8F",
+        "type": "toggle",
+        "img": "images/items/cardkey8.png",
+        "codes": "cardkey8f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 9F",
+        "type": "toggle",
+        "img": "images/items/cardkey9.png",
+        "codes": "cardkey9f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 10F",
+        "type": "toggle",
+        "img": "images/items/cardkey10.png",
+        "codes": "cardkey10f, split_cardkey,keyitem"
+    },
+    {
+        "name": "Card Key 11F",
+        "type": "toggle",
+        "img": "images/items/cardkey11.png",
+        "codes": "cardkey11f, split_cardkey,keyitem"
+    },
+    {
+        "name": "SS Ticket",
+        "type": "toggle",
+        "img": "images/items/ssticket.png",
+        "codes": "ssticket,keyitem"
+    },
+    {
+        "name": "Tea",
+        "type": "toggle",
+        "img": "images/items/tea.png",
+        "codes": "tea"
+    },
+    {
+        "name": "Plant Key",
+        "type": "toggle",
+        "img": "images/items/plantkey.png",
+        "codes": "plantkey,keyitem"
+    },
+    {
+        "name": "Mansion Key",
+        "type": "toggle",
+        "img": "images/items/mansionkey.png",
+        "codes": "mansionkey,keyitem"
+    },
+    {
+        "name": "Hideout Key",
+        "type": "toggle",
+        "img": "images/items/hideoutkey.png",
+        "codes": "hideoutkey,keyitem"
+    },
+    {
+        "name": "Safari Pass",
+        "type": "toggle",
+        "img": "images/items/safaripass.png",
+        "codes": "safaripass,keyitem"
+    },
+    {
+        "name": "Old Amber",
+        "type": "toggle",
+        "img": "images/oldamber.png",
+        "codes": "oldamber,fossil"
+    },
+    {
+        "name": "Dome Fossil",
+        "type": "toggle",
+        "img": "images/dome.png",
+        "codes": "domefossil,fossil"
+    },
+    {
+        "name": "Helix Fossil",
+        "type": "toggle",
+        "img": "images/helix.png",
+        "codes": "helixfossil,fossil"
+    },
+    {
+        "name": "Fire Stone",
+        "type": "toggle",
+        "img": "images/firestone.png",
+        "codes": "firestone,stone,keyitem"
+    },
+    {
+        "name": "Leaf Stone",
+        "type": "toggle",
+        "img": "images/leafstone.png",
+        "codes": "leafstone,stone,keyitem"
+    },
+    {
+        "name": "Thunder Stone",
+        "type": "toggle",
+        "img": "images/thunderstone.png",
+        "codes": "thunderstone,stone,keyitem"
+    },
+    {
+        "name": "Water Stone",
+        "type": "toggle",
+        "img": "images/waterstone.png",
+        "codes": "waterstone,stone,keyitem"
+    },
+    {
+        "name": "Moon Stone",
+        "type": "toggle",
+        "img": "images/moonstone.png",
+        "codes": "moonstone,stone,keyitem"
     }
 ]

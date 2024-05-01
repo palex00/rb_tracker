@@ -1,3 +1,5 @@
 todo.*
 .~lock.*
 *.xcf
+test.py
+test.json

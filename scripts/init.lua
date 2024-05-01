@@ -6,6 +6,13 @@ local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
+function split_key()
+    obj =  Tracker:FindObjectForCode('op_cardkey_split')
+    if obj.CurrentStage == 2 then
+      Tracker:AddLayouts("layouts/split_cardkey.json")
+    end
+  end
+
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
@@ -18,13 +25,10 @@ ScriptHost:LoadScript("scripts/utils.lua")
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
--- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
-
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("options/options.json")
+Tracker:AddItems("pokedex.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
@@ -37,8 +41,13 @@ end
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/dex.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+-- Add a watch to dynamically load layout if progressive card keys enabled
+if PopVersion and PopVersion >= "0.1.0" then
+    ScriptHost:AddWatchForCode("loadCardKey", "op_cardkey_split", split_key)
+  end

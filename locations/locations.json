@@ -1,57 +1,2185 @@
 [
     {
-        "name": "Example Parent",
-        "children": [
+      "name": "Kanto",
+      "chest-unopened_img": "UNOPENED",
+      "chest-opened_img": "OPENED",
+      "children": [
+        {
+          "name": "Vermilion City",
+          "access_rules": [],
+          "sections": [
             {
-                "name": "Example Location 1",
-                "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
-                ],
-                "sections": [
-                    {
-                        "name": "Example Section 1",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Example Section 2",
-                        "item_count": 3
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
-                    },
-                    {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
-                    }
-                ]
+              "name": "Fishing Guru",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
             },
             {
-                "name": "Example Location 2",
-                "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
-                ],
-                "sections": [
-                    {
-                        "name": "Example Section 1",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map1",
-                        "x": 1500,
-                        "y": 400
-                    }
-                ]
-            }            
-        ]
+              "name": "Fan Club President",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Lt. Surge",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Water Near Fan Club",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Fuchsia City",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Fishing Guru",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Safari Zone Warden",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Koga",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Warden",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 12 South",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Fishing Guru",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Item Behind Cuttable Tree",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Grass Fisherman",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Pallet Town",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Player",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Rival",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Oak",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Celadon City",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "1F Mansion Lady",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Stranded Man",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Rooftop Thirsty Girl Water",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Rooftop Thirsty Girl Soda Pop",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Rooftop Thirsty Girl Lemonade",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Dept Store Counter Man",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gambling Addict",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Erika",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Dead End Near Cuttable Bush",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Prize Corner 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Prize Corner 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Prize Corner 3",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 1",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Free Sample Man",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Viridian City",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Sleepy Guy",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Item for Oak",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Giovanni",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Item in Gym",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Cuttable Tree",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 2",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Oak",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Pewter City",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Museum Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Brock",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainer",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Cerulean City",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Bicycle Shop",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Misty",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Rocket Thief",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Badge Guy",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 24",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Nugget Bridge",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 25",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Bill",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Fence Outside Bill",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Northeast Of Grass",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Lavender Town",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Mr. Fuji",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 12 North",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Mourning Girl",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Island Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "SS Anne",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "2F Captain",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Item 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Item 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Item 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Item 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Item 3",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 1F Kitchen Trash",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B1F Pillow",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 11-12 Gatehouse",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Oak",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Rt 12 Bush Near Gate",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Silph Co",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "11F Silph Co President",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Woman",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Item ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Card Key Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Northwest Item ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Card Key Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F East Item ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 5F Pot Plant",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 9F Nurse Bed ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Receptionist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "8F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "9F Nurse",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "11F Secretary",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 16",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Fly House Woman",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 15",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Oak",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Jr Trainer F behind Bush",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Safari Zone",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Secret House",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "East Zone Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "East Zone West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "East Zone East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "East Zone Center Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "North Zone Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "North Zone North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "West Zone Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "West Zone Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "West Zone Southeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "West Zone Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Center Zone Island Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Secret House Statue",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Cinnabar Island",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "R",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Blaine",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Saffron City",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Copycat",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Mr. Psychic",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Sabrina",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Copycat Desk",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Gym Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Dojo Blackbelts",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Fossil",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Fossil Choice A",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Fossil Choice B",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 4",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Plateau East Of Mt Moon",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Cooltrainer F ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 9",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Bush By Grass",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Cerulean Cave",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Center Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 1F Center Rocks",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B1F Northeast Rocks",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Pokemon Tower",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "3F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 5F Near West Staircase",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Channelers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Channelers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Channelers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Channelers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Rockets",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Pokemon Mansion",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "1F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B1F Secret Key Room Corner",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 1F Block Near Entrance Carpet",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 3F Behind Burglar",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Power Plant",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Southeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Central Dead End",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Before Zapdos",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Exterior Pokemaniac",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Victory Road",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "2F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F North Item Near Moltres",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Northeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Top Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Left Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 2F Rock Before Moltres",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 2F Rock In Final Room",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Viridian Forest",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Northwest By Trainer",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Entrance Tree",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Bug Catchers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Mt Moon",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "1F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Southeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B2F South Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B2F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B2F Dead End Before Fossils",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B2F Lone Rock",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B2F Rockets",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Rocket Hideout",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "B1F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B2F Spinner Items",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B3F East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B3F Center Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F Giovanni Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F Rocket Grunt Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B1F Pot Plant",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B3F Near East Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B4F Behind Giovanni",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Rock Tunnel",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "B1F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Northwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F North Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 10 North",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: Tunnel Entrance Behind Cuttable Tree",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Jr. Trainer F",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 10 South",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: Bush",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 13",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: Dead End Bush",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Dead End By Water Corner",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "East Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Seafoam Islands",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: B2F Rock",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B4F Corner",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B3F Rock",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 23",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: Rocks Before Victory Road",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: East Bush After Water",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: On Island",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 11",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: Isolated Bush Near Gate",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 17",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: In Grass",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Northernmost Sign",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: East Center",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: West Center",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Before Final Bridge",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Underground Tunnel North-South",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: Near Northern Stairs",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Southern Stairs",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Underground Tunnel West-East",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "HI: West",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: East",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Pokemon Mansion Trainers",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "1F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Burglar",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Burglar",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Burglar",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Silph Co Trainers",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "11F Rocket",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "11F Rocket ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "9F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "9F Rocket ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "8F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Scientist ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Trainer",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Rocket Hideout Trainers",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "B1F Rockets",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Rocket ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B2F Rocket",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B3F Rockets",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F Rocket",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B4F Rockets ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 21",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 20 West",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 20 East",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 19",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Trainers ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 18",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 14",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 8",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 6",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Route 3",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Trainers",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Indigo Plateau",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Lorelai",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Bruno",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Agatha",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Lance",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        },
+        {
+          "name": "Celadon Game Corner",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "Gambler Gifts",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Northwest by Counter",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Southwest Corner",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Rumor Man",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Speculating Woman",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near West Gifting Gambler",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Wonderful Time Woman",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Failing Gym Information Guy",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near East Gifting Gambler",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Near Hooked Guy",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: End of Horizontal Machine Row",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: Front of Horizontal Machine Row",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+        }
+      ]
     }
-]
+  ]
+  
