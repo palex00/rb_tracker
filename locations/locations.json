@@ -51,7 +51,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 304, "size": 27, "border_thickness": 4, "border_thickness": 4 }]
         },
         {
           "name": "Fuchsia City",
@@ -118,7 +118,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 336, "y": 432, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Route 12 South",
@@ -135,9 +135,27 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
+            },
+            {
+              "name": "Rocker",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Jr. Trainer M",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Fisherman 5",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 336 }]
         },
         {
           "name": "Pallet Town",
@@ -168,7 +186,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 10, "y": 10}]
+          "map_locations": [{ "map": "map", "x": 144, "y": 368, "size": 27, "border_thickness": 4}]
         },
         {
           "name": "Celadon City",
@@ -289,7 +307,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 304, "y": 176, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Route 1",
@@ -302,7 +320,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 320 }]
         },
         {
           "name": "Viridian City",
@@ -387,7 +405,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 272,"size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Route 2",
@@ -412,7 +430,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 208 }]
         },
         {
           "name": "Pewter City",
@@ -437,7 +455,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 112, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Cerulean City",
@@ -480,7 +498,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 80, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Route 24",
@@ -535,7 +553,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 48 }]
         },
         {
           "name": "Route 25",
@@ -620,7 +638,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 448, "y": 16 }]
         },
         {
           "name": "Lavender Town",
@@ -633,7 +651,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 176, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Route 12 North",
@@ -650,70 +668,33 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
-            }
-          ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
-        },
-        {
-          "name": "SS Anne",
-          "access_rules": [],
-          "sections": [
+            },
             {
-              "name": "2F Captain",
+              "name": "Fisherman 1",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             },
             {
-              "name": "1F Item",
+              "name": "Fisherman 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             },
             {
-              "name": "2F Item 1",
+              "name": "Fisherman 3",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             },
             {
-              "name": "2F Item 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "B1F Item 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "B1F Item 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "B1F Item 3",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "HI: 1F Kitchen Trash",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "HI: B1F Pillow",
+              "name": "Fisherman 4",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 272 }]
         },
         {
           "name": "Route 11-12 Gatehouse",
@@ -732,272 +713,20 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 496, "y": 304 }]
         },
         {
-          "name": "Silph Co",
+          "name": "Silph Co 1F - 5F",
           "access_rules": [],
           "sections": [
             {
-              "name": "11F Silph Co President",
+              "name": "1F Receptionist",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             },
             {
               "name": "2F Woman",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "3F Item ",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "4F Card Key Left Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "4F Card Key Middle Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "4F Card Key Right Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Southwest Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Northwest Item ",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Southeast Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "6F Card Key Southwest Item Top",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "6F Card Key Southwest Item Bottom",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "7F West Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "7F East Item ",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "10F Left Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "10F Bottom Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "10F Right Item",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "HI: 5F Pot Plant",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "HI: 9F Nurse Bed ",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "11F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "11F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "10F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "10F Rocket",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "9F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "9F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "9F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "8F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "8F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "8F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "7F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "7F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "7F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "7F Rocket 3",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "6F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "6F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "6F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Juggler",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "5F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "4F Rocket 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "4F Rocket 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "4F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "3F Scientist",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "3F Rocket",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
@@ -1027,7 +756,55 @@
               "visibility_rules": []
             },
             {
-              "name": "1F Receptionist",
+              "name": "3F Item ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "3F Rocket",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Card Key Left Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Card Key Middle Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Card Key Right Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "4F Scientist",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
@@ -1039,7 +816,92 @@
               "visibility_rules": []
             },
             {
+              "name": "5F Southwest Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Northwest Item ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Southeast Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 5F Pot Plant",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Juggler",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "5F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
               "name": "5F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 368, "y": 144 }]
+        },
+        {
+          "name": "Silph Co 6F - 11F",
+          "access_rules": [],
+          "sections": [
+            {
+              "name": "6F Card Key Southwest Item Top",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Card Key Southwest Item Bottom",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "6F Rocket 2",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
@@ -1051,7 +913,61 @@
               "visibility_rules": []
             },
             {
+              "name": "7F West Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F East Item ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "7F Rocket 3",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
               "name": "7F Hostage",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "8F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "8F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "8F Scientist",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
@@ -1063,7 +979,61 @@
               "visibility_rules": []
             },
             {
+              "name": "9F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "9F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "9F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 9F Nurse Bed ",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
               "name": "9F Nurse",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Left Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Bottom Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Right Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Scientist",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "10F Rocket",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
@@ -1075,13 +1045,31 @@
               "visibility_rules": []
             },
             {
+              "name": "11F Rocket 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "11F Rocket 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "11F Silph Co President",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
               "name": "11F Secretary",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 340, "y": 144 }]
         },
         {
           "name": "Route 16",
@@ -1130,7 +1118,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 240, "y": 176 }]
         },
         {
           "name": "Route 15",
@@ -1209,7 +1197,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 432 }]
         },
         {
           "name": "Safari Zone",
@@ -1294,14 +1282,14 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 336, "y": 400 }]
         },
         {
           "name": "Cinnabar Island",
           "access_rules": [],
           "sections": [
             {
-              "name": "R",
+              "name": "R&D Lab Scientist",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
@@ -1355,7 +1343,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 496, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Saffron City",
@@ -1452,7 +1440,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 176, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Fossil",
@@ -1471,7 +1459,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 272, "y": 48 }]
         },
         {
           "name": "Route 4",
@@ -1496,7 +1484,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 336, "y": 80 }]
         },
         {
           "name": "Route 9",
@@ -1569,7 +1557,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 464, "y": 80 }]
         },
         {
           "name": "Cerulean Cave",
@@ -1636,7 +1624,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 368, "y": 48 }]
         },
         {
           "name": "Pokemon Tower",
@@ -1787,7 +1775,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 560, "y": 176 }]
         },
         {
           "name": "Pokemon Mansion",
@@ -1884,7 +1872,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 112, "y": 496 }]
         },
         {
           "name": "Power Plant",
@@ -1933,7 +1921,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 560, "y": 80 }]
         },
         {
           "name": "Victory Road",
@@ -2066,7 +2054,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 80, "y": 144 }]
         },
         {
           "name": "Viridian Forest",
@@ -2121,7 +2109,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 144 }]
         },
         {
           "name": "Mt Moon",
@@ -2254,7 +2242,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 272, "y": 80 }]
         },
         {
           "name": "Rocket Hideout",
@@ -2423,7 +2411,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 288, "y": 208 }]
         },
         {
           "name": "Rock Tunnel",
@@ -2544,20 +2532,26 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 112 }]
         },
         {
           "name": "Route 10 North",
           "access_rules": [],
           "sections": [
             {
+              "name": "Jr. TrainerF",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+			{
               "name": "HI: Tunnel Entrance Behind Cuttable Tree",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 80 }]
         },
         {
           "name": "Route 10 South",
@@ -2568,9 +2562,45 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
+            },
+            {
+              "name": "Jr. TrainerF 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "PokeManiac 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Jr. TrainerF 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Hiker 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "Hiker 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "PokeManiac 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 144 }]
         },
         {
           "name": "Route 13",
@@ -2649,7 +2679,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 336 }]
         },
         {
           "name": "Seafoam Islands",
@@ -2674,7 +2704,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 240, "y": 496 }]
         },
         {
           "name": "Route 23",
@@ -2699,7 +2729,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 80, "y": 208 }]
         },
         {
           "name": "Route 11",
@@ -2772,7 +2802,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 448, "y": 304 }]
         },
         {
           "name": "Route 17",
@@ -2869,7 +2899,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 208, "y": 304 }]
         },
         {
           "name": "Underground Tunnel North-South",
@@ -2888,7 +2918,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 144 }]
         },
         {
           "name": "Underground Tunnel West-East",
@@ -2907,7 +2937,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 432, "y": 176 }]
         },
         {
           "name": "S.S. Anne",
@@ -3008,9 +3038,63 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
+            },
+            {
+              "name": "2F Captain",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "1F Item",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Item 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "2F Item 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Item 1",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Item 2",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "B1F Item 3",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: 1F Kitchen Trash",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
+            },
+            {
+              "name": "HI: B1F Pillow",
+              "item_count": 1,
+              "access_rules": [],
+              "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 368, "y": 304 }]
         },
         {
           "name": "Route 21",
@@ -3071,10 +3155,10 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 144, "y": 432 }]
         },
         {
-          "name": "Route 20",
+          "name": "Route 20 West",
           "access_rules": [],
           "sections": [
             {
@@ -3112,7 +3196,14 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": []
-            },
+            }
+          ],
+          "map_locations": [{ "map": "map", "x": 192, "y": 496 }]
+        },
+        {
+          "name": "Route 20 East",
+          "access_rules": [],
+          "sections": [
             {
               "name": "Beauty 3",
               "item_count": 1,
@@ -3137,8 +3228,8 @@
               "access_rules": [],
               "visibility_rules": []
             }
-          ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+		  ],
+          "map_locations": [{ "map": "map", "x": 288, "y": 496 }]
         },
         {
           "name": "Route 19",
@@ -3205,7 +3296,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 336, "y": 480 }]
         },
         {
           "name": "Route 18",
@@ -3230,7 +3321,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 288, "y": 432 }]
         },
         {
           "name": "Route 14",
@@ -3297,99 +3388,15 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 432, "y": 400 }]
         },
         {
           "name": "Route 12",
           "access_rules": [],
           "sections": [
-            {
-              "name": "Fisherman 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Fisherman 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Fisherman 3",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Fisherman 4",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Rocker",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Jr. Trainer M",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Fisherman 5",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            }
+
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
-        },
-        {
-          "name": "Route 10",
-          "access_rules": [],
-          "sections": [
-            {
-              "name": "Jr. TrainerF 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "PokeManiac 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Jr. TrainerF 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Hiker 1",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "Hiker 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            },
-            {
-              "name": "PokeManiac 2",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": []
-            }
-          ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 528, "y": 240 }]
         },
         {
           "name": "Route 8",
@@ -3450,7 +3457,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 464, "y": 176 }]
         },
         {
           "name": "Route 6",
@@ -3493,7 +3500,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 400, "y": 240 }]
         },
         {
           "name": "Route 3",
@@ -3548,7 +3555,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 208, "y": 112 }]
         },
         {
           "name": "Indigo Plateau",
@@ -3579,7 +3586,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 80, "y": 80, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Celadon Game Corner",
@@ -3670,7 +3677,7 @@
               "visibility_rules": []
             }
           ],
-          "map_locations": [{ "map": "map", "x": 0, "y": 0 }]
+          "map_locations": [{ "map": "map", "x": 320, "y": 208 }]
         }
       ]
     }
