@@ -11,10 +11,70 @@ function fossil_count()
     return fossils
 end
 
-TODO: test this?
 function cardkey(floor)
     return has('cardkey') or has('cardkey'..floor..'f') or has('cardkey_progressive', floor-1)
 end
+
+function fly()
+    return has('fly') and has('thunder')
+end
+
+-- function can(fly)
+
+function flyto(location)
+    return fly() and has("fly_"..location)
+end
+
+
+
+function pewter()
+    return flyto('pewter') or has('sd_oldman') or cut() -- or via cerulean + surf backwards mt moon
+end
+
+function rt3()
+    return true
+end
+
+function cerulean()
+    fly =  flyto('cerulean')
+    rt3_passable = rt3()
+    return fly or rt3_passable
+end
+
+function lavender()
+    fly = flyto('lavender')
+    underground = flyto('celadon')
+    rock_tunnel = cerulean() and cut()
+    return fly or underground or rock_tunnel
+end
+
+function celadon()
+    return lavender()
+end
+
+function saffron()
+    return flyto('saffron')
+end
+
+function fuschia()
+    fly = flyto('fuschia')
+    via_cinnabar = surf() and (strength())
+    flute = has('pokeflute')
+    cycling_road = (has('bicycle') or has('opt_bike_skips_on')) and cerulean() and flute
+    boulders = extra_boulders() or not strength()
+    via_vermillion = cerulean() and has('pokeflute') and not boulders
+    via_lavender = and not b
+    return fly or via_cinnabar or cycling_road or via_vermillion or via_lavender
+end
+
+function cinnabar()
+    return surf() or flyto('cinnabar')
+end
+
+function indigo()
+    return flyto('indigo') or (rt23() and victoryroad() and surf() and strength())
+end
+
 
 
 function elite4()
