@@ -9,35 +9,24 @@
 				"name": "Bicycle Skip Patched",
                 "img": "images/bicycle.png",
                 "img_mods": "@disabled",
-                "codes": "op_bike_skips,op_bike_skips_off"
+                "codes": "opt_bike_skips,opt_bike_skips_off"
             },
             {
 				"name": "Bicycle Skip in Logic",
                 "img": "images/bicycle.png",
-                "codes": "op_bike_skips,op_bike_skips_on",
+                "codes": "opt_bike_skips,opt_bike_skips_on",
                 "inherit_codes": false
             }
         ]
-    },{
+    },
+    {
         "name": "Pokédoll Skip",
-        "type": "progressive",
+        "type": "toggle",
         "loop": true,
         "allow_disabled": false,
-        "stages": [
-            {
-				"name": "Pokédoll Skip Patched",
-                "img": "images/pokedoll.png",
-                "img_mods": "@disabled",
-                "codes": "op_pokedoll_skip,op_pokedoll_skip_off"
-            },
-            {
-				"name": "Pokédoll Skip in Logic",
-                "img": "images/pokedoll.png",
-                "codes": "op_pokedoll_skip,op_pokedoll_skip_on",
-                "inherit_codes": false
-            }
-        ]
-    },{
+        "codes": "opt_pokedoll_skip"
+    },
+    {
         "name": "Dark Rock Tunnel",
         "type": "progressive",
         "loop": true,
@@ -46,12 +35,12 @@
             {
 				"name": "Rocktunnel - Flash in logic",
                 "img": "images/rocktunnel_light.png",
-                "codes": "op_dark_rock_tunnel,op_dark_rock_tunnel_off"
+                "codes": "opt_dark_rock_tunnel,opt_dark_rock_tunnel_off"
             },
             {
 				"name": "Rocktunnel - No Flash in logic",
                 "img": "images/rocktunnel_dark.png",
-                "codes": "op_dark_rock_tunnel, op_dark_rock_tunnel_on",
+                "codes": "opt_dark_rock_tunnel, opt_dark_rock_tunnel_on",
                 "inherit_codes": false
             }
         ]
@@ -66,14 +55,719 @@
 				"name": "Keyitems-Only Off",
 				"img_mods": "@disabled",
                 "img": "images/items/mansionkey.png",
-                "codes": "op_keyonly,op_keyonly_off"
+                "codes": "opt_keyonly,opt_keyonly_off"
             },
             {
 				"name": "Keyitems-Only On",
                 "img": "images/items/mansionkey.png",
-                "codes": "op_keyonly,op_keyonly_on",
+                "codes": "opt_keyonly,opt_keyonly_on",
                 "inherit_codes": false
             }
         ]
-    }
+    },
+    {
+        "name": "Second Fossil Check Requirement",
+        "type": "consumable",
+        "loop": true,
+        "allow_disabled": false
+    },
+    {
+        "name": "Itemfinder Required",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_itemfinder"
+    },
+    {
+        "name": "Hidden Items Randomized",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_hidden_items"
+    },
+    {
+        "name": "Itemfinder Required",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_itemfinder"
+    },
+    {
+        "name": "Oak's Aide Rt 2 Pokedex Requirement",
+        "type": "consumbable",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_aid_2"
+    },
+    {
+        "name": "Oak's Aide Rt 11 Pokedex Requirement",
+        "type": "consumbable",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_aid_11"
+    },
+    {
+        "name": "Oak's Aide Rt 2 Pokedex Requirement",
+        "type": "consumbable",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_aid_15"
+    },
+    {
+        "name": "Extra Strength Boulders",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_extra_boulders"
+    },
+    {
+        "name": "Extra Key Items",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_extra_key_items"
+    },
+    {
+        "name": "Tea",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_tea"
+    },
+    {
+        "name": "Old Man",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_old_man"
+    },
+    {
+        "name": "Robbed House Officer",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_officer"
+    },
+    {
+        "name": "Trainersanity",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_trainersanity"
+    },
+    {
+        "name": "Prizesanity",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_prizesanity"
+    },
+    {
+        "name": "Stonesanity",
+        "type": "toggle",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "opt_stonesanity"
+    },
+    {
+        "name": "Free Fly Location",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+				"name": "Pallet",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffpallet"
+            },
+            {
+				"name": "Viridian",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffviridian",
+                "inherit_codes": false
+            },
+            {
+				"name": "Pewter",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffpewter",
+                "inherit_codes": false
+            },
+            {
+				"name": "Cerulean",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffcerulean",
+                "inherit_codes": false
+            },
+            {
+				"name": "Vermillion",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffvermilion",
+                "inherit_codes": false
+            },
+            {
+				"name": "Celadon",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffceladon",
+                "inherit_codes": false
+            },
+            {
+				"name": "Fuschia",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, fffuschia",
+                "inherit_codes": false
+            },
+            {
+				"name": "Saffron",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffsaffron",
+                "inherit_codes": false
+            },
+            {
+				"name": "Cinnabar",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffcinnabar",
+                "inherit_codes": false
+            },
+            {
+				"name": "Indigo Plateau",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, ffindigo",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Town Map Free Fly Location",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+				"name": "Pallet",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmpallet"
+            },
+            {
+				"name": "Viridian",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmviridian",
+                "inherit_codes": false
+            },
+            {
+				"name": "Pewter",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmpewter",
+                "inherit_codes": false
+            },
+            {
+				"name": "Cerulean",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmcerulean",
+                "inherit_codes": false
+            },
+            {
+				"name": "Vermillion",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmvermilion",
+                "inherit_codes": false
+            },
+            {
+				"name": "Celadon",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmceladon",
+                "inherit_codes": false
+            },
+            {
+				"name": "Fuschia",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmfuschia",
+                "inherit_codes": false
+            },
+            {
+				"name": "Saffron",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmsaffron",
+                "inherit_codes": false
+            },
+            {
+				"name": "Cinnabar",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmcinnabar",
+                "inherit_codes": false
+            },
+            {
+				"name": "Indigo Plateau",
+                "img": "images/items/mansionkey.png",
+                "codes": "free_fly, tmindigo",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/rt22.png",
+        "codes": "rt22_req",
+        "initial_active_state": "true",
+		"allow_disabled": false
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/vg.png",
+        "codes": "vg_req",
+        "initial_active_state": "true",
+		"allow_disabled": false
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "rt22_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "vg_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/vr.png",
+        "codes": "vr_req",
+        "initial_active_state": "true",
+		"allow_disabled": false
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "vr_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+        ]
+    },    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4b_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4p_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4p_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4p_digit3",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4k_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4k_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "ccaveB_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "ccaveK_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "ccaveK_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+        ]
+    },
+
+    
+    
 ]
