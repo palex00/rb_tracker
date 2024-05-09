@@ -97,21 +97,21 @@
         "type": "consumbable",
         "loop": true,
         "allow_disabled": false,
-        "codes": "opt_aid_2"
+        "codes": "opt_aide_2"
     },
     {
         "name": "Oak's Aide Rt 11 Pokedex Requirement",
         "type": "consumbable",
         "loop": true,
         "allow_disabled": false,
-        "codes": "opt_aid_11"
+        "codes": "opt_aide_11"
     },
     {
         "name": "Oak's Aide Rt 2 Pokedex Requirement",
         "type": "consumbable",
         "loop": true,
         "allow_disabled": false,
-        "codes": "opt_aid_15"
+        "codes": "opt_aide_15"
     },
     {
         "name": "Extra Strength Boulders",
@@ -766,8 +766,5 @@
                 "img": "/images/d9.png"
             }
         ]
-    },
-
-    
-    
+    }
 ]
