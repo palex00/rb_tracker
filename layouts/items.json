@@ -11,18 +11,215 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "10, 10",
+                        "item_margin": "3, 3",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "toggle",
-                                "progressive"
+                                "boulder",
+                                "cascade",
+                                "thunder",
+                                "rainbow",
+                                "soul",
+                                "marsh",
+                                "volcano",
+                                "earth"
                             ],
                             [
-                                "consumable",
-                                "progressive_toggle"
+                                "cut",
+                                "fly",
+                                "surf",
+                                "strength",
+                                "flash",
+                                "dex",
+                                "fuji",
+                                "silphco"
+                            ],
+                            [
+                                "parcel",
+                                "townmap",
+                                "bicycle",
+                                "itemfinder",
+                                "silphscope",
+                                "coincase",
+                                "pokeflute",
+                                "goldteeth"
+                            ],
+                            [
+                                "oldrod",
+                                "goodrod",
+                                "superrod",
+                                "voucher",
+                                "ssticket",
+                                "tea"
+                            ],
+                            [
+                                "firestone",
+                                "leafstone",
+                                "thunderstone",
+                                "waterstone",
+                                "moonstone",
+                                "oldamber",
+                                "domefossil",
+                                "helixfossil"
+                            ],
+                            [
+                                "cardkey",
+                                "secretkey",
+                                "liftkey",
+                                "plantkey",
+                                "mansionkey",
+                                "hideoutkey",
+                                "safaripass"
                             ]
                         ]
+                    }
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "text",
+                "text": "Pokédex-related"
+            },
+            {
+                "type": "itemgrid",
+                "item_size": 32,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_aide_2",
+                        "opt_aide_11",
+                        "opt_aide_15",
+                        "opt_dex",
+                        "opt_fossilcheck"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Roadblocks"
+            },
+            {
+                "type": "itemgrid",
+                "orientation": "vertical",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_rt3",
+                        "opt_old_man",
+                        "opt_extra_boulders",
+                        "opt_hm",
+                        "opt_tea"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Pool-Size Changes"
+            },
+            {
+                "type": "itemgrid",
+                "orientation": "vertical",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_hidden_items",
+                        "opt_extra_key_items",
+                        "opt_prizesanity",
+                        "opt_trn",
+                        "opt_dexsanity",
+                        "opt_stonesanity",
+                        "opt_keyonly"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Logic Implications"
+            },
+            {
+                "type": "itemgrid",
+                "orientation": "vertical",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "opt_itemfinder",
+                        "opt_bike_skips",
+                        "opt_pokedoll_skip",
+                        "opt_dark_rock_tunnel"
+                    ]
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Free Fly",
+                "background": "#111111",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "free_fly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                    },
+                    {
+                        "type": "item",
+                        "item": "tm_free_fly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                    },
+                    {
+                        "type": "group",
+                        "background": "#111111",
+                        "header": "Cerulean Cave Requirements",
+                        "dock": "top",
+                        "content": {
+                            "type": "itemgrid",
+                            "orientation": "vertical",
+                            "h_alignment": "center",
+                            "rows": [
+                                [
+                                    "badge_req",
+                                    "ccaveB_digit",
+                                    "",
+                                    "",
+                                    "key_req",
+                                    "ccaveK_digit1",
+                                    "ccaveK_digit2"
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "orientation": "vertical",
+                        "background": "#111111",
+                        "header": "Victory Road Requirements",
+                        "v_alignment": "stretch",
+                        "dock": "top",
+                        "content": {
+                            "type": "itemgrid",
+                            "orientation": "vertical",
+                            "h_alignment": "center",
+                            "v_alignment": "stretch",
+                            "rows": [
+                                [
+                                    "rt22_req",
+                                    "badge_req",
+                                    "rt22_digit",
+                                    "",
+                                    "vr_req",
+                                    "badge_req",
+                                    "vr_digit",
+                                    ""
+                                ]
+                            ]
+                        }
                     }
                 ]
             }
