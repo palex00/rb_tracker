@@ -51,31 +51,31 @@
     {
         "name": "HM01 Cut",
         "type": "toggle",
-        "img": "images/items/hm01.png",
+        "img": "images/items/hm_normal.png",
         "codes": "cut,keyitem"
     },
     {
         "name": "HM02 Fly",
         "type": "toggle",
-        "img": "images/items/hm02.png",
+        "img": "images/items/hm_flying.png",
         "codes": "fly,keyitem"
     },
     {
         "name": "HM03 Surf",
         "type": "toggle",
-        "img": "images/items/hm03.png",
+        "img": "images/items/hm_water.png",
         "codes": "surf,keyitem"
     },
     {
         "name": "HM04 Strength",
         "type": "toggle",
-        "img": "images/items/hm04.png",
+        "img": "images/items/hm_normal.png",
         "codes": "strength,keyitem"
     },
     {
         "name": "HM05 Cut",
         "type": "toggle",
-        "img": "images/items/hm05.png",
+        "img": "images/items/hm_normal.png",
         "codes": "flash,keyitem"
     },
     {
@@ -86,9 +86,12 @@
     },
     {
         "name": "Pokedex",
-        "type": "toggle",
-        "img": "images/pokedex.png",
-        "codes": "pokedex"
+        "type": "consumable",
+		"allow_disabled": true,
+        "max_quantity": 151,
+        "initial_quantity": 0,
+        "img": "images/items/pokedex.png",
+        "codes": "dex"
     },
     {
         "name": "Town Map",
@@ -281,49 +284,61 @@
     {
         "name": "Old Amber",
         "type": "toggle",
-        "img": "images/oldamber.png",
+        "img": "images/items/oldamber.png",
         "codes": "oldamber,fossil"
     },
     {
         "name": "Dome Fossil",
         "type": "toggle",
-        "img": "images/dome.png",
+        "img": "images/items/dome.png",
         "codes": "domefossil,fossil"
     },
     {
         "name": "Helix Fossil",
         "type": "toggle",
-        "img": "images/helix.png",
+        "img": "images/items/helix.png",
         "codes": "helixfossil,fossil"
     },
     {
         "name": "Fire Stone",
         "type": "toggle",
-        "img": "images/firestone.png",
+        "img": "images/items/firestone.png",
         "codes": "firestone,stone,keyitem"
     },
     {
         "name": "Leaf Stone",
         "type": "toggle",
-        "img": "images/leafstone.png",
+        "img": "images/items/leafstone.png",
         "codes": "leafstone,stone,keyitem"
     },
     {
         "name": "Thunder Stone",
         "type": "toggle",
-        "img": "images/thunderstone.png",
+        "img": "images/items/thunderstone.png",
         "codes": "thunderstone,stone,keyitem"
     },
     {
         "name": "Water Stone",
         "type": "toggle",
-        "img": "images/waterstone.png",
+        "img": "images/items/waterstone.png",
         "codes": "waterstone,stone,keyitem"
     },
     {
         "name": "Moon Stone",
         "type": "toggle",
-        "img": "images/moonstone.png",
+        "img": "images/items/moonstone.png",
         "codes": "moonstone,stone,keyitem"
-    }
+    },
+    {
+        "name": "Saved Mr. Fuji",
+        "type": "toggle",
+        "img": "images/items/fuji.png",
+        "codes": "fuji"
+	},
+    {
+        "name": "Liberated Silph Co.",
+        "type": "toggle",
+        "img": "images/items/silph.png",
+        "codes": "silphco"
+	}
 ]
