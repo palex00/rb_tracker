@@ -39,7 +39,7 @@ function flash()
 end
 
 function flyto(location)
-    return fly() and has("ff"..location)
+    return fly() and has("fly_"..location)
 end
 
 -- ITEM ACCESS CHECKS
@@ -53,8 +53,9 @@ end
 
 function aide(route)
     code = 'opt_aide_' .. route
-    required = Tracker.FindObjectForCode(code).AcquiredCount
-    caught = Tracker.FindObjectForCode('')
+    print(code)
+    required = Tracker:FindObjectForCode(code).AcquiredCount
+    caught = Tracker:FindObjectForCode('')  --TODO
     return required <= caught and (has('pokedex') or has('opt_dex_required_off'))
 
 end
@@ -86,16 +87,16 @@ function rt3()
 end
 
 function cerulean()
-    fly =  flyto('cerulean')
+    flight =  flyto('cerulean')
     underground = flyto('vermilion')
     gate = saffron() and has('tea')
     rt3_passable = rt3() and old_man()
     rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
-    return fly or underground or rt3_passable or rocktunnel
+    return flight or underground or rt3_passable or rocktunnel
 end
 
 function lavender()
-    fly = flyto('lavender')
+    flight = flyto('lavender')
     gate = saffron() and has('tea')
     underground = flyto('celadon')
     rock_tunnel = cerulean() and cut()
@@ -104,7 +105,7 @@ function lavender()
     boulders = extra_boulders()
     via_vermilion = cerulean() and flute and boulders
     via_fuchsia = fuchsia() and surf() or (flute and boulders)
-    return fly or underground or gate or rock_tunnel
+    return flight or underground or gate or rock_tunnel
 end
 
 function celadon()
@@ -120,14 +121,14 @@ function saffron()
 end
 
 function fuchsia()
-    fly = flyto('fuchsia')
-    via_cinnabar = surf() and (strength())
+    flight = flyto('fuchsia')
+    via_cinnabar = surf() and strength()
     flute = has('pokeflute')
     cycling_road = cyclingroad() and cerulean() and flute
     boulders = extra_boulders()
     via_vermilion = cerulean() and has('pokeflute') and boulders
     via_lavender = lavender() and (surf() or (flute and boulders))
-    return fly or via_cinnabar or cycling_road or via_vermilion or via_lavender
+    return flight or via_cinnabar or cycling_road or via_vermilion or via_lavender
 end
 
 function cinnabar()
@@ -174,14 +175,14 @@ function elite4()
     local pokedex = Tracker:ProviderCountForCode("pokemon")
 
 
-    return ((badges() >= badges_required) and (key_items() >= key_items_required) and (pokedex >= pokedex_required))
+    return ((badges_count() >= badges_required) and (key_items() >= key_items_required) and (pokedex >= pokedex_required))
 end
 
 function victoryroad()
     local obj = Tracker:FindObjectForCode("vr_digit")
     if obj then
         local count = obj.CurrentStage
-        return (badges() >= count)
+        return (badges_count() >= count)
     end
     return false
 end
@@ -189,7 +190,7 @@ end
 function rt23()
     local obj = Tracker:FindObjectForCode("rt22_digit")
     local req = obj.CurrentStage
-    return badges() >= req
+    return badges_count() >= req
 end
 
 function viridiangym()
@@ -197,7 +198,7 @@ function viridiangym()
     -- local badges = badges()
     if obj then
         local count = obj.CurrentStage
-        return (badges() >= count)
+        return (badges_count() >= count)
     end
     return false
 end
@@ -222,5 +223,5 @@ function ceruleancave()
     local key_item_req = (10 * tens) + ones
     -- print(key_items() .. "items out of " .. key_item_count)
     -- print(badges().."out of "..badge_count)
-    return (key_items() >= key_item_req) and (badges() >= badge_req)
+    return (key_items() >= key_item_req) and (badges_count() >= badge_req)
 end
