@@ -241,6 +241,26 @@
         ]
     },
     {
+        "name": "Pokédex Required",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pokédex not required",
+                "img_mods": "@disabled",
+                "img": "images/items/pokedex.png",
+                "codes": "opt_dex_required,opt_dex_required_off"
+            },
+            {
+                "name": "Pokédex required for Aide/Dexsanity checks",
+                "img": "images/items/pokedex.png",
+                "codes": "opt_dex_required,opt_dex_required_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Extra Strength Boulders",
         "type": "progressive",
         "img": "images/items/extraboulder.png",

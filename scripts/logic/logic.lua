@@ -47,6 +47,18 @@ function cardkey(floor)
     return has('cardkey') or has('cardkey'..floor..'f') or has('cardkey_progressive', floor-1)
 end
 
+function hidden()
+    return has('opt_itemfinder_off') or has('itemfinder')
+end
+
+function aide(route)
+    code = 'opt_aide_' .. route
+    required = Tracker.FindObjectForCode(code).AcquiredCount
+    caught = Tracker.FindObjectForCode('')
+    return required <= caught and (has('pokedex') or has('opt_dex_required_off'))
+
+end
+
 -- ROADBLOCK CHECKS
 function oldman()
     return has('opt_old_man_on') or has('parcel')
