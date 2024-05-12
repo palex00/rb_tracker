@@ -39,7 +39,7 @@ function flash()
 end
 
 function flyto(location)
-    return fly() and has("fly_"..location)
+    return fly() and has("ff"..location)
 end
 
 -- ITEM ACCESS CHECKS
@@ -82,7 +82,7 @@ function pewter()
 end
 
 function rt3()
-    return has('opt_rt3open') or (has('opt_r3boulder') and has('boulder')) or (has('opt_rt3badge') and has ('badge'))
+    return has('opt_rt3open') or (has('opt_rt3boulder') and has('boulder')) or (has('opt_rt3badge') and has ('badge'))
 end
 
 function cerulean()
@@ -109,6 +109,10 @@ end
 
 function celadon()
     return lavender()
+end
+
+function vermilion()
+    return cerulean()
 end
 
 function saffron()
