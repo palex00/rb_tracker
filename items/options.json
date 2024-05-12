@@ -32,7 +32,7 @@
                 "codes": "opt_pokedoll_skip,opt_pokedoll_skip_off"
             },
             {
-                "name": "Rocktunnel - No Flash in logic",
+                "name": "Pokédoll Skip - in logic",
                 "img": "images/items/pokedoll.png",
                 "codes": "opt_pokedoll_skip, opt_pokedoll_skip_on",
                 "inherit_codes": false
