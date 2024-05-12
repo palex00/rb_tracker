@@ -443,7 +443,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Vermillion",
+                "name": "Vermilion",
                 "img": "images/items/fvermilion.png",
                 "codes": "free_fly, ffvermilion",
                 "inherit_codes": false
@@ -510,7 +510,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Vermillion",
+                "name": "Vermilion",
                 "img": "images/items/mvermilion.png",
                 "codes": "tm_free_fly, tmvermilion",
                 "inherit_codes": false
