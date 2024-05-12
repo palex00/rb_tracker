@@ -6,7 +6,7 @@
       "children": [
         {
           "name": "Vermilion City",
-          "access_rules": [],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "Fishing Guru",
@@ -21,33 +21,33 @@
               "visibility_rules": [""]
             },
             {
-              "name": "Lt. Surge",
-              "item_count": 2,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
               "name": "HI: Water Near Fan Club",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$surf,$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "Lt. Surge",
+              "item_count": 2,
+              "access_rules": ["$cut","$surf"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Sailor",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut","$surf"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Rocker",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut","$surf"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Gentleman",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut","$surf"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -55,7 +55,7 @@
         },
         {
           "name": "Fuchsia City",
-          "access_rules": [],
+          "access_rules": ["$fuchsia"],
           "sections": [
             {
               "name": "Fishing Guru's Brother",
@@ -66,18 +66,18 @@
             {
               "name": "Safari Zone Warden",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["teeth"],
               "visibility_rules": [""]
-            },
-            {
-              "name": "Koga",
-              "item_count": 2,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Warden's House Behind Boulder Item",
               "item_count": 1,
+              "access_rules": ["$strength"],
+              "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "Koga",
+              "item_count": 2,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
             },
@@ -122,7 +122,7 @@
         },
         {
           "name": "Route 12 South",
-          "access_rules": [],
+          "access_rules": ["$fuchsia,$boulders","$lavender,$surf","$cerulean,flute,$boulders"],
           "sections": [
             {
               "name": "Fishing Guru's Brother",
@@ -133,7 +133,7 @@
             {
               "name": "Item Behind Cuttable Tree",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -151,7 +151,7 @@
             {
               "name": "Fisherman 5",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -170,19 +170,19 @@
             {
               "name": "Rival's Sister",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["parcel"],
               "visibility_rules": [""]
             },
             {
               "name": "Oak's Post-Route-22-Rival Gift",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["parcel"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Oak's Parcel Reward",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["parcel"],
               "visibility_rules": ["opt_keyonly_off"]
             }
           ],
@@ -190,7 +190,7 @@
         },
         {
           "name": "Celadon City",
-          "access_rules": [],
+          "access_rules": ["$celadon"],
           "sections": [
             {
               "name": "1F Mansion Lady",
@@ -201,7 +201,7 @@
             {
               "name": "Stranded Man",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$surf"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -231,79 +231,79 @@
             {
               "name": "Gambling Addict",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["coincase"],
               "visibility_rules": [""]
-            },
-            {
-              "name": "Erika",
-              "item_count": 2,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Dead End Near Cuttable Bush",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "Erika",
+              "item_count": 2,
+              "access_rules": ["$cut"],
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Lass 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Beauty 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Beauty 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Jr. Trainer F",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Lass 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Cool Trainer F",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Beauty 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Prize Corner 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["coincase"],
               "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
             },
             {
               "name": "Prize Corner 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["coincase"],
               "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
             },
             {
               "name": "Prize Corner 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["coincase"],
               "visibility_rules": ["opt_prizesanity_on,opt_keyonly_off"]
             }
           ],
@@ -329,7 +329,7 @@
             {
               "name": "Sleepy Guy",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$surf","$cut"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -339,69 +339,69 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
+              "name": "HI: Cuttable Tree",
+              "item_count": 1,
+              "access_rules": ["$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
               "name": "Giovanni",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Item in Gym",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "HI: Cuttable Tree",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Gym: Tamer 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Blackbelt 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Cooltrainer M 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Cooltrainer M 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Blackbelt 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Tamer 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Blackbelt 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Cooltrainer M 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$viridiangym,$cut","$viridiangym,$oldman"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -409,13 +409,13 @@
         },
         {
           "name": "Route 2",
-          "access_rules": [],
+          "access_rules": ["$cut"],
           "sections": [
             {
               "name": "Oak's Aide",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": [""]
+              "visibility_rules": ["$aide|2"]
             },
             {
               "name": "South Item",
@@ -434,12 +434,12 @@
         },
         {
           "name": "Pewter City",
-          "access_rules": [],
+          "access_rules": ["$pewter"],
           "sections": [
             {
               "name": "Museum Scientist",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -459,31 +459,31 @@
         },
         {
           "name": "Cerulean City",
-          "access_rules": [],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "Bicycle Shop",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["voucher"],
               "visibility_rules": ["opt_keyonly_off"]
+            },
+            {
+              "name": "HI: Badge Guy's Backyard",
+              "item_count": 1,
+              "access_rules": ["$hidden"],
+              "visibility_rules": ["opt_hidden_items_on"]
+            },
+            {
+              "name": "Rocket Thief",
+              "item_count": 1,
+              "access_rules": ["$needsnewrule"],
+              "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Misty",
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["opt_keyonly_off"]
-            },
-            {
-              "name": "Rocket Thief",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["trainer_on"]
-            },
-            {
-              "name": "HI: Badge Guy's Backyard",
-              "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Gym: Swimmer",
@@ -502,7 +502,7 @@
         },
         {
           "name": "Route 24",
-          "access_rules": [],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "Nugget Bridge",
@@ -557,7 +557,7 @@
         },
         {
           "name": "Route 25",
-          "access_rules": [],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "Bill",
@@ -568,19 +568,19 @@
             {
               "name": "Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["[$cancut]"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Fence Outside Bill's House",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Northeast Of Grass",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -642,20 +642,20 @@
         },
         {
           "name": "Lavender Town",
-          "access_rules": [],
+          "access_rules": ["$lavender"],
           "sections": [
             {
               "name": "Mr. Fuji",
               "item_count": 1,
-              "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"]
+              "access_rules": ["fuji"],
+              "visibility_rules": []
             }
           ],
           "map_locations": [{ "map": "map", "x": 528, "y": 176, "size": 27, "border_thickness": 4 }]
         },
         {
           "name": "Route 12 North",
-          "access_rules": [],
+          "access_rules": ["$lavender","$cerulean,$boulders,pokeflute","$fuchsia,$boulders"],
           "sections": [
             {
               "name": "Mourning Girl",
@@ -666,7 +666,7 @@
             {
               "name": "Island Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$surf"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -698,18 +698,18 @@
         },
         {
           "name": "Route 11-12 Gatehouse",
-          "access_rules": [],
+          "access_rules": ["$cerulean,$boulders"],
           "sections": [
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$aide|11"],
               "visibility_rules": [""]
             },
             {
               "name": "HI: Rt 12 Bush Near Gate",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -717,12 +717,12 @@
         },
         {
           "name": "Silph Co 1F - 5F",
-          "access_rules": [],
+          "access_rules": ["$saffron,fuji"],
           "sections": [
             {
               "name": "1F Receptionist",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
             },
             {
@@ -758,7 +758,7 @@
             {
               "name": "3F Item ",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(3)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -776,19 +776,19 @@
             {
               "name": "4F Card Key Left Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(4)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "4F Card Key Middle Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(4)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "4F Card Key Right Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(4)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -812,7 +812,7 @@
             {
               "name": "4F Hostage",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(4)"],
               "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
             },
             {
@@ -836,7 +836,7 @@
             {
               "name": "HI: 5F Pot Plant",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -866,7 +866,7 @@
             {
               "name": "5F Hostage",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(5)"],
               "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
             }
           ],
@@ -874,18 +874,18 @@
         },
         {
           "name": "Silph Co 6F - 11F",
-          "access_rules": [],
+          "access_rules": ["$saffron,fuji"],
           "sections": [
             {
               "name": "6F Card Key Southwest Item Top",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(6)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "6F Card Key Southwest Item Bottom",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(6)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -919,9 +919,9 @@
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
-              "name": "7F East Item ",
+              "name": "7F East Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(7)"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -993,19 +993,19 @@
             {
               "name": "9F Rocket 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(9)","$cardkey(3)"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "HI: 9F Nurse Bed ",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "9F Nurse",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(9)"],
               "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
             },
             {
@@ -1041,7 +1041,7 @@
             {
               "name": "10F Hostage",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cardkey(10)"],
               "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
             },
             {
@@ -1053,19 +1053,24 @@
             {
               "name": "11F Rocket 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["cardkey(3)"],
               "visibility_rules": ["trainer_on"]
             },
+			{
+				"name": "Liberate Silph Co",
+				"access_rules": ["$cardkey(11),$cardkey(3)"],
+				"hosted_item": "silphco"
+			},
             {
               "name": "11F Silph Co President",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "11F Secretary",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
             }
           ],
@@ -1078,43 +1083,43 @@
             {
               "name": "Fly House Woman",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$celadon,$cut"],
               "visibility_rules": [""]
             },
             {
               "name": "Biker",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Cue Ball 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Cue Ball 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Biker 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Cue Ball 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Biker 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -1122,18 +1127,18 @@
         },
         {
           "name": "Route 15",
-          "access_rules": [],
+          "access_rules": ["$fuchsia"],
           "sections": [
             {
               "name": "Oak's Aide",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["aide|15"],
               "visibility_rules": [""]
             },
             {
               "name": "Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -1193,7 +1198,7 @@
             {
               "name": "Jr. TrainerF 4",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$cut"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -1201,7 +1206,7 @@
         },
         {
           "name": "Safari Zone",
-          "access_rules": [],
+          "access_rules": ["$fuchsia,$safaripass"],
           "sections": [
             {
               "name": "Secret House",
@@ -1272,13 +1277,13 @@
             {
               "name": "Center Zone Island Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$surf"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Secret House Statue",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -1286,7 +1291,7 @@
         },
         {
           "name": "Cinnabar Island",
-          "access_rules": [],
+          "access_rules": ["$cinnabar"],
           "sections": [
             {
               "name": "R&D Lab Scientist",
@@ -1297,49 +1302,49 @@
             {
               "name": "Blaine",
               "item_count": 2,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "Gym: Burglar 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Super Nerd 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Super Nerd 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Burglar 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Super Nerd 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Super Nerd 4",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Super Nerd 5",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["secretkey"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -1347,12 +1352,12 @@
         },
         {
           "name": "Saffron City",
-          "access_rules": [],
+          "access_rules": ["saffron"],
           "sections": [
             {
               "name": "Copycat",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
@@ -1364,55 +1369,55 @@
             {
               "name": "Sabrina",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "HI: Copycat Desk",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["hidden,silphco"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Gym: Psychic 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Psychic 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Psychic 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Channeler 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Psychic 4",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Channeler 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Gym: Channeler 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["silphco"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -1444,7 +1449,7 @@
         },
         {
           "name": "Fossil",
-          "access_rules": [],
+          "access_rules": ["$pewter,$rt3"],
           "sections": [
             {
               "name": "Fossil A",
@@ -1463,7 +1468,7 @@
         },
         {
           "name": "Route 4",
-          "access_rules": [],
+          "access_rules": ["$pewter,$rt3"],
           "sections": [
             {
               "name": "Item",
@@ -1474,13 +1479,13 @@
             {
               "name": "HI: Plateau East Of Mt Moon",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Lass",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$surf"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -1488,7 +1493,7 @@
         },
         {
           "name": "Route 9",
-          "access_rules": [],
+          "access_rules": ["$cerulean,$cut","$lavender,$rock_tunnel"],
           "sections": [
             {
               "name": "Item",
@@ -1499,7 +1504,7 @@
             {
               "name": "HI: Bush By Grass",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -1561,7 +1566,7 @@
         },
         {
           "name": "Cerulean Cave",
-          "access_rules": [],
+          "access_rules": ["$cerulean,$ceruleancave,$surf"],
           "sections": [
             {
               "name": "1F Southwest Item",
@@ -1614,13 +1619,13 @@
             {
               "name": "HI: 1F Center Rocks",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B1F Northeast Rocks",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -1628,7 +1633,7 @@
         },
         {
           "name": "Pokemon Tower",
-          "access_rules": [],
+          "access_rules": ["$lavender"],
           "sections": [
             {
               "name": "3F North Item",
@@ -1675,7 +1680,7 @@
             {
               "name": "HI: 5F Near West Staircase",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -1773,13 +1778,18 @@
               "item_count": 1,
               "access_rules": [],
               "visibility_rules": ["trainer_on"]
-            }
-          ],
+            },
+			{
+				"name": "7F Save Mr. Fuji",
+				"hosted_item": "fuji",
+				"access_rules": ["silphscope","$celadon,opt_pokedoll_skip_on"]
+			}
+		],
           "map_locations": [{ "map": "map", "x": 560, "y": 176 }]
         },
         {
           "name": "Pokemon Mansion",
-          "access_rules": [],
+          "access_rules": ["$cinnabar,$mansionkey"],
           "sections": [
             {
               "name": "1F North Item",
@@ -1844,19 +1854,19 @@
             {
               "name": "HI: B1F Secret Key Room Corner",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: 1F Block Near Entrance Carpet",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on", "opt_stonesanity_on"]
             },
             {
               "name": "HI: 3F Behind Burglar",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -1900,7 +1910,7 @@
         },
         {
           "name": "Power Plant",
-          "access_rules": [],
+          "access_rules": ["$cerulean,$cut,$surf,$plantkey","$lavender,$rock_tunnel,$cansurf"],
           "sections": [
             {
               "name": "Southwest Item",
@@ -1935,13 +1945,13 @@
             {
               "name": "HI: Central Dead End",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Before Zapdos",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -1949,7 +1959,7 @@
         },
         {
           "name": "Victory Road",
-          "access_rules": [],
+          "access_rules": ["$rt23,$surf,$victoryroad,$strength","$flyto(indigo),$strength"],
           "sections": [
             {
               "name": "2F Northeast Item",
@@ -2002,13 +2012,13 @@
             {
               "name": "HI: 2F Rock Before Moltres",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: 2F Rock In Final Room",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2082,7 +2092,7 @@
         },
         {
           "name": "Viridian Forest",
-          "access_rules": [],
+          "access_rules": ["$pewter", "$cut", "$oldman"],
           "sections": [
             {
               "name": "East Item",
@@ -2105,13 +2115,13 @@
             {
               "name": "HI: Northwest By Trainer",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Entrance Tree",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2137,7 +2147,7 @@
         },
         {
           "name": "Mt Moon",
-          "access_rules": [],
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
           "sections": [
             {
               "name": "1F West Item",
@@ -2190,13 +2200,13 @@
             {
               "name": "HI: B2F Dead End Before Fossils",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B2F Lone Rock",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2270,7 +2280,7 @@
         },
         {
           "name": "Rocket Hideout",
-          "access_rules": [],
+          "access_rules": ["$celadon,$hideoutkey"],
           "sections": [
             {
               "name": "B1F West Item",
@@ -2335,13 +2345,13 @@
             {
               "name": "B4F Southwest Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["liftkey"],
               "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "B4F Giovanni Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["liftkey"],
               "visibility_rules": [""]
             },
             {
@@ -2353,19 +2363,19 @@
             {
               "name": "HI: B1F Pot Plant",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B3F Near East Item",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B4F Behind Giovanni",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden,liftkey"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2395,7 +2405,7 @@
             {
               "name": "B1F Rocket 5",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["liftkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -2419,13 +2429,13 @@
             {
               "name": "B4F Rocket 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["liftkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "B4F Rocket 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["liftkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -2439,7 +2449,7 @@
         },
         {
           "name": "Rock Tunnel",
-          "access_rules": [],
+          "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut,$rock_tunnel"],
           "sections": [
             {
               "name": "B1F Southwest Item",
@@ -2560,7 +2570,7 @@
         },
         {
           "name": "Route 10 North",
-          "access_rules": [],
+          "access_rules": ["$lavender,$rock_tunnel","$cerulean,$cut"],
           "sections": [
             {
               "name": "Jr. TrainerF",
@@ -2571,7 +2581,7 @@
             {
               "name": "HI: Tunnel Entrance Behind Cuttable Tree",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -2579,12 +2589,12 @@
         },
         {
           "name": "Route 10 South",
-          "access_rules": [],
+          "access_rules": ["$lavender","$cerulean,$cut,$rock_tunnel"],
           "sections": [
             {
               "name": "HI: Bush",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2628,18 +2638,18 @@
         },
         {
           "name": "Route 13",
-          "access_rules": [],
+          "access_rules": ["$fuchsia"],
           "sections": [
             {
               "name": "HI: Dead End Bush",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Dead End By Water Corner",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2707,24 +2717,24 @@
         },
         {
           "name": "Seafoam Islands",
-          "access_rules": [],
+          "access_rules": ["$cinnabar,$surf","$fuchsia,$surf"],
           "sections": [
             {
               "name": "HI: B2F Rock",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B4F Corner",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B3F Rock",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -2732,24 +2742,24 @@
         },
         {
           "name": "Route 23",
-          "access_rules": [],
+          "access_rules": ["$rt23,$surf"],
           "sections": [
             {
               "name": "HI: Rocks Before Victory Road",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: East Bush After Water",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: On Island",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -2757,12 +2767,12 @@
         },
         {
           "name": "Route 11",
-          "access_rules": [],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "HI: Isolated Bush Near Gate",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2830,36 +2840,36 @@
         },
         {
           "name": "Route 17",
-          "access_rules": [],
+          "access_rules": ["$cyclingroad,$fuchsia","$cyclingroad,$celadon,pokeflute"],
           "sections": [
             {
               "name": "HI: In Grass",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Northernmost Sign",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: East Center",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: West Center",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Before Final Bridge",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
@@ -2927,7 +2937,7 @@
         },
         {
           "name": "Underground Tunnel North-South",
-          "access_rules": [],
+          "access_rules": ["$cerulean,$hidden"],
           "sections": [
             {
               "name": "HI: Near Northern Stairs",
@@ -2946,7 +2956,7 @@
         },
         {
           "name": "Underground Tunnel West-East",
-          "access_rules": [],
+          "access_rules": ["$celadon,$hidden"],
           "sections": [
             {
               "name": "HI: West",
@@ -2965,7 +2975,7 @@
         },
         {
           "name": "S.S. Anne",
-          "access_rules": [],
+          "access_rules": ["$celadon,ssticket"],
           "sections": [
             {
               "name": "1F Gentleman 1",
@@ -3108,13 +3118,13 @@
             {
               "name": "HI: 1F Kitchen Trash",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: B1F Pillow",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
@@ -3122,7 +3132,7 @@
         },
         {
           "name": "Route 21",
-          "access_rules": [],
+          "access_rules": ["$surf"],
           "sections": [
             {
               "name": "Fisherman 1",
@@ -3183,7 +3193,7 @@
         },
         {
           "name": "Route 20 West",
-          "access_rules": [],
+          "access_rules": ["$surf"],
           "sections": [
             {
               "name": "Beauty 1",
@@ -3226,7 +3236,7 @@
         },
         {
           "name": "Route 20 East",
-          "access_rules": [],
+          "access_rules": ["$fuchsia,$surf","$surf,$strength"],
           "sections": [
             {
               "name": "Beauty 3",
@@ -3262,61 +3272,61 @@
             {
               "name": "Swimmer 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Swimmer 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Swimmer 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Swimmer 4",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Swimmer 5",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Swimmer 6",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Swimmer 7",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Beauty 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Beauty 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Beauty 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$fuchsia,$surf","$surf,$strength"],
               "visibility_rules": ["trainer_on"]
             }
           ],
@@ -3324,7 +3334,7 @@
         },
         {
           "name": "Route 18",
-          "access_rules": [],
+          "access_rules": ["$fuchsia"],
           "sections": [
             {
               "name": "Bird Keeper 1",
@@ -3349,7 +3359,7 @@
         },
         {
           "name": "Route 14",
-          "access_rules": [],
+          "access_rules": ["$fuchsia"],
           "sections": [
             {
               "name": "Bird Keeper 1",
@@ -3424,7 +3434,7 @@
         },
         {
           "name": "Route 8",
-          "access_rules": [],
+          "access_rules": ["$lavender"],
           "sections": [
             {
               "name": "Lass 1",
@@ -3485,7 +3495,7 @@
         },
         {
           "name": "Route 6",
-          "access_rules": [],
+          "access_rules": ["$cerulean"],
           "sections": [
             {
               "name": "Bug Catcher 1",
@@ -3528,7 +3538,7 @@
         },
         {
           "name": "Route 3",
-          "access_rules": [],
+          "access_rules": ["$pewter,$rt3","$cerulean,$surf"],
           "sections": [
             {
               "name": "Lass 1",
@@ -3583,7 +3593,7 @@
         },
         {
           "name": "Indigo Plateau",
-          "access_rules": [],
+          "access_rules": ["indigo"],
           "sections": [
             {
               "name": "Lorelei",
@@ -3614,7 +3624,7 @@
         },
         {
           "name": "Celadon Game Corner",
-          "access_rules": [],
+          "access_rules": ["$celadon,coincase"],
           "sections": [
             {
               "name": "West Gambler Gift",
@@ -3637,67 +3647,67 @@
             {
               "name": "HI: Northwest by Counter",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Southwest Corner",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Rumor Man",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Speculating Woman",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near West Gifting Gambler",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Wonderful Time Woman",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Failing Gym Information Guy",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near East Gifting Gambler",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Near Hooked Guy",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: End of Horizontal Machine Row",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "HI: Front of Horizontal Machine Row",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             }
           ],
