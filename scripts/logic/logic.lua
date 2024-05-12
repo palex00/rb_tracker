@@ -110,7 +110,7 @@ function fuschia()
     cycling_road = cyclingroad() and cerulean() and flute
     boulders = extra_boulders()
     via_vermilion = cerulean() and has('pokeflute') and boulders
-    via_lavender = lavender() and (surf() or (flute and boulders)
+    via_lavender = lavender() and (surf() or (flute and boulders))
     return fly or via_cinnabar or cycling_road or via_vermilion or via_lavender
 end
 
