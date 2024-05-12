@@ -61,7 +61,7 @@ function aide(route)
 end
 
 -- ROADBLOCK CHECKS
-function oldman()
+function old_man()
     return has('opt_old_man_on') or has('parcel')
 end
 
