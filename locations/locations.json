@@ -1959,7 +1959,7 @@
         },
         {
           "name": "Victory Road",
-          "access_rules": ["$rt23,$surf,$victoryroad,$strength","$flyto(indigo),$strength"],
+          "access_rules": ["$rt23,$surf,$victoryroad,$strength","$flyto|indigo,$strength"],
           "sections": [
             {
               "name": "2F Northeast Item",
