@@ -103,7 +103,7 @@ function lavender()
     flute = has('pokeflute')
     boulders = extra_boulders()
     via_vermilion = cerulean() and flute and boulders
-    via_fuschia = fuschia() and surf() or (flute and boulders)
+    via_fuchsia = fuchsia() and surf() or (flute and boulders)
     return fly or underground or gate or rock_tunnel
 end
 
@@ -119,8 +119,8 @@ function saffron()
     return flyto('saffron') or (has('tea') and (lavender() or cerulean()))
 end
 
-function fuschia()
-    fly = flyto('fuschia')
+function fuchsia()
+    fly = flyto('fuchsia')
     via_cinnabar = surf() and (strength())
     flute = has('pokeflute')
     cycling_road = cyclingroad() and cerulean() and flute
