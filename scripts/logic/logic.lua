@@ -1,9 +1,15 @@
+-- ITEM COUNT CHECKS
 function badges_count()
     return Tracker:ProviderCountForCode('badge')
 end
 
 function key_items_count()
-    return Tracker:ProviderCountForCode('keyitem')
+    count = 0
+    -- accounting for the purchasable evo stones
+    if celadon() and not has('opt_stonesanity_on') then
+        count = 4
+    end
+    return count  + Tracker:ProviderCountForCode('keyitem')
 end
 
 function fossil_count()
@@ -11,41 +17,78 @@ function fossil_count()
     return fossils
 end
 
-function cardkey(floor)
-    return has('cardkey') or has('cardkey'..floor..'f') or has('cardkey_progressive', floor-1)
+-- HM CHECKS
+function cut()
+    return has('cut') and has('cascade')
 end
 
 function fly()
     return has('fly') and has('thunder')
 end
 
--- function can(fly)
+function surf()
+    return has('surf') and has('soul')
+end
+
+function strength()
+    return has('strength') and has('rainbow')
+end
+
+function flash()
+    return has('flash') and has('boulder')
+end
 
 function flyto(location)
     return fly() and has("fly_"..location)
 end
 
+-- ITEM ACCESS CHECKS
+function cardkey(floor)
+    return has('cardkey') or has('cardkey'..floor..'f') or has('cardkey_progressive', floor-1)
+end
 
+-- ROADBLOCK CHECKS
+function oldman()
+    return has('opt_old_man_on') or has('parcel')
+end
 
+function extra_boulders()
+    return strength() or has('opt_extra_boulders_off')
+end
+
+function cyclingroad()
+    return has('bicycle') or has('opt_bike_skips_on')
+end
+
+-- LOCATION ACCESS CHECKS
 function pewter()
-    return flyto('pewter') or has('sd_oldman') or cut() -- or via cerulean + surf backwards mt moon
+    return oldman() or cut() or (cerulean() and surf())
 end
 
 function rt3()
-    return true
+    return has('opt_rt3open') or (has('opt_r3boulder') and has('boulder')) or (has('opt_rt3badge') and has ('badge'))
 end
 
 function cerulean()
     fly =  flyto('cerulean')
-    rt3_passable = rt3()
-    return fly or rt3_passable
+    underground = flyto('vermilion')
+    gate = saffron() and has('tea')
+    rt3_passable = rt3() and old_man()
+    rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
+    return fly or underground or rt3_passable or rocktunnel
 end
 
 function lavender()
     fly = flyto('lavender')
+    gate = saffron() and has('tea')
     underground = flyto('celadon')
     rock_tunnel = cerulean() and cut()
-    return fly or underground or rock_tunnel
+
+    flute = has('pokeflute')
+    boulders = extra_boulders()
+    via_vermilion = cerulean() and flute and boulders
+    via_fuschia = fuschia() and surf() or (flute and boulders)
+    return fly or underground or gate or rock_tunnel
 end
 
 function celadon()
@@ -53,18 +96,18 @@ function celadon()
 end
 
 function saffron()
-    return flyto('saffron')
+    return flyto('saffron') or (has('tea') and (lavender() or cerulean()))
 end
 
 function fuschia()
     fly = flyto('fuschia')
     via_cinnabar = surf() and (strength())
     flute = has('pokeflute')
-    cycling_road = (has('bicycle') or has('opt_bike_skips_on')) and cerulean() and flute
-    boulders = extra_boulders() or not strength()
-    via_vermillion = cerulean() and has('pokeflute') and not boulders
-    via_lavender = and not b
-    return fly or via_cinnabar or cycling_road or via_vermillion or via_lavender
+    cycling_road = cyclingroad() and cerulean() and flute
+    boulders = extra_boulders()
+    via_vermilion = cerulean() and has('pokeflute') and boulders
+    via_lavender = lavender() and (surf() or (flute and boulders)
+    return fly or via_cinnabar or cycling_road or via_vermilion or via_lavender
 end
 
 function cinnabar()
