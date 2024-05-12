@@ -60,6 +60,10 @@ function cyclingroad()
     return has('bicycle') or has('opt_bike_skips_on')
 end
 
+function rock_tunnel()
+    return flash() or has('opt_dark_rock_tunnel_on')
+end
+
 -- LOCATION ACCESS CHECKS
 function pewter()
     return oldman() or cut() or (cerulean() and surf())
