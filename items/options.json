@@ -475,7 +475,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Fuschia",
+                "name": "Fuchsia",
                 "img": "images/items/ffuchsia.png",
                 "codes": "free_fly, fly_fuchsia",
                 "inherit_codes": false
