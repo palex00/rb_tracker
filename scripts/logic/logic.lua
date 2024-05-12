@@ -79,7 +79,7 @@ end
 
 -- LOCATION ACCESS CHECKS
 function pewter()
-    return oldman() or cut() or (cerulean() and surf())
+    return old_man() or cut() or (cerulean() and surf())
 end
 
 function rt3()
