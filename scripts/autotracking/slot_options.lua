@@ -1,36 +1,47 @@
 function get_slot_options(slot_data)
 
     if slot_data["second_fossil_check_condition"] then
+		Tracker:FindObjectForCode('opt_fossilcheck').AcquiredCount = slot_data["second_fossil_check_condition"]
 	end
 
     if slot_data["require_item_finder"] then
+		Tracker:FindObjectForCode('opt_itemfinder').CurrentStage = slot_data["require_item_finder"]
 	end
 
     if slot_data["randomize_hidden_items"] then
+		Tracker:FindObjectForCode('opt_hidden_items').CurrentStage = slot_data["randomize_hidden_items"]
 	end
 
     if slot_data["badges_needed_for_hm_moves"] then
+
 	end
 
     if slot_data["oaks_aide_rt2"] then
+		Tracker:FindObjectForCode('opt_aide_2').AcquiredCount = slot_data["oaks_aide_rt2"]
 	end
 
     if slot_data["oaks_aide_rt11"] then
+		Tracker:FindObjectForCode('opt_aide_11').AcquiredCount = slot_data["oaks_aide_rt11"]
 	end
 
     if slot_data["oaks_aide_rt15"] then
+		Tracker:FindObjectForCode('opt_aide_15').AcquiredCount = slot_data["oaks_aide_rt15"]
 	end
 
     if slot_data["extra_key_items"] then
+		Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
 	end
 
     if slot_data["extra_strength_boulders"] then
+		Tracker:FindObjectForCode('opt_extra_boykders').CurrentStage = slot_data["extra_strength_boulders"]
 	end
 
     if slot_data["tea"] then
+		Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
 	end
 
     if slot_data["old_man"] then
+		Tracker:FindObjectForCode('opt_old_man').CurrentStage = slot_data["old_man"]
 	end
 
     if slot_data["elite_four_badges_condition"] then
@@ -64,39 +75,46 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["free_fly_map"] then
+		Tracker:FindObjectForCode('free_fly').CurrentStage = slot_data["free_fly_map"]
 	end
 
     if slot_data["town_map_free_fly"] then
+		Tracker:FindObjectForCode('tm_free_fly').CurrentStage = slot_data["town_map_free_fly"]
 	end
 
     if slot_data["extra_badges"] then
 	end
 
     if slot_data["randomize_pokedex"] then
+		Tracker:FindObjectForCode('opt_dex').CurrentStage = slot_data["randomize_pokedex"]
 	end
 
     if slot_data["trainersanity"] then
-	end
-
-    if slot_data["death_link"] then
+		Tracker:FindObjectForCode('opt_trn').CurrentStage = slot_data["trainersanity"]
 	end
 
     if slot_data["prizesanity"] then
+		Tracker:FindObjectForCode('opt_prizesanity').CurrentStage = slot_data["prizesanity"]
 	end
 
     if slot_data["key_items_only"] then
+		Tracker:FindObjectForCode('opt_key_only').CurrentStage = slot_data["key_items_only"]
 	end
 
     if slot_data["poke_doll_skip"] then
+		Tracker:FindObjectForCode('opt_pokedoll_skip').CurrentStage = slot_data["poke_doll_skip"]
 	end
 
     if slot_data["bicycle_gate_skips"] then
+		Tracker:FindObjectForCode('opt_bike_skips').CurrentStage = slot_data["bicycle_gate_skips"]
 	end
 
     if slot_data["stonesanity"] then
+		Tracker:FindObjectForCode('opt_stonesanity').CurrentStage = slot_data["stonesanity"]
 	end
 
     if slot_data["dark_rock_tunnel_logic"] then
+		Tracker:FindObjectForCode('opt_dark_rock_tunnel').CurrentStage = slot_data["dark_rock_tunnel_logic"]
 	end
 
     if slot_data["split_card_key"] then
