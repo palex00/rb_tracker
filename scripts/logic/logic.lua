@@ -1,8 +1,10 @@
 -- ITEM COUNT CHECKS
+
+-- returns int of # of badges
 function badges_count()
     return Tracker:ProviderCountForCode('badge')
 end
-
+-- returns int of # of key items
 function key_items_count()
     count = 0
     -- accounting for the purchasable evo stones
@@ -11,11 +13,11 @@ function key_items_count()
     end
     return count  + Tracker:ProviderCountForCode('keyitem')
 end
-
+-- returns int of # of pokemon caught
 function pokedex_count()
     return Tracker:FindObjectForCode('pokemon').AcquiredCount
 end
-
+-- returns int of # of fossiles
 function fossil_count()
     local fossils = Tracker:ProviderCountForCode("fossil")
     return fossils
@@ -81,9 +83,13 @@ function rock_tunnel()
     return flash() or has('opt_dark_rock_tunnel_on')
 end
 
+function guard_gate()
+    return true
+end
+
 -- LOCATION ACCESS CHECKS
 function pewter()
-    return old_man() or cut() or (cerulean() and surf())
+    return old_man() or cut() or (cerulean() and surf()) or flyto('pewter')
 end
 
 function rt3()
@@ -93,8 +99,8 @@ end
 function cerulean()
     flight =  flyto('cerulean')
     underground = flyto('vermilion')
-    gate = saffron() and has('tea')
-    rt3_passable = rt3() and old_man()
+    gate = has('tea') and (flyto('saffron') or flyto('celadon') or flyto('lavender')) or has('opt_tea_off') and flyt
+    rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
     rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
     return flight or underground or rt3_passable or rocktunnel
 end
@@ -130,7 +136,7 @@ function fuchsia()
     flute = has('pokeflute')
     cycling_road = cyclingroad() and cerulean() and flute
     boulders = extra_boulders()
-    via_vermilion = cerulean() and has('pokeflute') and boulders
+    via_vermilion = cerulean() and flute and boulders
     via_lavender = lavender() and (surf() or (flute and boulders))
     return flight or via_cinnabar or cycling_road or via_vermilion or via_lavender
 end
