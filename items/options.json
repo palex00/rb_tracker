@@ -130,6 +130,15 @@
         ]
     },
     {
+        "name": "Pokemon Caught",
+        "type": "consumable",
+        "allow_disabled": false,
+        "codes": "pokemon",
+        "max_quantity": 151,
+        "initial_quantity": 0,
+        "img": "images/items/dummy.png"
+    },
+    {
         "name": "Oak's Aide Rt 2 Pokedex Requirement",
         "type": "consumable",
         "allow_disabled": false,

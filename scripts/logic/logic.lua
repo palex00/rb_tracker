@@ -12,6 +12,10 @@ function key_items_count()
     return count  + Tracker:ProviderCountForCode('keyitem')
 end
 
+function pokedex_count()
+    return Tracker:FindObjectForCode('pokemon').AcquiredCount
+end
+
 function fossil_count()
     local fossils = Tracker:ProviderCountForCode("fossil")
     return fossils
@@ -55,7 +59,7 @@ function aide(route)
     code = 'opt_aide_' .. route
     print(code)
     required = Tracker:FindObjectForCode(code).AcquiredCount
-    caught = Tracker:FindObjectForCode('')  --TODO
+    caught = pokedex_count()
     return required <= caught and (has('pokedex') or has('opt_dex_required_off'))
 
 end
@@ -117,7 +121,7 @@ function vermilion()
 end
 
 function saffron()
-    return flyto('saffron') or (has('tea') and (lavender() or cerulean()))
+    return flyto('saffron') or ((has('tea') or (celadon() and has('opt_tea_off'))) and (lavender() or cerulean()))
 end
 
 function fuchsia()
@@ -172,7 +176,7 @@ function elite4()
         ones = obj.CurrentStage
     end
     local pokedex_required = (100 * hundreds) + (10 * tens) + ones
-    local pokedex = Tracker:ProviderCountForCode("pokemon")
+    local pokedex = pokedex_count()
 
 
     return ((badges_count() >= badges_required) and (key_items() >= key_items_required) and (pokedex >= pokedex_required))
