@@ -1,7 +1,7 @@
 {
     "tracker_default": {
         "type": "container",
-        "background": "#212121",
+        "background": "#111111",
         "content": {
             "type": "dock",
             "dropshadow": true,
@@ -9,6 +9,7 @@
                 {
                     "type": "dock",
                     "dock": "left",
+                    "background": "#111111",
                     "v_alignment": "stretch",
                     "margin": "0,0,0,0",
                     "content": [
@@ -16,19 +17,35 @@
                             "type": "group",
                             "header": "Items",
                             "dock": "top",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
                                 "key": "shared_item_grid"
                             }
                         },
                         {
-                            "type": "group",
-                            "header": "Settings",
-                            "dock": "bottom",
-                            "content": {
-                                "type": "layout",
-                                "key": "settings"
-                            }
+                            "type": "layout",
+                            "key": "cardkey",
+                            "dock": "top"
+                        },
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "settings"
+                                        }
+                                },
+                                {
+                                    "title": "Badge Requirements",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "requirements"
+                                        }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -41,27 +58,53 @@
                             "tabs": [
                                 {
                                     "title": "Kanto",
-                                    "icon": "images/map.png",
+                                    "icon": "images/items/townmap.png",
                                     "content": {
                                         "type": "map",
                                         "maps": ["map"]
                                     }
+                                },
+								{
+                                    "title": "Rock Tunnel",
+                                    "icon": "images/items/extraboulder.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rocktunnel"]
+                                    }
+                                },
+								{
+                                    "title": "Silph Co (1F-6F)",
+                                    "icon": "images/items/silph.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["silph16"]
+                                    }
+                                },
+								{
+                                    "title": "Silph Co (7F-11F)",
+                                    "icon": "images/items/silph.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["silph711"]
+                                    }
+                                },
+								{
+                                    "title": "Seafoam Island",
+                                    "icon": "images/pokedex/articuno.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["seafoam"]
+                                    }
+                                },
+								{
+                                    "title": "Pokémon Mansion",
+                                    "icon": "images/pokedex/mew.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["mansion"]
+                                    }
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "type": "dock",
-                    "dock": "bottom",
-
-                    "v_alignment": "stretch",
-                    "margin": "0,0,0,0",
-                    "background": "#212121",
-                    "content": [
-                        {
-                            "type": "layout",
-                            "key": "bottom"
                         }
                     ]
                 }

@@ -6,7 +6,7 @@ function badges_count()
 end
 -- returns int of # of key items
 function key_items_count()
-    count = 0
+    local count = 0
     -- accounting for the purchasable evo stones
     if celadon() and not has('opt_stonesanity_on') then
         count = 4
@@ -15,7 +15,23 @@ function key_items_count()
 end
 -- returns int of # of pokemon caught
 function pokedex_count()
-    return Tracker:FindObjectForCode('pokemon').AcquiredCount
+    local hundreds = 0
+    local tens = 0
+    local ones = 0
+
+    obj = Tracker:FindObjectForCode("dex_digit1")
+    if obj then
+        hundreds = obj.CurrentStage
+    end
+    obj = Tracker:FindObjectForCode("dex_digit2")
+    if obj then
+        tens = obj.CurrentStage
+    end
+    obj = Tracker:FindObjectForCode("dex_digit3")
+    if obj then
+        ones = obj.CurrentStage
+    end
+    return (100 * hundreds) + (10 * tens) + ones
 end
 -- returns int of # of fossiles
 function fossil_count()
@@ -24,24 +40,73 @@ function fossil_count()
 end
 
 -- HM CHECKS
+
+--a table for lookups
+badges = {"boulder", "cascade", "thunder", "rainbow", "soul", "marsh", "volcano", "earth"}
+
 function cut()
-    return has('cut') and has('cascade')
+    obj = Tracker:FindObjectForCode('cut')
+    stage = 0
+    extra = false
+    if obj then
+        stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
+    end
+    return has('cut') and (has('cascade') or has('opt_hm_off') or extra)
 end
 
 function fly()
-    return has('fly') and has('thunder')
+    obj = Tracker:FindObjectForCode('fly')
+    stage = 0
+    extra = false
+    if obj then
+        stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
+    end
+    return has('fly') and (has('thunder') or has('opt_hm_off') or extra)
 end
 
 function surf()
-    return has('surf') and has('soul')
+    obj = Tracker:FindObjectForCode('surf')
+    stage = 0
+    extra = false
+    if obj then
+        stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
+    end
+    return has('surf') and (has('soul') or has('opt_hm_off') or extra)
 end
 
 function strength()
-    return has('strength') and has('rainbow')
+    obj = Tracker:FindObjectForCode('strength')
+    stage = 0
+    extra = false
+    if obj then
+        stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
+    end
+    return has('strength') and (has('rainbow') or has('opt_hm_off') or extra)
 end
 
 function flash()
-    return has('flash') and has('boulder')
+    obj = Tracker:FindObjectForCode('flash')
+    stage = 0
+    extra = false
+    if obj then
+        stage = obj.CurrentStage
+        if stage > 0 then
+            extra = has(badges[stage])
+        end
+    end
+    return has('flash') and (has('boulder') or has('opt_hm_off') or extra)
 end
 
 function flyto(location)
@@ -58,10 +123,9 @@ function hidden()
 end
 
 function aide(route)
-    code = 'opt_aide_' .. route
-    print(code)
-    required = Tracker:FindObjectForCode(code).AcquiredCount
-    caught = pokedex_count()
+    local code = 'opt_aide_' .. route
+    local required = Tracker:FindObjectForCode(code).AcquiredCount
+    local caught = pokedex_count()
     return required <= caught and (has('pokedex') or has('opt_dex_required_off'))
 
 end
@@ -80,11 +144,18 @@ function cyclingroad()
 end
 
 function rock_tunnel()
-    return flash() or has('opt_dark_rock_tunnel_on')
+
+    if flash() or has('opt_dark_rock_tunnel_on') then
+        return AccessibilityLevel.Normal
+    elseif has('opt_dark_rock_tunnel_off') then
+        return AccessibilityLevel.SequenceBreak
+    else
+        return AccessibilityLevel.None
+    end
 end
 
-function guard_gate()
-    return true
+function officer()
+    return has('bill') or has("opt_officer_off")
 end
 
 -- LOCATION ACCESS CHECKS
@@ -97,29 +168,49 @@ function rt3()
 end
 
 function cerulean()
-    flight =  flyto('cerulean')
-    underground = flyto('vermilion')
-    gate = has('tea') and (flyto('saffron') or flyto('celadon') or flyto('lavender')) or has('opt_tea_off') and flyt
-    rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
-    rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
-    return flight or underground or rt3_passable or rocktunnel
+    local flight =  flyto('cerulean')
+    local underground = flyto('vermilion')
+    local gate = (has('tea') and (flyto('saffron') or celadon())) or (has('opt_tea_off') and celadon()) --TODO this seems like it can be simplified
+    local rt3_passable = rt3() and (old_man() or cut() or flyto('pewter'))
+    local rocktunnel = cut() and lavender() --this skips checking for flash, which we'll do in accessrules i think?
+    -- if flight or underground or rt3_passable or gate then
+    --     return AccessibilityLevel.Regular
+    -- elseif gate then
+    --     return AccessibilityLevel.SequenceBreak
+    -- else
+    --     return AccessibilityLevel.None
+    -- end
+    return flight or underground or rt3_passable or rocktunnel or gate
 end
 
 function lavender()
-    flight = flyto('lavender')
-    gate = saffron() and has('tea')
-    underground = flyto('celadon')
-    rock_tunnel = cerulean() and cut()
+    return celadon()
+    
+    -- flight = flyto('lavender')
+    -- gate = saffron() and has('tea')
+    -- underground = flyto('celadon')
+    -- rock_tunnel = cerulean() and cut()
 
-    flute = has('pokeflute')
-    boulders = extra_boulders()
-    via_vermilion = cerulean() and flute and boulders
-    via_fuchsia = fuchsia() and surf() or (flute and boulders)
-    return flight or underground or gate or rock_tunnel
+    -- flute = has('pokeflute')
+    -- boulders = extra_boulders()
+    -- via_vermilion = cerulean() and flute and boulders
+    -- via_fuchsia = fuchsia() and surf() or (flute and boulders)
+    -- return flight or underground or gate or rock_tunnel
 end
 
 function celadon()
-    return lavender()
+    local flute = has('pokeflute')
+    local boulders = extra_boulders()
+
+    local flight = flyto('celadon') or flyto('lavender')
+    local gate = fly('saffron') and has('tea')
+    local reverse_lavender = surf() and strength()
+    local via_fuchsia = flyto('fuchsia') and flute and (boulders or cyclingroad())
+    local via_vermilion = (flyto('cerulean') or flyto('vermilion')) and (has('tea') or (flute and boulders))
+
+    return flight or gate or reverse_lavender or via_fuchsia or via_vermilion
+
+
 end
 
 function vermilion()
@@ -131,17 +222,19 @@ function saffron()
 end
 
 function fuchsia()
-    flight = flyto('fuchsia')
-    via_cinnabar = surf() and strength()
-    flute = has('pokeflute')
-    cycling_road = cyclingroad() and cerulean() and flute
-    boulders = extra_boulders()
-    via_vermilion = cerulean() and flute and boulders
-    via_lavender = lavender() and (surf() or (flute and boulders))
+    local flight = flyto('fuchsia')
+    local via_cinnabar = surf() and strength()
+    local flute = has('pokeflute')
+    local cycling_road = cyclingroad() and cerulean() and flute
+    local boulders = extra_boulders()
+    local via_vermilion = cerulean() and flute and boulders
+    local via_lavender = lavender() and (surf() or (flute and boulders))
     return flight or via_cinnabar or cycling_road or via_vermilion or via_lavender
 end
 
 function cinnabar()
+    local sur = surf()
+    local flight = flyto('cinnabar')
     return surf() or flyto('cinnabar')
 end
 
@@ -185,7 +278,7 @@ function elite4()
     local pokedex = pokedex_count()
 
 
-    return ((badges_count() >= badges_required) and (key_items() >= key_items_required) and (pokedex >= pokedex_required))
+    return ((badges_count() >= badges_required) and (key_items_count() >= key_items_required) and (pokedex >= pokedex_required))
 end
 
 function victoryroad()
@@ -231,7 +324,5 @@ function ceruleancave()
         ones = obj.CurrentStage
     end
     local key_item_req = (10 * tens) + ones
-    -- print(key_items() .. "items out of " .. key_item_count)
-    -- print(badges().."out of "..badge_count)
-    return (key_items() >= key_item_req) and (badges_count() >= badge_req)
+    return (key_items_count() >= key_item_req) and (badges_count() >= badge_req)
 end

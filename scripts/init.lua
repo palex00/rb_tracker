@@ -1,13 +1,13 @@
 -- entry point for all lua code of the pack
 -- more info on the lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
-ENABLE_DEBUG_LOG = true
+ENABLE_DEBUG_LOG = false
 -- get current variant
 local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
 function split_key()
-    obj =  Tracker:FindObjectForCode('op_cardkey_split')
+    obj =  Tracker:FindObjectForCode('opt_cardkey_split')
     if obj.CurrentStage == 2 then
       Tracker:AddLayouts("layouts/split_cardkey.json")
     end
@@ -35,6 +35,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddMaps("maps/maps.json")    
     -- Locations
     Tracker:AddLocations("locations/locations.json")
+    Tracker:AddLocations("locations/submaps.json")
 end
 
 -- Layout
@@ -49,5 +50,5 @@ if PopVersion and PopVersion >= "0.18.0" then
 end
 -- Add a watch to dynamically load layout if progressive card keys enabled
 if PopVersion and PopVersion >= "0.1.0" then
-    ScriptHost:AddWatchForCode("loadCardKey", "op_cardkey_split", split_key)
+    ScriptHost:AddWatchForCode("loadCardKey", "opt_cardkey_split", split_key)
   end

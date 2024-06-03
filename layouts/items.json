@@ -1,13 +1,14 @@
 {
     "shared_item_grid": {
         "type": "array",
+        "background": "#111111",
         "orientation": "vertical",
-        "margin": "0,0",
+        "margin": "0,0,0,0",
         "content": [
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "margin": "0,0",
+                "margin": "0,0,0,0",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -50,6 +51,7 @@
                                 "superrod",
                                 "voucher",
                                 "ssticket",
+								"pokedex",
                                 "tea"
                             ],
                             [
@@ -63,7 +65,7 @@
                                 "helixfossil"
                             ],
                             [
-                                "cardkey",
+                                "cardkeyprogvan",
                                 "secretkey",
                                 "liftkey",
                                 "plantkey",
@@ -94,7 +96,7 @@
                         "opt_aide_2",
                         "opt_aide_11",
                         "opt_aide_15",
-                        "opt_dex",
+                        "opt_dex_required",
                         "opt_fossilcheck"
                     ]
                 ]
@@ -109,8 +111,9 @@
                 "h_alignment": "left",
                 "rows": [
                     [
-                        "opt_rt3",
                         "opt_old_man",
+                        "opt_rt3",
+			"opt_officer",
                         "opt_extra_boulders",
                         "opt_hm",
                         "opt_tea"
@@ -133,7 +136,8 @@
                         "opt_trn",
                         "opt_dexsanity",
                         "opt_stonesanity",
-                        "opt_keyonly"
+                        "opt_keyonly",
+                        "opt_cardkey"
                     ]
                 ]
             },
@@ -172,57 +176,135 @@
                         "v_alignment": "top",
                         "h_alignment": "center",
                         "item_size": "305,40"
-                    },
-                    {
-                        "type": "group",
-                        "background": "#111111",
-                        "header": "Cerulean Cave Requirements",
-                        "dock": "top",
-                        "content": {
-                            "type": "itemgrid",
-                            "orientation": "vertical",
-                            "h_alignment": "center",
-                            "rows": [
-                                [
-                                    "badge_req",
-                                    "ccaveB_digit",
-                                    "",
-                                    "",
-                                    "key_req",
-                                    "ccaveK_digit1",
-                                    "ccaveK_digit2"
-                                ]
-                            ]
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "orientation": "vertical",
-                        "background": "#111111",
-                        "header": "Victory Road Requirements",
-                        "v_alignment": "stretch",
-                        "dock": "top",
-                        "content": {
-                            "type": "itemgrid",
-                            "orientation": "vertical",
-                            "h_alignment": "center",
-                            "v_alignment": "stretch",
-                            "rows": [
-                                [
-                                    "rt22_req",
-                                    "badge_req",
-                                    "rt22_digit",
-                                    "",
-                                    "vr_req",
-                                    "badge_req",
-                                    "vr_digit",
-                                    ""
-                                ]
-                            ]
-                        }
                     }
                 ]
             }
+        ]
+    },
+    "bottombar": {
+        "type": "array",
+        "orientation": "horizontal",
+        "background": "#212121",
+        "margin": "0 0 0 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["vg_req","badge_req","vg_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["rt22_req","badge_req","rt22_digit","",
+                        "vr_req", "badge_req","vr_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2",
+                        "","dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                    ]
+                
+                }
+            },
+                {
+                    "type": "group",
+                    "header": "Cerulean Cave Requirements",
+                    "dock": "top",
+                    "content":                 {
+                        "type": "itemgrid",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                    
+                    }
+                }
+        
+        ]
+    },
+    "requirements": {
+        "type": "array",
+        "orientation": "vertical",
+        "background": "#171717",
+        "margin": "0 0 0 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["vg_req","badge_req","vg_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["rt22_req","badge_req","rt22_digit","",
+                        "vr_req", "badge_req","vr_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2"],
+                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                    ]
+                
+                }
+            },
+                {
+                    "type": "group",
+                    "header": "Cerulean Cave Requirements",
+                    "dock": "top",
+                    "content":                 {
+                        "type": "itemgrid",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                    
+                    }
+                }
+        
         ]
     }
 }
