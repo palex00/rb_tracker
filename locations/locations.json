@@ -6,7 +6,7 @@
       "children": [
         {
           "name": "Vermilion City",
-          "access_rules": ["^$cerulean"],
+          "access_rules": ["^$vermilion"],
           "sections": [
             {
               "name": "Fishing Guru",

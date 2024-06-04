@@ -174,6 +174,8 @@ function rock_tunnel()
 end
 
 function officer()
+    print('bill: '..has('bill'))
+    print('officer_off: '..has('opt_officer_off'))
     return max(has('bill'),has("opt_officer_off"))
 end
 
@@ -210,11 +212,17 @@ function vermilion()
     -- local underground = flyto('vermilion') or (has('pokeflute') and surf() and (strength() or extra_boulders()))
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
     -- local underground = max(cut(),officer()) and ((rt3() and max(old_man(),cut(),flyto('pewter'))) or flyto('cerulean')) --TODO: Fix this
-    local underground = access(officer())
+    local underground = access(officer(), max(flyto('cerulean'), access(rt3(), max(old_man(), flyto('pewter')))))
     local rocktunnel = access(cut(),lavender(),rock_tunnel())
     local snorlax = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia')))--through eastern boardwalk
     local diglett = cut() --through diglett cave
 
+    print('flight: ' .. flight)
+    print('gate: ' .. gate)
+    print('underground: ' .. underground)
+    print('rocktunn: ' .. rocktunnel)
+    print('snorlax: ' .. snorlax)
+    print('diglett: ' .. diglett)
 
 
     -- if flight or underground or rt3_passable or gate then
@@ -236,7 +244,7 @@ function celadon()
     local flute = has('pokeflute')
     local boulders = extra_boulders()
     local cerulean = max(flyto('cerulean'),flyto('vermilion'),access(rt3(),max(old_man(),cut(),flyto('pewter'))))
-    local rocktunnel = access(cerulean, rock_tunnel())
+    local rocktunnel = access(cerulean, rock_tunnel(), cut())
     local flight = max(flyto('celadon'),flyto('lavender'))
     local gate = access(fly('saffron'),has('tea'))
     local reverse_lavender = access(surf(),strength())
