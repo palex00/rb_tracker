@@ -598,6 +598,7 @@
             {
               "name": "Bill",
               "item_count": 1,
+              "hosted_item": "bill",
               "access_rules": [],
               "visibility_rules": [""]
             },
