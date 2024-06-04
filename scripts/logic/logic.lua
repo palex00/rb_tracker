@@ -91,7 +91,7 @@ function surf()
             extra = has(badges[stage])
         end
     end
-    return access(has('fly'), max(has('soul'),has('opt_hm_off'),extra))
+    return access(has('surf'), max(has('soul'),has('opt_hm_off'),extra))
 end
 
 function strength()
@@ -104,7 +104,9 @@ function strength()
             extra = has(badges[stage])
         end
     end
-    return access(has('fly'), max(has('rainbow'),has('opt_hm_off'),extra))
+
+    print("")
+    return access(has('strength'), max(has('rainbow'),has('opt_hm_off'),extra))
 end
 
 function flash()
@@ -117,7 +119,7 @@ function flash()
             extra = has(badges[stage])
         end
     end
-    return access(has('fly'), max(has('boulder'),has('opt_hm_off'),extra))
+    return access(has('flash'), max(has('boulder'),has('opt_hm_off'),extra))
 end
 
 function flyto(location)
@@ -161,7 +163,7 @@ end
 
 function rock_tunnel()
 
-    local in_logic = access(flash(), has('opt_dark_rock_tunnel_on'))
+    local in_logic = max(flash(), has('opt_dark_rock_tunnel_on'))
     local out_of_logic = AccessibilityLevel.SequenceBreak
     return max(in_logic, out_of_logic)
     -- if flash() or has('opt_dark_rock_tunnel_on') then
@@ -380,4 +382,12 @@ function ceruleancave()
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
+end
+
+function powerplant()
+    local unlocked = max(has('plantkey'), has('opt_extra_key_items_off'))
+    local via_cerulean = access(cerulean(), cut(), surf())
+    local via_lavender = access(lavender(), surf(), rock_tunnel())
+
+    return access(unlocked, max(via_lavender, via_cerulean))
 end
