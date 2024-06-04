@@ -20,9 +20,11 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Utility Script for helper functions etc.
+print("LOADING UTILS.LUA")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
+print("LOADING LOGIC.LUA")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
