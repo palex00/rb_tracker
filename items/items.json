@@ -679,6 +679,16 @@
         "codes": "moonstone,stone,keyitem"
     },
     {
+        "name": "Any Gym Beaten",
+        "type": "toggle",
+        "codes": "gym_beaten"
+	},
+    {
+        "name": "Brock Beaten",
+        "type": "toggle",
+        "codes": "brock_beaten"
+	},
+    {
         "name": "Helped Bill",
         "type": "toggle",
         "codes": "bill"

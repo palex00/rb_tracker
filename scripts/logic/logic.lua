@@ -187,7 +187,13 @@ function pewter()
 end
 
 function rt3()
-    return max(has('opt_rt3open'),access(has('opt_rt3boulder'),has('boulder')), access(has('opt_rt3badge'),has('badge')))
+    local open = has('opt_rt3open')
+    local boulder = access(has('opt_rt3boulder'),has('boulder'))
+    local any_badge = access(has('opt_rt3badge'),has('badge'))
+    local brock = access(has('opt_rt3brock'),has('brock_beaten'))
+    local any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
+    return max(open, boulder, any_badge, brock, any_gym)
+    -- return max(has('opt_rt3open'),access(has('opt_rt3boulder'),has('boulder')), access(has('opt_rt3badge'),has('badge')))
 end
 
 function cerulean()
