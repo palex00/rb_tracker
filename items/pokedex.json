@@ -1685,7 +1685,7 @@
                 "img":"images/pokedex/muk.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/pokedex/muk.png",
+                "img": "/images/pokedex/muk.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
