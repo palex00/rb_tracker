@@ -28,7 +28,7 @@ print("LOADING LOGIC.LUA")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
-Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/itemgrid.json")
 Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/pokedex.json")
 
