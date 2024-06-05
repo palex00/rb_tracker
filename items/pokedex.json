@@ -1191,7 +1191,7 @@
                 "img":"images/pokedex/abra.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/pokedex/abra.pngng",
+                "img": "/images/pokedex/abra.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
@@ -1628,7 +1628,7 @@
                 "img":"images/pokedex/seel.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/pokedex/seel.pngng",
+                "img": "/images/pokedex/seel.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
@@ -1799,7 +1799,7 @@
                 "img":"images/pokedex/onix.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/pokedex/onix.pngng",
+                "img": "/images/pokedex/onix.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
@@ -2350,7 +2350,7 @@
                 "img":"images/pokedex/jynx.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/images/pokedex/jynx.pngng",
+                "img": "/images/pokedex/jynx.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
