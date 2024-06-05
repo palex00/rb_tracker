@@ -1242,7 +1242,7 @@
         },
         {
           "name": "Safari Zone",
-          "access_rules": ["^$fuchsia,safaripass"],
+          "access_rules": ["^$fuchsia,^$safari_zone"],
           "sections": [
             {
               "name": "Secret House",
@@ -1837,7 +1837,7 @@
         },
         {
           "name": "Pokemon Mansion",
-          "access_rules": ["^$cinnabar,mansionkey", "^$cinnabar,opt_extra_key_items_off"],
+          "access_rules": ["^$cinnabar,^$mansion"],
           "sections": [
             {
               "name": "1F North Item",
@@ -2328,7 +2328,7 @@
         },
         {
           "name": "Rocket Hideout",
-          "access_rules": ["^$celadon,hideoutkey"],
+          "access_rules": ["^$celadon,^$hideout"],
           "sections": [
             {
               "name": "B1F West Item",

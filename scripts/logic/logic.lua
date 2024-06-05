@@ -388,6 +388,17 @@ function powerplant()
     local unlocked = max(has('plantkey'), has('opt_extra_key_items_off'))
     local via_cerulean = access(cerulean(), cut(), surf())
     local via_lavender = access(lavender(), surf(), rock_tunnel())
-
     return access(unlocked, max(via_lavender, via_cerulean))
+end
+
+function hideout()
+    return max(has('opt_extra_key_items_off'), has('hideoutkey'))
+end
+
+function safari_zone()
+    return max(has('opt_extra_key_items_off'), has('safaripass'))
+end
+
+function mansion()
+    return max(has('opt_extra_key_items_off'), has('mansionkey'))
 end
