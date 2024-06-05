@@ -1685,7 +1685,7 @@
                 "img":"images/pokedex/muk.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/pokedex/muk.pngpng",
+                "img": "/pokedex/muk.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
@@ -2863,7 +2863,7 @@
                 "img":"images/pokedex/mew.png",
                 "img_mods": "overlay|images/options/check.png"
             },            {
-                "img": "/pokedex/mew.pngpng",
+                "img": "/pokedex/mew.png",
                 "img_mods": "@disabled",
                 "name": ""
             }
