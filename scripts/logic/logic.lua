@@ -10,9 +10,10 @@ function key_items_count()
     -- accounting for the purchasable evo stones
     --TODO: I guess this should account for sequencebreak so it can bubble up
     -- if celadon() == AccessibilityLevel.Normal and has('opt_stonesanity_on') ~= AccessibilityLevel.Normal then
-    if true then
+    if has('opt_stonesanity_on') == AccessibilityLevel.Normal then
         count = 4
     end
+    print('key items' .. count  + Tracker:ProviderCountForCode('keyitem'))
     return count  + Tracker:ProviderCountForCode('keyitem')
 end
 -- returns int of # of pokemon caught
@@ -105,7 +106,6 @@ function strength()
         end
     end
 
-    print("")
     return access(has('strength'), max(has('rainbow'),has('opt_hm_off'),extra))
 end
 
