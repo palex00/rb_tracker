@@ -53,6 +53,7 @@ function x:OnMiddleClickFunc()
     if self.ItemState['option'] == 'split' then
         self.ItemState['option'] = 'vanilla'
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
+        self.Name = "Card Key"
         if not self.ItemState['active'] then
             self.IconMods = '@disabled'
         end
@@ -60,6 +61,7 @@ function x:OnMiddleClickFunc()
     elseif self.ItemState['option'] == 'vanilla' then
         self.ItemState['option'] = 'progressive'
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkeyprog.png')
+        self.Name = "Progressive Card Key"
         set_qty(self, self.ItemState['qty'])
         
     else
