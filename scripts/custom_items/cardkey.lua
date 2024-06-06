@@ -1,17 +1,17 @@
-local x = ScriptHost:CreateLuaItem()
-x.Name = "Card Key"
-x.ItemState = {}
-x.ItemState['option'] = 'vanilla'
-x.ItemState['qty'] = 0
-x.ItemState['active'] = false
-x.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
-x.IconMods = "@disabled"
+customcardkey = ScriptHost:CreateLuaItem()
+customcardkey.Name = "Card Key"
+customcardkey.ItemState = {}
+customcardkey.ItemState['option'] = 'vanilla'
+customcardkey.ItemState['qty'] = 0
+customcardkey.ItemState['active'] = false
+customcardkey.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
+customcardkey.IconMods = "@disabled"
 
-function x:CanProvideCodeFunc(code)
+function customcardkey:CanProvideCodeFunc(code)
     return code == 'custom_cardkey'
 end
 
-function x:ProvidesCodeFunc(code)
+function customcardkey:ProvidesCodeFunc(code)
     if self.ItemState['active'] then
         if self.ItemState['option'] == 'vanilla' then
             if code == 'cardkey' or code == 'keyitem' then
@@ -25,18 +25,18 @@ function x:ProvidesCodeFunc(code)
     end
     return 0
 end
-function x:OnLeftClickFunc()
+function customcardkey:OnLeftClickFunc()
     if self.ItemState['option'] == 'progressive' and self.ItemState['qty'] < 10 then
         set_qty(self, self.ItemState['qty'] + 1)
     end
 
     if not self.ItemState['active'] then
         self.ItemState['active'] = true
-        x.IconMods = ''
+        customcardkey.IconMods = ''
     end
 end
 
-function x:OnRightClickFunc()
+function customcardkey:OnRightClickFunc()
 
     
 
@@ -45,11 +45,11 @@ function x:OnRightClickFunc()
     end
     if self.ItemState['option'] == 'vanilla' and self.ItemState['active'] == true then
         self.ItemState['active'] = false
-        x.Icon = ImageReference:FromImageReference(x.Icon, "@disabled")
+        customcardkey.Icon = ImageReference:FromImageReference(customcardkey.Icon, "@disabled")
     end
 end
 
-function x:OnMiddleClickFunc()
+function customcardkey:OnMiddleClickFunc()
     if self.ItemState['option'] == 'split' then
         self.ItemState['option'] = 'vanilla'
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
@@ -77,14 +77,21 @@ function set_qty(self, qty)
     self.ItemState['qty'] = qty
     if qty ~= 0 then
         print("here, setting icon mod:")
-        self.ItemState['active'] = true
+        set_active(self, true)
         self.IconMods = "overlay|images/overlays/" .. qty + 1 .. '.png'
         print(self.IconMods)
     end
     if qty == 0 then
-        self.ItemState['active'] = false
         self:SetOverlay('')
-        self.IconMods = "@disabled"
+        set_active(self, false)
     end
+end
 
+function set_active(self, active)
+    self.ItemState['active'] = active
+    if active then
+        self.IconMods = ''
+    else
+        self.IconMods = '@disabled'
+    end
 end
