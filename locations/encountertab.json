@@ -31,13 +31,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 528, "y": 336 }]
@@ -66,7 +66,7 @@
                         "item_count": 2,
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "opt_dexsanity_one"
+                            "opt_encounter_one"
                         ]
                     },
                     {
@@ -74,7 +74,7 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "visibility_rules": [
-                            "opt_dexsanity_ten"
+                            "opt_encounter_ten"
                         ]
                     }
           ],
@@ -96,13 +96,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Trade",
@@ -121,13 +121,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 2,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
                 ],
@@ -166,13 +166,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 5,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -186,13 +186,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 7,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -239,7 +239,7 @@
           "sections": [
 					{
 						"name": "Static Encounter: Lapras",
-						"access_rules": [],
+						"access_rules": []
 					}
           ],
           "map_locations": [{ "map": "encounters", "x": 340, "y": 144 }]
@@ -252,7 +252,7 @@
                         "name": "Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"],
+                        "visibility_rules": ["opt_encounter_one"],
                         "access_rules": [
                             "$celadon,$cut"
                         ]
@@ -261,7 +261,7 @@
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_ten"],
                         "access_rules": [
                             "$celadon,$cut"
                         ]
@@ -283,13 +283,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 432 }]
@@ -302,49 +302,49 @@
                         "name": "Center Zone Pokémon 1:1",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Center Zone Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "East Zone Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "East Zone Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "North Zone Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "North Zone Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "West Zone Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "West Zone Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 336, "y": 400 }]
@@ -368,11 +368,11 @@
           "sections": [
 					{
 						"name": "Static Encounter: Hitmonlee",
-						"access_rules": [],
+						"access_rules": []
 					},
 					{
 						"name": "Static Encounter: Hitmonchan",
-						"access_rules": [],
+						"access_rules": []
 					}
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 176, "size": 27, "border_thickness": 4 }]
@@ -393,17 +393,17 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Purchase Magikarp",
-						"access_rules": [],
+						"access_rules": []
 					}
           ],
           "map_locations": [{ "map": "encounters", "x": 336, "y": 80 }]
@@ -416,13 +416,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -436,37 +436,37 @@
                         "name": "1F Pokémon 1:1",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "2F Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "B2F Pokémon 1:1",
                         "item_count": 8,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Static Encounter: Mewtu",
@@ -485,64 +485,64 @@
                         "name": "3F Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "3F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "4F Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "4F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     },
                     {
                         "name": "5F Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "5F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     },
                     {
                         "name": "6F Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "6F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     },
                     {
                         "name": "7F Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "7F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
 		],
@@ -558,13 +558,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
                 ],
                 "map_locations": [
@@ -583,49 +583,49 @@
                         "name": "1F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "2F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "3F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "3F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "B1F Pokémon 1:1",
                         "item_count": 7,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 112, "y": 496 }]
@@ -638,13 +638,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 5,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Static Encounter: Balls",
@@ -677,31 +677,31 @@
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "2F Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "3F Pokémon 1:1",
                         "item_count": 8,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "3F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Static Encounter: Moltres",
@@ -720,13 +720,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 5,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -740,39 +740,39 @@
                         "name": "1F Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     },
                     {
                         "name": "B1F Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     },
                     {
                         "name": "B2F Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -794,25 +794,25 @@
                         "name": "B1F Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "1F Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 528, "y": 112 }]
@@ -825,13 +825,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -853,13 +853,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 5,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 528, "y": 336 }]
@@ -872,61 +872,61 @@
                         "name": "1F Pokémon 1:1",
                         "item_count": 8,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "B1F Pokémon 1:1",
                         "item_count": 7,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "B2F Pokémon 1:1",
                         "item_count": 7,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "B3F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B3F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "B4F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "B4F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Static Encounter: Articuno",
@@ -945,13 +945,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 5,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -965,13 +965,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 448, "y": 304 }]
@@ -984,13 +984,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 208, "y": 304 }]
@@ -1018,7 +1018,6 @@
           "name": "S.S. Anne",
           "access_rules": ["$celadon,ssticket"],
           "sections": [
-,
 					{
 						"name": "Static Encounter: Mew",
 						"access_rules": ["$surf"],
@@ -1036,25 +1035,25 @@
                         "name": "Pokémon (Grass) 1:1",
                         "item_count": 5,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon (Grass)",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
                     {
                         "name": "Pokémon (Surf) 1:1",
                         "item_count": 1,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon (Surf)",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 144, "y": 432 }]
@@ -1067,13 +1066,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 1,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 192, "y": 496 }]
@@ -1086,13 +1085,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
                 ],
                 "map_locations": [
@@ -1127,13 +1126,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
 						"name": "Trade",
@@ -1150,13 +1149,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 432, "y": 400 }]
@@ -1182,13 +1181,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 4,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -1202,13 +1201,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"]
+                        "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
           "map_locations": [{ "map": "encounters", "x": 400, "y": 240 }]
@@ -1221,13 +1220,13 @@
                         "name": "Pokémon 1:1",
                         "item_count": 3,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one"]
+                        "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_ten"
+                        "visibility_rules": ["opt_encounter_ten"
                         ]
                     }
           ],
@@ -1295,7 +1294,7 @@
                     {
                         "name": "Old Rod (Any Spot)",
                         "item_count": 1,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "chest_unopened_img": "images/items/oldrod.png",
                         "chest_opened_img": "images/items/oldrod_done.png",
                         "clear_as_group": false,
@@ -1309,7 +1308,7 @@
                         "chest_unopened_img": "images/items/goodrod.png",
                         "chest_opened_img": "images/items/goodrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "goodrod"
                         ]
@@ -1320,7 +1319,7 @@
                         "chest_unopened_img": "images/items/goodrod.png",
                         "chest_opened_img": "images/items/goodrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod"
                         ]
@@ -1331,7 +1330,7 @@
                         "chest_unopened_img": "images/items/goodrod.png",
                         "chest_opened_img": "images/items/goodrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod"
                         ]
@@ -1342,7 +1341,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$cerulean"
                         ]
@@ -1353,7 +1352,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$cerulean"
                         ]
@@ -1364,7 +1363,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$celadon"
                         ]
@@ -1375,7 +1374,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,safaripass,$fuchsia"
                         ]
@@ -1386,7 +1385,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$lavender",
                             "superrod,$fuchsia",
@@ -1400,7 +1399,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$cinnabar"
                         ]
@@ -1411,7 +1410,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$rt23",
                             "superrod,$ceruleancave,$cerulean,$cansurf"
@@ -1423,7 +1422,7 @@
                         "chest_unopened_img": "images/items/superrod.png",
                         "chest_opened_img": "images/items/superrod_done.png",
                         "clear_as_group": false,
-                        "visibility_rules": ["opt_dexsanity_one","opt_dexsanity_ten"],
+                        "visibility_rules": ["opt_encounter_one","opt_encounter_ten"],
                         "access_rules": [
                             "superrod,$fuchsia"
                         ]
@@ -1452,10 +1451,10 @@
                         "clear_as_group": false,
                         "visibility_rules": [],
 						"access_rules": [],
-						"hosted_item": "opt_dexsanity_one, opt_dexsanity_ten"
+						"hosted_item": "opt_encounter"
                     },
                     {
-                        "name": "With the above icons you can trigger whether you got\n1:1 mapping (original number of PKMN per place) or\nFull mapping (10 PKMN per place)",
+                        "name": "With the above setting you can trigger whether you got\n1:1 mapping (original number of PKMN per place) or\nFull mapping (10 PKMN per place)",
                         "clear_as_group": false,
                         "visibility_rules": [],
 						"access_rules": [],
@@ -1464,7 +1463,7 @@
                     }
           ],
           "map_locations": [{ "map": "encounters", "size": 32, "x": 80, "y": 432 }]
-        },
+        }
       ]
     }
   ]

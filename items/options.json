@@ -1216,5 +1216,24 @@
         "codes": "key_req",
         "initial_active_state": "true",
 		"allow_disabled": false
-    }
+    },
+    {
+        "name": "Full Mapping",
+        "type": "progressive",
+        "img": "images/options/full.png",
+        "codes": "opt_encounter",
+        "loop":"true",
+        "stages": [
+            {
+                "name": "1:1 Mapping",
+                "img": "images/options/one-to-one.png",
+                "codes": "opt_encounter, opt_encounter_one"
+            },
+            {
+                "name": "Full Mapping",
+                "img": "images/options/full.png",
+                "codes": "opt_encounter, opt_encounter_ten"
+            }
+        ]
+	}
 ]
