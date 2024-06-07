@@ -97,7 +97,8 @@
                         "opt_aide_11",
                         "opt_aide_15",
                         "opt_dex_required",
-                        "opt_fossilcheck"
+                        "opt_fossilcheck",
+                        "opt_dexsanity"
                     ]
                 ]
             },
@@ -113,7 +114,11 @@
                     [
                         "opt_old_man",
                         "opt_rt3",
+
+			            
+
 			"opt_officer",
+
                         "opt_extra_boulders",
                         "opt_hm",
                         "opt_tea"
@@ -133,8 +138,7 @@
                         "opt_hidden_items",
                         "opt_extra_key_items",
                         "opt_prizesanity",
-                        "opt_trn",
-                        "opt_dexsanity",
+                        "opt_trn",                     
                         "opt_stonesanity",
                         "opt_keyonly",
                         "opt_cardkey"
