@@ -216,9 +216,9 @@ function get_slot_options(slot_data)
 end
 
 function dexsanity_init()
-    missing = Archipelago.MissingLocations
-	locations = Archipelago.CheckedLocations
-	dex_checks = {}
+    local missing = Archipelago.MissingLocations
+	local locations = Archipelago.CheckedLocations
+	local dex_checks = {}
     --loop through all checked and unchecked locations
 	for _, v in pairs(missing) do
 		dex_checks[v] = true
@@ -227,18 +227,35 @@ function dexsanity_init()
 		dex_checks[v] = true
 	end
 
+	local count = 0
 	for i = 0, 150 do
         --check to see if the dexsanity location exists in the list of all checks
-		index = i + 172000549
-		check_exists = dex_checks[index]
+		local index = i + 172000549
+		local check_exists = dex_checks[index]
+		if check_exists then
+			count = count + 1
+		end
 		--if it doesn't, set it to the disabled stage
         --otherwise leave at default
 		if not check_exists then
-			loc = LOCATION_MAPPING[index]
-			obj = Tracker:FindObjectForCode(loc[1])
+			local loc = LOCATION_MAPPING[index]
+			local obj = Tracker:FindObjectForCode(loc[1])
 			if obj then
 				obj.CurrentStage = 2
 			end
 		end
 	end
+	local dexsanity = Tracker:FindObjectForCode('opt_dexsanity')
+	print("dex count: " .. count)
+	if dexsanity then
+		if count == 0 then
+			dexsanity.CurrentStage = 0
+		elseif count == 151 then
+			dexsanity.CurrentStage = 2
+		else
+			dexsanity.CurrentStage = 1
+		end
+		
+	end
+
 end
