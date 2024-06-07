@@ -128,11 +128,10 @@ end
 
 -- ITEM ACCESS CHECKS
 function cardkey(floor)
-    print("cardkey floor:" .. floor)
-    print("has cardkey: " .. has('cardkey'))
-    print("has cardkey " .. floor .. "F: " .. has('cardkey'..floor..'f'))
-
-    print(max(has('cardkey'),has('cardkey'..floor..'f'),has('cardkey_progressive', floor-1)))
+    -- print("cardkey floor:" .. floor)
+    -- print("has cardkey: " .. has('cardkey'))
+    -- print("has cardkey " .. floor .. "F: " .. has('cardkey'..floor..'f'))
+    -- print('cardkey_prog: ' .. Tracker:ProviderCountForCode('cardkey_progressive'))
     return max(has('cardkey'),has('cardkey'..floor..'f'),has('cardkey_progressive', floor-1))
 end
 
@@ -198,10 +197,11 @@ end
 
 function cerulean()
     local flight =  flyto('cerulean')
-    local underground = max(flyto('vermilion'),cut(),access(has('pokeflute'),surf(),extra_boulders()))
+    local underground = max(cut(), flyto('vermilion'))
+    local underground_via_boardwalk = access(has('pokeflute'),extra_boulders(), max(access(surf(), strength()), flyto('fuchsia')))
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
     local rt3_passable = access(rt3(),max(old_man(),cut(),flyto('pewter')))
-    local rocktunnel = access(cut(),lavender()) --this skips checking for flash, which we'll do in accessrules i think?
+    -- local rocktunnel = access(cut(),lavender()) --this skips checking for flash, which we'll do in accessrules i think?
     -- if flight or underground or rt3_passable or gate then
     --     return AccessibilityLevel.Regular
     -- elseif gate then
@@ -209,7 +209,7 @@ function cerulean()
     -- else
     --     return AccessibilityLevel.None
     -- end
-    return max(flight, underground, gate, rt3_passable, rocktunnel)
+    return max(flight, underground, gate, rt3_passable, underground_via_boardwalk)
     -- return AccessibilityLevel.None
     -- return flight or vermilion() or rt3_passable
 end
@@ -221,17 +221,9 @@ function vermilion()
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
     -- local underground = max(cut(),officer()) and ((rt3() and max(old_man(),cut(),flyto('pewter'))) or flyto('cerulean')) --TODO: Fix this
     local underground = access(officer(), max(flyto('cerulean'), access(rt3(), max(old_man(), flyto('pewter')))))
-    local rocktunnel = access(cut(),lavender(),rock_tunnel())
-    local snorlax = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia')))--through eastern boardwalk
+    -- local rocktunnel = access(cut(),lavender(),rock_tunnel())
+    local snorlax = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia'), access(surf(), strength())))--through eastern boardwalk
     local diglett = cut() --through diglett cave
-
-    print('flight: ' .. flight)
-    print('gate: ' .. gate)
-    print('underground: ' .. underground)
-    print('rocktunn: ' .. rocktunnel)
-    print('snorlax: ' .. snorlax)
-    print('diglett: ' .. diglett)
-
 
     -- if flight or underground or rt3_passable or gate then
     --     return AccessibilityLevel.Regular
@@ -240,7 +232,7 @@ function vermilion()
     -- else
     --     return AccessibilityLevel.None
     -- end
-    return max(flight,gate,underground,rocktunnel, snorlax, diglett)
+    return max(flight,gate,underground, snorlax, diglett)
     -- return flight or underground or rocktunnel or gate or diglett
 end
 
