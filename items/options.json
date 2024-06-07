@@ -131,7 +131,8 @@
 			{
                 "name": "Itemfinder required",
                 "img": "images/items/itemfinder.png",
-                "codes": "opt_itemfinder,opt_itemfinder_on"
+                "codes": "opt_itemfinder,opt_itemfinder_on",
+                "inherit_codes": false
             }
         ]
     },
