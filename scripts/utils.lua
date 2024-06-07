@@ -74,3 +74,16 @@ end
 function scoutable()
     return AccessibilityLevel.Inspect
 end
+
+function toggle_extra_key_items()
+    local codes = {'safaripass', 'hideoutkey', 'plantkey', 'mansionkey'}
+    local stage = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
+    print("extra key items: " )
+
+    for i, item in ipairs(codes) do
+        local obj = Tracker:FindObjectForCode(item)
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+end

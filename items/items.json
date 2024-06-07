@@ -622,72 +622,112 @@
 		}]
     },
     {
-        "name": "Plant Key",
-        "type": "progressive_toggle",
+        "name": "",
+        "type": "progressive",
+        "allow_disabled": false,
         "img": "images/items/plantkey.png",
         "codes": "plantkey,keyitem",
 		"stages": [
-		{
-			"name": "Plant Key",
-			"codes": "plantkey,keyitem",
-			"img": "images/items/plantkey.png"
-		},
-		{
-			"name": "Right-Click to enable again",
-			"codes": "",
-			"img": "images/items/doesnotexist.png"
-		}]
+            {
+                "name": "",
+                "codes": "",
+                "img": "images/items/doesnotexist.png"
+            },
+            {
+                "name": "Plant Key",
+                "codes": "plantkey,keyitem",
+                "img": "images/items/plantkey.png",
+                "allow_disabled": false,
+                "img_mods": "@disabled"
+
+            },
+            {
+                "name": "Plant Key",
+                "codes": "plantkey,keyitem",
+                "img": "images/items/plantkey.png"
+            }
+        ]
     },
     {
-        "name": "Mansion Key",
-        "type": "progressive_toggle",
+        "name": "",
+        "type": "progressive",
+        "allow_disabled": false,
         "img": "images/items/mansionkey.png",
         "codes": "mansionkey,keyitem",
 		"stages": [
-		{
-			"name": "Mansion Key",
-			"codes": "mansionkey,keyitem",
-			"img": "images/items/mansionkey.png"
-		},
-		{
-			"name": "Right-Click to enable again",
-			"codes": "",
-			"img": "images/items/doesnotexist.png"
-		}]
+            {
+                "name": "",
+                "codes": "",
+                "img": "images/items/doesnotexist.png"
+            },
+            {
+                "name": "Mansion Key",
+                "codes": "mansionkey,keyitem",
+                "img": "images/items/mansionkey.png",
+                "allow_disabled": false,
+                "img_mods": "@disabled"
+
+            },
+            {
+                "name": "Mansion Key",
+                "codes": "mansionkey,keyitem",
+                "img": "images/items/mansionkey.png"
+            }
+        ]
     },
     {
-        "name": "Hideout Key",
-        "type": "progressive_toggle",
+        "name": "",
+        "type": "progressive",
+        "allow_disabled": false,
         "img": "images/items/hideoutkey.png",
         "codes": "hideoutkey,keyitem",
 		"stages": [
-		{
-			"name": "Hideout Key",
-			"codes": "hideoutkey,keyitem",
-			"img": "images/items/hideoutkey.png"
-		},
-		{
-			"name": "Right-Click to enable again",
-			"codes": "",
-			"img": "images/items/doesnotexist.png"
-		}]
+            {
+                "name": "",
+                "codes": "",
+                "img": "images/items/doesnotexist.png"
+            },
+            {
+                "name": "Hideout Key",
+                "codes": "hideoutkey,keyitem",
+                "img": "images/items/hideoutkey.png",
+                "allow_disabled": false,
+                "img_mods": "@disabled"
+
+            },
+            {
+                "name": "Hideout Key",
+                "codes": "hideoutkey,keyitem",
+                "img": "images/items/hideoutkey.png"
+            }
+        ]
     },
     {
-        "name": "Safari Pass",
-        "type": "progressive_toggle",
+        "name": "",
+        "type": "progressive",
+        "allow_disabled": false,
         "img": "images/items/safaripass.png",
         "codes": "safaripass,keyitem",
 		"stages": [
-		{
-			"name": "Hideout Key",
-			"codes": "safaripass,keyitem",
-			"img": "images/items/safaripass.png"
-		},
-		{
-			"name": "Right-Click to enable again",
-			"codes": "",
-			"img": "images/items/doesnotexist.png"
-		}]
+            {
+                "name": "",
+                "codes": "",
+                "img": "images/items/doesnotexist.png"
+            },
+            {
+                "name": "Safari Pass",
+                "codes": "safaripass,keyitem",
+                "img": "images/items/safaripass.png",
+                "allow_disabled": false,
+                "img_mods": "@disabled"
+
+            },
+            {
+                "name": "Safari Pass",
+                "codes": "safaripass,keyitem",
+                "img": "images/items/safaripass.png"
+            }
+        ]
     },
     {
         "name": "Old Amber",

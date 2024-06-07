@@ -58,6 +58,7 @@ end
 -- Add a watch to dynamically load layout if progressive card keys enabled
 if PopVersion and PopVersion >= "0.1.0" then
     ScriptHost:AddWatchForCode("loadCardKey", "opt_cardkey_split", split_key)
+    ScriptHost:AddWatchForCode("extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
 end
 
 ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')
