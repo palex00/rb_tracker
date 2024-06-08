@@ -33,6 +33,15 @@ function has(item, amount)
     return AccessibilityLevel.None
 end
 
+function has_location(loc)
+    if loc.AvailableChestCount == 0 then
+        return AccessibilityLevel.Normal
+    else 
+        return AccessibilityLevel.None
+    end
+end
+
+
 function progCount(code)
 	return Tracker:FindObjectForCode(code).CurrentStage
 end
@@ -78,7 +87,6 @@ end
 function toggle_extra_key_items()
     local codes = {'safaripass', 'hideoutkey', 'plantkey', 'mansionkey'}
     local stage = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
-    print("extra key items: " )
 
     for i, item in ipairs(codes) do
         local obj = Tracker:FindObjectForCode(item)
