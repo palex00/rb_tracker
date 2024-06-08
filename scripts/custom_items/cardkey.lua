@@ -26,38 +26,46 @@ function customcardkey:ProvidesCodeFunc(code)
     return 0
 end
 function customcardkey:OnLeftClickFunc()
-    if self.ItemState['option'] == 'progressive' and self.ItemState['qty'] < 10 then
+    local mode = self.ItemState['option']
+    if mode == 'split' then
+        return
+    end
+
+    if mode == 'progressive' and self.ItemState['qty'] < 10 then
         set_qty(self, self.ItemState['qty'] + 1)
     end
 
     if not self.ItemState['active'] then
         self.ItemState['active'] = true
-        customcardkey.IconMods = ''
+        self.IconMods = ''
     end
 end
 
 function customcardkey:OnRightClickFunc()
 
-    
+    local mode = self.ItemState['option']
+        
 
-    if self.ItemState['option'] == 'progressive' and self.ItemState['qty'] > 0 then
+    if mode == 'progressive' and self.ItemState['qty'] > 0 then
         set_qty(self, self.ItemState['qty'] -1 )
     end
-    if self.ItemState['option'] == 'vanilla' and self.ItemState['active'] == true then
+    if mode == 'vanilla' and self.ItemState['active'] then
         self.ItemState['active'] = false
-        customcardkey.Icon = ImageReference:FromImageReference(customcardkey.Icon, "@disabled")
+        self.IconMods = "@disabled"
     end
 end
 
 function customcardkey:OnMiddleClickFunc()
-    if self.ItemState['option'] == 'split' then
+
+    local stage = Tracker:FindObjectForCode('opt_cardkey').CurrentStage
+    if stage  == 0 then
         self.ItemState['option'] = 'vanilla'
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
         self.Name = "Card Key"
         if not self.ItemState['active'] then
             self.IconMods = '@disabled'
         end
-    elseif self.ItemState['option'] == 'vanilla' then
+    elseif stage  == 1 then
         self.ItemState['option'] = 'progressive'
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkeyprog.png')
         self.Name = "Progressive Card Key"
