@@ -13,7 +13,6 @@ function key_items_count()
     if has('opt_stonesanity_on') == AccessibilityLevel.Normal then
         count = 4
     end
-    print('key items' .. count  + Tracker:ProviderCountForCode('keyitem'))
     return count  + Tracker:ProviderCountForCode('keyitem')
 end
 -- returns int of # of pokemon caught
@@ -128,10 +127,6 @@ end
 
 -- ITEM ACCESS CHECKS
 function cardkey(floor)
-    -- print("cardkey floor:" .. floor)
-    -- print("has cardkey: " .. has('cardkey'))
-    -- print("has cardkey " .. floor .. "F: " .. has('cardkey'..floor..'f'))
-    -- print('cardkey_prog: ' .. Tracker:ProviderCountForCode('cardkey_progressive'))
     return max(has('cardkey'),has('cardkey'..floor..'f'),has('cardkey_progressive', floor-1))
 end
 
@@ -175,8 +170,6 @@ function rock_tunnel()
 end
 
 function officer()
-    print('bill: '..has('bill'))
-    print('officer_off: '..has('opt_officer_off'))
     return max(has('bill'),has("opt_officer_off"))
 end
 
@@ -186,11 +179,42 @@ function pewter()
 end
 
 function rt3()
+    -- local brock = false
+    -- local any_gym = false
+    -- if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
+    --     local brock_location = Tracker:FindObjectForCode("@Kanto/Pewter City/Brock")
+    --         brock = access(has('opt_rt3brock'), has_location(brock_location))
+    --         if not brock then
+    --             local locations = {
+    --                 '@Kanto/Cerulean City/Misty',
+    --                 '@Kanto/Vermilion City/Lt. Surge',
+    --                 '@Kanto/Celadon City/Erika',
+    --                 '@Kanto/Fuchsia City/Koga',
+    --                 '@Kanto/Saffron City/Sabrina',
+    --                 '@Kanto/Cinnibar Island/Blaine',
+    --                 '@Kanto/Viridian City/Giovanni'
+    --             }
+    --             for i, location in ipairs(locations) do
+
+    --             end
+    --         end
+        
+        
+    --     brock = has('opt_rt3brock'), has_location(brock_location)
+    -- else
+    --     brock = access(has('opt_rt3gym'), has('brock_beaten'))
+    --     any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
+    -- end
+
+    local brock = access(has('opt_rt3gym'), has('brock_beaten'))
+    local any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
+        
+
     local open = has('opt_rt3open')
     local boulder = access(has('opt_rt3boulder'),has('boulder'))
     local any_badge = access(has('opt_rt3badge'),has('badge'))
-    local brock = access(has('opt_rt3brock'),has('brock_beaten'))
-    local any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
+
+    
     return max(open, boulder, any_badge, brock, any_gym)
     -- return max(has('opt_rt3open'),access(has('opt_rt3boulder'),has('boulder')), access(has('opt_rt3badge'),has('badge')))
 end

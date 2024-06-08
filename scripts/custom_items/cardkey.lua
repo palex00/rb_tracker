@@ -57,7 +57,6 @@ function customcardkey:OnMiddleClickFunc()
         if not self.ItemState['active'] then
             self.IconMods = '@disabled'
         end
-        print(self.ItemState['option'])
     elseif self.ItemState['option'] == 'vanilla' then
         self.ItemState['option'] = 'progressive'
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkeyprog.png')
@@ -69,17 +68,13 @@ function customcardkey:OnMiddleClickFunc()
         self.Icon = ImageReference:FromPackRelativePath('images/items/cardkey.png')
         self.IconMods = '@disabled'
     end
-    print(self.ItemState['option'])
 end
 
 function set_qty(self, qty)
-    print("qty: " .. qty)
     self.ItemState['qty'] = qty
     if qty ~= 0 then
-        print("here, setting icon mod:")
         set_active(self, true)
         self.IconMods = "overlay|images/overlays/" .. qty + 1 .. '.png'
-        print(self.IconMods)
     end
     if qty == 0 then
         self:SetOverlay('')

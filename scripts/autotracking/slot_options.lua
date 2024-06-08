@@ -156,9 +156,7 @@ function get_slot_options(slot_data)
 				
 				obj = Tracker:FindObjectForCode(string.lower(hm).."_"..badge)
 				if obj then
-					print(stages[badge])
 					obj.CurrentStage = stages[badge]
-					print(obj)
 				end
 
 			end
@@ -246,7 +244,6 @@ function dexsanity_init()
 		end
 	end
 	local dexsanity = Tracker:FindObjectForCode('opt_dexsanity')
-	print("dex count: " .. count)
 	if dexsanity then
 		if count == 0 then
 			dexsanity.CurrentStage = 0
