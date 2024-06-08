@@ -30,15 +30,13 @@
               "name": "Lt. Surge",
               "item_count": 2,
               "access_rules": ["^$cut","^$surf"],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Lt. Surge",
               "item_count": 1,
               "access_rules": ["^$cut","^$surf"],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Sailor",
@@ -87,15 +85,13 @@
               "name": "Koga",
               "item_count": 2,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Koga",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Juggler 1",
@@ -266,15 +262,13 @@
               "name": "Erika",
               "item_count": 2,
               "access_rules": ["^$cut"],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Erika",
               "item_count": 1,
               "access_rules": ["^$cut"],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Lass 1",
@@ -378,15 +372,13 @@
               "name": "Giovanni",
               "item_count": 2,
               "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Giovanni",
               "item_count": 1,
               "access_rules": ["^$viridiangym,^$cut","^$viridiangym,^$old_man"],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Item in Gym",
@@ -484,15 +476,13 @@
               "name": "Brock",
               "item_count": 2,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten,brock_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Brock",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten,brock_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Jr. Trainer M",
@@ -529,15 +519,13 @@
               "name": "Misty",
               "item_count": 2,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Misty",
               "item_count": 1,
               "access_rules": [],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Swimmer",
@@ -1357,15 +1345,13 @@
               "name": "Blaine",
               "item_count": 2,
               "access_rules": ["secretkey"],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Blaine",
               "item_count": 1,
               "access_rules": ["secretkey"],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "Gym: Burglar 1",
@@ -1432,15 +1418,13 @@
               "name": "Sabrina",
               "item_count": 2,
               "access_rules": ["silphco"],
-              "visibility_rules": ["opt_keyonly_off"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_off"]
             },
             {
               "name": "​Sabrina",
               "item_count": 1,
               "access_rules": ["silphco"],
-              "visibility_rules": ["opt_keyonly_on"],
-              "hosted_item": "gym_beaten"
+              "visibility_rules": ["opt_keyonly_on"]
             },
             {
               "name": "HI: Copycat Desk",
