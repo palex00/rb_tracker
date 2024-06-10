@@ -1227,12 +1227,14 @@
             {
                 "name": "1:1 Mapping",
                 "img": "images/options/one-to-one.png",
-                "codes": "opt_encounter, opt_encounter_one"
+                "codes": "opt_encounter, opt_encounter_one",
+                "inherit_codes": "false"
             },
             {
                 "name": "Full Mapping",
                 "img": "images/options/full.png",
-                "codes": "opt_encounter, opt_encounter_ten"
+                "codes": "opt_encounter, opt_encounter_ten",
+                "inherit_codes": "false"
             }
         ]
 	}
