@@ -271,6 +271,7 @@ function celadon()
     local rocktunnel = access(cerulean, rock_tunnel(), cut())
     local flight = max(flyto('celadon'),flyto('lavender'))
     local gate = access(fly('saffron'),has('tea'))
+    local gate = access(saffron_access,has('tea'))
     local reverse_lavender = access(surf(),strength())
     local via_fuchsia = access(flyto('fuchsia'),flute,max(boulders,cyclingroad()))
     local via_vermilion = access(max(flyto('cerulean'), flyto('vermilion')),max(has('tea'),access(flute,boulders)))
@@ -282,7 +283,9 @@ function saffron()
     local buy_drinks = access(celadon(), has('opt_tea_off'))
     tea = access(has('tea'),has('opt_tea_on'))
     local gate = access(tea, max(lavender(),cerulean()))
-    return max(flyto('saffron'), gate, buy_drinks)
+    --TODO: CLEAM THIS UP
+    saffron_access = max(flyto('saffron'), gate, buy_drinks)
+    return saffron_access
 end
 
 function fuchsia()
