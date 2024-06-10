@@ -105,8 +105,8 @@
 ,{"name":"","sections":[{"ref":"Kanto/Pokemon Mansion/B1F Burglar"}],"map_locations":[{"map":"mansion","x": 761,"y": 871}]}
 
 ,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B2F Rock"}],"map_locations":[{"map":"seafoam","x": 745,"y": 583}]}
-,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B4F Corner"}],"map_locations":[{"map":"seafoam","x": 161,"y": 910}]}
-,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B3F Rock"}],"map_locations":[{"map":"seafoam","x": 907,"y": 925}]}
+,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B3F Rock"}],"map_locations":[{"map":"seafoam","x": 161,"y": 910}]}
+,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B4F Corner"}],"map_locations":[{"map":"seafoam","x": 907,"y": 925}]}
 
 ,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: In Grass"}],"map_locations":[{"map":"cyclingroad","x": 249,"y": 233}]}
 ,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: Near Northernmost Sign"}],"map_locations":[{"map":"cyclingroad","x": 137,"y": 729}]}
