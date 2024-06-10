@@ -12,11 +12,8 @@ function split_key()
     key = Tracker:FindObjectForCode('custom_cardkey')
     key:OnMiddleClickFunc()
     if obj.CurrentStage == 2 then
-      print('loading split layout')
       Tracker:AddLayouts("layouts/split_cardkey.json")
     end
-    --we can't unload the layout so we might as well remove this and stop running this code.
-    ScriptHost:RemoveWatchForCode("load_card_key")
   end
 
 print("-- Example Tracker --")
