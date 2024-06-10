@@ -265,14 +265,16 @@ end
 function celadon()
     local flute = has('pokeflute')
     local boulders = extra_boulders()
+
     local cerulean = max(flyto('cerulean'),flyto('vermilion'),access(rt3(),max(old_man(),cut(),flyto('pewter'))))
     local rocktunnel = access(cerulean, rock_tunnel(), cut())
+
     local flight = max(flyto('celadon'),flyto('lavender'))
-    local gate = access(fly('saffron'),has('tea'))
+    -- local gate = access(fly('saffron'),has('tea'))
     local gate = access(saffron_access,has('tea'))
     local reverse_lavender = access(surf(),strength())
     local via_fuchsia = access(flyto('fuchsia'),flute,max(boulders,cyclingroad()))
-    local via_vermilion = access(max(flyto('cerulean'), flyto('vermilion')),max(has('tea'),access(flute,boulders)))
+    local via_vermilion = access(cerulean,max(has('tea'),access(flute,boulders)))
     return max(flight,gate,reverse_lavender,via_fuchsia,via_vermilion, rocktunnel)
     -- return flight or gate or reverse_lavender or via_fuchsia or via_vermilion
 end
