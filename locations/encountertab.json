@@ -30,12 +30,14 @@
                     {
                         "name": "Pokémon 1:1",
                         "item_count": 3,
+			"access_rules": ["$cut"],
                         "clear_as_group": false,
                         "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
+			"access_rules": ["$cut"],
                         "clear_as_group": false,
                         "visibility_rules": ["opt_encounter_ten"]
                     }
@@ -852,17 +854,19 @@
                      {
                         "name": "Pokémon 1:1",
                         "item_count": 5,
+			"access_rules": ["$cut"],
                         "clear_as_group": false,
                         "visibility_rules": ["opt_encounter_one"]
                     },
                     {
                         "name": "Pokémon",
                         "item_count": 10,
+			"access_rules": ["$cut"],
                         "clear_as_group": false,
                         "visibility_rules": ["opt_encounter_ten"]
                     }
           ],
-          "map_locations": [{ "map": "encounters", "x": 528, "y": 336 }]
+          "map_locations": [{ "map": "encounters", "x": 480, "y": 368 }]
         },
         {
           "name": "Seafoam Islands",
