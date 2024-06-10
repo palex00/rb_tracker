@@ -134,7 +134,7 @@
         },
         {
           "name": "Route 12 South",
-          "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$cerulean,flute"],
+          "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$lavender,flute","^$vermilion,flute,^$extra_boulders","^$fuchsia,^$surf"],
           "sections": [
             {
               "name": "Fisherman 5",

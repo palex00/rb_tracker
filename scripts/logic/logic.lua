@@ -294,7 +294,7 @@ function fuchsia()
     local flute = has('pokeflute')
     local cycling_road = access(cyclingroad(),celadon(),flute)
     local boulders = extra_boulders()
-    local via_vermilion = access(cerulean(),flute,boulders)
+    local via_vermilion = access(vermilion(),flute,boulders)
     local via_lavender = access(lavender(),max(surf(),access(flute,boulders)))
     -- return flight or via_cinnabar or cycling_road or via_vermilion or via_lavender
     return max(flight, via_cinnabar, cycling_road, via_vermilion, via_lavender)
