@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.6",
+			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.6.zip",
+			"sha256": "36220D5DD43CAA0658F14399A58E668C982CAFCFD239E8CA89CF5ADFDDB5ED24",
+			"changelog": ["Celadon's a nice place"]
+		},
+		{
 			"package_version": "0.9.5",
 			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.5.zip",
 			"sha256": "A661B18AF7276F36A62EF21A81BD3F80631B429C16841293C750E03EF58AD867",
