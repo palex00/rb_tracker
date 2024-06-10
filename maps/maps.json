@@ -40,5 +40,17 @@
         "location_size": 20,
         "location_border_thickness": 2,
         "img": "images/maps/map.png"
+    },
+    {
+        "name": "cyclingroad",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cyclingroad.png"
+    },
+    {
+        "name": "underground",
+        "location_size": 13,
+        "location_border_thickness": 2,
+        "img": "images/maps/underground.png"
     }
 ]
