@@ -279,7 +279,7 @@ end
 
 function saffron()
     local buy_drinks = access(celadon(), has('opt_tea_off'))
-    tea = access(has('tea'),has('opt_tea_on'))
+    local tea = access(has('tea'),has('opt_tea_on'))
     local gate = access(tea, max(lavender(),cerulean()))
     --TODO: CLEAM THIS UP
     saffron_access = max(flyto('saffron'), gate, buy_drinks)
