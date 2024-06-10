@@ -15,6 +15,8 @@ function split_key()
       print('loading split layout')
       Tracker:AddLayouts("layouts/split_cardkey.json")
     end
+    --we can't unload the layout so we might as well remove this and stop running this code.
+    ScriptHost:RemoveWatchForCode("load_card_key")
   end
 
 print("-- Example Tracker --")
@@ -57,8 +59,9 @@ if PopVersion and PopVersion >= "0.18.0" then
 end
 -- Add a watch to dynamically load layout if progressive card keys enabled
 if PopVersion and PopVersion >= "0.1.0" then
-    ScriptHost:AddWatchForCode("loadCardKey", "opt_cardkey_split", split_key)
-    ScriptHost:AddWatchForCode("extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
+    ScriptHost:AddWatchForCode("load_card_key", "opt_cardkey_split", split_key)
+    ScriptHost:AddWatchForCode("toggle_extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
+    ScriptHost:AddWatchForCode("toggle_tea", "opt_tea", toggle_tea)
 end
 
 ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')

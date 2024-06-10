@@ -605,21 +605,31 @@
         "codes": "ssticket,keyitem"
     },
     {
-        "name": "Tea",
-        "type": "progressive_toggle",
-        "img": "images/items/tea.png",
+        "name": "",
+        "type": "progressive",
+        "allow_disabled": false,
+        "img": "images/items/safaripass.png",
         "codes": "tea,keyitem",
 		"stages": [
-		{
-			"name": "Tea",
-			"codes": "tea,keyitem",
-			"img": "images/items/tea.png"
-		},
-		{
-			"name": "Right-Click to enable again",
-			"codes": "",
-			"img": "images/items/doesnotexist.png"
-		}]
+            {
+                "name": "",
+                "codes": "",
+                "img": "images/items/doesnotexist.png"
+            },
+            {
+                "name": "Tea",
+                "codes": "",
+                "img": "images/items/tea.png",
+                "allow_disabled": false,
+                "img_mods": "@disabled"
+
+            },
+            {
+                "name": "Tea",
+                "codes": "tea,keyitem",
+                "img": "images/items/tea.png"
+            }
+        ]
     },
     {
         "name": " ",

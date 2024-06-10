@@ -95,3 +95,11 @@ function toggle_extra_key_items()
         end
     end
 end
+
+function toggle_tea()
+    local stage = Tracker:FindObjectForCode('opt_tea').CurrentStage
+    local obj = Tracker:FindObjectForCode('tea')
+    if obj then
+        obj.CurrentStage = stage
+    end
+end
