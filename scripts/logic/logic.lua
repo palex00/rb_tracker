@@ -206,10 +206,8 @@ function rt3()
     --     any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
     -- end
 
-    local brock = access(has('opt_rt3gym'), has('brock_beaten'))
+    local brock = access(has('opt_rt3brock'), has('brock_beaten'))
     local any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
-        
-
     local open = has('opt_rt3open')
     local boulder = access(has('opt_rt3boulder'),has('boulder'))
     local any_badge = access(has('opt_rt3badge'),has('badge'))
