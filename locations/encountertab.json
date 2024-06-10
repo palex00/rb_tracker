@@ -469,9 +469,9 @@
                         "visibility_rules": ["opt_encounter_ten"]
                     },
 					{
-						"name": "Static Encounter: Mewtu",
+						"name": "Static Encounter: Mewtwo",
 						"access_rules": [],
-                        "chest_unopened_img": "images/pokedex/mewtu.png",
+                        "chest_unopened_img": "images/pokedex/mewtwo.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
 					}
           ],
