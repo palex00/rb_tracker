@@ -513,7 +513,7 @@
               "name": "Rocket Thief",
               "item_count": 1,
               "access_rules": ["^$officer", "^$vermilion"],
-              "visibility_rules": ["trainer_on"]
+              "visibility_rules": [""]
             },
             {
               "name": "Gym: Swimmer",
