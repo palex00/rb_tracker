@@ -635,7 +635,7 @@
             },
             {
                 "name": "Plant Key",
-                "codes": "plantkey,keyitem",
+                "codes": "",
                 "img": "images/items/plantkey.png",
                 "allow_disabled": false,
                 "img_mods": "@disabled"
@@ -662,7 +662,7 @@
             },
             {
                 "name": "Mansion Key",
-                "codes": "mansionkey,keyitem",
+                "codes": "",
                 "img": "images/items/mansionkey.png",
                 "allow_disabled": false,
                 "img_mods": "@disabled"
@@ -689,7 +689,7 @@
             },
             {
                 "name": "Hideout Key",
-                "codes": "hideoutkey,keyitem",
+                "codes": "",
                 "img": "images/items/hideoutkey.png",
                 "allow_disabled": false,
                 "img_mods": "@disabled"
@@ -716,7 +716,7 @@
             },
             {
                 "name": "Safari Pass",
-                "codes": "safaripass,keyitem",
+                "codes": "",
                 "img": "images/items/safaripass.png",
                 "allow_disabled": false,
                 "img_mods": "@disabled"
