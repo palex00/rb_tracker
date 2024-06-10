@@ -481,7 +481,7 @@
         },
         {
           "name": "Pokemon Tower",
-          "access_rules": ["$lavender"],
+          "access_rules": ["silphscope,$lavender"],
           "sections": [
                     {
                         "name": "3F Pokémon 1:1",
@@ -1179,7 +1179,7 @@
         },
         {
           "name": "Route 8",
-          "access_rules": ["$lavender"],
+          "access_rules": ["$cut,$lavender"],
           "sections": [
                     {
                         "name": "Pokémon 1:1",
