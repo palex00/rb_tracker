@@ -29,6 +29,7 @@ ITEM_MAPPING = {
     [172000072] = {"silphscope","toggle"},
     [172000073] = {"pokeflute","toggle"},
     [172000074] = {"liftkey","toggle"},
+    [172000075] = {"expall","toggle"},
     [172000076] = {"oldrod","toggle"},
     [172000077] = {"goodrod","toggle"},
     [172000078] = {"superrod","toggle"},
