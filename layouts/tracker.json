@@ -65,11 +65,27 @@
                                     }
                                 },
 								{
+                                    "title": "Underground Paths",
+                                    "icon": "images/items/staircase.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["underground"]
+                                    }
+                                },
+								{
                                     "title": "Rock Tunnel",
                                     "icon": "images/items/extraboulder.png",
                                     "content": {
                                         "type": "map",
                                         "maps": ["rocktunnel"]
+                                    }
+                                },
+								{
+                                    "title": "Cycling Road",
+                                    "icon": "images/items/bicycle.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["cyclingroad"]
                                     }
                                 },
 								{
