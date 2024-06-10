@@ -279,8 +279,10 @@ function celadon()
 end
 
 function saffron()
-    local gate = access(max(has('tea'), access(celadon(),has('opt_tea_off'))),max(lavender(),cerulean()))
-    return max(flyto('saffron'), gate)
+    local buy_drinks = access(celadon(), has('opt_tea_off'))
+    tea = access(has('tea'),has('opt_tea_on'))
+    local gate = access(tea, max(lavender(),cerulean()))
+    return max(flyto('saffron'), gate, buy_drinks)
 end
 
 function fuchsia()
