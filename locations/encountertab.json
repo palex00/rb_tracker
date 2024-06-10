@@ -1198,6 +1198,25 @@
           "map_locations": [{ "map": "encounters", "x": 464, "y": 176 }]
         },
         {
+          "name": "Route 7",
+          "access_rules": ["$celadon"],
+          "sections": [
+                    {
+                        "name": "Pokémon 1:1",
+                        "item_count": 4,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_encounter_one"]
+                    },
+                    {
+                        "name": "Pokémon",
+                        "item_count": 10,
+                        "clear_as_group": false,
+                        "visibility_rules": ["opt_encounter_ten"]
+                    }
+          ],
+          "map_locations": [{ "map": "encounters", "x": 352, "y": 176 }]
+        },
+        {
           "name": "Route 6",
           "access_rules": ["$cerulean"],
           "sections": [
