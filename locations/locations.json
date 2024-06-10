@@ -2405,7 +2405,7 @@
             {
               "name": "B4F Rocket 1",
               "item_count": 1,
-              "access_rules": ["liftkey"],
+              "access_rules": [],
               "visibility_rules": ["trainer_on"]
             },
             {
@@ -2483,7 +2483,7 @@
             {
               "name": "B4F Rocket 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["liftkey"],
               "visibility_rules": ["trainer_on"]
             },
             {
