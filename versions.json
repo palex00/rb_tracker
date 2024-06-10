@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.3",
+			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.3.zip",
+			"sha256": "66DF65370474E4EE49347AD5058C2BF66C96EB43E0B1A10A02FAC812F8B16E47",
+			"changelog": ["Initial Testing Release"]
+		},
+		{
 			"package_version": "0.9.2",
 			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.2.zip",
 			"sha256": "1000A9E899081CE4657592DE1D9BF0A50E5303694187CF4D46287E18C7834945",
