@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.5",
+			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.5.zip",
+			"sha256": "A661B18AF7276F36A62EF21A81BD3F80631B429C16841293C750E03EF58AD867",
+			"changelog": ["Ancient Lost route discovered!"]
+		},
+		{
 			"package_version": "0.9.4",
 			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.4.zip",
 			"sha256": "385D980F7459E6879FDBC8CC9394F576F926862FA7E295F64B1657230608CBE6",
