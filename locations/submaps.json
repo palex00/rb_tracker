@@ -18,8 +18,8 @@
 ,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F PokeManiac 1"}],"map_locations":[{"map":"rocktunnel","x": 1081,"y": 512}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Jr. Trainer F 1"}],"map_locations":[{"map":"rocktunnel","x": 888,"y": 481}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F PokeManiac 2"}],"map_locations":[{"map":"rocktunnel","x": 986,"y": 368}]}
-,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 1"}],"map_locations":[{"map":"rocktunnel","x": 1146,"y": 192}]}
-,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 2"}],"map_locations":[{"map":"rocktunnel","x": 1192,"y": 111}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 2"}],"map_locations":[{"map":"rocktunnel","x": 1146,"y": 192}]}
+,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 1"}],"map_locations":[{"map":"rocktunnel","x": 1192,"y": 111}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Jr. Trainer F 2"}],"map_locations":[{"map":"rocktunnel","x": 842,"y": 240}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F Hiker 3"}],"map_locations":[{"map":"rocktunnel","x": 762,"y": 192}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rock Tunnel/B1F PokeManiac 3"}],"map_locations":[{"map":"rocktunnel","x": 713,"y": 117}]}
@@ -43,7 +43,7 @@
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southwest Item"}],"map_locations":[{"map":"silph16","x": 49,"y": 863}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Northwest Item"}],"map_locations":[{"map":"silph16","x": 81,"y": 735}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Southeast Item"}],"map_locations":[{"map":"silph16","x": 353,"y": 911}]}
-,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/HI: 5F Pot Plant"}],"map_locations":[{"map":"silph16","x": 200,"y": 703}]}
+,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/HI: 5F Pot Plant"}],"map_locations":[{"map":"silph16","x": 209,"y": 703}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Rocket 1"}],"map_locations":[{"map":"silph16","x": 465,"y": 719}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Juggler"}],"map_locations":[{"map":"silph16","x": 289,"y": 815}]}
 ,{"name":"","sections":[{"ref":"Kanto/Silph Co 1F - 6F/5F Scientist"}],"map_locations":[{"map":"silph16","x": 145,"y": 703}]}
@@ -107,6 +107,27 @@
 ,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B2F Rock"}],"map_locations":[{"map":"seafoam","x": 745,"y": 583}]}
 ,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B4F Corner"}],"map_locations":[{"map":"seafoam","x": 161,"y": 910}]}
 ,{"name":"","sections":[{"ref":"Kanto/Seafoam Islands/HI: B3F Rock"}],"map_locations":[{"map":"seafoam","x": 907,"y": 925}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: In Grass"}],"map_locations":[{"map":"cyclingroad","x": 249,"y": 233}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: Near Northernmost Sign"}],"map_locations":[{"map":"cyclingroad","x": 137,"y": 729}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: East Center"}],"map_locations":[{"map":"cyclingroad","x": 606,"y": 393}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: West Center"}],"map_locations":[{"map":"cyclingroad","x": 397,"y": 681}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/HI: Before Final Bridge"}],"map_locations":[{"map":"cyclingroad","x": 787,"y": 409}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Cue Ball 1"}],"map_locations":[{"map":"cyclingroad","x": 185,"y": 265}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Biker 1"}],"map_locations":[{"map":"cyclingroad","x": 73,"y": 313}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Cue Ball 2"}],"map_locations":[{"map":"cyclingroad","x": 201,"y": 313}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Biker 2"}],"map_locations":[{"map":"cyclingroad","x": 121,"y": 521}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Biker 3"}],"map_locations":[{"map":"cyclingroad","x": 233,"y": 553}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Cue Ball 3"}],"map_locations":[{"map":"cyclingroad","x": 606,"y": 169}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Cue Ball 4"}],"map_locations":[{"map":"cyclingroad","x": 366,"y": 329}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Biker 4"}],"map_locations":[{"map":"cyclingroad","x": 739,"y": 41}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Cue Ball 5"}],"map_locations":[{"map":"cyclingroad","x": 883,"y": 41}]}
+,{"name":"","sections":[{"ref":"Kanto/Route 17/Biker 5"}],"map_locations":[{"map":"cyclingroad","x": 819,"y": 361}]}
+
+,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel North-South/HI: Near Northern Stairs"}],"map_locations":[{"map":"underground","x": 362,"y": 40}]}
+,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel North-South/HI: Near Southern Stairs"}],"map_locations":[{"map":"underground","x": 378,"y": 520}]}
+,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel West-East/HI: West"}],"map_locations":[{"map":"underground","x": 170,"y": 312}]}
+,{"name":"","sections":[{"ref":"Kanto/Underground Tunnel West-East/HI: East"}],"map_locations":[{"map":"underground","x": 314,"y": 360}]}
 
         ]
     }
