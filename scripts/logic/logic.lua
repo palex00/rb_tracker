@@ -1,4 +1,4 @@
-saffron_access = false
+saffron_access = AccessibilityLevel.None
 -- ITEM COUNT CHECKS
 
 -- returns int of # of badges

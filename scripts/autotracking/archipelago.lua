@@ -15,7 +15,7 @@ GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
 
-    saffron_access = false
+    saffron_access = AccessibilityLevel.None
     print("Contents of slot_data:")
 	for key, value in pairs(slot_data) do
 		print(key, value)
