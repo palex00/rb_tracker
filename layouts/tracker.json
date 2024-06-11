@@ -127,6 +127,14 @@
                                         "type": "map",
                                         "maps": ["encounters"]
                                     }
+                                },
+								{
+                                    "title": "Dexsanity",
+                                    "icon": "images/items/poke.png",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "settings_popup"
+                                    }
                                 }
                             ]
                         }

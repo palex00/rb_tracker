@@ -10,11 +10,11 @@ Just download the lastest release and put it in your packs folder.
 
 ## Option Explanations
 
+You need to track whether you free'd Fuji and whether you liberated Silph Co. manually by clicking their icon either at their respective locations or in your Item List.
+
 All of the below is basically unimportant if you're simply auto-tracking. For sake of manual tracking and a deeper explanation, all options will be explained.
 ### Items
 - Right-Click on any HM to indicate what Badge unlocks its functionality in Extra-HM-Mode
-- Fuji Event: Manual Tracking once you free Fuji from Pokémon Tower
-- Silph Co Event: Manual Tracking once you beat Giovanni in Silph Co
 - Tea: Only visible when Tea is in the pool
 - Card Key: Controlled by the Card Key Setting
 - Extra Key Items: Only visible when Extra Key Item Option is on.
@@ -48,11 +48,13 @@ All of the below is basically unimportant if you're simply auto-tracking. For sa
 
 ## Color Explanation
 - Use CTRL + P to toggle between Mixed Color Mode and Split Color Mode
+
 Split Color Mode:
 - Green: Fully in Logic
 - Yellow: Possible but out of logic
 - Red: Not possible
 - Dark Blue: Scoutable
+
 Mixed Color Mode:
 - Cyan: Location has Green and Dark Blue checks
 - Lime: Location has Green and Yellow checks

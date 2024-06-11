@@ -39,7 +39,7 @@
         "name": "encounters",
         "location_size": 20,
         "location_border_thickness": 2,
-        "img": "images/maps/map.png"
+        "img": "images/maps/map_encounter.png"
     },
     {
         "name": "cyclingroad",
