@@ -429,3 +429,14 @@ end
 function mansion()
     return max(has('opt_extra_key_items_off'), has('mansionkey'))
 end
+
+function fossils()
+    local mt_moon = max(access(pewter(),rt3()),access(surf(),cerulean()))
+    if max(mt_moon, cinnabar()) == AccessibilityLevel.Normal then
+        if access(mt_moon, cinnabar()) == AccessibilityLevel.Normal then
+            return AccessibilityLevel.Normal
+        end
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
+end
