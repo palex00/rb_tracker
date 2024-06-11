@@ -45,7 +45,7 @@ end
 function progCount(code)
 	return Tracker:FindObjectForCode(code).CurrentStage
 end
-
+--returns whether we can access all given arguments
 function access(...)
     local access = AccessibilityLevel.Normal
     local args = {...}
@@ -62,7 +62,7 @@ function access(...)
 
     return access
 end
-
+--returns the maximum accessibility of the given arguments
 function max(...)
     -- TODO: Break early if we hit max accessibility
     local maximum = AccessibilityLevel.None
