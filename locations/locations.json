@@ -3642,35 +3642,35 @@
         },
         {
           "name": "Indigo Plateau",
-          "access_rules": ["[^$indigo]"],
+          "access_rules": ["^$indigo"],
           "sections": [
             {
               "name": "Lorelei",
               "item_count": 1,
-              "access_rules": ["^$elite4","{^$scoutable}"],
+              "access_rules": ["^$elite4"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Bruno",
               "item_count": 1,
-              "access_rules": ["^$elite4","{^$scoutable}"],
+              "access_rules": ["^$elite4"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Agatha",
               "item_count": 1,
-              "access_rules": ["^$elite4","{^$scoutable}"],
+              "access_rules": ["^$elite4"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Lance",
               "item_count": 1,
-              "access_rules": ["^$elite4","{^$scoutable}"],
+              "access_rules": ["^$elite4"],
               "visibility_rules": ["trainer_on"]
             },
 	    {
 	      "name": "Beat The Game",
-              "access_rules": ["^$elite4","{^$scoutable}"],
+              "access_rules": ["^$elite4"],
 	      "hosted_item": "champ"
             }
           ],
