@@ -13,7 +13,6 @@ function split_key()
     key:OnMiddleClickFunc()
     if obj.CurrentStage == 2 then
       Tracker:AddLayouts("layouts/split_cardkey.json")
-      ScriptHost:RemoveWatchForCode('load_card_key')
     end
   end
 
