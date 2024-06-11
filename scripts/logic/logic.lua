@@ -1,3 +1,4 @@
+saffron_access = false
 -- ITEM COUNT CHECKS
 
 -- returns int of # of badges

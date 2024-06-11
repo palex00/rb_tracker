@@ -15,6 +15,7 @@ GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
 
+    saffron_access = false
     print("Contents of slot_data:")
 	for key, value in pairs(slot_data) do
 		print(key, value)
@@ -70,8 +71,7 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
 
     get_slot_options(slot_data)
-    dexsanity_init()
-    
+    dexsanity_init()    
 end
 
 -- called when an item gets collected
