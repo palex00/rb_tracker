@@ -122,7 +122,7 @@
                                 },
 								{
                                     "title": "Encounters",
-                                    "icon": "images/items/pokedex.png",
+                                    "icon": "images/items/encounter_icon.png",
                                     "content": {
                                         "type": "map",
                                         "maps": ["encounters"]
@@ -130,7 +130,7 @@
                                 },
 								{
                                     "title": "Dexsanity",
-                                    "icon": "images/items/poke.png",
+                                    "icon": "images/items/pokedex.png",
                                     "content": {
                                         "type": "layout",
                                         "key": "settings_popup"
