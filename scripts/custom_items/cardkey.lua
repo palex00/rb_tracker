@@ -12,12 +12,16 @@ function customcardkey:CanProvideCodeFunc(code)
 end
 
 function customcardkey:ProvidesCodeFunc(code)
+
+    --if it's active and vanilla cardkey, provide appropriate codes
     if self.ItemState['active'] then
-        if self.ItemState['option'] == 'vanilla' then
+        local option = self.ItemState['option']
+        if option == 'vanilla' then
             if code == 'cardkey' or code == 'keyitem' then
                 return 1
             end
-        elseif self.ItemState['option'] == 'progressive' then
+        --same thing here but  for progressive cardkey
+        elseif option == 'progressive' then
             if code == 'cardkey_progressive' or code == 'keyitem' then
                 return self.ItemState['qty']
             end
@@ -27,14 +31,15 @@ function customcardkey:ProvidesCodeFunc(code)
 end
 function customcardkey:OnLeftClickFunc()
     local mode = self.ItemState['option']
+    --return early if we have split cardkeys
     if mode == 'split' then
         return
     end
-
+    -- if we're in progressive mode, increment quantity
     if mode == 'progressive' and self.ItemState['qty'] < 10 then
         set_qty(self, self.ItemState['qty'] + 1)
     end
-
+    --set as active
     if not self.ItemState['active'] then
         self.ItemState['active'] = true
         self.IconMods = ''
@@ -44,11 +49,16 @@ end
 function customcardkey:OnRightClickFunc()
 
     local mode = self.ItemState['option']
+    --return early if it's split
+    if mode == 'split' then
+        return
+    end
         
-
+    -- if it's in the progressive state, want to update the quantity
     if mode == 'progressive' and self.ItemState['qty'] > 0 then
         set_qty(self, self.ItemState['qty'] -1 )
     end
+    --if it's vanilla, we set it to disabled (if it's not already)
     if mode == 'vanilla' and self.ItemState['active'] then
         self.ItemState['active'] = false
         self.IconMods = "@disabled"
@@ -79,6 +89,7 @@ function customcardkey:OnMiddleClickFunc()
     end
 end
 
+--updates item quanitity state and updates the overlay to display current quantity
 function set_qty(self, qty)
     self.ItemState['qty'] = qty
     if qty ~= 0 then
@@ -90,7 +101,7 @@ function set_qty(self, qty)
         set_active(self, false)
     end
 end
-
+--sets item active state and update the img to match
 function set_active(self, active)
     self.ItemState['active'] = active
     if active then

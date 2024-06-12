@@ -9,8 +9,6 @@ end
 function key_items_count()
     local count = 0
     -- accounting for the purchasable evo stones
-    --TODO: I guess this should account for sequencebreak so it can bubble up
-    -- if celadon() == AccessibilityLevel.Normal and has('opt_stonesanity_on') ~= AccessibilityLevel.Normal then
     if has('opt_stonesanity_on') == AccessibilityLevel.Normal then
         count = 4
     end
@@ -58,10 +56,6 @@ function cut()
         end
     end
     return access(has('cut'),max(has('cascade'),has('opt_hm_off'),extra))
-    -- if access(has('cut'),max(has('cascade'),has('opt_hm_off'),extra)) then
-    --     return AccessibilityLevel.Normal
-    -- end
-    -- return AccessibilityLevel.None
 end
 
 function fly()
@@ -76,10 +70,6 @@ function fly()
     end
 
     return access(has('fly'), max(has('thunder'),has('opt_hm_off'),extra))
-    -- if has('fly') and (has('thunder') or has('opt_hm_off') or extra) then
-    --     return AccessibilityLevel.Normal
-    -- end
-    -- return AccessibilityLevel.None
 end
 
 function surf()
@@ -193,9 +183,9 @@ function cerulean()
 end
 
 function vermilion()
-    local flight =  flyto('vermilion')
-    local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
-    local underground = access(officer(), max(flyto('cerulean'), access(rt3(), max(old_man(), flyto('pewter')))))
+    local flight =  flyto('vermilion') -- flight
+    local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon())) --through saffron gates
+    local underground = access(officer(), max(flyto('cerulean'), access(rt3(), max(old_man(), flyto('pewter'))))) --through underground
     local snorlax = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia'), access(surf(), strength())))--through eastern boardwalk
     local diglett = cut() --through diglett cave
     return max(flight,gate,underground, snorlax, diglett)

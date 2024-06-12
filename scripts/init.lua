@@ -16,18 +16,16 @@ function split_key()
     end
   end
 
-print("-- Example Tracker --")
+print("-- Pokemon Red/Blue Archipelago Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
 end
 
 -- Utility Script for helper functions etc.
-print("LOADING UTILS.LUA")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
-print("LOADING LOGIC.LUA")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
@@ -35,7 +33,7 @@ Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/pokedex.json")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
+if not IS_ITEMS_ONLY then 
     -- Maps
     Tracker:AddMaps("maps/maps.json")    
     -- Locations
@@ -54,11 +52,13 @@ Tracker:AddLayouts("layouts/dex.json")
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
--- Add a watch to dynamically load layout if progressive card keys enabled
+
 if PopVersion and PopVersion >= "0.1.0" then
+    -- Add a watch to dynamically load layout if progressive card keys enabled
     ScriptHost:AddWatchForCode("load_card_key", "opt_cardkey_split", split_key)
+    --add watches to hide items from the itemgrid if they're not enabled
     ScriptHost:AddWatchForCode("toggle_extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
     ScriptHost:AddWatchForCode("toggle_tea", "opt_tea", toggle_tea)
 end
-
+--load cardkey customitem
 ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')

@@ -64,7 +64,6 @@ function access(...)
 end
 --returns the maximum accessibility of the given arguments
 function max(...)
-    -- TODO: Break early if we hit max accessibility
     local maximum = AccessibilityLevel.None
     local args = {...}
 

@@ -114,6 +114,8 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+        --TODO: there's probably a better way to handle custom items?
+        --we'll investigate later 
         elseif v[1] == "cardkey" then
             set_active(customcardkey, true)
         elseif v[1] == "cardkey_progressive" then
