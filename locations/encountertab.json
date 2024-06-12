@@ -1454,8 +1454,8 @@
                 "map_locations": [
                     {
                         "map": "encounters",
-                        "x": 528,
-                        "y": 432
+                        "x": 608,
+                        "y": 458
                     }
                 ]
             },
@@ -1485,7 +1485,7 @@
 						"chest_opened_img": "images/items/doesnotexist.png"
                     }
           ],
-          "map_locations": [{ "map": "encounters", "size": 32, "x": 60, "y": 388 }]
+          "map_locations": [{ "map": "encounters", "size": 20, "x": 608, "y": 507 }]
         }
       ]
     }
