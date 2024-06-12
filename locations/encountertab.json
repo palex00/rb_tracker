@@ -1,4 +1,4 @@
-[
+df[
     {
       "name": "Encounters",
       "chest_unopened_img": "images/items/pokedex.png",
@@ -241,6 +241,7 @@
           "sections": [
 					{
 						"name": "Static Encounter: Lapras",
+                        "chest_unopened_img": "images/pokedex/lapras.png",
 						"access_rules": []
 					}
           ],
@@ -370,10 +371,12 @@
           "sections": [
 					{
 						"name": "Static Encounter: Hitmonlee",
+                        "chest_unopened_img": "images/pokedex/hitmonlee.png",
 						"access_rules": []
 					},
 					{
 						"name": "Static Encounter: Hitmonchan",
+                        "chest_unopened_img": "images/pokedex/hitmonchan.png",
 						"access_rules": []
 					}
           ],
@@ -1253,7 +1256,8 @@
                         ]
                     },
 		  {
-			  "name": "Static Encounter: Buy Magikarp"
+			  "name": "Static Encounter: Buy Magikarp",
+                        "chest_unopened_img": "images/pokedex/magikarp.png"
 		  }
           ],
           "map_locations": [{ "map": "encounters", "x": 208, "y": 112 }]
