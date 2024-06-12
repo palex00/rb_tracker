@@ -75,7 +75,7 @@ function customcardkey:OnMiddleClickFunc()
         self.ItemState['option'] = 'split'
         self.Icon = ImageReference:FromPackRelativePath('images/items/arrow_green.png')
         self.Name = "For Split Card Key, look below"
-        self.IconMods = '@disabled'
+        self.IconMods = ''
     end
 end
 
