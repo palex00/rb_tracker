@@ -368,7 +368,7 @@ end
 
 function fossils()
     local mt_moon = max(access(pewter(),rt3()),access(surf(),cerulean()))
-    if max(mt_moon, cinnabar()) == AccessibilityLevel.Normal then
+    if max(mt_moon) == AccessibilityLevel.Normal then
         if access(mt_moon, cinnabar()) == AccessibilityLevel.Normal then
             return AccessibilityLevel.Normal
         end
