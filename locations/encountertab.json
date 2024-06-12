@@ -1251,7 +1251,10 @@
                         "clear_as_group": false,
                         "visibility_rules": ["opt_encounter_ten"
                         ]
-                    }
+                    },
+		  {
+			  "name": "Static Encounter: Buy Magikarp"
+		  }
           ],
           "map_locations": [{ "map": "encounters", "x": 208, "y": 112 }]
         },
