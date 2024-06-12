@@ -1,5 +1,5 @@
 ITEM_MAPPING = {
-    [172000005] = {"townmap", "keyitem","toggle"},
+    [172000005] = {"townmap","toggle"},
     [172000006] = {"bicycle","toggle"},
     [172000009] = {"pokedex","toggle"},
     [172000010] = {"moonstone","toggle"},
