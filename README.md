@@ -61,5 +61,5 @@ Mixed Color Mode:
 - Orange: Location has Green and Red checks
 - Dark Orange: Location has Red and Yellow Checks
   
-## License
-The "Ride till we die"-license. If both developers (palex00 and Coveleski) cannot be reached for a month, you are free to fork this and continue development. 
+## Credits
+Thanks to Cyb3RGER for the fantastic poptracker template pack!
