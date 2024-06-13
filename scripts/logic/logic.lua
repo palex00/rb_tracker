@@ -34,10 +34,11 @@ function pokedex_count()
     end
     return (100 * hundreds) + (10 * tens) + ones
 end
--- returns int of # of fossiles
-function fossil_count()
+-- returns whether we have enough fossils for a second check
+function enough_fossils()
     local fossils = Tracker:ProviderCountForCode("fossil")
-    return fossils
+    local fossils_req = Tracker:FindObjectForCode('opt_fossilcheck').AcquiredCount
+    return fossils >= fossils_req
 end
 
 -- HM CHECKS
@@ -368,11 +369,12 @@ end
 
 function fossils()
     local mt_moon = max(access(pewter(),rt3()),access(surf(),cerulean()))
-    if max(mt_moon) == AccessibilityLevel.Normal then
-        if access(mt_moon, cinnabar()) == AccessibilityLevel.Normal then
+    if mt_moon == AccessibilityLevel.Normal then
+        if access(mt_moon, cinnabar()) == AccessibilityLevel.Normal and enough_fossils() then
             return AccessibilityLevel.Normal
         end
         return AccessibilityLevel.SequenceBreak
     end
+    print(enough_fossils())
     return AccessibilityLevel.None
 end
