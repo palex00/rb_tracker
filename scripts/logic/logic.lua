@@ -199,7 +199,7 @@ function celadon()
     local flute = has('pokeflute')
     local boulders = extra_boulders()
 
-    local cerulean = max(flyto('cerulean'),flyto('vermilion'),access(rt3(),max(old_man(),cut(),flyto('pewter'))))
+    local cerulean = max(flyto('cerulean'),flyto('vermilion'),cut(),access(rt3(),max(old_man(),cut(),flyto('pewter'))))
     local rocktunnel = access(cerulean, rock_tunnel(), cut())
 
     local flight = max(flyto('celadon'),flyto('lavender'))
