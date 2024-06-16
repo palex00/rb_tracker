@@ -16,10 +16,14 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
 
     saffron_access = AccessibilityLevel.None
-    print("Contents of slot_data:")
-	for key, value in pairs(slot_data) do
-		print(key, value)
-	end
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print("Contents of slot_data:")
+        for key, value in pairs(slot_data) do
+            print(key, value)
+        end
+    end
+
+    reset_cardkey(customcardkey)
 
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -69,7 +73,6 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-
     get_slot_options(slot_data)
     dexsanity_init()    
 end
