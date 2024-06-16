@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.1",
+			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.1.zip",
+			"sha256": "1018015241B40D8E83775D7CFFA96356927F56B7063D2B8C654D57DA14691F33",
+			"changelog": ["Post-release bug fixes", "Tracking for 0.5.0 slotdata"]
+		},
+		{
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.0.zip",
 			"sha256": "985D19EED0675716B1644E1E3C841E18816F6DEA7D3FE15CEF3C26C9F3A57A7F",
