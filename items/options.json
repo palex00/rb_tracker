@@ -44,18 +44,19 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
+        "initial_stage_idx": 1,
         "stages": [
-            {
-                "name": "Rocktunnel - Flash in logic",
-                "img": "images/items/flash_required.png",
-                "codes": "opt_dark_rock_tunnel,opt_dark_rock_tunnel_off"
-            },
             {
                 "name": "Rocktunnel - No Flash in logic",
                 "img": "images/items/flash_required.png",
 				"img_mods": "@disabled",
                 "codes": "opt_dark_rock_tunnel, opt_dark_rock_tunnel_on",
                 "inherit_codes": false
+            },
+            {
+                "name": "Rocktunnel - Flash in logic",
+                "img": "images/items/flash_required.png",
+                "codes": "opt_dark_rock_tunnel,opt_dark_rock_tunnel_off"
             }
         ]
     },
