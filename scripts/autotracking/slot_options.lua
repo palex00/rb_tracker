@@ -36,7 +36,14 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["extra_key_items"] then
-		Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
+		--we need to force an item-code change
+		local current = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
+		local sd_value = slot_data["extra_key_items"]
+		if current == sd_value then
+			toggle_extra_key_items()
+		else
+			Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = sd_value
+		end
 	end
 
     if slot_data["extra_strength_boulders"] then
@@ -44,7 +51,13 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["tea"] then
-		Tracker:FindObjectForCode('opt_tea').CurrentStage = slot_data["tea"]
+		local current = Tracker:FindObjectForCode('opt_tea').CurrentStage
+		local sd_value = slot_data["tea"]
+		if current == sd_value then
+			toggle_tea()
+		else
+			Tracker:FindObjectForCode('opt_tea').CurrentStage = sd_value
+		end
 	end
 
     if slot_data["old_man"] then
@@ -199,16 +212,40 @@ function get_slot_options(slot_data)
 		Tracker:FindObjectForCode('opt_dark_rock_tunnel').CurrentStage = slot_data["dark_rock_tunnel_logic"]
 	end
 
+	if slot_data["require_pokedex"] then
+		Tracker:FindObjectForCode('opt_dex_required').CurrentStage = slot_data["require_pokedex"]
+	end
+
+	if slot_data["blind_trainers"] then
+		local sd_value = slot_data["blind_trainers"]
+		if sd_value == 100 then
+			Tracker:FindObjectForCode('opt_blind_trainers').CurrentStage = 1
+		else
+			Tracker:FindObjectForCode('opt_blind_trainers').CurrentStage = 0
+		end
+	end
+
+	if slot_data["area_1_to_1_mapping"] then
+		local obj = Tracker:FindObjectForCode('opt_encounter') 
+		obj.CurrentStage = slot_data["area_1_to_1_mapping"]
+		obj.Active = true
+	end
+
     if slot_data["split_card_key"] then
 		local obj = Tracker:FindObjectForCode("opt_cardkey")
 		if obj then
-			tmp = slot_data["split_card_key"]
-			if tmp == 2 then
-				tmp = 1
-			elseif tmp == 1 then
-				tmp = 2
+			local current = obj.CurrentStage
+			local sd_value  = slot_data["split_card_key"]
+			if sd_value == 2 then
+				sd_value = 1
+			elseif sd_value == 1 then
+				sd_value = 2
 			end
-			obj.CurrentStage = tmp
+			if current == sd_value then
+				split_key()
+			else
+				obj.CurrentStage = sd_value
+			end
 		end
 	end
 end
