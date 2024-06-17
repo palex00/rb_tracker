@@ -114,7 +114,8 @@ function flash()
 end
 
 function flyto(location)
-    return access(fly(),has("fly_"..location))
+    local map = access(has("map_fly_"..location),has('townmap'))
+    return access(fly(),max(map,has("fly_"..location)))
 end
 
 -- ITEM ACCESS CHECKS

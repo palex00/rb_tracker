@@ -723,66 +723,66 @@
             {
                 "name": "Pallet",
                 "img": "images/items/mpallet.png",
-                "codes": "tm_free_fly, fly_pallet"
+                "codes": "tm_free_fly, map_fly_pallet"
             },
             {
                 "name": "Viridian",
                 "img": "images/items/mviridian.png",
-                "codes": "tm_free_fly, fly_viridian",
+                "codes": "tm_free_fly, map_fly_viridian",
                 "inherit_codes": false
             },
             {
                 "name": "Pewter",
                 "img": "images/items/mpewter.png",
-                "codes": "tm_free_fly, fly_pewter",
+                "codes": "tm_free_fly, map_fly_pewter",
                 "inherit_codes": false
             },
             {
                 "name": "Cerulean",
                 "img": "images/items/mcerulean.png",
-                "codes": "tm_free_fly, fly_cerulean",
+                "codes": "tm_free_fly, map_fly_cerulean",
                 "inherit_codes": false
             },
             {
                 "name": "Lavender",
                 "img": "images/items/mlavender.png",
-                "codes": "tm_free_fly, fly_lavender",
+                "codes": "tm_free_fly, map_fly_lavender",
                 "inherit_codes": false
             },
             {
                 "name": "Vermilion",
                 "img": "images/items/mvermilion.png",
-                "codes": "tm_free_fly, fly_vermilion",
+                "codes": "tm_free_fly, map_fly_vermilion",
                 "inherit_codes": false
             },
             {
                 "name": "Celadon",
                 "img": "images/items/mceladon.png",
-                "codes": "tm_free_fly, fly_celadon",
+                "codes": "tm_free_fly, map_fly_celadon",
                 "inherit_codes": false
             },
             {
                 "name": "Fuchsia",
                 "img": "images/items/mfuchsia.png",
-                "codes": "tm_free_fly, fly_fuchsia",
+                "codes": "tm_free_fly, map_fly_fuchsia",
                 "inherit_codes": false
             },
             {
                 "name": "Cinnabar",
                 "img": "images/items/mcinnabar.png",
-                "codes": "tm_free_fly, fly_cinnabar",
+                "codes": "tm_free_fly, map_fly_cinnabar",
                 "inherit_codes": false
             },
             {
                 "name": "Indigo Plateau",
                 "img": "images/items/mindigo.png",
-                "codes": "tm_free_fly, fly_indigo",
+                "codes": "tm_free_fly, map_fly_indigo",
                 "inherit_codes": false
             },
             {
                 "name": "Saffron",
                 "img": "images/items/msaffron.png",
-                "codes": "tm_free_fly, fly_saffron",
+                "codes": "tm_free_fly, map_fly_saffron",
                 "inherit_codes": false
             }
         ]
