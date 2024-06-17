@@ -8,10 +8,6 @@ end
 -- returns int of # of key items
 function key_items_count()
     local count = 0
-    -- accounting for the purchasable evo stones
-    if has('opt_stonesanity_on') == AccessibilityLevel.Normal then
-        count = 4
-    end
     return count  + Tracker:ProviderCountForCode('keyitem')
 end
 -- returns int of # of pokemon caught
