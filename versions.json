@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.4",
+			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.4.zip",
+			"sha256": "58083D3F829AFCF73C739C128B60EB77806E23A8D36D23530D3116CCA931D8A0",
+			"changelog": ["fixed incorrect rock tunnel access rules"]
+		},
+		{
 			"package_version": "1.0.3",
 			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.3.zip",
 			"sha256": "E9B23B65CBFD4A812E06DE0A3407C71257EF33CC5CB58976E1ACDFA771F55EED",
