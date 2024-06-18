@@ -697,7 +697,7 @@
         },
         {
           "name": "Route 12 North",
-          "access_rules": ["^$lavender","^$cerulean,^$extra_boulders,pokeflute","^$fuchsia,^$extra_boulders,pokeflute"],
+          "access_rules": ["^$lavender","^$vermilion,^$extra_boulders,pokeflute","^$fuchsia,^$extra_boulders,pokeflute"],
           "sections": [
             {
               "name": "Mourning Girl",
