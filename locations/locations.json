@@ -740,7 +740,7 @@
         },
         {
           "name": "Route 11-12 Gatehouse",
-          "access_rules": ["^$cerulean,^$extra_boulders","^$lavender,pokeflute"],
+          "access_rules": ["^$vermilion","^$lavender,pokeflute"],
           "sections": [
             {
               "name": "Oak's Aide",
@@ -2816,7 +2816,7 @@
         },
         {
           "name": "Route 11",
-          "access_rules": ["^$cerulean"],
+          "access_rules": ["^$vermilion"],
           "sections": [
             {
               "name": "Youngster 1",
