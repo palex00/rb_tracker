@@ -2,6 +2,12 @@
 	"versions": [
 		{
 			"package_version": "1.0.2",
+			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.3.zip",
+			"sha256": "E9B23B65CBFD4A812E06DE0A3407C71257EF33CC5CB58976E1ACDFA771F55EED",
+			"changelog": ["rock tunnel sux"]
+		},
+		{
+			"package_version": "1.0.2",
 			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.2.zip",
 			"sha256": "9F8BCC75EC7AC4BFB9B84344E37B96E15C7371D589C4B6A80A6DA385D8D53F57",
 			"changelog": ["Fixed key item counts", "Town map free fly fixed"]
