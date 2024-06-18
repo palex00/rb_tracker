@@ -56,7 +56,8 @@
             {
                 "name": "Rocktunnel - Flash in logic",
                 "img": "images/items/flash_required.png",
-                "codes": "opt_dark_rock_tunnel,opt_dark_rock_tunnel_off"
+                "codes": "opt_dark_rock_tunnel,opt_dark_rock_tunnel_off",
+                "inherit_codes": false
             }
         ]
     },
