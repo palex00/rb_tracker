@@ -134,7 +134,7 @@
         },
         {
           "name": "Route 12 South",
-          "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$lavender,flute","^$vermilion,flute,^$extra_boulders","^$fuchsia,^$surf"],
+          "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$lavender,pokeflute","^$vermilion,pokeflute,^$extra_boulders","^$fuchsia,^$surf"],
           "sections": [
             {
               "name": "Fisherman 5",
@@ -2686,78 +2686,78 @@
         },
         {
           "name": "Route 13",
-          "access_rules": ["^$fuchsia"],
+          "access_rules": [],
           "sections": [
             {
               "name": "Jr. Trainer F 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$lavender,pokeflute","^$vermilion,pokeflute,^$extra_boulders","^$fuchsia,^$surf"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Bird Keeper 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$lavender,pokeflute","^$vermilion,pokeflute,^$extra_boulders","^$fuchsia,^$surf"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Jr. Trainer F 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia,^$extra_boulders","^$lavender,^$surf","^$lavender,pokeflute","^$vermilion,pokeflute,^$extra_boulders","^$fuchsia,^$surf"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Beauty 1",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Beauty 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Jr. Trainer F 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "HI: Dead End By Water Corner",
               "item_count": 1,
-              "access_rules": ["^$hidden"],
+              "access_rules": ["^$fuchsia,^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Jr. Trainer F 4",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Bird Keeper 2",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "HI: Dead End Bush",
               "item_count": 1,
-              "access_rules": ["^$hidden"],
+              "access_rules": ["^$fuchsia,^$hidden"],
               "visibility_rules": ["opt_hidden_items_on"]
             },
             {
               "name": "Bird Keeper 3",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             },
             {
               "name": "Biker",
               "item_count": 1,
-              "access_rules": [],
+              "access_rules": ["^$fuchsia"],
               "visibility_rules": ["trainer_on"]
             }
           ],
