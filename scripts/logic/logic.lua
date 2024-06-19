@@ -211,7 +211,7 @@ function celadon()
     local flight = max(flyto('celadon'),flyto('lavender'))
     local gate = access(saffron_access,has('tea'))
     local reverse_lavender = access(surf(),strength())
-    local via_fuchsia = access(flyto('fuchsia'),flute,max(boulders,cyclingroad()))
+    local via_fuchsia = access(flyto('fuchsia'),max(surf(),cyclingroad(),access(flute,boulders)))
     local via_vermilion = access(cerulean,max(has('tea'),access(flute,boulders)))
     return max(flight,gate,reverse_lavender,via_fuchsia,via_vermilion, rocktunnel)
 end
