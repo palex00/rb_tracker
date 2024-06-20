@@ -77,9 +77,9 @@ function onClear(slot_data)
     get_slot_options(slot_data)
     local ap_locations = get_ap_locations()
     dexsanity_init(ap_locations)
-    -- if Tracker:FindObjectForCode('opt_trainersanity_on') then
-    --     trainersanity_init(ap_locations)
-    -- end
+    if Tracker:FindObjectForCode('trainer_on') then
+        trainersanity_init(ap_locations)
+    end
 end
 
 -- called when an item gets collected
