@@ -282,16 +282,21 @@ function dexsanity_init(locations)
 	end
 end
 
-function trainersanity_init(locations)
-	-- trainersanity checks have ids in the range 172000215-172000531
-	local start_index = 172000215
-	local end_index = 172000531
-	for i = start_index, end_index do
-		local location_exists = locations[index]
-		if location_exists then
-			TRAINERSANITY_LOCATIONS[i] = true
-		else
-			TRAINERSANITY_LOCATIONS[i] = false
-		end
-	end
-end	
+-- function trainersanity_init(locations)
+-- 	-- trainersanity checks have ids in the range 172000215-172000531
+-- 	local start_index = 172000215
+-- 	local end_index = 172000531
+-- 	print(dump_table(locations, 1))
+-- 	for i = start_index, end_index do
+-- 		print(i .. ': ' .. tostring(locations[i]))
+-- 		local location_exists = locations[i]
+-- 		-- print(location_exists)
+-- 		if location_exists then
+-- 			TRAINERSANITY_LOCATIONS[i] = true
+-- 			print("Trainersanity Location enabled:  " .. i .. "#############################################")
+-- 		else
+-- 			TRAINERSANITY_LOCATIONS[i] = false
+-- 			-- print("Trainersanity Location disabled:  " .. i)
+-- 		end
+-- 	end
+-- end	

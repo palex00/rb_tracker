@@ -1,7 +1,33 @@
 saffron_access = AccessibilityLevel.None
+TRAINERSANITY_LOCATIONS = {}
+TABLE_DUMP = TRUE
+
 function trainer_visible(id)
-    return TRAINERSANITY_LOCATIONS[id]
+    local obj = Tracker:FindObjectForCode('opt_trn')
+    if (obj.CurrentStage == 0) then
+        return false
+    end
+    -- playernumber doesn't matter, just checking if we're connected
+    if Archipelago.PlayerNumber < 1 then
+        return true
+    end
+
+    local key = tonumber(id)
+    local x = TRAINERSANITY_LOCATIONS[key]
+    return TRAINERSANITY_LOCATIONS[key]
 end
+
+function trainersanity_init(locations)
+    TRAINERSANITY_LOCATIONS = {}
+    -- trainersanity checks have ids in the range 172000215-172000531
+    local start_index = 172000215
+    local end_index = 172000531
+    for i = start_index, end_index do
+        local location_exists = locations[i]
+        TRAINERSANITY_LOCATIONS[i] = location_exists
+    end
+end	
+
 -- ITEM COUNT CHECKS
 
 -- returns int of # of badges
