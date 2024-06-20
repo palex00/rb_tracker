@@ -1,4 +1,7 @@
 saffron_access = AccessibilityLevel.None
+function trainer_visible(id)
+    return TRAINERSANITY_LOCATIONS[id]
+end
 -- ITEM COUNT CHECKS
 
 -- returns int of # of badges

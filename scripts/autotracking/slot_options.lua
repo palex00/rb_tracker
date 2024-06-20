@@ -250,23 +250,12 @@ function get_slot_options(slot_data)
 	end
 end
 
-function dexsanity_init()
-    local missing = Archipelago.MissingLocations
-	local locations = Archipelago.CheckedLocations
-	local dex_checks = {}
-    --loop through all checked and unchecked locations
-	for _, v in pairs(missing) do
-		dex_checks[v] = true
-	end
-	for _, v in pairs(locations) do
-		dex_checks[v] = true
-	end
-
+function dexsanity_init(locations)
 	local count = 0
 	for i = 0, 150 do
         --check to see if the dexsanity location exists in the list of all checks
 		local index = i + 172000549
-		local check_exists = dex_checks[index]
+		local check_exists = locations[index]
 		if check_exists then
 			count = count + 1
 		end
@@ -291,5 +280,18 @@ function dexsanity_init()
 		end
 		
 	end
-
 end
+
+function trainersanity_init(locations)
+	-- trainersanity checks have ids in the range 172000215-172000531
+	local start_index = 172000215
+	local end_index = 172000531
+	for i = start_index, end_index do
+		local location_exists = locations[index]
+		if location_exists then
+			TRAINERSANITY_LOCATIONS[i] = true
+		else
+			TRAINERSANITY_LOCATIONS[i] = false
+		end
+	end
+end	
