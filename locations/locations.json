@@ -4336,13 +4336,7 @@
 			  "name": "Beat The Game",	
               "access_rules": ["^$elite4"],	
               "hosted_item": "champ"	
-            },
-			{
-				"name": "Colors explained:\n- Red means you cannot access Indigo Plateau\n- Blue means you can access Indigo Plateau but cannot battle the E4 yet.\n- Yellow means you can access and you have enough Badges and Key Items.\n  We don't know if you have caught enough Pokémon, even with Full Dexsanity\n  Setting, since checks could have been collected out.\n- Green means you can definitely challenge the Elite 4.",
-				"access_rules": ["$^elite4"],
-				"chest_unopened_img": "images/items/doesnotexist.png",
-				"chest_opened_img": "images/items/doesnotexist.png"
-			}
+            }
           ],	
           "map_locations": [{ "map": "map", "x": 80, "y": 80, "size": 27, "border_thickness": 4 }]	
         },	
