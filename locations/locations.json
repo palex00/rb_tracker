@@ -4345,25 +4345,19 @@
           "access_rules": ["^$celadon,coincase"],	
           "sections": [	
             {	
-              "name": "West Gambler Gift",	
-              "chest_unopened_img": "images/trainers/eastgamblergift.png",
-              "chest_opened_img": "images/trainers/eastgamblergift_done.png",	
+              "name": "West Gambler Gift",
               "item_count": 1,	
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
             },	
             {	
-              "name": "Center Gambler Gift",	
-              "chest_unopened_img": "images/trainers/centergamblergift.png",
-              "chest_opened_img": "images/trainers/centergamblergift_done.png",	
+              "name": "Center Gambler Gift",
               "item_count": 1,	
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
             },	
             {	
-              "name": "East Gambler Gift",	
-              "chest_unopened_img": "images/trainers/eastgamblergift.png",
-              "chest_opened_img": "images/trainers/eastgamblergift_done.png",	
+              "name": "East Gambler Gift",
               "item_count": 1,	
               "access_rules": [],	
               "visibility_rules": ["opt_keyonly_off"]	
