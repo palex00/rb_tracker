@@ -5,6 +5,7 @@
     "package_uid": "pokemonrb_ap",
     "author": "Coveleski & palex00",
     "versions_url": "https://raw.githubusercontent.com/coveleski/rb2/versions/versions.json",
+    "min_poptracker_version": "0.26.0",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
