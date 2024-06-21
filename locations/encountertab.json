@@ -1023,7 +1023,7 @@
         },
         {
           "name": "S.S. Anne",
-          "access_rules": ["$celadon,ssticket"],
+          "access_rules": ["$vermilion,ssticket"],
           "sections": [
 					{
 						"name": "Static Encounter: Mew",
