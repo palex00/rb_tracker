@@ -609,7 +609,7 @@
         "type": "progressive",
         "allow_disabled": false,
         "img": "images/items/safaripass.png",
-        "codes": "tea,keyitem",
+        "codes": "tea",
 		"stages": [
             {
                 "name": "",
