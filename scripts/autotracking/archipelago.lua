@@ -12,6 +12,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+-- TRAINERSANITY_LOCATIONS = {}
 
 function onClear(slot_data)
 
@@ -73,8 +74,17 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+    TRAINERSANITY_LOCATIONS = {}
+    IS_CONNECTED = TRUE
     get_slot_options(slot_data)
-    dexsanity_init()    
+    local ap_locations = get_ap_locations()
+    if Tracker:FindObjectForCode('trainer_on') then
+        trainersanity_init(ap_locations)
+    end
+    -- we run this after trainersanity for /reasons/
+    --because visiblity rules don't update until an item code changes
+    -- so we might as well update these ones after
+    dexsanity_init(ap_locations)
 end
 
 -- called when an item gets collected
