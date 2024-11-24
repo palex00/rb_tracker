@@ -7,6 +7,10 @@ local variant = Tracker.ActiveVariantUID
 IS_ITEMS_ONLY = variant:find("itemsonly")
 IS_PSEUDOTRACKING = variant:find("eventpseudotracking")
 
+function debug()
+    trainer_visible(172000458)
+end
+
 function split_key()
     local obj =  Tracker:FindObjectForCode('opt_cardkey_split')
     key = Tracker:FindObjectForCode('custom_cardkey')
@@ -60,6 +64,8 @@ if PopVersion and PopVersion >= "0.1.0" then
     --add watches to hide items from the itemgrid if they're not enabled
     ScriptHost:AddWatchForCode("toggle_extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
     ScriptHost:AddWatchForCode("toggle_tea", "opt_tea", toggle_tea)
+    ScriptHost:AddWatchForCode("debug", "coincase", debug)
+
 end
 --load cardkey customitem
 ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')

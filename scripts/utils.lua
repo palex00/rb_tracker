@@ -103,6 +103,21 @@ function toggle_tea()
     end
 end
 
+
+function get_ap_locations()
+    local missing = Archipelago.MissingLocations
+	local locations = Archipelago.CheckedLocations
+	local existing_locations = {}
+    --loop through all checked and unchecked locations
+	for _, v in pairs(missing) do
+		existing_locations[v] = true
+	end
+	for _, v in pairs(locations) do
+		existing_locations[v] = true
+	end
+  return existing_locations
+end
+
 function toggle_item(code)
   local active = Tracker:FindObjectForCode(code).Active
   code = code.."_hosted"
