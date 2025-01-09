@@ -214,10 +214,10 @@ end
 function cerulean()
     local flight =  flyto('cerulean')
     local underground = max(cut(), flyto('vermilion'))
-    local underground_via_boardwalk = access(has('pokeflute'),extra_boulders(), max(access(surf(), strength()), flyto('fuchsia')))
+    local underground_via_snorlax = access(has('pokeflute'), extra_boulders(), max(access(surf(), strength()), flyto('fuchsia'), lavender()))
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
     local rt3_passable = access(rt3(),max(old_man(),cut(),flyto('pewter')))
-    return max(flight, underground, gate, rt3_passable, underground_via_boardwalk)
+    return max(flight, underground, gate, rt3_passable, underground_via_snorlax)
 end
 
 function vermilion()
