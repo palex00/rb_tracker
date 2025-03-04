@@ -36,8 +36,11 @@ function badges_count()
 end
 -- returns int of # of key items
 function key_items_count()
-    local count = 0
-    return count  + Tracker:ProviderCountForCode('keyitem')
+    if Tracker:FindObjectForCode('v5_update').CurrentStage == 0 then
+        return Tracker:ProviderCountForCode('keyitem')
+    elseif Tracker:FindObjectForCode('v5_update').CurrentStage == 1 then
+        return Tracker:ProviderCountForCode('keyitem') + Tracker:ProviderCountForCode('newkeyitem')
+    end
 end
 -- returns int of # of pokemon caught
 function pokedex_count()
@@ -211,10 +214,10 @@ end
 function cerulean()
     local flight =  flyto('cerulean')
     local underground = max(cut(), flyto('vermilion'))
-    local underground_via_boardwalk = access(has('pokeflute'),extra_boulders(), max(access(surf(), strength()), flyto('fuchsia')))
+    local underground_via_snorlax = access(has('pokeflute'), extra_boulders(), max(access(surf(), strength()), flyto('fuchsia'), lavender()))
     local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
     local rt3_passable = access(rt3(),max(old_man(),cut(),flyto('pewter')))
-    return max(flight, underground, gate, rt3_passable, underground_via_boardwalk)
+    return max(flight, underground, gate, rt3_passable, underground_via_snorlax)
 end
 
 function vermilion()
