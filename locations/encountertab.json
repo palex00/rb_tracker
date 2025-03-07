@@ -68,6 +68,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Oddish, Gloom, Venonat",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Venonat, Bellsprout, Weepinbell",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -133,6 +149,14 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Pidgey, Oddish, Gloom, Venonat",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -182,6 +206,22 @@
                         ]
                     },
                     {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Weedle, Pidgey, Rattata",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Caterpie, Pidgey, Rattata",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "Trade",
                         "access_rules": [
                             "^$cut",
@@ -218,6 +258,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Diglett, Dugtrio",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -287,6 +335,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Weedle, Kakuna, Pidgey, Oddish, Abra",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Caterpie, Metapod, Pidgey, Abra, Bellsprout",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -317,6 +381,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Caterpie, Metapod, Weedle, Kakuna, Pidgey, Oddish, Abra",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Caterpie, Metapod, Weedle, Kakuna, Pidgey, Abra, Bellsprout",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -439,6 +519,17 @@
                         ]
                     },
                     {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Rattata, Raticate, Spearow, Doduo",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "access_rules": [
+                            "@Kanto/Route 16/Fly House Woman"
+                        ]
+                    },
+                    {
                         "name": "Static Encounter: Snorlax",
                         "access_rules": [
                             "pokeflute, @Kanto/Celadon City" // If you have the pokeflute and come from below, you already have access to celadon
@@ -476,6 +567,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Pidgeotto, Oddish, Gloom, Venonat, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Pidgeotto, Venonat, Bellsprout, Weepinbell, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -509,6 +616,22 @@
                         ]
                     },
                     {
+                        "name": "Center Zone Pokémon (Vanilla - Red)",
+                        "hosted_item": "Nidorina, Nidoran Male, Nidorino, Parasect, Venonat, Exeggcute, Rhyhorn, Chansey, Scyther",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Center Zone Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Nidoran Female, Nidorina, Nidorino, Parasect, Venonat, Exeggcute, Rhyhorn, Chansey, Pinsir",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "East Zone Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
@@ -522,6 +645,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "East Zone Pokémon (Vanilla - Red)",
+                        "hosted_item": "Nidoran Female, Nidoran Male, Nidorino, Paras, Parasect, Doduo, Exeggcute, Kangaskhan, Scyther",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "East Zone Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Nidoran Female, Nidorina, Nidoran Male, Paras, Parasect, Doduo, Exeggcute, Kangaskhan, Pinsir",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     },
                     {
@@ -541,6 +680,22 @@
                         ]
                     },
                     {
+                        "name": "North Zone Pokémon (Vanilla - Red)",
+                        "hosted_item": "Nidorina, Nidoran Male, Nidorino, Paras, Venomoth, exeggcute, Rhyhorn, Chansey, Tauros",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "North Zone Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Nidoran Female, Nidorina, Nidorino, Paras, Venomoth, Exeggcute, Rhyhorn, Chansey, Tauros",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "West Zone Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
@@ -554,6 +709,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "West Zone Pokémon (Vanilla - Red)",
+                        "hosted_item": "Nidoran Female, Nidoran Male, Nidorino, Venonat, Venomoth, Doduo, Exeggcute, Kangaskhan, Tauros",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "West Zone Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Nidoran Female, Nidorina, Nidoran Male, Venonat, Venomoth, Doduo, Exeggcute, Kangaskhan, Tauros",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -657,6 +828,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Rattata, Spearow, Ekans",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Rattata, Spearow, Sandshrew",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -687,6 +874,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Rattata, Spearow, Ekans",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Rattata, Spearow, Sandshrew",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -721,6 +924,22 @@
                         ]
                     },
                     {
+                        "name": "1F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Arbok, Raichu, Golbat, Parasect, Venomoth, Kadabra, Magneton, Dodrio, Hypno, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "1F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Raichu, Sandslash, Golbat, Parasect, Venomoth, Kadabra, Magneton, Dodrio, Hypno, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "2F Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
@@ -737,6 +956,14 @@
                         ]
                     },
                     {
+                        "name": "2F Pokémon (Vanilla)",
+                        "hosted_item": "Wigglytuff, Venomoth, Kadabra, Dodrio, Electrode, Marowak, Rhydon, Chansey, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
                         "name": "B2F Pokémon 1:1",
                         "item_count": 8,
                         "clear_as_group": false,
@@ -750,6 +977,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Arbok, Raichu, Parasect, Electrode, Marowak, Rhydon, Chansey, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Raichu, Sandslash, Parasect, Electrode, Marowak, Rhydon, Chansey, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     },
                     {
@@ -852,6 +1095,14 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Tower - Pokémon (Vanilla)",
+                        "hosted_item": "Gastly, Haunter, Cubone",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -882,6 +1133,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Oddish, Mankey",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Meowth, Bellsprout",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -916,6 +1183,22 @@
                         ]
                     },
                     {
+                        "name": "1F-B1F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Growlithe, Ponyta, Grimer, Muk, Koffing, Weezing",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "1F-B1F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Vulpix, Ponyta, Grimer, Muk, Koffing, Weezing",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "2F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
@@ -945,6 +1228,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "3F & B1F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Magmar",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     },
                     {
@@ -995,6 +1286,22 @@
                         ]
                     },
                     {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pikachu, Magnemite, Magneton, Voltorb, Electabuzz",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pikachu, Raichu, Magnemite, Magneton, Voltorb",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "Static Encounter: Balls",
                         "access_rules": [],
                         "item_count": 6,
@@ -1025,8 +1332,8 @@
                         "name": "1F Pokémon 1:1",
                         "item_count": 8,
                         "clear_as_group": false,
-                "access_rules": [
-                    "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
+                        "access_rules": [
+                            "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
                             "opt_encounter_one"
@@ -1036,19 +1343,31 @@
                         "name": "1F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                "access_rules": [
-                    "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
+                        "access_rules": [
+                            "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
                     },
                     {
+                        "name": "1F Pokémon (Vanilla)",
+                        "hosted_item": "Zubat, Golbat, Machop, Machoke, Geodude, Graveler, Onix, Marowak",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
+                ],
+                        
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "2F Pokémon 1:1",
                         "item_count": 9,
                         "clear_as_group": false,
-                "access_rules": [
-                    "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
+                        "access_rules": [
+                            "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
                 ],
                         "visibility_rules": [
                             "opt_encounter_one"
@@ -1058,19 +1377,31 @@
                         "name": "2F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                "access_rules": [
-                    "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
+                        "access_rules": [
+                            "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
                 ],
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
                     },
                     {
+                        "name": "2F Pokémon (Vanilla)",
+                        "hosted_item": "Zubat, Golbat, Machop, Machoke, Geodude, Graveler, Onix, Marowak",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
+                ],
+                        
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "3F Pokémon 1:1",
                         "item_count": 8,
                         "clear_as_group": false,
-                "access_rules": [
-                    "@Kanto/Indigo Plateau"
+                        "access_rules": [
+                            "@Kanto/Indigo Plateau"
                 ],
                         "visibility_rules": [
                             "opt_encounter_one"
@@ -1080,11 +1411,23 @@
                         "name": "3F Pokémon",
                         "item_count": 10,
                         "clear_as_group": false,
-                "access_rules": [
-                    "@Kanto/Indigo Plateau"
+                        "access_rules": [
+                            "@Kanto/Indigo Plateau"
                 ],
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "3F Pokémon (Vanilla)",
+                        "hosted_item": "Zubat, Golbat, Venomoth, Machop, Machoke, Geodude, Graveler, Onix",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Kanto/Indigo Plateau"
+                ],
+                        
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     },
                     {
@@ -1123,7 +1466,15 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
-                    }
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Caterpie, Metapod, Weedle, Kakuna, Pikachu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
+                    },
                 ],
                 "map_locations": [
                     {
@@ -1186,6 +1537,14 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "1F-B2F Pokémon (Vanilla)",
+                        "hosted_item": "Clefairy, Zubat, Paras, Geodude",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1247,6 +1606,14 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "1F-B1F Pokémon (Vanilla)",
+                        "hosted_item": "Zubat, Machop, Geodude, Onix",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1277,6 +1644,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Spearow, Ekans, Voltorb",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -1329,6 +1704,24 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "`Pidgey, Oddish, Gloom, Venonat, Ditto",
+                        "access_rules": ["^$cut"],
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Venonat, Bellsprout, Weepinbell, Ditto",
+                        "access_rules": ["^$cut"],
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1362,6 +1755,22 @@
                         ]
                     },
                     {
+                        "name": "1F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Zubat, Golbat, Psyduck, Golduck, Slowpoke, Seel, Shellder, Horsea",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "1F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Zubat, Golbat, Psyduck, Slowpoke, Slowbro, Seel, Krabby, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "B1F Pokémon 1:1",
                         "item_count": 7,
                         "clear_as_group": false,
@@ -1375,6 +1784,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "B1F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Slowpoke, Seel, Dewgong, Shellder, Horsea, Seadra, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "B1F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Psyduck, Seel, Dewgong, Shellder, Krabby, Kingler, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     },
                     {
@@ -1394,6 +1819,22 @@
                         ]
                     },
                     {
+                        "name": "B2F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Golbat, Slowpoke, Slowbro, Seel, Shellder, Horsea, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "B2F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Golbat, Psyduck, Golduck, Seel, Shellder, Krabby, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "B3F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
@@ -1410,6 +1851,22 @@
                         ]
                     },
                     {
+                        "name": "B3F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Slowpoke, Seel, Dewgong, Shellder, Horsea, Seadra",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "B3F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Psyduck, Seel, Dewgong, Krabby, Kingler, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "B4F Pokémon 1:1",
                         "item_count": 6,
                         "clear_as_group": false,
@@ -1423,6 +1880,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "B4F Pokémon (Vanilla - Red)",
+                        "hosted_item": "Golbat, Slowpoke, Slowbro, Seel, Shellder, Horsea",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "B4F Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Golbat, Psyduck, Golduck, Seel, Krabby, Staryu",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     },
                     {
@@ -1463,6 +1936,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Spearow, Fearow, Ekans, Arbok, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Spearow, Fearow, Sandshrew, Sandslash, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1494,6 +1983,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Spearow, Ekans, Drowzee",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Spearow, Sandshrew, Drowzee",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1524,6 +2029,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Raticate, Spearow, Fearow, Doduo",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -1581,6 +2094,14 @@
                         ]
                     },
                     {
+                        "name": "Pokémon (Grass) (Vanilla)",
+                        "hosted_item": "Pidgey, Pidgeotto, Rattata, Raticate, Tangela",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "Pokémon (Surf) 1:1",
                         "item_count": 1,
                         "clear_as_group": false,
@@ -1594,6 +2115,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Surf) (Vanilla)",
+                        "hosted_item": "Tentacool",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -1626,6 +2155,14 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Tentacool",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1654,6 +2191,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Rattata, Spearow, Nidoran Male, Nidoran Female",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -1714,6 +2259,14 @@
                         ]
                     },
                     {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Raticate, Spearow, Fearow, Doduo",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ]
+                    },
+                    {
                         "name": "Trade",
                         "access_rules": []
                     }
@@ -1746,6 +2299,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Pidgeotto, Oddish, Gloom, Venonat, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Pidgeotto, Venonat, Bellsprout, Weepinbell, Ditto",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -1799,6 +2368,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Ekans, Mankey, Growlithe",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Sandshrew, Vulpix, Meowth",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1829,6 +2414,22 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Oddish, Mankey, Growlithe",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Vulpix, Meowth, Bellsprout",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
                         ]
                     }
                 ],
@@ -1861,6 +2462,22 @@
                         "visibility_rules": [
                             "opt_encounter_ten"
                         ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Red)",
+                        "hosted_item": "Pidgey, Oddish, Mankey",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla - Blue)",
+                        "hosted_item": "Pidgey, Meowth, Bellsprout",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1891,6 +2508,14 @@
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_ten"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon (Vanilla)",
+                        "hosted_item": "Pidgey, Spearow, Jigglypuff",
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
                         ]
                     },
                     {
@@ -1992,6 +2617,17 @@
                         ]
                     },
                     {
+                        "name": "Old Rod (Any Spot) (Vanilla)",
+                        "hosted_item": "Magikarp",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "oldrod"
+                        ]
+                    },
+                    {
                         "name": "Good Rod (Any Spot)",
                         "item_count": 2,
                         "chest_unopened_img": "images/items/goodrod.png",
@@ -2001,6 +2637,17 @@
                             "opt_encounter_one",
                             "opt_encounter_ten"
                         ],
+                        "access_rules": [
+                            "goodrod"
+                        ]
+                    },
+                    {
+                        "name": "Good Rod (Any Spot) (Vanilla)",
+                        "hosted_item": "Goldeen, Poliwag",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
                         "access_rules": [
                             "goodrod"
                         ]
@@ -2020,6 +2667,17 @@
                         ]
                     },
                     {
+                        "name": "Super Rod Rod (Pallet & Viridian) (Vanilla)",
+                        "hosted_item": "Tentacool, Poliwag",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod"
+                        ]
+                    },
+                    {
                         "name": "Super Rod (Route 22)",
                         "item_count": 2,
                         "chest_unopened_img": "images/items/goodrod.png",
@@ -2029,6 +2687,17 @@
                             "opt_encounter_one",
                             "opt_encounter_ten"
                         ],
+                        "access_rules": [
+                            "superrod"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 22) (Vanilla)",
+                        "hosted_item": "Goldeen, Poliwag",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
                         "access_rules": [
                             "superrod"
                         ]
@@ -2044,7 +2713,18 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Cerulean City"
+                            "superrod, @Kanto/Cerulean City"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 24/25/Cerulean/Cerulean Gym) (Vanilla)",
+                        "hosted_item": "Psyduck, Goldeen, Krabby",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Cerulean City"
                         ]
                     },
                     {
@@ -2058,7 +2738,18 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Vermilion City"
+                            "superrod, @Kanto/Vermilion City"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 6/11/Vermillion/Dock) (Vanilla)",
+                        "hosted_item": "Goldeen, Poliwag",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Vermilion City"
                         ]
                     },
                     {
@@ -2072,7 +2763,18 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Celadon City"
+                            "superrod, @Kanto/Celadon City"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 10 & Celadon) (Vanilla)",
+                        "hosted_item": "Poliwhirl, Slowpoke",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Celadon City"
                         ]
                     },
                     {
@@ -2086,7 +2788,18 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Safari Zone"
+                            "superrod, @Kanto/Safari Zone"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Safari Zone) (Vanilla)",
+                        "hosted_item": "Dratini, Krabby, Psyduck, Slowpoke",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Safari Zone"
                         ]
                     },
                     {
@@ -2100,8 +2813,20 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Lavender Town", //rt 12 north can be accessed from Lavender and has the same rules
-                            "superrod,@Kanto/Fuchsia City", //12 South, 13, 17 and 18 can all be accessed from Fuchsia. Bicycle Road doesn't matter because if you can get there you can get to 17
+                            "superrod, @Kanto/Lavender Town", //rt 12 north can be accessed from Lavender and has the same rules
+                            "superrod, @Kanto/Fuchsia City" //12 South, 13, 17 and 18 can all be accessed from Fuchsia. Bicycle Road doesn't matter because if you can get there you can get to 17
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 12/13/17/18) (Vanilla)",
+                        "hosted_item": "Tentacool, Krabby, Goldeen, Magikarp",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Lavender Town", //rt 12 north can be accessed from Lavender and has the same rules
+                            "superrod, @Kanto/Fuchsia City" //12 South, 13, 17 and 18 can all be accessed from Fuchsia. Bicycle Road doesn't matter because if you can get there you can get to 17
                         ]
                     },
                     {
@@ -2115,7 +2840,18 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Cinnabar Island"
+                            "superrod, @Kanto/Cinnabar Island"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 19/20/21/Cinnabar/Seafoam Island) (Vanilla)",
+                        "hosted_item": "Staryu, Horsea, Shellder, Goldeen",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Cinnabar Island"
                         ]
                     },
                     {
@@ -2130,7 +2866,19 @@
                         ],
                         "access_rules": [
                             "superrod,^$rt23", //@ Rules don't work because all 
-                            "superrod,@Kanto/Cerulean Cave"
+                            "superrod, @Kanto/Cerulean Cave"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Route 23 & Cerulean Cave) (Vanilla)",
+                        "hosted_item": "Slowbro, Seaking, Kingler, Seadra",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, ^$rt23", //@ Rules don't work because all 
+                            "superrod, @Kanto/Cerulean Cave"
                         ]
                     },
                     {
@@ -2144,7 +2892,18 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod,@Kanto/Fuchsia City"
+                            "superrod, @Kanto/Fuchsia City"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod Rod (Fuchsia) (Vanilla)",
+                        "hosted_item": "Seaking, Krabby, Goldeen, Magikarp",
+                        "visibility_rules": [
+                            "opt_encounter_red", "opt_encounter_blue"
+                        ],
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "superrod, @Kanto/Fuchsia City"
                         ]
                     }
                 ],
