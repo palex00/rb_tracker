@@ -1278,6 +1278,7 @@
         "img": "images/options/full.png",
         "codes": "opt_encounter",
         "loop":"true",
+        "allow_disabled": false,
         "stages": [
             {
                 "name": "Full Mapping",
@@ -1289,6 +1290,18 @@
                 "name": "1:1 Mapping",
                 "img": "images/options/one-to-one.png",
                 "codes": "opt_encounter, opt_encounter_one",
+                "inherit_codes": "false"
+            },
+            {
+                "name": "Vanilla Pokémon (Red)",
+                "img": "images/options/red.png",
+                "codes": "opt_encounter, opt_encounter_red",
+                "inherit_codes": "false"
+            },
+            {
+                "name": "Vanilla Pokémon (Blue)",
+                "img": "images/options/blue.png",
+                "codes": "opt_encounter, opt_encounter_blue",
                 "inherit_codes": "false"
             }
         ]
