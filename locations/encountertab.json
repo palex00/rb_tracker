@@ -152,7 +152,7 @@
                     },
                     {
                         "name": "Pokémon (Vanilla)",
-                        "hosted_item": "Pidgey, Oddish, Gloom, Venonat",
+                        "hosted_item": "Pidgey, Rattata",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_red", "opt_encounter_blue"
