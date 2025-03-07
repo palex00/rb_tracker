@@ -1,82 +1,10 @@
 {
 	"versions": [
 		{
-			"package_version": "1.0.6",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.6.zip",
-			"sha256": "3E04167526D337218650B88BEA6B82836D26FCABCB2D1520D4A28A28CB0CC611",
-			"changelog": ["small bugfixes"]
-		},
-		{
-			"package_version": "1.0.5",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.5.zip",
-			"sha256": "06F089689B312C4F450E06D481D28E3DEFE4BCF997DA8B6236FC9A2604C247FE",
-			"changelog": ["added trainer images", "new submaps", "lots of bugfixes", "new settings autotracked"]
-		},
-		{
-			"package_version": "1.0.4",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.4.zip",
-			"sha256": "58083D3F829AFCF73C739C128B60EB77806E23A8D36D23530D3116CCA931D8A0",
-			"changelog": ["fixed incorrect rock tunnel access rules"]
-		},
-		{
-			"package_version": "1.0.3",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.3.zip",
-			"sha256": "E9B23B65CBFD4A812E06DE0A3407C71257EF33CC5CB58976E1ACDFA771F55EED",
-			"changelog": ["rock tunnel sux"]
-		},
-		{
-			"package_version": "1.0.2",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.2.zip",
-			"sha256": "9F8BCC75EC7AC4BFB9B84344E37B96E15C7371D589C4B6A80A6DA385D8D53F57",
-			"changelog": ["Fixed key item counts", "Town map free fly fixed"]
-		},
-		{
-			"package_version": "1.0.1",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.1.zip",
-			"sha256": "1018015241B40D8E83775D7CFFA96356927F56B7063D2B8C654D57DA14691F33",
-			"changelog": ["Post-release bug fixes", "Tracking for 0.5.0 slotdata"]
-		},
-		{
-			"package_version": "1.0.0",
-			"download_url": "https://github.com/coveleski/rb_tracker/archive/refs/tags/1.0.0.zip",
-			"sha256": "985D19EED0675716B1644E1E3C841E18816F6DEA7D3FE15CEF3C26C9F3A57A7F",
-			"changelog": ["Bugs Fixed! Initial Release! One Point Oh!"]
-		},
-		{
-			"package_version": "0.9.7",
-			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.7.zip",
-			"sha256": "DB16229F4E8306B989AEE47874C1E9F2E79ADA92CE32355537DBF9924EFC9B99",
-			"changelog": ["i forget what's in this one"]
-		},
-		{
-			"package_version": "0.9.6",
-			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.6.zip",
-			"sha256": "36220D5DD43CAA0658F14399A58E668C982CAFCFD239E8CA89CF5ADFDDB5ED24",
-			"changelog": ["Celadon's a nice place"]
-		},
-		{
-			"package_version": "0.9.5",
-			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.5.zip",
-			"sha256": "A661B18AF7276F36A62EF21A81BD3F80631B429C16841293C750E03EF58AD867",
-			"changelog": ["Ancient Lost route discovered!"]
-		},
-		{
-			"package_version": "0.9.4",
-			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.4.zip",
-			"sha256": "385D980F7459E6879FDBC8CC9394F576F926862FA7E295F64B1657230608CBE6",
-			"changelog": ["Fixed Tea and extra key items"]
-		},
-		{
-			"package_version": "0.9.3",
-			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.3.zip",
-			"sha256": "6A9752E84132BC2A9AE35CFDB02C2B15B8FA2A9BDBE226DA4241F127FC29EEEB",
-			"changelog": ["Bug Fixes"]
-		},
-		{
-			"package_version": "0.9.2",
-			"download_url": "https://github.com/coveleski/rb2/archive/refs/tags/0.9.2.zip",
-			"sha256": "1000A9E899081CE4657592DE1D9BF0A50E5303694187CF4D46287E18C7834945",
-			"changelog": ["Initial Testing Release"]
+			"package_version": "2.0.0",
+			"download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.0.zip",
+			"sha256": "65266e4196f89192e179dec9ff074b833b9b08d79a6f0f10a28846d7b4b1d7ff",
+			"changelog": [Re-launch"]
 		}
 	]
 }
