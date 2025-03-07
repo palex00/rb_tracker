@@ -172,6 +172,28 @@
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/B4F Giovanni Item"}],"map_locations":[{"map":"rockethideout","x": 896,"y": 550}]}
 ,{"name":"","sections":[{"ref":"Kanto/Rocket Hideout/HI: B4F Behind Giovanni"}],"map_locations":[{"map":"rockethideout","x": 896,"y": 518}]}
 
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/1F Cooltrainer F"}],"map_locations":[{"map":"victoryroad","x":216,"y":120}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/1F Cooltrainer M"}],"map_locations":[{"map":"victoryroad","x":152,"y":72}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/1F Left Item"}],"map_locations":[{"map":"victoryroad","x":248,"y":72}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/1F Top Item"}],"map_locations":[{"map":"victoryroad","x":280,"y":40}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Blackbelt"}],"map_locations":[{"map":"victoryroad","x":216,"y":504}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F East Item"}],"map_locations":[{"map":"victoryroad","x":312,"y":504}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Hidden Item Rock Before Moltres"}],"map_locations":[{"map":"victoryroad","x":104,"y":392}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Hidden Item Rock In Final Room"}],"map_locations":[{"map":"victoryroad","x":440,"y":472}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Juggler 1"}],"map_locations":[{"map":"victoryroad","x":360,"y":568}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Juggler 2"}],"map_locations":[{"map":"victoryroad","x":440,"y":408}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F North Item Near Moltres"}],"map_locations":[{"map":"victoryroad","x":200,"y":360}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Northeast Item"}],"map_locations":[{"map":"victoryroad","x":456,"y":440}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F PokeManiac"}],"map_locations":[{"map":"victoryroad","x":88,"y":392}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F Tamer"}],"map_locations":[{"map":"victoryroad","x":328,"y":488}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/2F West Item"}],"map_locations":[{"map":"victoryroad","x":168,"y":536}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Cooltrainer F 1"}],"map_locations":[{"map":"victoryroad","x":232,"y":728}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Cooltrainer F 2"}],"map_locations":[{"map":"victoryroad","x":136,"y":888}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Cooltrainer M 1"}],"map_locations":[{"map":"victoryroad","x":472,"y":760}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Cooltrainer M 2"}],"map_locations":[{"map":"victoryroad","x":120,"y":904}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Northeast Item"}],"map_locations":[{"map":"victoryroad","x":440,"y":760}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Northwest Item"}],"map_locations":[{"map":"victoryroad","x":136,"y":792}]}
+
         ]
     }
 ]
