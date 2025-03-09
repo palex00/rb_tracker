@@ -64,5 +64,11 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/rockethideout.png"
+    },
+    {
+        "name": "victoryroad",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/victoryroad.png"
     }
 ]
