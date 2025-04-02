@@ -617,7 +617,7 @@
                     },
                     {
                         "name": "Center Zone Pokémon (Vanilla - Red)",
-                        "hosted_item": "Nidorina, Nidoran Male, Nidorino, Parasect, Venonat, Exeggcute, Rhyhorn, Chansey, Scyther",
+                        "hosted_item": "Nidorina, nidoranm, Nidorino, Parasect, Venonat, Exeggcute, Rhyhorn, Chansey, Scyther",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_red"
@@ -625,7 +625,7 @@
                     },
                     {
                         "name": "Center Zone Pokémon (Vanilla - Blue)",
-                        "hosted_item": "Nidoran Female, Nidorina, Nidorino, Parasect, Venonat, Exeggcute, Rhyhorn, Chansey, Pinsir",
+                        "hosted_item": "nidoranf, Nidorina, Nidorino, Parasect, Venonat, Exeggcute, Rhyhorn, Chansey, Pinsir",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_blue"
@@ -649,7 +649,7 @@
                     },
                     {
                         "name": "East Zone Pokémon (Vanilla - Red)",
-                        "hosted_item": "Nidoran Female, Nidoran Male, Nidorino, Paras, Parasect, Doduo, Exeggcute, Kangaskhan, Scyther",
+                        "hosted_item": "nidoranf, nidoranm, Nidorino, Paras, Parasect, Doduo, Exeggcute, Kangaskhan, Scyther",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_red"
@@ -657,7 +657,7 @@
                     },
                     {
                         "name": "East Zone Pokémon (Vanilla - Blue)",
-                        "hosted_item": "Nidoran Female, Nidorina, Nidoran Male, Paras, Parasect, Doduo, Exeggcute, Kangaskhan, Pinsir",
+                        "hosted_item": "nidoranf, Nidorina, nidoranm, Paras, Parasect, Doduo, Exeggcute, Kangaskhan, Pinsir",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_blue"
@@ -681,7 +681,7 @@
                     },
                     {
                         "name": "North Zone Pokémon (Vanilla - Red)",
-                        "hosted_item": "Nidorina, Nidoran Male, Nidorino, Paras, Venomoth, exeggcute, Rhyhorn, Chansey, Tauros",
+                        "hosted_item": "Nidorina, nidoranm, Nidorino, Paras, Venomoth, exeggcute, Rhyhorn, Chansey, Tauros",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_red"
@@ -689,7 +689,7 @@
                     },
                     {
                         "name": "North Zone Pokémon (Vanilla - Blue)",
-                        "hosted_item": "Nidoran Female, Nidorina, Nidorino, Paras, Venomoth, Exeggcute, Rhyhorn, Chansey, Tauros",
+                        "hosted_item": "nidoranf, Nidorina, Nidorino, Paras, Venomoth, Exeggcute, Rhyhorn, Chansey, Tauros",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_blue"
@@ -713,7 +713,7 @@
                     },
                     {
                         "name": "West Zone Pokémon (Vanilla - Red)",
-                        "hosted_item": "Nidoran Female, Nidoran Male, Nidorino, Venonat, Venomoth, Doduo, Exeggcute, Kangaskhan, Tauros",
+                        "hosted_item": "nidoranf, nidoranm, Nidorino, Venonat, Venomoth, Doduo, Exeggcute, Kangaskhan, Tauros",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_red"
@@ -721,7 +721,7 @@
                     },
                     {
                         "name": "West Zone Pokémon (Vanilla - Blue)",
-                        "hosted_item": "Nidoran Female, Nidorina, Nidoran Male, Venonat, Venomoth, Doduo, Exeggcute, Kangaskhan, Tauros",
+                        "hosted_item": "nidoranf, Nidorina, nidoranm, Venonat, Venomoth, Doduo, Exeggcute, Kangaskhan, Tauros",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_blue"
@@ -2195,7 +2195,7 @@
                     },
                     {
                         "name": "Pokémon (Vanilla)",
-                        "hosted_item": "Rattata, Spearow, Nidoran Male, Nidoran Female",
+                        "hosted_item": "Rattata, Spearow, nidoranm, nidoranf",
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_red", "opt_encounter_blue"
