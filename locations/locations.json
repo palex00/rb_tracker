@@ -7,7 +7,12 @@
             {
                 "name": "Vermilion City",
                 "access_rules": [
-                    "^$vermilion"
+                    "$flyto|vermilion",
+                    "@Kanto/Saffron City, ^$tea",
+                    "@Kanto/Pewter City, ^$cut",
+                    "@Kanto/Cerulean City, $officer",
+                    "@Kanto/Lavender Town, pokeflute, $rt11_boulders",
+                    "@Kanto/Fuchsia City, pokeflute, $rt11_boulders, $boardwalk_boulders"
                 ],
                 "sections": [
                     {
@@ -117,7 +122,12 @@
             {
                 "name": "Fuchsia City",
                 "access_rules": [
-                    "^$fuchsia"
+                    "$flyto|fuchsia",
+                    "@Kanto/Cinnabar Island, ^$surf, $strength",
+                    "@Kanto/Celadon City, pokeflute, $cyclingroad",
+                    "@Kanto/Lavender Town, pokeflute, $rt11_boulders",
+                    "@Kanto/Lavender Town, ^$surf, $rt11_boulders",
+                    "@Kanto/Vermilion City, pokeflute, $rt11_boulders, $boardwalk_boulders"
                 ],
                 "sections": [
                     {
@@ -244,11 +254,10 @@
             {
                 "name": "Route 12 South",
                 "access_rules": [
-                    "^$fuchsia,^$extra_boulders",
-                    "^$lavender,^$surf",
-                    "^$lavender,pokeflute",
-                    "^$vermilion,pokeflute,^$extra_boulders",
-                    "^$fuchsia,^$surf"
+                    "@Kanto/Fuchsia City, $boardwalk_boulders",
+                    "@Kanto/Lavender Town, pokeflute",
+                    "@Kanto/Lavender Town, ^$surf",
+                    "@Kanto/Vermilion City, pokeflute, $rt11_boulders"
                 ],
                 "sections": [
                     {
@@ -366,7 +375,10 @@
             {
                 "name": "Celadon City",
                 "access_rules": [
-                    "^$celadon"
+                    "$flyto|celadon",
+                    "@Kanto/Fuchsia City, pokeflute, $cyclingroad",
+                    "@Kanto/Saffron City, ^$tea",
+                    "@Kanto/Lavender Town"
                 ],
                 "sections": [
                     {
@@ -654,8 +666,8 @@
                         "name": "Item in Gym",
                         "item_count": 1,
                         "access_rules": [
-                            "^$viridiangym,^$cut",
-                            "^$viridiangym,^$old_man"
+                            "^$viridiangym, ^$cut",
+                            "^$viridiangym, ^$old_man"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -845,7 +857,10 @@
             {
                 "name": "Pewter City",
                 "access_rules": [
-                    "^$pewter"
+                    "$flyto|pewter",
+                    "^$cut", 
+                    "$old_man",
+                    "@Kanto/Cerulean City, ^$surf"
                 ],
                 "sections": [
                     {
@@ -904,7 +919,11 @@
             {
                 "name": "Cerulean City",
                 "access_rules": [
-                    "^$cerulean"
+                    "$flyto|cerulean",
+                    "@Kanto/Route 3",
+                    "@Kanto/Vermilion City",
+                    "@Kanto/Saffron City, ^$tea",
+                    "@Kanto/Lavender Town, ^$rock_tunnel"
                 ],
                 "sections": [
                     {
@@ -933,7 +952,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "^$officer",
-                            "^$vermilion"
+                            "@Kanto/Vermilion City"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -995,7 +1014,7 @@
             {
                 "name": "Route 24",
                 "access_rules": [
-                    "^$cerulean"
+                    "@Kanto/Cerulean City"
                 ],
                 "sections": [
                     {
@@ -1086,7 +1105,7 @@
             {
                 "name": "Route 25",
                 "access_rules": [
-                    "^$cerulean"
+                    "@Kanto/Cerulean City"
                 ],
                 "sections": [
                     {
@@ -1230,7 +1249,12 @@
             {
                 "name": "Lavender Town",
                 "access_rules": [
-                    "^$lavender"
+                    "$flyto|lavender",
+                    "@Kanto/Cerulean City, ^$rock_tunnel",
+                    "@Kanto/Celadon City",
+                    "@Kanto/Fuchsia City, pokeflute, $rt11_boulders",
+                    "@Kanto/Fuchsia City, ^$surf, $rt11_boulders",
+                    "@Kanto/Vermilion City, pokeflute, $rt11_boulders",
                 ],
                 "sections": [
                     {
@@ -1254,9 +1278,7 @@
             {
                 "name": "Route 12 North",
                 "access_rules": [
-                    "^$lavender",
-                    "^$vermilion,^$extra_boulders,pokeflute",
-                    "^$fuchsia,^$extra_boulders,pokeflute"
+                    "@Kanto/Lavender Town"
                 ],
                 "sections": [
                     {
@@ -1329,8 +1351,8 @@
             {
                 "name": "Route 11-12 Gatehouse",
                 "access_rules": [
-                    "^$vermilion,^$extra_boulders",
-                    "^$lavender,pokeflute"
+                    "@Kanto/Vermilion City, ^$rt11_boulders",
+                    "@Kanto/Lavender Town, pokeflute"
                 ],
                 "sections": [
                     {
@@ -1366,7 +1388,7 @@
             {
                 "name": "Silph Co 1F - 6F",
                 "access_rules": [
-                    "^$saffron,fuji"
+                    "@Kanto/Saffron City, fuji"
                 ],
                 "sections": [
                     {
@@ -1689,7 +1711,7 @@
             {
                 "name": "Silph Co 7F - 11F",
                 "access_rules": [
-                    "^$saffron,fuji"
+                    "@Kanto/Saffron City, fuji"
                 ],
                 "sections": [
                     {
@@ -1974,7 +1996,7 @@
                         "name": "Fly House Woman",
                         "item_count": 1,
                         "access_rules": [
-                            "^$celadon,^$cut"
+                            "@Kanto/Celadon City, ^$cut"
                         ],
                         "visibility_rules": [
                             ""
@@ -1986,8 +2008,7 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$cyclingroad,^$fuchsia",
-                            "^$cyclingroad,^$celadon,pokeflute"
+                            "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000349"
@@ -1999,8 +2020,7 @@
                         "chest_opened_img": "images/trainers/cueball_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$cyclingroad,^$fuchsia",
-                            "^$cyclingroad,^$celadon,pokeflute"
+                            "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000350"
@@ -2012,8 +2032,7 @@
                         "chest_opened_img": "images/trainers/cueball_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$cyclingroad,^$fuchsia",
-                            "^$cyclingroad,^$celadon,pokeflute"
+                            "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000351"
@@ -2025,8 +2044,7 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$cyclingroad,^$fuchsia",
-                            "^$cyclingroad,^$celadon,pokeflute"
+                            "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000352"
@@ -2038,8 +2056,7 @@
                         "chest_opened_img": "images/trainers/cueball_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$cyclingroad,^$fuchsia",
-                            "^$cyclingroad,^$celadon,pokeflute"
+                            "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000353"
@@ -2051,8 +2068,7 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$cyclingroad,^$fuchsia",
-                            "^$cyclingroad,^$celadon,pokeflute"
+                            "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000354"
@@ -2070,7 +2086,7 @@
             {
                 "name": "Route 15",
                 "access_rules": [
-                    "^$fuchsia"
+                    "@Kanto/Fuchsia City"
                 ],
                 "sections": [
                     {
@@ -2208,7 +2224,8 @@
             {
                 "name": "Safari Zone",
                 "access_rules": [
-                    "^$fuchsia,^$safari_zone"
+                    "@Kanto/Fuchsia City, safaripass",
+                    "@Kanto/Fuchsia City, opt_extra_key_items_off"
                 ],
                 "sections": [
                     {
@@ -2331,7 +2348,8 @@
             {
                 "name": "Cinnabar Island",
                 "access_rules": [
-                    "^$cinnabar"
+                    "^$surf",
+                    "$flyto|cinnabar"
                 ],
                 "sections": [
                     {
@@ -2466,7 +2484,11 @@
             {
                 "name": "Saffron City",
                 "access_rules": [
-                    "^$saffron"
+                    "$flyto|saffron",
+                    "@Kanto/Cerulean City, ^$tea",
+                    "@Kanto/Celadon City, ^$tea",
+                    "@Kanto/Vermilion City, ^$tea",
+                    "@Kanto/Lavender Town, ^$tea"
                 ],
                 "sections": [
                     {
@@ -2692,8 +2714,8 @@
             {
                 "name": "Route 4",
                 "access_rules": [
-                    "^$pewter,^$rt3",
-                    "^$cerulean,^$surf"
+                    "@Kanto/Route 3",
+                    "@Kanto/Cerulean City, ^$surf"
                 ],
                 "sections": [
                     {
@@ -2738,8 +2760,8 @@
             {
                 "name": "Route 9",
                 "access_rules": [
-                    "^$cerulean,^$cut",
-                    "^$lavender,^$rock_tunnel"
+                    "@Kanto/Cerulean City, ^$cut",
+                    "@Kanto/Lavender Town, ^$rock_tunnel"
                 ],
                 "sections": [
                     {
@@ -2862,7 +2884,7 @@
             {
                 "name": "Cerulean Cave",
                 "access_rules": [
-                    "^$cerulean,^$ceruleancave,^$surf"
+                    "@Kanto/Cerulean City, ^$ceruleancave, ^$surf"
                 ],
                 "sections": [
                     {
@@ -2961,7 +2983,7 @@
             {
                 "name": "Pokemon Tower",
                 "access_rules": [
-                    "^$lavender"
+                    "@Kanto/Lavender Town"
                 ],
                 "sections": [
                     {
@@ -3219,7 +3241,8 @@
             {
                 "name": "Pokemon Mansion",
                 "access_rules": [
-                    "^$cinnabar,^$mansion"
+                    "@Kanto/Cinnabar Island, mansionkey",
+                    "@Kanto/Cinnabar Island, opt_extra_key_items_off"
                 ],
                 "sections": [
                     {
@@ -3405,7 +3428,8 @@
             {
                 "name": "Power Plant",
                 "access_rules": [
-                    "^$powerplant"
+                    "@Kanto/Route 9, ^$surf, plantkey",
+                    "@Kanto/Route 9, ^$surf, opt_extra_key_items_off"
                 ],
                 "sections": [
                     {
@@ -3480,7 +3504,8 @@
             {
                 "name": "Victory Road",
                 "access_rules": [
-                    "^$indigo,^$strength"
+                    "@Kanto/Indigo Plateau, ^$strength",
+                    "@Kanto/Route 23, ^$surf, ^$strength, ^$victoryroad"
                 ],
                 "sections": [
                     {
@@ -3689,7 +3714,7 @@
             {
                 "name": "Viridian Forest",
                 "access_rules": [
-                    "^$pewter"
+                    "@Kanto/Pewter City"
                 ],
                 "sections": [
                     {
@@ -3778,8 +3803,7 @@
             {
                 "name": "Mt Moon",
                 "access_rules": [
-                    "^$pewter,^$rt3",
-                    "^$cerulean,^$surf"
+                    "@Kanto/Route 4"
                 ],
                 "sections": [
                     {
@@ -3987,7 +4011,8 @@
             {
                 "name": "Rocket Hideout",
                 "access_rules": [
-                    "^$celadon,^$hideout"
+                    "@Kanto/Celadon City, hideoutkey",
+                    "@Kanto/Celadon City, opt_extra_key_items_off"
                 ],
                 "sections": [
                     {
@@ -4257,8 +4282,8 @@
             {
                 "name": "Rock Tunnel",
                 "access_rules": [
-                    "^$lavender,^$rock_tunnel",
-                    "^$cerulean,^$cut,^$rock_tunnel"
+                    "@Kanto/Lavender Town, ^$rock_tunnel",
+                    "@Kanto/Cerulean City, ^$cut, ^$rock_tunnel"
                 ],
                 "sections": [
                     {
@@ -4455,8 +4480,8 @@
             {
                 "name": "Route 10 North",
                 "access_rules": [
-                    "^$lavender,^$rock_tunnel",
-                    "^$cerulean,^$cut"
+                    "@Kanto/Lavender Town, ^$rock_tunnel",
+                    "@Kanto/Cerulean City, ^$cut"
                 ],
                 "sections": [
                     {
@@ -4503,8 +4528,7 @@
             {
                 "name": "Route 10 South",
                 "access_rules": [
-                    "^$lavender",
-                    "^$cerulean,^$cut,^$rock_tunnel"
+                    "@Kanto/Lavender Town"
                 ],
                 "sections": [
                     {
@@ -4576,11 +4600,9 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$extra_boulders",
-                            "^$lavender,^$surf",
-                            "^$lavender,pokeflute",
-                            "^$vermilion,pokeflute,^$extra_boulders",
-                            "^$fuchsia,^$surf"
+                            "@Kanto/Fuchsia City, ^$boardwalk_boulders",
+                            "@Kanto/Lavender Town,^$surf",
+                            "@Kanto/Lavender Town,pokeflute"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000375"
@@ -4592,11 +4614,9 @@
                         "chest_opened_img": "images/trainers/birdkeeper_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$extra_boulders",
-                            "^$lavender,^$surf",
-                            "^$lavender,pokeflute",
-                            "^$vermilion,pokeflute,^$extra_boulders",
-                            "^$fuchsia,^$surf"
+                            "@Kanto/Fuchsia City, ^$boardwalk_boulders",
+                            "@Kanto/Lavender Town,^$surf",
+                            "@Kanto/Lavender Town,pokeflute"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000376"
@@ -4608,11 +4628,9 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$extra_boulders",
-                            "^$lavender,^$surf",
-                            "^$lavender,pokeflute",
-                            "^$vermilion,pokeflute,^$extra_boulders",
-                            "^$fuchsia,^$surf"
+                            "@Kanto/Fuchsia City, ^$boardwalk_boulders",
+                            "@Kanto/Lavender Town,^$surf",
+                            "@Kanto/Lavender Town,pokeflute"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000377"
@@ -4624,7 +4642,7 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000378"
@@ -4636,7 +4654,7 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000379"
@@ -4648,7 +4666,7 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000380"
@@ -4658,7 +4676,7 @@
                         "name": "HI: Dead End By Water Corner",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$hidden"
+                            "@Kanto/Fuchsia City,^$hidden"
                         ],
                         "visibility_rules": [
                             "opt_hidden_items_on"
@@ -4670,7 +4688,7 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000381"
@@ -4682,7 +4700,7 @@
                         "chest_opened_img": "images/trainers/birdkeeper_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000382"
@@ -4692,7 +4710,7 @@
                         "name": "HI: Dead End Bush",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$hidden"
+                            "@Kanto/Fuchsia City,^$hidden"
                         ],
                         "visibility_rules": [
                             "opt_hidden_items_on"
@@ -4704,7 +4722,7 @@
                         "chest_opened_img": "images/trainers/birdkeeper_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000383"
@@ -4716,7 +4734,7 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000384"
@@ -4734,8 +4752,8 @@
             {
                 "name": "Seafoam Islands",
                 "access_rules": [
-                    "^$cinnabar,^$surf",
-                    "^$fuchsia,^$surf"
+                    "@Kanto/Cinnabar Island, ^$surf",
+                    "@Kanto/Fuchsia City, ^$surf"
                 ],
                 "sections": [
                     {
@@ -4780,8 +4798,8 @@
             {
                 "name": "Route 23",
                 "access_rules": [
-                    "^$rt23,^$surf",
-                    "^$indigo,^$surf,^$strength,^$victoryroad"
+                    "^$rt23, ^$surf",
+                    "@Kanto/Victory Road"
                 ],
                 "sections": [
                     {
@@ -4826,7 +4844,7 @@
             {
                 "name": "Route 11",
                 "access_rules": [
-                    "^$vermilion"
+                    "@Kanto/Vermilion City"
                 ],
                 "sections": [
                     {
@@ -4951,8 +4969,7 @@
             {
                 "name": "Route 17",
                 "access_rules": [
-                    "^$cyclingroad,^$fuchsia",
-                    "^$cyclingroad,^$celadon,pokeflute"
+                    "@Kanto/Fuchsia City, ^$cyclingroad"
                 ],
                 "sections": [
                     {
@@ -5117,7 +5134,7 @@
             {
                 "name": "Underground Tunnel North-South",
                 "access_rules": [
-                    "^$vermilion"
+                    "@Kanto/Vermilion City"
                 ],
                 "sections": [
                     {
@@ -5152,7 +5169,7 @@
             {
                 "name": "Underground Tunnel West-East",
                 "access_rules": [
-                    "^$celadon"
+                    "@Kanto/Celadon City"
                 ],
                 "sections": [
                     {
@@ -5187,7 +5204,7 @@
             {
                 "name": "S.S. Anne",
                 "access_rules": [
-                    "^$vermilion,ssticket"
+                    "@Kanto/Vermilion City, ssticket"
                 ],
                 "sections": [
                     {
@@ -5618,8 +5635,8 @@
             {
                 "name": "Route 20 East",
                 "access_rules": [
-                    "^$fuchsia,^$surf",
-                    "^$surf,^$strength"
+                    "@Kanto/Fuchsia City, ^$surf",
+                    "^$surf, ^$strength"
                 ],
                 "sections": [
                     {
@@ -5681,7 +5698,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000326"
@@ -5693,7 +5710,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia"
+                            "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000327"
@@ -5705,8 +5722,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000328"
@@ -5718,8 +5734,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000329"
@@ -5731,8 +5746,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000330"
@@ -5744,8 +5758,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000331"
@@ -5757,8 +5770,7 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000332"
@@ -5770,8 +5782,7 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000333"
@@ -5783,8 +5794,7 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000334"
@@ -5796,8 +5806,7 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-                            "^$fuchsia,^$surf",
-                            "^$surf,^$strength"
+                            "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
                             "$trainer_visible|172000335"
@@ -5815,7 +5824,7 @@
             {
                 "name": "Route 18",
                 "access_rules": [
-                    "^$fuchsia"
+                    "@Kanto/Fuchsia City"
                 ],
                 "sections": [
                     {
@@ -5860,7 +5869,7 @@
             {
                 "name": "Route 14",
                 "access_rules": [
-                    "^$fuchsia"
+                    "@Kanto/Fuchsia City"
                 ],
                 "sections": [
                     {
@@ -5987,7 +5996,7 @@
             {
                 "name": "Route 8",
                 "access_rules": [
-                    "^$lavender"
+                    "@Kanto/Lavender Town"
                 ],
                 "sections": [
                     {
@@ -6092,7 +6101,7 @@
             {
                 "name": "Route 6",
                 "access_rules": [
-                    "^$vermilion"
+                    "@Kanto/Vermilion City"
                 ],
                 "sections": [
                     {
@@ -6167,8 +6176,8 @@
             {
                 "name": "Route 3",
                 "access_rules": [
-                    "^$pewter,^$rt3",
-                    "^$cerulean,^$surf"
+                    "@Kanto/Pewter City, ^$rt3",
+                    "@Kanto/Cerulean City, ^$surf"
                 ],
                 "sections": [
                     {
@@ -6263,7 +6272,8 @@
             {
                 "name": "Indigo Plateau",
                 "access_rules": [
-                    "^$indigo"
+                    "$flyto|indigo",
+                    "@Kanto/Victory Road"
                 ],
                 "sections": [
                     {
@@ -6335,7 +6345,7 @@
             {
                 "name": "Celadon Game Corner",
                 "access_rules": [
-                    "^$celadon,coincase"
+                    "@Kanto/Celadon City, coincase"
                 ],
                 "sections": [
                     {

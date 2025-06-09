@@ -1,4 +1,3 @@
-saffron_access = AccessibilityLevel.None
 TRAINERSANITY_LOCATIONS = {}
 TABLE_DUMP = TRUE
 
@@ -176,8 +175,20 @@ function old_man()
     return max(has('opt_old_man_on'), has('parcel'))
 end
 
-function extra_boulders()
-    return max(strength(),has('opt_extra_boulders_off'))
+function rt11_boulders()
+    if strength() or has("opt_extra_boulders_off") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
+end
+
+function boardwalk_boulders()
+    if strength() or surf() or has("opt_extra_boulders_off") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function cyclingroad()
@@ -185,7 +196,6 @@ function cyclingroad()
 end
 
 function rock_tunnel()
-
     local in_logic = max(flash(), has('opt_dark_rock_tunnel_on'))
     local out_of_logic = AccessibilityLevel.SequenceBreak
     return max(in_logic, out_of_logic)
@@ -196,8 +206,13 @@ function officer()
 end
 
 -- LOCATION ACCESS CHECKS
-function pewter()
-    return max(old_man(),cut(),flyto('pewter'), access(cerulean(),surf()))
+function tea()
+    local celadon = Tracker:FindObjectForCode("@Kanto/Celadon City").AccessibilityLevel
+    if has("tea") and has("opt_tea_on") then  
+        return AccessibilityLevel.Normal
+    elseif has("opt_tea_off") then
+        return celadon
+    end
 end
 
 function rt3()
@@ -207,134 +222,40 @@ function rt3()
     local boulder = access(has('opt_rt3boulder'),has('boulder'))
     local any_badge = access(has('opt_rt3badge'),has('badge'))
 
-    
     return max(open, boulder, any_badge, brock, any_gym)
 end
 
-function cerulean()
-    local flight =  flyto('cerulean')
-    local underground = max(cut(), flyto('vermilion'))
-    local underground_via_snorlax = access(has('pokeflute'), extra_boulders(), max(access(surf(), strength()), flyto('fuchsia'), lavender()))
-    local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon()))
-    local rt3_passable = access(rt3(),max(old_man(),cut(),flyto('pewter')))
-    return max(flight, underground, gate, rt3_passable, underground_via_snorlax)
-end
-
-function vermilion()
-    local flight =  flyto('vermilion') -- flight
-    local gate = max(access(has('tea'),max(flyto('saffron'),celadon())),access(has('opt_tea_off'),celadon())) --through saffron gates
-    local underground = access(officer(), max(flyto('cerulean'), access(rt3(), max(old_man(), flyto('pewter'))))) --through underground
-    local snorlax = access(has('pokeflute'),extra_boulders(),max(lavender(),flyto('fuchsia'), access(surf(), strength())))--through eastern boardwalk
-    local diglett = cut() --through diglett cave
-    return max(flight,gate,underground, snorlax, diglett)
-end
-
-function lavender()
-    return celadon()
-end
-
-function celadon()
-    local flute = has('pokeflute')
-    local boulders = extra_boulders()
-
-    local cerulean = max(flyto('cerulean'),flyto('vermilion'),cut(),access(rt3(),max(old_man(),cut(),flyto('pewter'))))
-    local rocktunnel = access(cerulean, rock_tunnel(), cut())
-
-    local flight = max(flyto('celadon'),flyto('lavender'))
-    local gate = access(saffron_access,has('tea'))
-    local reverse_lavender = access(surf(),strength())
-    local via_fuchsia = access(flyto('fuchsia'),max(surf(),cyclingroad(),access(flute,boulders)))
-    local via_vermilion = access(cerulean,max(has('tea'),access(flute,boulders)))
-    return max(flight,gate,reverse_lavender,via_fuchsia,via_vermilion, rocktunnel)
-end
-
-function saffron()
-    local buy_drinks = access(celadon(), has('opt_tea_off'))
-    local tea = access(has('tea'),has('opt_tea_on'))
-    local gate = access(tea, max(lavender(),cerulean()))
-    --TODO: CLEAM THIS UP
-    saffron_access = max(flyto('saffron'), gate, buy_drinks)
-    return saffron_access
-end
-
-function fuchsia()
-    local flight = flyto('fuchsia')
-    local via_cinnabar = access(surf(),strength())
-    local flute = has('pokeflute')
-    local cycling_road = access(cyclingroad(),celadon(),flute)
-    local boulders = extra_boulders()
-    local via_vermilion = access(vermilion(),flute,boulders)
-    local via_lavender = access(lavender(),max(surf(),access(flute,boulders)))
-    return max(flight, via_cinnabar, cycling_road, via_vermilion, via_lavender)
-end
-
-function cinnabar()
-    local surf = access(surf())
-    local flight = access(flyto('cinnabar'))
-    return max(surf,flight)
-end
-
-function indigo()
-    local fly = access(flyto('indigo'))
-    local vanilla = access(rt23(),victoryroad(),surf(),strength())
-    return max(fly, vanilla)
-end
-
-
 
 function elite4()
-    local obj = Tracker:FindObjectForCode("e4b_digit")
-    local badges_required = obj.CurrentStage
-    local hundreds = 0
-    local tens = 0
-    local ones = 0
+    local badges_required = Tracker:FindObjectForCode("e4b_digit").CurrentStage
 
-    obj = Tracker:FindObjectForCode("e4k_digit1")
-    if obj then
-        tens = obj.CurrentStage
-    end
-    obj = Tracker:FindObjectForCode("e4k_digit2")
-    if obj then
-        ones = obj.CurrentStage
-    end
-    local key_items_required = (10 * tens) + ones
-    obj = Tracker:FindObjectForCode("e4p_digit1")
-    if obj then
-        hundreds = obj.CurrentStage
-    end
-    obj = Tracker:FindObjectForCode("e4p_digit2")
-    if obj then
-        tens = obj.CurrentStage
-    end
-    obj = Tracker:FindObjectForCode("e4p_digit3")
-    if obj then
-        ones = obj.CurrentStage
-    end
-    local pokedex_required = (100 * hundreds) + (10 * tens) + ones
-    local pokedex = pokedex_count()
+    local tens = Tracker:FindObjectForCode("e4k_digit1").CurrentStage
+    local ones = Tracker:FindObjectForCode("e4k_digit2").CurrentStage
+    local key_items_required = 10 * tens + ones
 
+    local hundreds = Tracker:FindObjectForCode("e4p_digit1").CurrentStage
+    tens = Tracker:FindObjectForCode("e4p_digit2").CurrentStage
+    ones = Tracker:FindObjectForCode("e4p_digit3").CurrentStage
+    local pokedex_required = 100 * hundreds + 10 * tens + ones
 
     local enough_badges = badges_count() >= badges_required
     local enough_items = key_items_count() >= key_items_required
-    local enough_dex = pokedex >= pokedex_required
+    local enough_dex = pokedex_count() >= pokedex_required
 
     if enough_badges and enough_items and enough_dex then
         return AccessibilityLevel.Normal
     elseif enough_badges and enough_items then
         return AccessibilityLevel.SequenceBreak
-    elseif indigo() == AccessibilityLevel.Normal then
+    else
         return scoutable()
     end
     return AccessibilityLevel.None
 end
 
 function victoryroad()
-    local obj = Tracker:FindObjectForCode("vr_digit")
-    if obj then
-        local count = obj.CurrentStage
-        if (badges_count() >= count) then
-            return AccessibilityLevel.Normal
-        end
+    local count = Tracker:FindObjectForCode("vr_digit").CurrentStage
+    if badges_count() >= count then
+        return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
 end
@@ -360,51 +281,22 @@ function viridiangym()
 end
 
 function ceruleancave()
-    local obj = Tracker:FindObjectForCode("ccaveB_digit")
-    local badge_req = 0
-    local tens = 0
-    local ones = 0
-    if obj then
-        badge_req = obj.CurrentStage
-    end
-    obj = Tracker:FindObjectForCode("ccaveK_digit1")
-    if obj then
-        tens = obj.CurrentStage
-    end
-    obj = Tracker:FindObjectForCode("ccaveK_digit2")
-    if obj then
-        ones = obj.CurrentStage
-    end
-    local key_item_req = (10 * tens) + ones
-    if (key_items_count() >= key_item_req) and (badges_count() >= badge_req) then
+    local badge_req = Tracker:FindObjectForCode("ccaveB_digit").CurrentStage
+    local tens = Tracker:FindObjectForCode("ccaveK_digit1").CurrentStage
+    local ones = Tracker:FindObjectForCode("ccaveK_digit2").CurrentStage
+    local key_item_req = 10 * tens + ones
+    if key_items_count() >= key_item_req and badges_count() >= badge_req then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
 end
 
-function powerplant()
-    local unlocked = max(has('plantkey'), has('opt_extra_key_items_off'))
-    local via_cerulean = access(cerulean(), cut(), surf())
-    local via_lavender = access(lavender(), surf(), rock_tunnel())
-    return access(unlocked, max(via_lavender, via_cerulean))
-end
-
-function hideout()
-    return max(has('opt_extra_key_items_off'), has('hideoutkey'))
-end
-
-function safari_zone()
-    return max(has('opt_extra_key_items_off'), has('safaripass'))
-end
-
-function mansion()
-    return max(has('opt_extra_key_items_off'), has('mansionkey'))
-end
-
 function fossils()
-    local mt_moon = max(access(pewter(),rt3()),access(surf(),cerulean()))
+    local mt_moon = Tracker:FindObjectForCode("@Kanto/Mt Moon").AccessibilityLevel
+    local cinnabar = Tracker:FindObjectForCode("@Kanto/Cinnabar Island").AccessibilityLevel
+    
     if mt_moon == AccessibilityLevel.Normal then
-        if access(mt_moon, cinnabar()) == AccessibilityLevel.Normal and enough_fossils() then
+        if cinnabar == AccessibilityLevel.Normal and enough_fossils() then
             return AccessibilityLevel.Normal
         end
         return AccessibilityLevel.SequenceBreak

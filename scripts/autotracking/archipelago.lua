@@ -1,9 +1,3 @@
--- this is an example/ default implementation for AP autotracking
--- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
--- it will also load the AP slot data in the global SLOT_DATA, keep track of the current index of on_item messages in CUR_INDEX
--- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
--- this is useful since remote items will not reset but local items might
-
 ScriptHost:LoadScript("scripts/autotracking/slot_options.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 
@@ -22,7 +16,6 @@ GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
 
-    saffron_access = AccessibilityLevel.None
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print("Contents of slot_data:")
         for key, value in pairs(slot_data) do
@@ -145,26 +138,11 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
-    -- track local items via snes interface
-    if is_local then
-        if LOCAL_ITEMS[v[1]] then
-            LOCAL_ITEMS[v[1]] = LOCAL_ITEMS[v[1]] + 1
-        else
-            LOCAL_ITEMS[v[1]] = 1
-        end
-    else
-        if GLOBAL_ITEMS[v[1]] then
-            GLOBAL_ITEMS[v[1]] = GLOBAL_ITEMS[v[1]] + 1
-        else
-            GLOBAL_ITEMS[v[1]] = 1
-        end
-    end
+
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
-    end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
     end
 end
 
@@ -202,9 +180,5 @@ end
 
 -- add AP callbacks
 Archipelago:AddClearHandler("clear handler", onClear)
-if AUTOTRACKER_ENABLE_ITEM_TRACKING then
-    Archipelago:AddItemHandler("item handler", onItem)
-end
-if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    Archipelago:AddLocationHandler("location handler", onLocation)
-end
+Archipelago:AddItemHandler("item handler", onItem)
+Archipelago:AddLocationHandler("location handler", onLocation)
