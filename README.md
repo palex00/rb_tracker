@@ -60,6 +60,16 @@ Mixed Color Mode:
 - Lime: Location has Green and Yellow checks
 - Orange: Location has Green and Red checks
 - Dark Orange: Location has Red and Yellow Checks
-  
+
+
+
+## ROADMAP
+With support from Alchav and GerbilJames I will bring this Tracker more up to par with the Crystal, FRLG and Emerald one. Features soon to be added include:
+- Actual Event Tracking
+- Full Submaps for every map & auto-mapping
+- Dexsanity Support
+- Full Encounter Tracking
+- ER Tracking
+
 ## Credits
 Thanks to Cyb3RGER for the fantastic poptracker template pack!
