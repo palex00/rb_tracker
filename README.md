@@ -1,5 +1,5 @@
 # Archipelago Pokémon Red & Blue Tracker
-![grafik](https://github.com/coveleski/rb2/assets/32203971/63f7a84d-9b83-4c2a-9c9f-86f1b870f7a3)
+![grafik](https://github.com/user-attachments/assets/4bdcc025-2146-484d-b937-d9f04fc0f015)
 
 
 This a tracker package for Poptracker. It features auto-tracking with Archipelago.
