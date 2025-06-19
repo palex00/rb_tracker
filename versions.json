@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.3",
+			"download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.3.zip",
+			"sha256": "4dad5644069e9bcaa5cf2e470caf70a22048f02bf1eb45d153042caa278c67ab",
+			"changelog": ["Logic Rework"]
+		},
+		{
 			"package_version": "2.0.2",
 			"download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.2.zip",
 			"sha256": "5a6c10bb2935908948bbd1742e448ddc13033e1674f4d8a586289e696b1804be",
