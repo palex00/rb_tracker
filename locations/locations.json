@@ -11,8 +11,8 @@
                     "@Kanto/Saffron City, ^$tea",
                     "@Kanto/Pewter City, ^$cut",
                     "@Kanto/Cerulean City, $officer",
-                    "@Kanto/Lavender Town, pokeflute, $rt11_boulders",
-                    "@Kanto/Fuchsia City, pokeflute, $rt11_boulders, $boardwalk_boulders"
+                    "@Kanto/Lavender Town, pokeflute, ^$rt11_boulders",
+                    "@Kanto/Fuchsia City, pokeflute, ^$rt11_boulders, ^$boardwalk_boulders"
                 ],
                 "sections": [
                     {
@@ -125,9 +125,9 @@
                     "$flyto|fuchsia",
                     "@Kanto/Cinnabar Island, ^$surf, $strength",
                     "@Kanto/Celadon City, pokeflute, $cyclingroad",
-                    "@Kanto/Lavender Town, pokeflute, $rt11_boulders",
-                    "@Kanto/Lavender Town, ^$surf, $rt11_boulders",
-                    "@Kanto/Vermilion City, pokeflute, $rt11_boulders, $boardwalk_boulders"
+                    "@Kanto/Lavender Town, pokeflute, ^$boardwalk_boulders",
+                    "@Kanto/Lavender Town, ^$surf, ^$boardwalk_boulders",
+                    "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders, ^$boardwalk_boulders"
                 ],
                 "sections": [
                     {
@@ -254,10 +254,10 @@
             {
                 "name": "Route 12 South",
                 "access_rules": [
-                    "@Kanto/Fuchsia City, $boardwalk_boulders",
+                    "@Kanto/Fuchsia City, ^$boardwalk_boulders",
                     "@Kanto/Lavender Town, pokeflute",
                     "@Kanto/Lavender Town, ^$surf",
-                    "@Kanto/Vermilion City, pokeflute, $rt11_boulders"
+                    "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders"
                 ],
                 "sections": [
                     {
@@ -923,7 +923,7 @@
                     "@Kanto/Route 3",
                     "@Kanto/Vermilion City",
                     "@Kanto/Saffron City, ^$tea",
-                    "@Kanto/Lavender Town, ^$rock_tunnel"
+                    "@Kanto/Lavender Town, $cut, ^$rock_tunnel"
                 ],
                 "sections": [
                     {
@@ -1250,11 +1250,12 @@
                 "name": "Lavender Town",
                 "access_rules": [
                     "$flyto|lavender",
-                    "@Kanto/Cerulean City, ^$rock_tunnel",
+                    "@Kanto/Cerulean City, $cut, ^$rock_tunnel",
                     "@Kanto/Celadon City",
-                    "@Kanto/Fuchsia City, pokeflute, $rt11_boulders",
-                    "@Kanto/Fuchsia City, ^$surf, $rt11_boulders",
-                    "@Kanto/Vermilion City, pokeflute, $rt11_boulders",
+                    "@Kanto/Saffron City, ^$tea",
+                    "@Kanto/Fuchsia City, pokeflute, ^$boardwalk_boulders",
+                    "@Kanto/Fuchsia City, ^$surf, ^$boardwalk_boulders",
+                    "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders",
                 ],
                 "sections": [
                     {

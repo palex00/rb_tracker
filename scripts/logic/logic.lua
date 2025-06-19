@@ -176,19 +176,11 @@ function old_man()
 end
 
 function rt11_boulders()
-    if strength() or has("opt_extra_boulders_off") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    return max(has('opt_extra_boulders_off'), strength())
 end
 
 function boardwalk_boulders()
-    if strength() or surf() or has("opt_extra_boulders_off") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    return max(has('opt_extra_boulders_off'), strength(), surf())
 end
 
 function cyclingroad()
@@ -208,9 +200,10 @@ end
 -- LOCATION ACCESS CHECKS
 function tea()
     local celadon = Tracker:FindObjectForCode("@Kanto/Celadon City").AccessibilityLevel
-    if has("tea") and has("opt_tea_on") then  
-        return AccessibilityLevel.Normal
-    elseif has("opt_tea_off") then
+    
+    if has("opt_tea_on") == 6 then
+        return has("tea")
+    else
         return celadon
     end
 end

@@ -465,7 +465,8 @@
                 "name": "Extra Boulders - Off",
                 "img": "images/items/extraboulder.png",
                 "img_mods": "@disabled",
-                "codes": "opt_extra_boulders,opt_extra_boulders_off"
+                "codes": "opt_extra_boulders,opt_extra_boulders_off",
+                "inherit_codes": false
             },
             {
                 "name": "Extra Boulders - On",
