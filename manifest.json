@@ -1,7 +1,7 @@
 ﻿{
     "name": "Pokemon Red/Blue Archipelago Poptracker",
     "game_name": "Pokemon Red/Blue",
-    "package_version": "2.0.2",
+    "package_version": "2.0.4",
     "package_uid": "pokemonrb_ap_palex00",
     "author": "palex00",
     "versions_url": "https://raw.githubusercontent.com/palex00/rb_tracker/versions/versions.json",

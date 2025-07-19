@@ -601,7 +601,7 @@
                 "sections": [
                     {
                         "name": "Center Zone Pokémon 1:1",
-                        "item_count": 10,
+                        "item_count": 9,
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_one"
