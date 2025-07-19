@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.4",
+			"download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.4.zip",
+			"sha256": "2e6a62707e5380d25c5208a1a69c163f8c1e6e51dd7d87248bd1c08e406ee2fc",
+			"changelog": ["Minor Fixes"]
+		},
+		{
 			"package_version": "2.0.3",
 			"download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.3.zip",
 			"sha256": "4dad5644069e9bcaa5cf2e470caf70a22048f02bf1eb45d153042caa278c67ab",
