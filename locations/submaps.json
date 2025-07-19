@@ -193,7 +193,8 @@
 ,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Cooltrainer M 2"}],"map_locations":[{"map":"victoryroad","x":120,"y":904}]}
 ,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Northeast Item"}],"map_locations":[{"map":"victoryroad","x":440,"y":760}]}
 ,{"name":"","sections":[{"ref":"Kanto/Victory Road/3F Northwest Item"}],"map_locations":[{"map":"victoryroad","x":136,"y":792}]}
-
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/HI: 2F Rock Before Moltres"}],"map_locations":[{"map":"victoryroad","x":104,"y":392}]}
+,{"name":"","sections":[{"ref":"Kanto/Victory Road/HI: 2F Rock In Final Room"}],"map_locations":[{"map":"victoryroad","x":440,"y":472}]}
         ]
     }
 ]
