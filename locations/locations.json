@@ -1286,7 +1286,6 @@
                     "@Kanto/Fuchsia City, pokeflute, ^$boardwalk_boulders",
                     "@Kanto/Fuchsia City, ^$surf, ^$boardwalk_boulders",
                     "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders",
-                    "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders"
                 ],
                 "sections": [
                     {
