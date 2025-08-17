@@ -160,7 +160,8 @@
                         "opt_itemfinder",
                         "opt_bike_skips",
                         "opt_pokedoll_skip",
-                        "opt_dark_rock_tunnel"
+                        "opt_dark_rock_tunnel",
+						"opt_er"
                     ]
                 ]
             },

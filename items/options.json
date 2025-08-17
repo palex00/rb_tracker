@@ -1306,5 +1306,25 @@
                 "inherit_codes": "false"
             }
         ]
-	}
+	},
+	    {
+        "name": "Door Randomization",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Door Randomization - off",
+                "img": "images/options/er.png",
+                "img_mods": "@disabled",
+                "codes": "opt_er, opt_er_off"
+            },
+            {
+                "name": "Door Randomization - on",
+                "img": "images/options/er.png",
+                "codes": "opt_er, opt_er_on",
+                "inherit_codes": false
+            }
+        ]
+    }
 ]

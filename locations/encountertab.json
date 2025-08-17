@@ -1333,6 +1333,7 @@
                         "item_count": 8,
                         "clear_as_group": false,
                         "access_rules": [
+							"opt_er_on",
                             "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
@@ -1344,6 +1345,7 @@
                         "item_count": 10,
                         "clear_as_group": false,
                         "access_rules": [
+							"opt_er_on",
                             "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         "visibility_rules": [
@@ -1355,6 +1357,7 @@
                         "hosted_item": "Zubat, Golbat, Machop, Machoke, Geodude, Graveler, Onix, Marowak",
                         "clear_as_group": false,
                         "access_rules": [
+							"opt_er_on",
                             "^$rt23, ^$victoryroad, ^$surf", "@Kanto/Indigo Plateau, ^$strength"
                 ],
                         
@@ -1432,7 +1435,10 @@
                     },
                     {
                         "name": "Static Encounter: Moltres",
-                        "access_rules": ["@Kanto/Indigo Plateau, ^$strength"],
+                        "access_rules": [
+							"opt_er_on",
+							"@Kanto/Indigo Plateau, ^$strength"
+						],
                         "chest_unopened_img": "images/pokedex/moltres.png",
                         "chest_opened_img": "images/items/pokedex_done.png"
                     }

@@ -285,11 +285,12 @@ function ceruleancave()
 end
 
 function fossils()
+	local er = has("opt_er_on")
     local mt_moon = Tracker:FindObjectForCode("@Kanto/Mt Moon").AccessibilityLevel
     local cinnabar = Tracker:FindObjectForCode("@Kanto/Cinnabar Island").AccessibilityLevel
     
-    if mt_moon == AccessibilityLevel.Normal then
-        if cinnabar == AccessibilityLevel.Normal and enough_fossils() then
+    if mt_moon == AccessibilityLevel.Normal or er == AccessibilityLevel.Normal then
+        if (cinnabar == AccessibilityLevel.Normal or er == AccessibilityLevel.Normal) and enough_fossils() then
             return AccessibilityLevel.Normal
         end
         return AccessibilityLevel.SequenceBreak
