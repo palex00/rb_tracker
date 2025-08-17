@@ -893,6 +893,7 @@
                         "name": "Museum Scientist",
                         "item_count": 1,
                         "access_rules": [
+							"opt_er_on",
                             "^$cut"
                         ],
                         "visibility_rules": [
@@ -2813,6 +2814,7 @@
                         "chest_opened_img": "images/trainers/lass_done.png",
                         "item_count": 1,
                         "access_rules": [
+							"^$ceruleancave, opt_er_on",
                             "^$surf"
                         ],
                         "visibility_rules": [
@@ -3266,6 +3268,7 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
+							"opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
@@ -3279,6 +3282,7 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
+							"opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
@@ -3292,6 +3296,7 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
+							"opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
@@ -3303,6 +3308,7 @@
                         "name": "7F Save Mr. Fuji",
                         "hosted_item": "fuji_hosted",
                         "access_rules": [
+							"opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ]
@@ -4606,6 +4612,7 @@
                         "chest_opened_img": "images/trainers/pokemaniac_done.png",
                         "item_count": 1,
                         "access_rules": [
+							"opt_er_on",
                             "^$surf"
                         ],
                         "visibility_rules": [
