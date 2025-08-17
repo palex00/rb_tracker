@@ -4800,7 +4800,7 @@
                 "name": "Route 23",
                 "access_rules": [
                     "^$rt23, ^$surf",
-                    "@Kanto/Victory Road"
+                    "@Kanto/Victory Road, ^$rt23"
                 ],
                 "sections": [
                     {
