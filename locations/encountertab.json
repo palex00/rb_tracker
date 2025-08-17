@@ -1680,7 +1680,7 @@
             {
                 "name": "Route 13",
                 "access_rules": [
-                    "@Kanto/Route 13"
+                    "@Kanto/Route 14"
                 ],
                 "sections": [
                     {
@@ -1707,7 +1707,7 @@
                     },
                     {
                         "name": "Pokémon (Vanilla - Red)",
-                        "hosted_item": "`Pidgey, Oddish, Gloom, Venonat, Ditto",
+                        "hosted_item": "Pidgey, Oddish, Gloom, Venonat, Ditto",
                         "access_rules": ["^$cut"],
                         "clear_as_group": false,
                         "visibility_rules": [
