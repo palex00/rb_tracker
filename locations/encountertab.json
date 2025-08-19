@@ -1239,8 +1239,16 @@
                         ]
                     },
                     {
-                        "name": "B1F Pokémon 1:1",
+                        "name": "B1F Pokémon 1:1 (Blue)",
                         "item_count": 7,
+                        "clear_as_group": false,
+                        "visibility_rules": [
+                            "opt_encounter_one"
+                        ]
+                    },
+                    {
+                        "name": "B1F Pokémon 1:1 (Red)",
+                        "item_count": 6,
                         "clear_as_group": false,
                         "visibility_rules": [
                             "opt_encounter_one"
