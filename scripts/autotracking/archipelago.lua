@@ -58,9 +58,11 @@ function onClear(slot_data)
             if obj then
                 if v[2] == "toggle" then
                     obj.Active = false
-                elseif v[2] == "progressive" or v[2] == "progressive_toggle" then
-                    obj.CurrentStage = 0
+                elseif v[2] == "progressive" then
                     obj.Active = false
+                elseif v[2] == "progressive_toggle" then
+                    obj.Active = false
+                    obj.CurrentStage = 0
                 elseif v[2] == "consumable" then
                     obj.AcquiredCount = 0
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

@@ -49,9 +49,9 @@ ITEM_MAPPING = {
     [172000108] = {"cardkey10f","toggle"},
     [172000109] = {"cardkey11f","toggle"},
     [172000110] = {"cardkey_progressive","custom"},
-    [172000196] = {"cut","toggle"},
-    [172000197] = {"fly","toggle"},
-    [172000198] = {"surf","toggle"},
-    [172000199] = {"strength","toggle"},
-    [172000200] = {"flash","toggle"}
+    [172000196] = {"cut","progressive_toggle"},
+    [172000197] = {"fly","progressive_toggle"},
+    [172000198] = {"surf","progressive_toggle"},
+    [172000199] = {"strength","progressive_toggle"},
+    [172000200] = {"flash","progressive_toggle"}
 }
