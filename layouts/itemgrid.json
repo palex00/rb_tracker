@@ -1,82 +1,75 @@
 {
     "shared_item_grid": {
         "type": "array",
-        "background": "#111111",
+        "background": "#171717",
         "orientation": "vertical",
         "margin": "0,0,0,0",
         "content": [
             {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0,0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "3, 3",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "boulder",
-                                "cascade",
-                                "thunder",
-                                "rainbow",
-                                "soul",
-                                "marsh",
-                                "volcano",
-                                "earth"
-                            ],
-                            [
-                                "cut",
-                                "fly",
-                                "surf",
-                                "strength",
-                                "flash",
-                                "dex",
-                                "fuji",
-                                "silphco"
-                            ],
-                            [
-                                "parcel",
-                                "townmap",
-                                "bicycle",
-                                "itemfinder",
-                                "silphscope",
-                                "coincase",
-                                "pokeflute",
-                                "goldteeth"
-                            ],
-                            [
-                                "oldrod",
-                                "goodrod",
-                                "superrod",
-                                "voucher",
-                                "ssticket",
-								"pokedex",
-								"expall",
-                                "tea"
-                            ],
-                            [
-                                "firestone",
-                                "leafstone",
-                                "thunderstone",
-                                "waterstone",
-                                "moonstone",
-                                "oldamber",
-                                "domefossil",
-                                "helixfossil"
-                            ],
-                            [
-                                "custom_cardkey",
-                                "secretkey",
-                                "liftkey",
-                                "plantkey",
-                                "mansionkey",
-                                "hideoutkey",
-                                "safaripass",
-                                "v5_update"
-                            ]
-                        ]
-                    }
+                "type": "itemgrid",
+                "item_margin": "3, 3",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "boulder",
+                        "cascade",
+                        "thunder",
+                        "rainbow",
+                        "soul",
+                        "marsh",
+                        "volcano",
+                        "earth"
+                    ],
+                    [
+                        "cut",
+                        "fly",
+                        "surf",
+                        "strength",
+                        "flash",
+                        "dex",
+                        "fuji",
+                        "silphco"
+                    ],
+                    [
+                        "parcel",
+                        "townmap",
+                        "bicycle",
+                        "itemfinder",
+                        "silphscope",
+                        "coincase",
+                        "pokeflute",
+                        "goldteeth"
+                    ],
+                    [
+                        "oldrod",
+                        "goodrod",
+                        "superrod",
+                        "voucher",
+                        "ssticket",
+                        "pokedex",
+                        "expall",
+                        "tea"
+                    ],
+                    [
+                        "firestone",
+                        "leafstone",
+                        "thunderstone",
+                        "waterstone",
+                        "moonstone",
+                        "oldamber",
+                        "domefossil",
+                        "helixfossil"
+                    ],
+                    [
+                        "custom_cardkey",
+                        "secretkey",
+                        "liftkey",
+                        "plantkey",
+                        "mansionkey",
+                        "hideoutkey",
+                        "safaripass",
+                        "v5_update"
+                    ]
                 ]
             }
         ]
@@ -116,11 +109,7 @@
                     [
                         "opt_old_man",
                         "opt_rt3",
-
-			            
-
-			"opt_officer",
-
+                        "opt_officer",
                         "opt_extra_boulders",
                         "opt_hm",
                         "opt_tea"
@@ -140,7 +129,7 @@
                         "opt_hidden_items",
                         "opt_extra_key_items",
                         "opt_prizesanity",
-                        "opt_trn",                     
+                        "opt_trn",
                         "opt_stonesanity",
                         "opt_keyonly",
                         "opt_cardkey"
@@ -161,14 +150,14 @@
                         "opt_bike_skips",
                         "opt_pokedoll_skip",
                         "opt_dark_rock_tunnel",
-						"opt_er"
+                        "opt_er"
                     ]
                 ]
             },
             {
                 "type": "group",
                 "header": "Free Fly",
-                "background": "#111111",
+                "background": "#171717",
                 "content": [
                     {
                         "type": "item",
@@ -198,12 +187,17 @@
                 "type": "group",
                 "header": "Viridian Gym",
                 "dock": "top",
-                "content":                 {
+                "content": {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["vg_req","badge_req","vg_digit",""]
+                        [
+                            "vg_req",
+                            "badge_req",
+                            "vg_digit",
+                            ""
+                        ]
                     ]
                 }
             },
@@ -211,13 +205,21 @@
                 "type": "group",
                 "header": "Victory Road Requirements",
                 "dock": "top",
-                "content":                 {
+                "content": {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["rt22_req","badge_req","rt22_digit","",
-                        "vr_req", "badge_req","vr_digit",""]
+                        [
+                            "rt22_req",
+                            "badge_req",
+                            "rt22_digit",
+                            "",
+                            "vr_req",
+                            "badge_req",
+                            "vr_digit",
+                            ""
+                        ]
                     ]
                 }
             },
@@ -225,30 +227,48 @@
                 "type": "group",
                 "header": "Elite 4 Requirements",
                 "dock": "top",
-                "content":                 {
+                "content": {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2",
-                        "","dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                        [
+                            "badge_req",
+                            "e4b_digit",
+                            "",
+                            "key_req",
+                            "e4k_digit1",
+                            "e4k_digit2",
+                            "",
+                            "dex_req",
+                            "e4p_digit1",
+                            "e4p_digit2",
+                            "e4p_digit3",
+                            ""
+                        ]
                     ]
-                
                 }
             },
-                {
-                    "type": "group",
-                    "header": "Cerulean Cave Requirements",
-                    "dock": "top",
-                    "content":                 {
-                        "type": "itemgrid",
-                        "orientation": "vertical",
-                        "h_alignment": "left",
-                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
-                    
-                    }
+            {
+                "type": "group",
+                "header": "Cerulean Cave Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "badge_req",
+                            "ccaveB_digit",
+                            "",
+                            "key_req",
+                            "ccaveK_digit1",
+                            "ccaveK_digit2"
+                        ]
+                    ]
                 }
-        
+            }
         ]
     },
     "requirements": {
@@ -261,12 +281,17 @@
                 "type": "group",
                 "header": "Viridian Gym",
                 "dock": "top",
-                "content":                 {
+                "content": {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["vg_req","badge_req","vg_digit",""]
+                        [
+                            "vg_req",
+                            "badge_req",
+                            "vg_digit",
+                            ""
+                        ]
                     ]
                 }
             },
@@ -274,13 +299,21 @@
                 "type": "group",
                 "header": "Victory Road Requirements",
                 "dock": "top",
-                "content":                 {
+                "content": {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["rt22_req","badge_req","rt22_digit","",
-                        "vr_req", "badge_req","vr_digit",""]
+                        [
+                            "rt22_req",
+                            "badge_req",
+                            "rt22_digit",
+                            "",
+                            "vr_req",
+                            "badge_req",
+                            "vr_digit",
+                            ""
+                        ]
                     ]
                 }
             },
@@ -288,30 +321,49 @@
                 "type": "group",
                 "header": "Elite 4 Requirements",
                 "dock": "top",
-                "content":                 {
+                "content": {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2"],
-                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
+                        [
+                            "badge_req",
+                            "e4b_digit",
+                            "",
+                            "key_req",
+                            "e4k_digit1",
+                            "e4k_digit2"
+                        ],
+                        [
+                            "dex_req",
+                            "e4p_digit1",
+                            "e4p_digit2",
+                            "e4p_digit3",
+                            ""
+                        ]
                     ]
-                
                 }
             },
-                {
-                    "type": "group",
-                    "header": "Cerulean Cave Requirements",
-                    "dock": "top",
-                    "content":                 {
-                        "type": "itemgrid",
-                        "orientation": "vertical",
-                        "h_alignment": "left",
-                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
-                    
-                    }
+            {
+                "type": "group",
+                "header": "Cerulean Cave Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "badge_req",
+                            "ccaveB_digit",
+                            "",
+                            "key_req",
+                            "ccaveK_digit1",
+                            "ccaveK_digit2"
+                        ]
+                    ]
                 }
-        
+            }
         ]
     }
 }
