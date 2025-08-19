@@ -1367,7 +1367,7 @@
                     },
                     {
                         "name": "2F Pokémon 1:1",
-                        "item_count": 9,
+                        "item_count": 8,
                         "clear_as_group": false,
                         "access_rules": [
                             "@Kanto/Indigo Plateau" // This is specifically because you can reach a small 3x3 section of 2F by going backwards, with no strength. If you go forwards you have indigo access either way.
