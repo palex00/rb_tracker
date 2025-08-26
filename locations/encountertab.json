@@ -2854,7 +2854,8 @@
                             "opt_encounter_ten"
                         ],
                         "access_rules": [
-                            "superrod, @Kanto/Cinnabar Island"
+                            "superrod, @Kanto/Cinnabar Island",
+                            "superrod, @Kanto/Fuchsia City" // this is because of Route 19
                         ]
                     },
                     {
