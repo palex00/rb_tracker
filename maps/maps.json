@@ -13,6 +13,7 @@
 {"name": "cinnabarlabmetronomeroom", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/cinnabarlabmetronomeroom.png"},
 {"name": "cinnabarlabtraderoom", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/cinnabarlabtraderoom.png"},
 {"name": "diglettscave", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/diglettscave.png"},
+{"name": "fightingdojo", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/fightingdojo.png"},
 {"name": "fuchsiacity", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/fuchsiacity.png"},
 {"name": "fuchsiagym", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/fuchsiagym.png"},
 {"name": "gamecorner", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/gamecorner.png"},
