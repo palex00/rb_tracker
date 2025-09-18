@@ -2476,7 +2476,7 @@
                         ]
                     },
                     {
-                        "name": "Gym: Super Nerd 4",
+                        "name": "Gym: Burglar 3",
                         "chest_unopened_img": "images/trainers/supernerd.png",
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
@@ -2489,7 +2489,7 @@
                         ]
                     },
                     {
-                        "name": "Gym: Super Nerd 5",
+                        "name": "Gym: Super Nerd 4",
                         "chest_unopened_img": "images/trainers/supernerd.png",
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
@@ -5379,7 +5379,7 @@
                         ]
                     },
                     {
-                        "name": "B1F Item 1",
+                        "name": "B1F East Single Sailor Room Item",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
@@ -5407,7 +5407,7 @@
                         ]
                     },
                     {
-                        "name": "B1F Item 2",
+                        "name": "B1F West Single Sailor Room Item",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
@@ -5425,7 +5425,7 @@
                         ]
                     },
                     {
-                        "name": "B1F Item 3",
+                        "name": "B1F Machoke Room Item",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
@@ -5523,7 +5523,7 @@
                         ]
                     },
                     {
-                        "name": "2F Item 1",
+                        "name": "2F Fisherman and Gentleman Room Item",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
@@ -5551,7 +5551,7 @@
                         ]
                     },
                     {
-                        "name": "2F Item 2",
+                        "name": "2F Gentleman and Lass Room Item",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
