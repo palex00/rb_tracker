@@ -4,7 +4,6 @@ ENABLE_DEBUG_LOG = false
 -- get current variant
 local variant = Tracker.ActiveVariantUID
 -- check variant info
-IS_ITEMS_ONLY = variant:find("itemsonly")
 IS_PSEUDOTRACKING = variant:find("eventpseudotracking")
 
 function debug()
@@ -38,14 +37,13 @@ Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/pokedex.json")
 
-if not IS_ITEMS_ONLY then 
-    -- Maps
-    Tracker:AddMaps("maps/maps.json")    
-    -- Locations
-    Tracker:AddLocations("locations/locations.json")
-    Tracker:AddLocations("locations/submaps.json")
-    Tracker:AddLocations("locations/encountertab.json")
-end
+-- Maps
+Tracker:AddMaps("maps/maps.json") 
+   
+-- Locations
+Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/encountertab.json")
+Tracker:AddLocations("locations/submaps_singlechecks.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/itemgrid.json")

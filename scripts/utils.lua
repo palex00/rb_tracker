@@ -141,3 +141,16 @@ function toggle_hosted_item(code)
     end
   end
 end
+
+function onMap(value)
+    if value ~= nil and value["data"] ~= nil then
+        local map_number = value["data"]["currentMap"]
+
+        -- Access correct mapping and activate tabs
+        local tabs = MAP_MAPPING[map_number]
+        
+        for i, tab in ipairs(tabs) do
+            Tracker:UiHint("ActivateTab", tab)
+        end
+    end
+end

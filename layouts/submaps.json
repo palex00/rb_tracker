@@ -1102,7 +1102,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "seafoamisland1f"
+                                                "seafoamislands1f"
                                             ]
                                         }
                                     },
@@ -1111,7 +1111,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "seafoamislandb1f"
+                                                "seafoamislandsb1f"
                                             ]
                                         }
                                     },
@@ -1120,7 +1120,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "seafoamislandb2f"
+                                                "seafoamislandsb2f"
                                             ]
                                         }
                                     },
@@ -1129,7 +1129,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "seafoamislandb3f"
+                                                "seafoamislandsb3f"
                                             ]
                                         }
                                     },
@@ -1138,7 +1138,7 @@
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "seafoamislandb4f"
+                                                "seafoamislandsb4f"
                                             ]
                                         }
                                     }
