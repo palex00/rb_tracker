@@ -1,4 +1,6 @@
 [
+{"name": "map", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/map.png"},
+{"name": "encounters", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/map.png"},
 {"name": "celadoncity", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/celadoncity.png"},
 {"name": "celadongym", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/celadongym.png"},
 {"name": "ceruleancave1f", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/ceruleancave1f.png"},

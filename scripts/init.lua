@@ -50,6 +50,7 @@ end
 -- Layout
 Tracker:AddLayouts("layouts/itemgrid.json")
 Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/submaps.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/dex.json")
 
