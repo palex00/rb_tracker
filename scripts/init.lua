@@ -44,6 +44,7 @@ Tracker:AddMaps("maps/maps.json")
 Tracker:AddLocations("locations/locations.json")
 Tracker:AddLocations("locations/encountertab.json")
 Tracker:AddLocations("locations/submaps_singlechecks.json")
+Tracker:AddLocations("locations/submaps_groupchecks.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/itemgrid.json")
@@ -53,19 +54,15 @@ Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/dex.json")
 
 -- AutoTracking for Poptracker
-if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/autotracking.lua")
-end
+ScriptHost:LoadScript("scripts/autotracking.lua")
 
-if PopVersion and PopVersion >= "0.1.0" then
-    -- Add a watch to dynamically load layout if progressive card keys enabled
-    ScriptHost:AddWatchForCode("load_card_key", "opt_cardkey_split", split_key)
-    --add watches to hide items from the itemgrid if they're not enabled
-    ScriptHost:AddWatchForCode("toggle_extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
-    ScriptHost:AddWatchForCode("toggle_tea", "opt_tea", toggle_tea)
-    ScriptHost:AddWatchForCode("debug", "coincase", debug)
+-- Add a watch to dynamically load layout if progressive card keys enabled
+ScriptHost:AddWatchForCode("load_card_key", "opt_cardkey_split", split_key)
+--add watches to hide items from the itemgrid if they're not enabled
+ScriptHost:AddWatchForCode("toggle_extra_key_items", "opt_extra_key_items", toggle_extra_key_items)
+ScriptHost:AddWatchForCode("toggle_tea", "opt_tea", toggle_tea)
+ScriptHost:AddWatchForCode("debug", "coincase", debug)
 
-end
 --load cardkey customitem
 ScriptHost:LoadScript('scripts/custom_items/cardkey.lua')
 initialize_watch_items()
