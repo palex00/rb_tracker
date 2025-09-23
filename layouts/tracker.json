@@ -4,96 +4,26 @@
         "background": "#171717",
         "content": {
             "type": "dock",
-            "dropshadow": true,
+            "dropshadow": false,
             "content": [
                 {
                     "type": "dock",
-                    "dock": "left",
-                    "background": "#171717",
-                    "v_alignment": "stretch",
-                    "margin": "0,0,0,0",
+                    "dropshadow": false,
+                    "dock": "bottom",
+                    "background": "#2D2D2D",
                     "content": [
                         {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "top",
-                            "margin": "0,0,0,0",
-                            "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid"
-                            }
-                        },
-                        {
                             "type": "layout",
-                            "key": "cardkey",
-                            "dock": "top"
-                        },
-                        {
-                            "type": "tabbed",
-                            "tabs": [
-                                {
-                                    "title": "Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "settings"
-                                    }
-                                },
-                                {
-                                    "title": "Badge Requirements",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "requirements"
-                                    }
-                                }
-                            ]
+                            "key": "item_grids"
                         }
                     ]
                 },
                 {
                     "type": "dock",
-                    "content": [
-                        {
-                            "type": "tabbed",
-                            "dock": "top",
-                            "tabs": [
-                                {
-                                    "title": "Kanto",
-                                    "icon": "images/items/townmap.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": [
-                                            "map"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "title": "Submaps",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "submaps"
-                                    }
-                                },
-                                {
-                                    "title": "Encounters",
-                                    "icon": "images/items/encounter_icon.png",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": [
-                                            "encounters"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "title": "Dexsanity",
-                                    "icon": "images/items/pokedex.png",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "settings_popup"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                    "content": {
+                        "type": "layout",
+                        "key": "tabbed_maps"
+                    }
                 }
             ]
         }

@@ -1,0 +1,36 @@
+{
+    "extra_item_horizontal_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "3, 3",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "cardkey2f",
+                        "cardkey3f"
+                    ],
+                    [
+                        "cardkey4f",
+                        "cardkey5f"
+                    ],
+                    [
+                        "cardkey6f",
+                        "cardkey7f"
+                    ],
+                    [
+                        "cardkey8f",
+                        "cardkey9f"
+                    ],
+                    [
+                        "cardkey10f",
+                        "cardkey11f"
+                    ]
+                ]
+            }
+        ]
+    }
+}

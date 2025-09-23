@@ -35,11 +35,7 @@ function badges_count()
 end
 -- returns int of # of key items
 function key_items_count()
-    if Tracker:FindObjectForCode('v5_update').CurrentStage == 0 then
-        return Tracker:ProviderCountForCode('keyitem')
-    elseif Tracker:FindObjectForCode('v5_update').CurrentStage == 1 then
-        return Tracker:ProviderCountForCode('keyitem') + Tracker:ProviderCountForCode('newkeyitem')
-    end
+    return Tracker:ProviderCountForCode('keyitem')
 end
 -- returns int of # of pokemon caught
 function pokedex_count()
@@ -147,7 +143,7 @@ end
 
 -- ITEM ACCESS CHECKS
 function cardkey(floor)
-    return max(has('cardkey'),has('cardkey'..floor..'f'),has('cardkey_progressive', floor-1))
+    return max(has('cardkey'), has('cardkey'..floor..'f'), has('cardkey_progressive', floor-1))
 end
 
 function hidden()

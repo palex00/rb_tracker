@@ -1,0 +1,44 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Kanto",
+                "icon": "images/items/townmap.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "map"
+                    ]
+                }
+            },
+            {
+                "title": "Submaps",
+                "content": {
+                    "type": "layout",
+                    "key": "submaps"
+                }
+            },
+            {
+                "title": "Encounters",
+                "icon": "images/items/encounter_icon.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "encounters"
+                    ]
+                }
+            },
+            {
+                "title": "Pokedex",
+                "content": {
+                    "type": "dock",
+                    "content": {
+                        "type": "layout",
+                        "key": "dex_grid"
+                    }
+                }
+            }
+        ]
+    }
+}

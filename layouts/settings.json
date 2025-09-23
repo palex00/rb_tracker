@@ -1,131 +1,105 @@
 {
-    "shared_item_grid": {
-        "type": "array",
-        "background": "#171717",
-        "orientation": "vertical",
-        "margin": "0,0,0,0",
-        "content": [
-            {
-                "type": "itemgrid",
-                "item_margin": "3, 3",
-                "h_alignment": "left",
-                "rows": [
-                    [
-                        "boulder",
-                        "cascade",
-                        "thunder",
-                        "rainbow",
-                        "soul",
-                        "marsh",
-                        "volcano",
-                        "earth"
-                    ],
-                    [
-                        "cut",
-                        "fly",
-                        "surf",
-                        "strength",
-                        "flash",
-                        "dex",
-                        "fuji",
-                        "silphco"
-                    ],
-                    [
-                        "parcel",
-                        "townmap",
-                        "bicycle",
-                        "itemfinder",
-                        "silphscope",
-                        "coincase",
-                        "pokeflute",
-                        "goldteeth"
-                    ],
-                    [
-                        "oldrod",
-                        "goodrod",
-                        "superrod",
-                        "voucher",
-                        "ssticket",
-                        "pokedex",
-                        "expall",
-                        "tea"
-                    ],
-                    [
-                        "firestone",
-                        "leafstone",
-                        "thunderstone",
-                        "waterstone",
-                        "moonstone",
-                        "oldamber",
-                        "domefossil",
-                        "helixfossil"
-                    ],
-                    [
-                        "custom_cardkey",
-                        "secretkey",
-                        "liftkey",
-                        "plantkey",
-                        "mansionkey",
-                        "hideoutkey",
-                        "safaripass",
-                        "v5_update"
-                    ]
-                ]
-            }
-        ]
+    "settings_popup": {
+        "type": "dock",
+        "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Pokédex Related",
+                    "content": {
+                        "type": "layout",
+                        "key": "pokedex_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Roadblocks",
+                    "content": {
+                        "type": "layout",
+                        "key": "roadblock_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Sanities",
+                    "content": {
+                        "type": "layout",
+                        "key": "sanity_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Logic",
+                    "content": {
+                        "type": "layout",
+                        "key": "logic_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Fly Locations",
+                    "content": {
+                        "type": "layout",
+                        "key": "flysetting_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Entry Requirements",
+                    "content": {
+                        "type": "layout",
+                        "key": "bottombar"
+                    }
+                }
+            ]
+        }
     },
-    "settings": {
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-            {
-                "type": "text",
-                "text": "Pokédex-related"
-            },
-            {
-                "type": "itemgrid",
-                "item_size": 32,
-                "h_alignment": "left",
-                "rows": [
-                    [
+    "pokedex_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
                         "opt_aide_2",
                         "opt_aide_11",
                         "opt_aide_15",
                         "opt_dex_required",
                         "opt_fossilcheck",
                         "opt_dexsanity"
-                    ]
-                ]
-            },
-            {
-                "type": "text",
-                "text": "Roadblocks"
-            },
-            {
-                "type": "itemgrid",
-                "orientation": "vertical",
-                "h_alignment": "left",
-                "rows": [
-                    [
+            ]
+        ]
+    },
+    "roadblock_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
                         "opt_old_man",
                         "opt_rt3",
                         "opt_officer",
                         "opt_extra_boulders",
                         "opt_hm",
                         "opt_tea"
-                    ]
-                ]
-            },
-            {
-                "type": "text",
-                "text": "Pool-Size Changes"
-            },
-            {
-                "type": "itemgrid",
-                "orientation": "vertical",
-                "h_alignment": "left",
-                "rows": [
-                    [
+            ]
+        ]
+    },
+    "sanity_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
                         "opt_hidden_items",
                         "opt_extra_key_items",
                         "opt_prizesanity",
@@ -133,45 +107,43 @@
                         "opt_stonesanity",
                         "opt_keyonly",
                         "opt_cardkey"
-                    ]
-                ]
-            },
-            {
-                "type": "text",
-                "text": "Logic Implications"
-            },
-            {
-                "type": "itemgrid",
-                "orientation": "vertical",
-                "h_alignment": "left",
-                "rows": [
-                    [
+            ]
+        ]
+    },
+    "logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
                         "opt_itemfinder",
                         "opt_bike_skips",
                         "opt_pokedoll_skip",
                         "opt_dark_rock_tunnel",
                         "opt_er"
-                    ]
-                ]
-            },
+            ]
+        ]
+    },
+    "flysetting_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
             {
-                "type": "group",
-                "header": "Free Fly",
-                "background": "#171717",
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,6",
                 "content": [
                     {
                         "type": "item",
                         "item": "free_fly",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
+                        "item_size": "305, 40"
                     },
                     {
                         "type": "item",
                         "item": "tm_free_fly",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
+                        "item_size": "305, 40"
                     }
                 ]
             }
@@ -179,8 +151,7 @@
     },
     "bottombar": {
         "type": "array",
-        "orientation": "horizontal",
-        "background": "#212121",
+        "orientation": "vertical",
         "margin": "0 0 0 0",
         "content": [
             {

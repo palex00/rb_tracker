@@ -43,6 +43,7 @@ end
 function progCount(code)
 	return Tracker:FindObjectForCode(code).CurrentStage
 end
+
 --returns whether we can access all given arguments
 function access(...)
     local access = AccessibilityLevel.Normal
@@ -60,6 +61,7 @@ function access(...)
 
     return access
 end
+
 --returns the maximum accessibility of the given arguments
 function max(...)
     local maximum = AccessibilityLevel.None
@@ -80,27 +82,6 @@ end
 function scoutable()
     return AccessibilityLevel.Inspect
 end
-
-function toggle_extra_key_items()
-    local codes = {'safaripass', 'hideoutkey', 'plantkey', 'mansionkey'}
-    local stage = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
-
-    for i, item in ipairs(codes) do
-        local obj = Tracker:FindObjectForCode(item)
-        if obj then
-            obj.CurrentStage = stage
-        end
-    end
-end
-
-function toggle_tea()
-    local stage = Tracker:FindObjectForCode('opt_tea').CurrentStage
-    local obj = Tracker:FindObjectForCode('tea')
-    if obj then
-        obj.CurrentStage = stage
-    end
-end
-
 
 function get_ap_locations()
     local missing = Archipelago.MissingLocations
@@ -152,5 +133,75 @@ function onMap(value)
         for i, tab in ipairs(tabs) do
             Tracker:UiHint("ActivateTab", tab)
         end
+    end
+end
+
+function toggle_itemgrid()
+    local stones = Tracker:FindObjectForCode("opt_stonesanity").CurrentStage == 1
+    print(stones)
+    print(Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2)
+    
+    if Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 and stones then
+        Tracker:AddLayouts("layouts/itemgrids_extra.json")
+        Tracker:AddLayouts("layouts/items_extra_full.json")
+        toggle_maingrid()
+    elseif stones then
+        Tracker:AddLayouts("layouts/itemgrids_extra.json")
+        Tracker:AddLayouts("layouts/items_extra_stones.json")
+        toggle_maingrid()
+    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 then
+        Tracker:AddLayouts("layouts/itemgrids_extra.json")
+        Tracker:AddLayouts("layouts/items_extra_cardkey.json")
+        toggle_maingrid()
+    elseif not (Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2) and not stones then
+        Tracker:AddLayouts("layouts/itemgrids.json")
+        toggle_maingrid()
+    else
+        print("Something went terribly wrong in toggle_itemgrid()")
+    end
+end
+
+function toggle_maingrid()
+    local extra_key = Tracker:FindObjectForCode("opt_extra_key_items").CurrentStage == 1
+    local tea = Tracker:FindObjectForCode("opt_tea").CurrentStage == 1
+    
+    if Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 then
+        if extra_key and tea then
+            Tracker:AddLayouts("layouts/items_main_3_full.json")
+        elseif extra_key then
+            Tracker:AddLayouts("layouts/items_main_3_extrakey.json")
+        elseif tea then
+            Tracker:AddLayouts("layouts/items_main_3_tea.json")
+        elseif not tea and not extra_key then
+            Tracker:AddLayouts("layouts/items_main_3_minimal.json")
+        else
+            print("Something went terribly wrong in toggle_maingrid()")
+        end
+    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 1 then
+        if extra_key and tea then
+            Tracker:AddLayouts("layouts/items_main_2_full.json")
+        elseif extra_key then
+            Tracker:AddLayouts("layouts/items_main_2_extrakey.json")
+        elseif tea then
+            Tracker:AddLayouts("layouts/items_main_2_tea.json")
+        elseif not tea and not extra_key then
+            Tracker:AddLayouts("layouts/items_main_2_minimal.json")
+        else
+            print("Something went terribly wrong in toggle_maingrid()")
+        end
+    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 0 then
+        if extra_key and tea then
+            Tracker:AddLayouts("layouts/items_main_1_full.json")
+        elseif extra_key then
+            Tracker:AddLayouts("layouts/items_main_1_extrakey.json")
+        elseif tea then
+            Tracker:AddLayouts("layouts/items_main_1_tea.json")
+        elseif not tea and not extra_key then
+            Tracker:AddLayouts("layouts/items_main_1_minimal.json")
+        else
+            print("Something went terribly wrong in toggle_maingrid()")
+        end
+    else
+        print("Oh nyo. This is even more terrible.")
     end
 end
