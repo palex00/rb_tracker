@@ -414,40 +414,8 @@
 {"name": "Bow: Sailor 2", "ref": "Kanto/S.S. Anne/Bow: Sailor 2"},
 {"name": "2F Captain", "ref": "Kanto/S.S. Anne/2F Captain"}
 ], "map_locations": [{"map": "vermilioncity", "x": 296, "y": 504}]},
-{"name": "S.S. Anne Cabin 1-2", "sections": [
-{"name": "Lass", "ref": "Kanto/S.S. Anne/1F Lass"},
-{"name": "Item", "ref": "Kanto/S.S. Anne/1F Item"},
-{"name": "Youngster", "ref": "Kanto/S.S. Anne/1F Youngster"}
-], "map_locations": [{"map": "ssanne1f", "x": 184, "y": 136}]},
-{"name": "S.S. Anne Cabin 2-2", "sections": [
-{"name": "Item", "ref": "Kanto/S.S. Anne/2F Fisherman and Gentleman Room Item"},
-{"name": "Fisherman", "ref": "Kanto/S.S. Anne/2F Fisherman"},
-{"name": "Gentleman", "ref": "Kanto/S.S. Anne/2F Gentleman 1"}
-], "map_locations": [{"map": "ssanne2f", "x": 216, "y": 184}]},
-{"name": "S.S. Anne Cabin 2-4", "sections": [
-{"name": "Item", "ref": "Kanto/S.S. Anne/2F Gentleman and Lass Room Item"},
-{"name": "Gentleman", "ref": "Kanto/S.S. Anne/2F Gentleman 2"},
-{"name": "Lass", "ref": "Kanto/S.S. Anne/2F Lass"}
-], "map_locations": [{"map": "ssanne2f", "x": 344, "y": 184}]},
-{"name": "S.S. Anne Cabin BF-1", "sections": [
-{"name": "HI: Pillow", "ref": "Kanto/S.S. Anne/HI: B1F Pillow"},
-{"name": "Fisherman", "ref": "Kanto/S.S. Anne/B1F Fisherman"},
-{"name": "Sailor", "ref": "Kanto/S.S. Anne/B1F Sailor 5"}
-], "map_locations": [{"map": "ssanneb1f", "x": 120, "y": 56}]},
-{"name": "S.S. Anne Cabin BF-2", "sections": [
-{"name": "Item", "ref": "Kanto/S.S. Anne/B1F West Single Sailor Room Item"},
-{"name": "Sailor", "ref": "Kanto/S.S. Anne/B1F Sailor 4"}
-], "map_locations": [{"map": "ssanneb1f", "x": 184, "y": 56}]},
-{"name": "S.S. Anne Cabin BF-3", "sections": [
-{"name": "Item", "ref": "Kanto/S.S. Anne/B1F East Single Sailor Room Item"},
-{"name": "Sailor", "ref": "Kanto/S.S. Anne/B1F Sailor 3"}
-], "map_locations": [{"map": "ssanneb1f", "x": 248, "y": 56}]},
-{"name": "S.S. Anne Cabin BF-4", "sections": [
-{"name": "Sailor 1", "ref": "Kanto/S.S. Anne/B1F Sailor 1"},
-{"name": "Sailor 2", "ref": "Kanto/S.S. Anne/B1F Sailor 2"}
-], "map_locations": [{"map": "ssanneb1f", "x": 312, "y": 56}]},
-{"name": "Oak's Lab", "sections": [
-{"name": "Oak's Parcel Reward", "ref": "Kanto/Pallet Town/Oak's Parcel Reward"},
-{"name": "Oak's Post-Route-22-Rival Gift", "ref": "Kanto/Pallet Town/Oak's Post-Route-22-Rival Gift"}
-], "map_locations": [{"map": "pallettown", "x": 200, "y": 184}]},
+{"name": "Lab Fossils", "sections": [
+{"name": "Fossil A", "ref": "Kanto/Fossil/Fossil A"},
+{"name": "Fossil B", "ref": "Kanto/Fossil/Fossil B"}
+], "map_locations": [{"map": "cinnabarlab", "x": 264, "y": 72}]}
 ]}]
