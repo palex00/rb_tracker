@@ -1306,5 +1306,74 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Auto-Track Map",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Auto-Track Map - On",
+                "img": "/images/options/automap.png",
+                "codes": "automap, automap_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto-Track Map - Off",
+                "img": "/images/options/automap.png",
+                "img_mods": "@disabled",
+                "codes": "automap, automap_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Split Map",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Split Map - Off",
+                "img": "/images/options/splitmap.png",
+                "img_mods": "@disabled",
+                "codes": "splitmap, splitmap_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Map - On",
+                "img": "/images/options/splitmap.png",
+                "codes": "splitmap, splitmap_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Map - Reverse",
+                "img": "/images/options/splitmap_reverse.png",
+                "codes": "splitmap, splitmap_reverse",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Colormap",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "colormap - On",
+                "img": "/images/options/colormap.png",
+                "codes": "colormap, colormap_colored",
+                "inherit_codes": false
+            },
+            {
+                "name": "Colormap - Gray",
+                "img": "/images/options/colormap.png",
+                "img_mods": "@disabled",
+                "codes": "colormap, colormap_gray",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

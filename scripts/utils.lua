@@ -124,9 +124,10 @@ function toggle_hosted_item(code)
 end
 
 function onMap(value)
-    if value ~= nil and value["data"] ~= nil then
+    local automap = Tracker:FindObjectForCode("automap").CurrentStage == 0
+    if automap and value ~= nil and value["data"] ~= nil then
         local map_number = value["data"]["currentMap"]
-
+        
         -- Access correct mapping and activate tabs
         local tabs = MAP_MAPPING[map_number]
         

@@ -36,14 +36,8 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["extra_key_items"] then
-		--we need to force an item-code change
-		local current = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
-		local sd_value = slot_data["extra_key_items"]
-		if current == sd_value then
-			toggle_extra_key_items()
-		else
-			Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = sd_value
-		end
+        Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = slot_data["extra_key_items"]
+
 	end
 
     if slot_data["extra_strength_boulders"] then
@@ -51,13 +45,7 @@ function get_slot_options(slot_data)
 	end
 
     if slot_data["tea"] then
-		local current = Tracker:FindObjectForCode('opt_tea').CurrentStage
-		local sd_value = slot_data["tea"]
-		if current == sd_value then
-			toggle_tea()
-		else
-			Tracker:FindObjectForCode('opt_tea').CurrentStage = sd_value
-		end
+        Tracker:FindObjectForCode('opt_tea').CurrentStage = slot_data["tea"]
 	end
 
     if slot_data["old_man"] then
@@ -226,27 +214,12 @@ function get_slot_options(slot_data)
 	end
 
 	if slot_data["area_1_to_1_mapping"] then
-		local obj = Tracker:FindObjectForCode('opt_encounter') 
-		obj.CurrentStage = slot_data["area_1_to_1_mapping"]
+		Tracker:FindObjectForCode('opt_encounter') .CurrentStage = slot_data["area_1_to_1_mapping"]
 	end
 
     if slot_data["split_card_key"] then
-		local obj = Tracker:FindObjectForCode("opt_cardkey")
-		if obj then
-			local current = obj.CurrentStage
-			local sd_value  = slot_data["split_card_key"]
-			if sd_value == 2 then
-				sd_value = 1
-			elseif sd_value == 1 then
-				sd_value = 2
-			end
-			if current == sd_value then
-				split_key()
-			else
-				obj.CurrentStage = sd_value
-			end
-		end
-	end
+        Tracker:FindObjectForCode("opt_cardkey").CurrentStage = slot_data["split_card_key"]
+    end
 end
 
 function dexsanity_init(locations)
