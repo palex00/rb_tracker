@@ -216,3 +216,17 @@ function toggle_grayscale()
         print("Oh Oh.")
     end
 end
+
+function toggle_splitmap()
+    local off = Tracker:FindObjectForCode("splitmap").CurrentStage == 0
+    local on = Tracker:FindObjectForCode("splitmap").CurrentStage == 1
+    local reverse = Tracker:FindObjectForCode("splitmap").CurrentStage == 2
+    
+    if off then
+        Tracker:AddLayouts("layouts/tabs_single.json")
+    elseif on then
+        Tracker:AddLayouts("layouts/tabs_split.json")
+    elseif reverse then
+        Tracker:AddLayouts("layouts/tabs_reverse.json")
+    end
+end

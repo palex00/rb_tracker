@@ -1,0 +1,66 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "content": {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Submaps",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "submaps"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Kanto",
+                                    "icon": "images/items/townmap.png",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "map"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Encounters",
+                                    "icon": "images/items/encounter_icon.png",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "encounters"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Pokedex",
+                                    "icon": "images/items/pokedex.png",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": ""
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
