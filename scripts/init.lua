@@ -53,4 +53,7 @@ ScriptHost:AddWatchForCode("opt_stonesanity", "opt_stonesanity", toggle_itemgrid
 ScriptHost:AddWatchForCode("opt_extra_key_items", "opt_extra_key_items", toggle_maingrid)
 ScriptHost:AddWatchForCode("opt_tea", "opt_tea", toggle_maingrid)
 
+-- Adds Watches for Map Toggles
+ScriptHost:AddWatchForCode("colormap", "colormap", toggle_grayscale)
+
 initialize_watch_items()

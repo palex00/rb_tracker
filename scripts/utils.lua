@@ -206,3 +206,13 @@ function toggle_maingrid()
         print("Oh nyo. This is even more terrible.")
     end
 end
+
+function toggle_grayscale()
+    if Tracker:FindObjectForCode("colormap").CurrentStage == 0 then
+        Tracker:AddMaps("maps/maps.json") 
+    elseif Tracker:FindObjectForCode("colormap").CurrentStage == 1 then
+        Tracker:AddMaps("maps/maps_bw.json") 
+    else
+        print("Oh Oh.")
+    end
+end
