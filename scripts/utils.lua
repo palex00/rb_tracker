@@ -2,15 +2,23 @@ function dump_table(o, depth)
     if depth == nil then
         depth = 0
     end
+
+    local ignore_keys = {
+        type_chart = true,
+    }
+
     if type(o) == 'table' then
         local tabs = ('\t'):rep(depth)
         local tabs2 = ('\t'):rep(depth + 1)
         local s = '{\n'
         for k, v in pairs(o) do
-            if type(k) ~= 'number' then
-                k = '"' .. k .. '"'
+            local key_str = tostring(k)
+            if not ignore_keys[key_str] then
+                if type(k) ~= 'number' then
+                    k = '"' .. k .. '"'
+                end
+                s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
             end
-            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
         end
         return s .. tabs .. '}'
     else
@@ -112,6 +120,37 @@ function trainersanity_init(locations)
             Tracker:FindObjectForCode("trainer_" .. i).Active = true
         end
     end
+end
+
+function dexsanity_init(locations)
+	local count = 0
+	for i = 1, 151 do
+    
+        --check to see if the dexsanity location exists in the list of all checks
+		local dexID = i + 172000548
+		local check_exists = locations[dexID]
+        
+		if check_exists then
+			count = count + 1
+            
+			local obj = Tracker:FindObjectForCode("dexsanity_".. i)
+			if obj then
+				obj.Active = true
+			end
+		end
+	end
+    
+	local dexsanity = Tracker:FindObjectForCode('opt_dexsanity')
+    
+	if dexsanity then
+		if count == 0 then
+			dexsanity.CurrentStage = 0
+		elseif count == 151 then
+			dexsanity.CurrentStage = 2
+		else
+			dexsanity.CurrentStage = 1
+		end
+	end
 end
 
 function toggle_item(code)

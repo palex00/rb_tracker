@@ -535,26 +535,6 @@
         ]
     },
     {
-        "name": "Trainersanity",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Trainersanity - Off",
-                "img": "images/options/trainer.png",
-                "img_mods": "@disabled",
-                "codes": "opt_trn,trainer_off"
-            },
-            {
-                "name": "Trainersanity - On",
-                "img": "images/options/trainer.png",
-                "codes": "opt_trn,trainer_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "name": "Prizesanity",
         "type": "progressive",
         "loop": true,
@@ -1271,18 +1251,6 @@
                 "name": "1:1 Mapping",
                 "img": "images/options/one-to-one.png",
                 "codes": "opt_encounter, opt_encounter_one",
-                "inherit_codes": "false"
-            },
-            {
-                "name": "Vanilla Pokémon (Red)",
-                "img": "images/options/red.png",
-                "codes": "opt_encounter, opt_encounter_red",
-                "inherit_codes": "false"
-            },
-            {
-                "name": "Vanilla Pokémon (Blue)",
-                "img": "images/options/blue.png",
-                "codes": "opt_encounter, opt_encounter_blue",
                 "inherit_codes": "false"
             }
         ]

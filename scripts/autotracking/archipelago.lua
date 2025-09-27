@@ -17,9 +17,7 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
 
     print("Contents of slot_data:")
-    for key, value in pairs(slot_data) do
-        print(key, value)
-    end
+    print(dump_table(slot_data))
 
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -66,14 +64,33 @@ function onClear(slot_data)
         end
     end
     
+    -- reset Events
+    for _, item in ipairs(HOSTED_ITEMS) do
+        Tracker:FindObjectForCode(item).Active = false
+    end
+
+    for k, v in pairs(slot_data) do
+        if STAGE_CODES[k] then
+            --print("Setting "..k.." to "..v)
+            Tracker:FindObjectForCode(STAGE_CODES[k]).CurrentStage = v
+        elseif AMOUNT_CODES[k] then
+            --print("Setting "..k.." to "..v)
+            Tracker:FindObjectForCode(AMOUNT_CODES[k]).AcquiredCount = v
+        elseif IGNORED_CODES[k] then
+            --print("Ignored slot_data: "..k)
+        else
+            print("None found yet for " .. k)
+        end
+    end
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     get_slot_options(slot_data)
 
     local ap_locations = get_ap_locations()
     
-    trainersanity_init(ap_locations)
-    dexsanity_init(ap_locations)
+    --trainersanity_init(ap_locations)
+    --dexsanity_init(ap_locations)
 end
 
 -- called when an item gets collected

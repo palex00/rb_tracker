@@ -1991,7 +1991,7 @@
                         ]
                     },
                     {
-                        "name": "Liberate Silph Co",
+                        "name": "Liberate Silph Co (Event)",
                         "access_rules": [
                             "^$cardkey|11,^$cardkey|3"
                         ],
@@ -3305,7 +3305,7 @@
                         ]
                     },
                     {
-                        "name": "7F Save Mr. Fuji",
+                        "name": "7F Save Mr. Fuji (Event)",
                         "hosted_item": "fuji_hosted",
                         "access_rules": [
 							"opt_er_on",

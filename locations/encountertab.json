@@ -2935,28 +2935,30 @@
                 "access_rules": [],
                 "sections": [
                     {
+                    "name": "This map can only be operated manually.\nYou can backup your progress by Exporting the Tracker State\nin the top-left corner. You can then import it again.",
+                        "clear_as_group": false,
+                        "visibility_rules": [],
+                        "access_rules": [""],
+                        "chest_unopened_img": "images/items/doesnotexist.png",
+                        "chest_opened_img": "images/items/doesnotexist.png"
+                    },
+                    {
                         "access_rules": [
                             "{$scoutable}"
                         ],
-                        "name": "",
-                        "chest_unopened_img": "images/items/doesnotexist.png",
-                        "chest_opened_img": "images/items/doesnotexist.png"
-                    },
-                    {
-                        "name": "This map can only be operated manually.\nYou can backup your current state and then\nload it up again if you're using this map in an Async.",
-                        "clear_as_group": false,
-                        "visibility_rules": [],
-                        "access_rules": [],
-                        "hosted_item": "opt_encounter"
-                    },
-                    {
-                        "name": "With the above setting you can trigger whether you got\n1:1 mapping (original number of PKMN per place) or\nFull mapping (10 PKMN per place)",
-                        "clear_as_group": false,
-                        "visibility_rules": [],
-                        "access_rules": [],
+                        "hosted_item": "opt_encounter",
+                        "name": "Encounter-Slot-Setting",
                         "chest_unopened_img": "images/items/doesnotexist.png",
                         "chest_opened_img": "images/items/doesnotexist.png"
                     }
+                    //{
+                    //    "name": "With the above setting you can trigger whether you got\n1:1 mapping (original number of PKMN per place) or\nFull mapping (10 PKMN per place)",
+                    //    "clear_as_group": false,
+                    //    "visibility_rules": [],
+                    //    "access_rules": [],
+                    //    "chest_unopened_img": "images/items/doesnotexist.png",
+                    //    "chest_opened_img": "images/items/doesnotexist.png"
+                    //}
                 ],
                 "map_locations": [
                     {

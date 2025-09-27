@@ -205,7 +205,11 @@ function elite4()
 
     local enough_badges = badges_count() >= badges_required
     local enough_items = key_items_count() >= key_items_required
-    local enough_dex = pokedex_count() >= pokedex_required
+    if pokedex_required > 1 then
+        local enough_dex = ((pokedex_count() >= pokedex_required) and Tracker:FindObjectForCode("pokedex").Active == true)
+    else
+        local enough_dex = true
+    end
 
     if enough_badges and enough_items and enough_dex then
         return AccessibilityLevel.Normal
