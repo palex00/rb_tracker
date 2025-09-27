@@ -35,8 +35,10 @@
                 "content": {
                     "type": "dock",
                     "content": {
-                        "type": "layout",
-                        "key": "dex_grid"
+                        "type": "map",
+                        "maps": [
+                            "pokedex"
+                        ]
                     }
                 }
             }

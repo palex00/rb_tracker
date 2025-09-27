@@ -49,11 +49,10 @@
                                     "title": "Pokedex",
                                     "icon": "images/items/pokedex.png",
                                     "content": {
-                                        "type": "dock",
-                                        "content": {
-                                            "type": "layout",
-                                            "key": ""
-                                        }
+                                        "type": "map",
+                                        "maps": [
+                                            "pokedex"
+                                        ]
                                     }
                                 }
                             ]

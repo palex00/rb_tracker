@@ -2,26 +2,23 @@ ScriptHost:LoadScript("scripts/autotracking/slot_options.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
-
 if IS_PSEUDOTRACKING then
 	ScriptHost:LoadScript("scripts/autotracking/location_and_event_mapping.lua")
 	else
 	ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 end
 
+
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
--- TRAINERSANITY_LOCATIONS = {}
 
 function onClear(slot_data)
 
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print("Contents of slot_data:")
-        for key, value in pairs(slot_data) do
-            print(key, value)
-        end
+    print("Contents of slot_data:")
+    for key, value in pairs(slot_data) do
+        print(key, value)
     end
 
     SLOT_DATA = slot_data
@@ -71,18 +68,11 @@ function onClear(slot_data)
     
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    TRAINERSANITY_LOCATIONS = {}
-    IS_CONNECTED = TRUE
     get_slot_options(slot_data)
-    
+
     local ap_locations = get_ap_locations()
-    if Tracker:FindObjectForCode('trainer_on') then
-        trainersanity_init(ap_locations)
-    end
     
-    -- we run this after trainersanity for /reasons/
-    --because visiblity rules don't update until an item code changes
-    -- so we might as well update these ones after
+    trainersanity_init(ap_locations)
     dexsanity_init(ap_locations)
 end
 
@@ -94,19 +84,12 @@ function onItem(index, item_id, item_name, player_number)
 
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
+    
     local v = ITEM_MAPPING[item_id]
     if not v then
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: could not find item mapping for id %s", item_id))
-        end
         return
     end
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onItem: code: %s, type %s", v[1], v[2]))
-    end
-    if not v[1] then
-        return
-    end
+
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[2] == "toggle" then
@@ -132,9 +115,6 @@ end
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     local v = LOCATION_MAPPING[location_id]
-    if not v then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
-    end
 
 	for _, w in ipairs(v) do
 		local obj = Tracker:FindObjectForCode(w)

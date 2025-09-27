@@ -542,13 +542,13 @@
         "stages": [
             {
                 "name": "Trainersanity - Off",
-                "img": "images/items/trainer.png",
+                "img": "images/options/trainer.png",
                 "img_mods": "@disabled",
                 "codes": "opt_trn,trainer_off"
             },
             {
                 "name": "Trainersanity - On",
-                "img": "images/items/trainer.png",
+                "img": "images/options/trainer.png",
                 "codes": "opt_trn,trainer_on",
                 "inherit_codes": false
             }

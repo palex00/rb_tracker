@@ -224,24 +224,24 @@ end
 
 function dexsanity_init(locations)
 	local count = 0
-	for i = 0, 150 do
+	for i = 1, 151 do
+    
         --check to see if the dexsanity location exists in the list of all checks
-		local index = i + 172000549
-		local check_exists = locations[index]
+		local dexID = i + 172000548
+		local check_exists = locations[dexID]
+        
 		if check_exists then
 			count = count + 1
-		end
-		--if it doesn't, set it to the disabled stage
-        --otherwise leave at default
-		if not check_exists then
-			local loc = LOCATION_MAPPING[index]
-			local obj = Tracker:FindObjectForCode(loc[1])
+            
+			local obj = Tracker:FindObjectForCode("dexsanity_".. i)
 			if obj then
-				obj.CurrentStage = 2
+				obj.Active = true
 			end
 		end
 	end
+    
 	local dexsanity = Tracker:FindObjectForCode('opt_dexsanity')
+    
 	if dexsanity then
 		if count == 0 then
 			dexsanity.CurrentStage = 0
@@ -250,25 +250,5 @@ function dexsanity_init(locations)
 		else
 			dexsanity.CurrentStage = 1
 		end
-		
 	end
 end
-
--- function trainersanity_init(locations)
--- 	-- trainersanity checks have ids in the range 172000215-172000531
--- 	local start_index = 172000215
--- 	local end_index = 172000531
--- 	print(dump_table(locations, 1))
--- 	for i = start_index, end_index do
--- 		print(i .. ': ' .. tostring(locations[i]))
--- 		local location_exists = locations[i]
--- 		-- print(location_exists)
--- 		if location_exists then
--- 			TRAINERSANITY_LOCATIONS[i] = true
--- 			print("Trainersanity Location enabled:  " .. i .. "#############################################")
--- 		else
--- 			TRAINERSANITY_LOCATIONS[i] = false
--- 			-- print("Trainersanity Location disabled:  " .. i)
--- 		end
--- 	end
--- end	

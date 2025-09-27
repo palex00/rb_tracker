@@ -84,17 +84,34 @@ function scoutable()
 end
 
 function get_ap_locations()
+    -- We get all locations from AP.
+    -- They only share checked & missing ones,
+    -- so we combine them ourselves.
     local missing = Archipelago.MissingLocations
-	local locations = Archipelago.CheckedLocations
-	local existing_locations = {}
-    --loop through all checked and unchecked locations
-	for _, v in pairs(missing) do
-		existing_locations[v] = true
-	end
-	for _, v in pairs(locations) do
-		existing_locations[v] = true
-	end
-  return existing_locations
+    local locations = Archipelago.CheckedLocations
+    local existing_locations = {}
+    
+    --loop through all checked and unchecked locations and combine them
+    for _, v in pairs(missing) do
+        existing_locations[v] = true
+    end
+    for _, v in pairs(locations) do
+        existing_locations[v] = true
+    end
+    
+    return existing_locations
+end
+
+function trainersanity_init(locations)
+    -- trainersanity checks have ids in the range 172000215-172000531
+    local start_index = 172000215
+    local end_index = 172000531
+    
+    for i = start_index, end_index do
+        if locations[i] then
+            Tracker:FindObjectForCode("trainer_" .. i).Active = true
+        end
+    end
 end
 
 function toggle_item(code)

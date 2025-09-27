@@ -1,31 +1,4 @@
-TRAINERSANITY_LOCATIONS = {}
 TABLE_DUMP = TRUE
-
-function trainer_visible(id)
-    local obj = Tracker:FindObjectForCode('opt_trn')
-    if (obj.CurrentStage == 0) then
-        return false
-    end
-    -- playernumber doesn't matter, just checking if we're connected
-    if Archipelago.PlayerNumber < 1 then
-        return true
-    end
-
-    local key = tonumber(id)
-    local x = TRAINERSANITY_LOCATIONS[key]
-    return TRAINERSANITY_LOCATIONS[key]
-end
-
-function trainersanity_init(locations)
-    TRAINERSANITY_LOCATIONS = {}
-    -- trainersanity checks have ids in the range 172000215-172000531
-    local start_index = 172000215
-    local end_index = 172000531
-    for i = start_index, end_index do
-        local location_exists = locations[i]
-        TRAINERSANITY_LOCATIONS[i] = location_exists
-    end
-end	
 
 -- ITEM COUNT CHECKS
 
@@ -33,10 +6,12 @@ end
 function badges_count()
     return Tracker:ProviderCountForCode('badge')
 end
+
 -- returns int of # of key items
 function key_items_count()
     return Tracker:ProviderCountForCode('keyitem')
 end
+
 -- returns int of # of pokemon caught
 function pokedex_count()
     local hundreds = 0
@@ -57,6 +32,7 @@ function pokedex_count()
     end
     return (100 * hundreds) + (10 * tens) + ones
 end
+
 -- returns whether we have enough fossils for a second check
 function enough_fossils()
     local fossils = Tracker:ProviderCountForCode("fossil")
@@ -292,4 +268,8 @@ function fossils()
         return AccessibilityLevel.SequenceBreak
     end
     return AccessibilityLevel.None
+end
+
+function scout()
+    return AccessibilityLevel.Inspect
 end

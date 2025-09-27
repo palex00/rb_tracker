@@ -103,7 +103,7 @@
                         "opt_hidden_items",
                         "opt_extra_key_items",
                         "opt_prizesanity",
-                        "opt_trn",
+                        "trainersanity",
                         "opt_stonesanity",
                         "opt_keyonly",
                         "opt_cardkey"

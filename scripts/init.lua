@@ -17,11 +17,13 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/custom_items.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/options.json")
-Tracker:AddItems("items/pokedex.json")
+Tracker:AddItems("items/dexsanity.json")
+Tracker:AddItems("items/trainersanity.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json") 
@@ -29,6 +31,7 @@ Tracker:AddMaps("maps/maps.json")
 -- Locations
 Tracker:AddLocations("locations/locations.json")
 Tracker:AddLocations("locations/encountertab.json")
+Tracker:AddLocations("locations/pokedex.json")
 Tracker:AddLocations("locations/submaps_singlechecks.json")
 Tracker:AddLocations("locations/submaps_groupchecks.json")
 
@@ -42,7 +45,6 @@ Tracker:AddLayouts("layouts/settings_quick.json")
 Tracker:AddLayouts("layouts/submaps.json")
 Tracker:AddLayouts("layouts/tabs_single.json")
 Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/dexgrid.json")
 
 -- AutoTracking for Poptracker
 ScriptHost:LoadScript("scripts/autotracking.lua")
@@ -58,3 +60,10 @@ ScriptHost:AddWatchForCode("colormap", "colormap", toggle_grayscale)
 ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 
 initialize_watch_items()
+
+--for i = 1, 151 do
+--    local obj = Tracker:FindObjectForCode("dexsanity_" .. i)
+--    if obj then
+--        obj.Active = true
+--    end
+--end
