@@ -89,8 +89,8 @@ function onClear(slot_data)
 
     local ap_locations = get_ap_locations()
     
-    --trainersanity_init(ap_locations)
-    --dexsanity_init(ap_locations)
+    trainersanity_init(ap_locations)
+    dexsanity_init(ap_locations)
 end
 
 -- called when an item gets collected

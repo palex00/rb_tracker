@@ -459,14 +459,11 @@
     },
     {
         "name": "Progressive Card Key",
-        "type": "consumable",
+        "type": "progressive",
         "img": "images/items/cardkey",
+        "allow_disabled": true,
         "codes": "cardkey_progressive, keyitem",
         "stages": [
-            {
-                "name": "Cardkey",
-                "img": "images/items/cardkey.png"
-            },
             {
                 "name": "Progressive Cardkey (2F Access)",
                 "img": "images/items/cardkeyprog.png",

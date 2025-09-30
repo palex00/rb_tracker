@@ -114,11 +114,24 @@ function trainersanity_init(locations)
     -- trainersanity checks have ids in the range 172000215-172000531
     local start_index = 172000215
     local end_index = 172000531
+    local total = 0
     
     for i = start_index, end_index do
         if locations[i] then
             Tracker:FindObjectForCode("trainer_" .. i).Active = true
+            total = total + 1
+        else
+            Tracker:FindObjectForCode("trainer_" .. i).Active = false
         end
+    end
+    
+    if total == 0 then
+        TRAINERS:setType("none")
+    elseif total == 317 then
+        TRAINERS:setType("full")
+    else
+        TRAINERS:setType("partial")
+        TRAINERS:setStage(total)
     end
 end
 
@@ -129,14 +142,13 @@ function dexsanity_init(locations)
         --check to see if the dexsanity location exists in the list of all checks
 		local dexID = i + 172000548
 		local check_exists = locations[dexID]
+        local obj = Tracker:FindObjectForCode("dexsanity_".. i)
         
 		if check_exists then
 			count = count + 1
-            
-			local obj = Tracker:FindObjectForCode("dexsanity_".. i)
-			if obj then
-				obj.Active = true
-			end
+            obj.Active = true
+        else
+            obj.Active = false
 		end
 	end
     
@@ -195,10 +207,8 @@ end
 
 function toggle_itemgrid()
     local stones = Tracker:FindObjectForCode("opt_stonesanity").CurrentStage == 1
-    print(stones)
-    print(Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2)
     
-    if Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 and stones then
+    if Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 1 and stones then
         Tracker:AddLayouts("layouts/itemgrids_extra.json")
         Tracker:AddLayouts("layouts/items_extra_full.json")
         toggle_maingrid()
@@ -206,11 +216,11 @@ function toggle_itemgrid()
         Tracker:AddLayouts("layouts/itemgrids_extra.json")
         Tracker:AddLayouts("layouts/items_extra_stones.json")
         toggle_maingrid()
-    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 then
+    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 1 then
         Tracker:AddLayouts("layouts/itemgrids_extra.json")
         Tracker:AddLayouts("layouts/items_extra_cardkey.json")
         toggle_maingrid()
-    elseif not (Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2) and not stones then
+    elseif not (Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 1) and not stones then
         Tracker:AddLayouts("layouts/itemgrids.json")
         toggle_maingrid()
     else
@@ -222,7 +232,7 @@ function toggle_maingrid()
     local extra_key = Tracker:FindObjectForCode("opt_extra_key_items").CurrentStage == 1
     local tea = Tracker:FindObjectForCode("opt_tea").CurrentStage == 1
     
-    if Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 then
+    if Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 1 then
         if extra_key and tea then
             Tracker:AddLayouts("layouts/items_main_3_full.json")
         elseif extra_key then
@@ -234,7 +244,7 @@ function toggle_maingrid()
         else
             print("Something went terribly wrong in toggle_maingrid()")
         end
-    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 1 then
+    elseif Tracker:FindObjectForCode("opt_cardkey").CurrentStage == 2 then
         if extra_key and tea then
             Tracker:AddLayouts("layouts/items_main_2_full.json")
         elseif extra_key then
