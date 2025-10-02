@@ -52,6 +52,24 @@ IGNORED_CODES = {
     trainersanity = ""
 }
 
+FLAG_EVENT_CODES = {
+    "EVENT_BEAT_BROCK",
+    "EVENT_BEAT_MISTY",
+    "EVENT_BEAT_LT_SURGE",
+    "EVENT_BEAT_ERIKA",
+    "EVENT_BEAT_KOGA",
+    "EVENT_BEAT_SABRINA",
+    "EVENT_BEAT_BLAINE",
+    "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI",
+
+    "EVENT_OAK_GOT_PARCEL",
+    "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
+    "EVENT_RESCUED_MR_FUJI",
+    "EVENT_GOT_SS_TICKET", --EVENT_MET_BILL
+    "EVENT_BEAT_SILPH_CO_GIOVANNI",
+    "EVENT_BEAT_CHAMPION_RIVAL"
+}
+
 function get_slot_options(slot_data)  
 
     if slot_data["old_man"] then

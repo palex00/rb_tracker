@@ -21,6 +21,8 @@ function onClear(slot_data)
 
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
     
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
@@ -91,6 +93,15 @@ function onClear(slot_data)
     
     trainersanity_init(ap_locations)
     dexsanity_init(ap_locations)
+
+    if PLAYER_ID>-1 then
+        --updateEvents(0)
+        
+        EVENT_ID="pokemon_rb_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+    end
+
 end
 
 -- called when an item gets collected
@@ -149,9 +160,47 @@ function onLocation(location_id, location_name)
 	end
 end
 
+function onNotify(key, value, old_value)
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        end
+    end
+end
+
+function onNotifyLaunch(key, value)
+    print(key)
+    print(value)
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        end
+    end
+end
+
+function updateEvents(value)
+    if value ~= nil then
+        for i, code in ipairs(FLAG_EVENT_CODES) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+            local bit = value >> (i - 1) & 1
+            if #code > 0 then
+                local obj = Tracker:FindObjectForCode(code)
+                obj.Active = obj.Active or bit == 1
+                if obj.Active == true then
+                    print(code .. " is now active!")
+                end
+            end
+        end
+    end
+end
 
 -- add AP callbacks
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddBouncedHandler("map handler", onMap)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

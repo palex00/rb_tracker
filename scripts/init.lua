@@ -24,6 +24,7 @@ Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/dexsanity.json")
 Tracker:AddItems("items/trainersanity.json")
+Tracker:AddItems("items/events.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json") 
