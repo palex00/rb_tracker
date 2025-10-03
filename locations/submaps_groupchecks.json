@@ -417,7 +417,7 @@
 {"name": "Lab Fossils", "sections": [
 {"name": "Fossil A", "ref": "Kanto/Fossil/Fossil A"},
 {"name": "Fossil B", "ref": "Kanto/Fossil/Fossil B"}
-], "map_locations": [{"map": "cinnabarlab", "x": 264, "y": 72}]},
+], "map_locations": [{"map": "cinnabarlab", "x": 264, "y": 72},{"map": "cinnabarlabfossilroom", "x": 88, "y": 40}]},
 {"name": "Oak's Lab", "sections": [
 {"name": "Oak's Parcel Reward", "ref": "Kanto/Pallet Town/Oak's Parcel Reward"},
 {"name": "Oak's Post-Route-22-Rival Gift", "ref": "Kanto/Pallet Town/Oak's Post-Route-22-Rival Gift"},
