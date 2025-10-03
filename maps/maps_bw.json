@@ -1,6 +1,7 @@
 [
-{"name": "map", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/map.png"},
-{"name": "encounters", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/map_encounter.png"},
+{"name": "map", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/bw/map.png"},
+{"name": "encounters", "location_size": 16, "location_border_thickness": 2, "img": "images/maps/bw/map_encounter.png"},
+{"name": "pokedex", "location_size": 12, "location_border_thickness": 2, "img": "images/maps/bw/pokedex.png"},
 {"name": "celadoncity", "location_size": 12, "location_border_thickness": 1, "img": "images/maps/bw/celadoncity.png"},
 {"name": "celadongym", "location_size": 12, "location_border_thickness": 1, "img": "images/maps/bw/celadongym.png"},
 {"name": "ceruleancave1f", "location_size": 12, "location_border_thickness": 1, "img": "images/maps/bw/ceruleancave1f.png"},

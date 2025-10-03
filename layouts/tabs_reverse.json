@@ -43,6 +43,15 @@
                                             "key": ""
                                         }
                                     }
+                                },
+                                {
+                                    "title": "Credits",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "credits"
+                                        ]
+                                    }
                                 }
                             ]
                         },
