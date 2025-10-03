@@ -358,7 +358,7 @@
         "name": "Oak's Parcel",
         "type": "toggle",
         "img": "images/items/oaksparcel.png",
-        "codes": "parcel,newkeyitem"
+        "codes": "parcel,keyitem"
     },
     {
         "name": "Pokedex",
@@ -431,7 +431,7 @@
         "name": "Gold Teeth",
         "type": "toggle",
         "img": "images/items/goldteeth.png",
-        "codes": "goldteeth,teeth,newkeyitem"
+        "codes": "goldteeth,teeth,keyitem"
     },
     {
         "name": "Secret Key",
@@ -443,7 +443,7 @@
         "name": "Bike Voucher",
         "type": "toggle",
         "img": "images/items/bikevoucher.png",
-        "codes": "voucher,newkeyitem"
+        "codes": "voucher,keyitem"
     },
     {
         "name": "Lift Key",
@@ -458,304 +458,177 @@
         "codes": "cardkey,keyitem"
     },
     {
-        "name": "(Progressive) Card Key. Left click to toggle, right click to increase",
-        "type": "progressive_toggle",
+        "name": "Progressive Card Key",
+        "type": "progressive",
         "img": "images/items/cardkey",
-        "codes": "cardkeyprogvan,keyitem",
+        "allow_disabled": true,
+        "codes": "cardkey_progressive, keyitem",
         "stages": [
             {
-                "name": "Cardkey",
-                "codes": "",
-                "img": "images/items/cardkey.png"
-            },
-            {
                 "name": "Progressive Cardkey (2F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/2.png"
             },
             {
                 "name": "Progressive Cardkey (3F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/3.png"
             },
             {
                 "name": "Progressive Cardkey (4F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/4.png"
             },
             {
                 "name": "Progressive Cardkey (5F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/5.png"
             },
             {
                 "name": "Progressive Cardkey (6F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/6.png"
             },
             {
                 "name": "Progressive Cardkey (7F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/7.png"
             },
             {
                 "name": "Progressive Cardkey (8F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/8.png"
             },
             {
                 "name": "Progressive Cardkey (9F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/9.png"
             },
             {
                 "name": "Progressive Cardkey (10F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/10.png"
             },
             {
                 "name": "Progressive Cardkey (11F Access)",
-                "codes": "",
                 "img": "images/items/cardkeyprog.png",
                 "img_mods": "overlay|images/overlays/11.png"
             }
         ]
     },
     {
-        "name": "Progressive Card Key",
-        "type": "consumable", 
-        "max_quantity": 10,
-        "initial_quantity": 0,
-        "img": "images/items/cardkeyprog.png",
-        "codes": "cardkey_progressive,keyitem"
-    },
-    {
         "name": "Card Key 2F",
         "type": "toggle",
         "img": "images/items/cardkey2.png",
-        "codes": "cardkey2f, split_cardkey,keyitem"
+        "codes": "cardkey2f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 3F",
         "type": "toggle",
         "img": "images/items/cardkey3.png",
-        "codes": "cardkey3f, split_cardkey,keyitem"
+        "codes": "cardkey3f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 4F",
         "type": "toggle",
         "img": "images/items/cardkey4.png",
-        "codes": "cardkey4f, split_cardkey,keyitem"
+        "codes": "cardkey4f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 5F",
         "type": "toggle",
         "img": "images/items/cardkey5.png",
-        "codes": "cardkey5f, split_cardkey,keyitem"
+        "codes": "cardkey5f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 6F",
         "type": "toggle",
         "img": "images/items/cardkey6.png",
-        "codes": "cardkey6f, split_cardkey,keyitem"
+        "codes": "cardkey6f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 7F",
         "type": "toggle",
         "img": "images/items/cardkey7.png",
-        "codes": "cardkey7f, split_cardkey,keyitem"
+        "codes": "cardkey7f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 8F",
         "type": "toggle",
         "img": "images/items/cardkey8.png",
-        "codes": "cardkey8f, split_cardkey,keyitem"
+        "codes": "cardkey8f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 9F",
         "type": "toggle",
         "img": "images/items/cardkey9.png",
-        "codes": "cardkey9f, split_cardkey,keyitem"
+        "codes": "cardkey9f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 10F",
         "type": "toggle",
         "img": "images/items/cardkey10.png",
-        "codes": "cardkey10f, split_cardkey,keyitem"
+        "codes": "cardkey10f, split_cardkey, keyitem"
     },
     {
         "name": "Card Key 11F",
         "type": "toggle",
         "img": "images/items/cardkey11.png",
-        "codes": "cardkey11f, split_cardkey,keyitem"
+        "codes": "cardkey11f, split_cardkey, keyitem"
     },
     {
         "name": "S.S. Ticket",
         "type": "toggle",
         "img": "images/items/ssticket.png",
-        "codes": "ssticket,keyitem"
+        "codes": "ssticket, keyitem"
     },
     {
-        "name": "",
-        "type": "progressive",
-        "allow_disabled": false,
-        "img": "images/items/safaripass.png",
-        "codes": "tea",
-		"stages": [
-            {
-                "name": "",
-                "codes": "",
-                "img": "images/items/doesnotexist.png"
-            },
-            {
-                "name": "Tea",
-                "codes": "",
-                "img": "images/items/tea.png",
-                "allow_disabled": false,
-                "img_mods": "@disabled"
-
-            },
-            {
-                "name": "Tea",
-                "codes": "tea, newkeyitem",
-                "img": "images/items/tea.png"
-            }
-        ]
+        "name": "Tea",
+        "type": "toggle",
+        "img": "images/items/tea.png",
+        "codes": "tea, keyitem"
     },
     {
-        "name": " ",
-        "type": "progressive",
-        "allow_disabled": false,
+        "name": "Plant Key",
+        "type": "toggle",
         "img": "images/items/plantkey.png",
-        "codes": "plantkey,keyitem",
-		"stages": [
-            {
-                "name": "",
-                "codes": "",
-                "img": "images/items/doesnotexist.png"
-            },
-            {
-                "name": "Plant Key",
-                "codes": "",
-                "img": "images/items/plantkey.png",
-                "allow_disabled": false,
-                "img_mods": "@disabled"
-
-            },
-            {
-                "name": "Plant Key",
-                "codes": "plantkey,keyitem",
-                "img": "images/items/plantkey.png"
-            }
-        ]
+        "codes": "plantkey, keyitem"
     },
     {
-        "name": " ",
-        "type": "progressive",
-        "allow_disabled": false,
+        "name": "Mansion Key",
+        "type": "toggle",
         "img": "images/items/mansionkey.png",
-        "codes": "mansionkey,keyitem",
-		"stages": [
-            {
-                "name": "",
-                "codes": "",
-                "img": "images/items/doesnotexist.png"
-            },
-            {
-                "name": "Mansion Key",
-                "codes": "",
-                "img": "images/items/mansionkey.png",
-                "allow_disabled": false,
-                "img_mods": "@disabled"
-
-            },
-            {
-                "name": "Mansion Key",
-                "codes": "mansionkey,keyitem",
-                "img": "images/items/mansionkey.png"
-            }
-        ]
+        "codes": "mansionkey, keyitem"
     },
     {
-        "name": " ",
-        "type": "progressive",
-        "allow_disabled": false,
+        "name": "Hideout Key",
+        "type": "toggle",
         "img": "images/items/hideoutkey.png",
-        "codes": "hideoutkey,keyitem",
-		"stages": [
-            {
-                "name": "",
-                "codes": "",
-                "img": "images/items/doesnotexist.png"
-            },
-            {
-                "name": "Hideout Key",
-                "codes": "",
-                "img": "images/items/hideoutkey.png",
-                "allow_disabled": false,
-                "img_mods": "@disabled"
-
-            },
-            {
-                "name": "Hideout Key",
-                "codes": "hideoutkey,keyitem",
-                "img": "images/items/hideoutkey.png"
-            }
-        ]
+        "codes": "hideoutkey, keyitem"
     },
     {
-        "name": " ",
-        "type": "progressive",
-        "allow_disabled": false,
+        "name": "Safari Pass",
+        "type": "toggle",
         "img": "images/items/safaripass.png",
-        "codes": "safaripass,keyitem",
-		"stages": [
-            {
-                "name": "",
-                "codes": "",
-                "img": "images/items/doesnotexist.png"
-            },
-            {
-                "name": "Safari Pass",
-                "codes": "",
-                "img": "images/items/safaripass.png",
-                "allow_disabled": false,
-                "img_mods": "@disabled"
-
-            },
-            {
-                "name": "Safari Pass",
-                "codes": "safaripass,keyitem",
-                "img": "images/items/safaripass.png"
-            }
-        ]
+        "codes": "safaripass, keyitem"
     },
     {
         "name": "Old Amber",
         "type": "toggle",
         "img": "images/items/oldamber.png",
-        "codes": "oldamber,fossil,newkeyitem"
+        "codes": "oldamber,fossil,keyitem"
     },
     {
         "name": "Dome Fossil",
         "type": "toggle",
         "img": "images/items/dome.png",
-        "codes": "domefossil,fossil,newkeyitem"
+        "codes": "domefossil,fossil,keyitem"
     },
     {
         "name": "Helix Fossil",
         "type": "toggle",
         "img": "images/items/helix.png",
-        "codes": "helixfossil,fossil,newkeyitem"
+        "codes": "helixfossil,fossil,keyitem"
     },
     {
         "name": "Fire Stone",
@@ -836,42 +709,51 @@
         "codes": "giovanni_beaten,gym_beaten"
 	},
     {
-        "name": "Helped Bill",
+        "name": "Helped Bill (Event)",
         "type": "toggle",
+        "img": "images/events/bill.png",
         "codes": "bill"
     },
     {
-        "name": "Saved Mr. Fuji",
+        "name": "Helped Bill (Event)",
         "type": "toggle",
-        "img": "images/items/fuji.png",
+        "img": "images/events/bill.png",,
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "bill_hosted"
+    },
+    {
+        "name": "Saved Mr. Fuji (Manual Event)",
+        "type": "toggle",
+        "img": "images/events/fuji_propaganda.png",
         "codes": "fuji"
     },
     {
-        "name": "Saved Mr. Fuji",
+        "name": "Saved Mr. Fuji (Manual Event)",
         "type": "toggle",
-        "img": "/images/items/fuji.png",
+        "img": "/images/events/fuji_propaganda.png",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "codes": "fuji_hosted"
     },
     {
-        "name": "Liberated Silph Co.",
+        "name": "Liberated Silph Co. (Manual Event)",
         "type": "toggle",
-        "img": "images/items/silph.png",
+        "img": "images/events/silph.png",
         "codes": "silphco"
     },
     {
-        "name": "Liberated Silph Co.",
+        "name": "Liberated Silph Co. (Manual Event)",
         "type": "toggle",
-        "img": "/images/items/silph.png",
+        "img": "/images/events/silph.png",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "codes": "silphco_hosted"
     },
     {
-        "name": "Beat the Champ",
+        "name": "Beat the Champ (Manual Event)",
         "type": "toggle",
-        "img": "images/items/champ.png",
+        "img": "images/events/champ.png",
         "codes": "champ"
     }
 ]

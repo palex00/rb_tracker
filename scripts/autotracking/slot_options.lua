@@ -1,70 +1,77 @@
-function get_slot_options(slot_data)
+STAGE_CODES = {
+    require_item_finder = "opt_itemfinder",
+    badges_needed_for_hm_moves = "opt_hm",
+    randomize_hidden_items = "opt_hidden_items",
+    extra_strength_boulders = "opt_extra_boulders",
+    extra_key_items = "opt_extra_key_items",
+    tea = "opt_tea",
+    robbed_house_officer = "opt_officer",
+    elite_four_badges_condition = "e4b_digit",
+    victory_road_condition = "vr_digit",
+    route_22_gate_condition = "rt22_digit",
+    route_3_condition = "opt_rt3",
+    viridian_gym_condition = "vg_digit",
+    cerulean_cave_badges_condition = "ccaveB_digit",
+    free_fly_map = "free_fly",
+    town_map_fly_map = "tm_free_fly",
+    randomize_pokedex = "opt_dex",
+    prizesanity = "opt_prizesanity",
+    key_items_only = "opt_keyonly",
+    poke_doll_skip = "opt_pokedoll_skip",
+    bicycle_gate_skips = "opt_bike_skips",
+    stonesanity = "opt_stonesanity",
+    dark_rock_tunnel_logic = "opt_dark_rock_tunnel",
+    require_pokedex = "opt_dex_required",
+    area_1_to_1_mapping = "opt_encounter",
+    split_card_key = "opt_cardkey",
+    exp_all = "opt_exp_all"
+}
 
-    if slot_data["v5_update"] ~= nil then
-		Tracker:FindObjectForCode('v5_update').CurrentStage = 1
-    else
-        Tracker:FindObjectForCode('v5_update').CurrentStage = 0
-    end    
+AMOUNT_CODES = {
+    oaks_aide_rt_2 = "opt_aide_2",
+    oaks_aide_rt_11 = "opt_aide_11",
+    oaks_aide_rt_15 = "opt_aide_15",
+    second_fossil_check_condition = "opt_fossilcheck"
+}
+
+IGNORED_CODES = {
+    -- Unimplemented because logic irrelevant for Poptracker
+    all_elevators_locked = "",
+    type_chart = "",
+    v5_update = "",
+    death_link = "",
+    warp_tile_shuffle = "",
+    door_shuffle = "",
     
-    if slot_data["second_fossil_check_condition"] then
-		Tracker:FindObjectForCode('opt_fossilcheck').AcquiredCount = slot_data["second_fossil_check_condition"]
-	end
+    -- Special handling for these
+    old_man = "",
+    elite_four_pokedex_condition = "",
+    elite_four_key_items_condition = "",
+    cerulean_cave_key_items_condition = "",
+    extra_badges = "",
+    blind_trainers = "",
+    trainersanity = ""
+}
 
-    if slot_data["require_item_finder"] then
-		Tracker:FindObjectForCode('opt_itemfinder').CurrentStage = slot_data["require_item_finder"]
-	end
+FLAG_EVENT_CODES = {
+    "EVENT_BEAT_BROCK",
+    "EVENT_BEAT_MISTY",
+    "EVENT_BEAT_LT_SURGE",
+    "EVENT_BEAT_ERIKA",
+    "EVENT_BEAT_KOGA",
+    "EVENT_BEAT_SABRINA",
+    "EVENT_BEAT_BLAINE",
+    "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI",
 
-    if slot_data["randomize_hidden_items"] then
-		Tracker:FindObjectForCode('opt_hidden_items').CurrentStage = slot_data["randomize_hidden_items"]
-	end
+    "EVENT_OAK_GOT_PARCEL",
+    "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
+    "EVENT_RESCUED_MR_FUJI",
+    "EVENT_GOT_SS_TICKET", --EVENT_MET_BILL
+    "EVENT_BEAT_SILPH_CO_GIOVANNI",
+    "EVENT_BEAT_CHAMPION_RIVAL"
+}
 
-	if slot_data["badges_needed_for_hm_moves"] then
-		local obj = Tracker:FindObjectForCode("opt_hm")
-		local stage = slot_data["badges_needed_for_hm_moves"]
-		if stage >= 2 then
-			stage = 2
-		end
-		if obj then
-			obj.CurrentStage = stage
-		end
-	end
-
-    if slot_data["oaks_aide_rt_2"] then
-		Tracker:FindObjectForCode('opt_aide_2').AcquiredCount = slot_data["oaks_aide_rt_2"]
-	end
-
-    if slot_data["oaks_aide_rt_11"] then
-		Tracker:FindObjectForCode('opt_aide_11').AcquiredCount = slot_data["oaks_aide_rt_11"]
-	end
-
-    if slot_data["oaks_aide_rt_15"] then
-		Tracker:FindObjectForCode('opt_aide_15').AcquiredCount = slot_data["oaks_aide_rt_15"]
-	end
-
-    if slot_data["extra_key_items"] then
-		--we need to force an item-code change
-		local current = Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage
-		local sd_value = slot_data["extra_key_items"]
-		if current == sd_value then
-			toggle_extra_key_items()
-		else
-			Tracker:FindObjectForCode('opt_extra_key_items').CurrentStage = sd_value
-		end
-	end
-
-    if slot_data["extra_strength_boulders"] then
-		Tracker:FindObjectForCode('opt_extra_boulders').CurrentStage = slot_data["extra_strength_boulders"]
-	end
-
-    if slot_data["tea"] then
-		local current = Tracker:FindObjectForCode('opt_tea').CurrentStage
-		local sd_value = slot_data["tea"]
-		if current == sd_value then
-			toggle_tea()
-		else
-			Tracker:FindObjectForCode('opt_tea').CurrentStage = sd_value
-		end
-	end
+function get_slot_options(slot_data)  
 
     if slot_data["old_man"] then
 		local obj = Tracker:FindObjectForCode('opt_old_man')
@@ -76,11 +83,6 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["elite_four_badges_condition"] then
-		local obj = Tracker:FindObjectForCode("e4b_digit")
-		obj.CurrentStage = slot_data["elite_four_badges_condition"]
-	end
-    
     if slot_data["elite_four_key_items_condition"] then
 		local tens = Tracker:FindObjectForCode("e4k_digit1")
 		local ones = Tracker:FindObjectForCode("e4k_digit2")
@@ -103,47 +105,6 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["victory_road_condition"] then
-		local obj = Tracker:FindObjectForCode("vr_digit")
-		if obj then
-			obj.CurrentStage = slot_data["victory_road_condition"]
-		end
-	end
-
-    if slot_data["route_22_gate_condition"] then
-		local obj = Tracker:FindObjectForCode("rt22_digit")
-		if obj then
-			obj.CurrentStage = slot_data["route_22_gate_condition"]
-		end	
-	end
-
-    if slot_data["route_3_condition"] then
-		local obj = Tracker:FindObjectForCode("opt_rt3")
-		local stage = slot_data["route_3_condition"]
-		if stage >= 5 then
-			stage = 5
-		end
-		if obj then
-			obj.CurrentStage = stage
-		end
-	end
-
-    if slot_data["robbed_house_officer"] then
-		Tracker:FindObjectForCode('opt_officer').CurrentStage = slot_data["robbed_house_officer"]
-	end
-
-    if slot_data["viridian_gym_condition"] then
-		local obj = Tracker:FindObjectForCode("vg_digit")
-		if obj then
-			obj.CurrentStage = slot_data["viridian_gym_condition"]
-		end
-	end
-
-    if slot_data["cerulean_cave_badges_condition"] then
-		local obj = Tracker:FindObjectForCode("ccaveB_digit")
-		obj.CurrentStage = slot_data["cerulean_cave_badges_condition"]
-	end
-
     if slot_data["cerulean_cave_key_items_condition"] then
 		local tens = Tracker:FindObjectForCode("ccaveK_digit1")
 		local ones = Tracker:FindObjectForCode("ccaveK_digit2")
@@ -153,17 +114,8 @@ function get_slot_options(slot_data)
 			ones.CurrentStage = val % 10
 		end
 	end
-
-    if slot_data["free_fly_map"] then
-		Tracker:FindObjectForCode('free_fly').CurrentStage = slot_data["free_fly_map"]
-	end
-
-    if slot_data["town_map_fly_map"] then
-		Tracker:FindObjectForCode('tm_free_fly').CurrentStage = slot_data["town_map_fly_map"]
-	end
-
+    
     if slot_data["extra_badges"] then
-
 		hm_list = {"Cut", "Fly", "Surf", "Strength", "Flash"}
 		stages = { boulder=1, cascade=2, thunder=3, rainbow=4, soul=5, marsh=6, volcano=7, earth=8}
 		for i=1,5 do
@@ -181,45 +133,8 @@ function get_slot_options(slot_data)
 			end
 		end
 
-
 		badge = "boulder"
 		hm = "fly"
-	end
-
-    if slot_data["randomize_pokedex"] then
-		Tracker:FindObjectForCode('opt_dex').CurrentStage = slot_data["randomize_pokedex"]
-	end
-
-    if slot_data["trainersanity"] then
-		Tracker:FindObjectForCode('opt_trn').CurrentStage = slot_data["trainersanity"]
-	end
-
-    if slot_data["prizesanity"] then
-		Tracker:FindObjectForCode('opt_prizesanity').CurrentStage = slot_data["prizesanity"]
-	end
-
-    if slot_data["key_items_only"] then
-		Tracker:FindObjectForCode('opt_keyonly').CurrentStage = slot_data["key_items_only"]
-	end
-
-    if slot_data["poke_doll_skip"] then
-		Tracker:FindObjectForCode('opt_pokedoll_skip').CurrentStage = slot_data["poke_doll_skip"]
-	end
-
-    if slot_data["bicycle_gate_skips"] then
-		Tracker:FindObjectForCode('opt_bike_skips').CurrentStage = slot_data["bicycle_gate_skips"]
-	end
-
-    if slot_data["stonesanity"] then
-		Tracker:FindObjectForCode('opt_stonesanity').CurrentStage = slot_data["stonesanity"]
-	end
-
-    if slot_data["dark_rock_tunnel_logic"] then
-		Tracker:FindObjectForCode('opt_dark_rock_tunnel').CurrentStage = slot_data["dark_rock_tunnel_logic"]
-	end
-
-	if slot_data["require_pokedex"] then
-		Tracker:FindObjectForCode('opt_dex_required').CurrentStage = slot_data["require_pokedex"]
 	end
 
 	if slot_data["blind_trainers"] then
@@ -230,78 +145,4 @@ function get_slot_options(slot_data)
 			Tracker:FindObjectForCode('opt_blind_trainers').CurrentStage = 0
 		end
 	end
-
-	if slot_data["area_1_to_1_mapping"] then
-		local obj = Tracker:FindObjectForCode('opt_encounter') 
-		obj.CurrentStage = slot_data["area_1_to_1_mapping"]
-	end
-
-    if slot_data["split_card_key"] then
-		local obj = Tracker:FindObjectForCode("opt_cardkey")
-		if obj then
-			local current = obj.CurrentStage
-			local sd_value  = slot_data["split_card_key"]
-			if sd_value == 2 then
-				sd_value = 1
-			elseif sd_value == 1 then
-				sd_value = 2
-			end
-			if current == sd_value then
-				split_key()
-			else
-				obj.CurrentStage = sd_value
-			end
-		end
-	end
 end
-
-function dexsanity_init(locations)
-	local count = 0
-	for i = 0, 150 do
-        --check to see if the dexsanity location exists in the list of all checks
-		local index = i + 172000549
-		local check_exists = locations[index]
-		if check_exists then
-			count = count + 1
-		end
-		--if it doesn't, set it to the disabled stage
-        --otherwise leave at default
-		if not check_exists then
-			local loc = LOCATION_MAPPING[index]
-			local obj = Tracker:FindObjectForCode(loc[1])
-			if obj then
-				obj.CurrentStage = 2
-			end
-		end
-	end
-	local dexsanity = Tracker:FindObjectForCode('opt_dexsanity')
-	if dexsanity then
-		if count == 0 then
-			dexsanity.CurrentStage = 0
-		elseif count == 151 then
-			dexsanity.CurrentStage = 2
-		else
-			dexsanity.CurrentStage = 1
-		end
-		
-	end
-end
-
--- function trainersanity_init(locations)
--- 	-- trainersanity checks have ids in the range 172000215-172000531
--- 	local start_index = 172000215
--- 	local end_index = 172000531
--- 	print(dump_table(locations, 1))
--- 	for i = start_index, end_index do
--- 		print(i .. ': ' .. tostring(locations[i]))
--- 		local location_exists = locations[i]
--- 		-- print(location_exists)
--- 		if location_exists then
--- 			TRAINERSANITY_LOCATIONS[i] = true
--- 			print("Trainersanity Location enabled:  " .. i .. "#############################################")
--- 		else
--- 			TRAINERSANITY_LOCATIONS[i] = false
--- 			-- print("Trainersanity Location disabled:  " .. i)
--- 		end
--- 	end
--- end	

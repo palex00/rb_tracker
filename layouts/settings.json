@@ -1,0 +1,341 @@
+{
+    "settings_popup": {
+        "type": "dock",
+        "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Pokédex Related",
+                    "content": {
+                        "type": "layout",
+                        "key": "pokedex_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Roadblocks",
+                    "content": {
+                        "type": "layout",
+                        "key": "roadblock_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Sanities",
+                    "content": {
+                        "type": "layout",
+                        "key": "sanity_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Logic",
+                    "content": {
+                        "type": "layout",
+                        "key": "logic_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Fly Locations",
+                    "content": {
+                        "type": "layout",
+                        "key": "flysetting_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Entry Requirements",
+                    "content": {
+                        "type": "layout",
+                        "key": "bottombar"
+                    }
+                }
+            ]
+        }
+    },
+    "pokedex_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                        "opt_aide_2",
+                        "opt_aide_11",
+                        "opt_aide_15",
+                        "opt_dex_required",
+                        "opt_fossilcheck",
+                        "opt_dexsanity"
+            ]
+        ]
+    },
+    "roadblock_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                        "opt_old_man",
+                        "opt_rt3",
+                        "opt_officer",
+                        "opt_extra_boulders",
+                        "opt_hm",
+                        "opt_tea"
+            ]
+        ]
+    },
+    "sanity_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                        "opt_hidden_items",
+                        "opt_extra_key_items",
+                        "opt_prizesanity",
+                        "trainersanity",
+                        "opt_stonesanity",
+                        "opt_keyonly",
+                        "opt_cardkey",
+                        "opt_exp_all"
+            ]
+        ]
+    },
+    "logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,44",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                        "opt_itemfinder",
+                        "opt_bike_skips",
+                        "opt_pokedoll_skip",
+                        "opt_dark_rock_tunnel",
+                        "opt_er"
+            ]
+        ]
+    },
+    "flysetting_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,6",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "free_fly",
+                        "item_size": "305, 40"
+                    },
+                    {
+                        "type": "item",
+                        "item": "tm_free_fly",
+                        "item_size": "305, 40"
+                    }
+                ]
+            }
+        ]
+    },
+    "bottombar": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0 0 0 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "vg_req",
+                            "badge_req",
+                            "vg_digit",
+                            ""
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "rt22_req",
+                            "badge_req",
+                            "rt22_digit",
+                            "",
+                            "vr_req",
+                            "badge_req",
+                            "vr_digit",
+                            ""
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "badge_req",
+                            "e4b_digit",
+                            "",
+                            "key_req",
+                            "e4k_digit1",
+                            "e4k_digit2",
+                            "",
+                            "dex_req",
+                            "e4p_digit1",
+                            "e4p_digit2",
+                            "e4p_digit3",
+                            ""
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Cerulean Cave Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "badge_req",
+                            "ccaveB_digit",
+                            "",
+                            "key_req",
+                            "ccaveK_digit1",
+                            "ccaveK_digit2"
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    "requirements": {
+        "type": "array",
+        "orientation": "vertical",
+        "background": "#171717",
+        "margin": "0 0 0 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "vg_req",
+                            "badge_req",
+                            "vg_digit",
+                            ""
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "rt22_req",
+                            "badge_req",
+                            "rt22_digit",
+                            "",
+                            "vr_req",
+                            "badge_req",
+                            "vr_digit",
+                            ""
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "badge_req",
+                            "e4b_digit",
+                            "",
+                            "key_req",
+                            "e4k_digit1",
+                            "e4k_digit2"
+                        ],
+                        [
+                            "dex_req",
+                            "e4p_digit1",
+                            "e4p_digit2",
+                            "e4p_digit3",
+                            ""
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Cerulean Cave Requirements",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        [
+                            "badge_req",
+                            "ccaveB_digit",
+                            "",
+                            "key_req",
+                            "ccaveK_digit1",
+                            "ccaveK_digit2"
+                        ]
+                    ]
+                }
+            }
+        ]
+    }
+}

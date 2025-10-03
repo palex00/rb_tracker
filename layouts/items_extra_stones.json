@@ -1,0 +1,31 @@
+{
+    "extra_item_horizontal_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "3, 3",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "firestone"
+                    ],
+                    [
+                        "waterstone"
+                    ],
+                    [
+                        "thunderstone"
+                    ],
+                    [
+                        "leafstone"
+                    ],
+                    [
+                        "moonstone"
+                    ]
+                ]
+            }
+        ]
+    }
+}

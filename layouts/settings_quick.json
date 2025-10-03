@@ -1,0 +1,27 @@
+{
+    "quick_settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "2,2",
+        "content": [
+            {
+                "type": "item",
+                "item": "automap",
+                "margin": "2,2",
+                "item_size": "32, 32"
+            },
+            {
+                "type": "item",
+                "item": "splitmap",
+                "margin": "2,2",
+                "item_size": "32, 32"
+            },
+            {
+                "type": "item",
+                "item": "colormap",
+                "margin": "2,2",
+                "item_size": "32, 32"
+            }
+        ]
+    }
+}

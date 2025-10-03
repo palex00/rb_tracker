@@ -1,0 +1,60 @@
+{
+    "main_item_horizontal_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "3, 3",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "boulder",
+                        "cascade",
+                        "thunder",
+                        "rainbow",
+                        "soul",
+                        "marsh",
+                        "volcano",
+                        "earth"
+                    ],
+                    [
+                        "cut",
+                        "fly",
+                        "surf",
+                        "strength",
+                        "flash",
+                        "oldrod",
+                        "goodrod",
+                        "superrod"
+                    ],
+                    [
+                        "parcel",
+                        "townmap",
+                        "itemfinder",
+                        "coincase",
+                        "bicycle",
+                        "silphscope",
+                        "pokeflute",
+                        "goldteeth"
+                    ],
+                    [
+                        "voucher",
+                        "ssticket",
+                        "pokedex",
+                        "expall",
+                        "oldamber",
+                        "domefossil",
+                        "helixfossil"
+                    ],
+                    [
+                        "cardkey_progressive",
+                        "secretkey",
+                        "liftkey"
+                    ]
+                ]
+            }
+        ]
+    }
+}

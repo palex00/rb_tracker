@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Variant Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "variants",
+        "stages": [
+            {
+                "name": "Variant: Manual",
+                "codes": "variant_manual",
+                "inherit_codes": false,
+            },
+            {
+                "name": "Variant: Events",
+                "codes": "variant_events",
+                "inherit_codes": false,
+            }
+        ]
+    },
+{"name": "Beat Brock (Event)",              "type": "toggle", "img": "images/events/brock.png",         "codes": "EVENT_BEAT_BROCK"},
+{"name": "Beat Misty (Event)",              "type": "toggle", "img": "images/events/misty.png",         "codes": "EVENT_BEAT_MISTY"},
+{"name": "Beat Lt. Surge (Event)",          "type": "toggle", "img": "images/events/lt_surge.png",      "codes": "EVENT_BEAT_LT_SURGE"},
+{"name": "Beat Erika (Event)",              "type": "toggle", "img": "images/events/erika.png",         "codes": "EVENT_BEAT_ERIKA"},
+{"name": "Beat Koga (Event)",               "type": "toggle", "img": "images/events/koga.png",          "codes": "EVENT_BEAT_KOGA"},
+{"name": "Beat Sabrina (Event)",            "type": "toggle", "img": "images/events/sabrina.png",       "codes": "EVENT_BEAT_SABRINA"},
+{"name": "Beat Blaine (Event)",             "type": "toggle", "img": "images/events/blaine.png",        "codes": "EVENT_BEAT_BLAINE"},
+{"name": "Beat Giovanni (Event)",           "type": "toggle", "img": "images/events/giovanni.png",      "codes": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI"},
+{"name": "Gave Oak Parcel (Event)",         "type": "toggle", "img": "images/events/oak_parcel.png",    "codes": "EVENT_OAK_GOT_PARCEL"},
+{"name": "Win First Rival Fight (Event)",   "type": "toggle", "img": "images/events/first_rival.png",   "codes": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"},
+{"name": "Rescue Fuji (Event)",             "type": "toggle", "img": "images/events/fuji.png",          "codes": "EVENT_RESCUED_MR_FUJI"},
+{"name": "Help Bill (Event)",               "type": "toggle", "img": "images/events/bill.png",          "codes": "EVENT_GOT_SS_TICKET"},
+{"name": "Liberate Silph Co (Event)",       "type": "toggle", "img": "images/events/giovanni.png",      "codes": "EVENT_BEAT_SILPH_CO_GIOVANNI"},
+{"name": "Beat The Game (Event)",           "type": "toggle", "img": "images/events/champ.png",         "codes": "EVENT_BEAT_CHAMPION_RIVAL"}
+]
