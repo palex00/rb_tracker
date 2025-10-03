@@ -66,8 +66,8 @@ function onClear(slot_data)
     end
 
     -- This is a fallback since not all games have this slot data yet
-    Tracker:FindObjectForCode("game_version").CurrentStage = 0
-    Tracker:FindObjectForCode("exp_all").CurrentStage = 1
+    Tracker:FindObjectForCode("opt_game_version").CurrentStage = 0
+    Tracker:FindObjectForCode("opt_exp_all").CurrentStage = 1
 
     for k, v in pairs(slot_data) do
         if STAGE_CODES[k] then

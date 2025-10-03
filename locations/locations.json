@@ -2079,7 +2079,7 @@
                         ]
                     },
                     {
-                        "name": "Liberate Silph Co (Manual Event)",
+                        "name": "11F Liberate Silph Co (Manual Event)",
                         "access_rules": [
                             "^$cardkey|11,^$cardkey|3"
                         ],
@@ -2089,7 +2089,7 @@
                         ]
                     },
                     {
-                        "name": "Defeat Giovanni in Silph Co (Event)",
+                        "name": "11F Liberate Silph Co (Event)",
                         "access_rules": [
                             "^$cardkey|11,^$cardkey|3"
                         ],
@@ -6603,11 +6603,24 @@
                         ]
                     },
                     {
-                        "name": "Beat The Game",
+                        "name": "Beat The Game (Manual Event)",
                         "access_rules": [
                             "^$elite4"
                         ],
-                        "hosted_item": "champ"
+                        "hosted_item": "champ",
+                        "visibility_rules": [
+                            "variant_manual"
+                        ]
+                    },
+                    {
+                        "name": "Beat The Game (Event)",
+                        "access_rules": [
+                            "^$elite4"
+                        ],
+                        "hosted_item": "EVENT_BEAT_CHAMPION_RIVAL",
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
                     }
                 ],
                 "map_locations": [
