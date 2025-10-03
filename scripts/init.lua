@@ -2,9 +2,6 @@ ENABLE_DEBUG_LOG = false
 -- get current variant
 local variant = Tracker.ActiveVariantUID
 
--- check variant info
-IS_PSEUDOTRACKING = variant:find("eventpseudotracking")
-
 print("-- Pokemon Red/Blue Archipelago Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
@@ -27,7 +24,8 @@ Tracker:AddItems("items/trainersanity.json")
 Tracker:AddItems("items/events.json")
 
 -- Maps
-Tracker:AddMaps("maps/maps.json") 
+Tracker:AddMaps("maps/maps.json")
+Tracker:AddMaps("maps/maps_boulder_vanilla.json")
    
 -- Locations
 Tracker:AddLocations("locations/locations.json")
@@ -58,10 +56,21 @@ ScriptHost:AddWatchForCode("opt_tea", "opt_tea", toggle_maingrid)
 
 -- Adds Watches for Option Toggles
 ScriptHost:AddWatchForCode("colormap", "colormap", toggle_grayscale)
+ScriptHost:AddWatchForCode("colormap2", "colormap", toggle_boulders)
 ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
+ScriptHost:AddWatchForCode("opt_extra_boulders", "opt_extra_boulders", toggle_boulders)
+
+if variant == "var_eventtracking" then
+    Tracker:FindObjectForCode("variants").CurrentStage = 1
+else
+    Tracker:FindObjectForCode("variants").CurrentStage = 0
+end
+
+print(Tracker:FindObjectForCode("variants").CurrentStage)
 
 initialize_watch_items()
 
+-- This is debug code
 --for i = 1, 151 do
 --    local obj = Tracker:FindObjectForCode("dexsanity_" .. i)
 --    if obj then

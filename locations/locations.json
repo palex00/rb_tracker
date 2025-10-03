@@ -85,6 +85,18 @@
                         ]
                     },
                     {
+                        "name": "Beat Lt. Surge (Event)",
+                        "hosted_item": "EVENT_BEAT_LT_SURGE",
+                        "access_rules": [
+							"opt_er_on",
+                            "^$cut",
+                            "^$surf"
+                        ],
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    },
+                    {
                         "name": "Lt. Surge",
                         "hosted_item": "surge_beaten",
                         "chest_unopened_img": "images/trainers/ltsurge.png",
@@ -226,6 +238,14 @@
                         ]
                     },
                     {
+                        "name": "Beat Koga (Event)",
+                        "hosted_item": "EVENT_BEAT_KOGA",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    },
+                    {
                         "name": "Koga",
                         "hosted_item": "koga_beaten",
                         "chest_unopened_img": "images/trainers/koga.png",
@@ -340,17 +360,17 @@
                         ]
                     },
                     {
-                        "name": "Rival's Sister",
-                        "item_count": 1,
+                        "name": "Give Oak his Parcel (Event)",
+                        "hosted_item": "EVENT_OAK_GOT_PARCEL",
                         "access_rules": [
                             "parcel"
                         ],
                         "visibility_rules": [
-                            ""
+                            "variant_events"
                         ]
                     },
                     {
-                        "name": "Oak's Post-Route-22-Rival Gift",
+                        "name": "Oak's Parcel Reward",
                         "item_count": 1,
                         "access_rules": [
                             "parcel"
@@ -360,10 +380,22 @@
                         ]
                     },
                     {
-                        "name": "Oak's Parcel Reward",
+                        "name": "Rival's Sister",
                         "item_count": 1,
                         "access_rules": [
-                            "parcel"
+                            "variant_normal, parcel",
+                            "variant_events, EVENT_OAK_GOT_PARCEL"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Oak's Post-Route-22-Rival Gift",
+                        "item_count": 1,
+                        "access_rules": [
+                            "variant_normal, parcel",
+                            "variant_events, EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -585,6 +617,16 @@
                         ]
                     },
                     {
+                        "name": "Beat Erika (Event)",
+                        "hosted_item": "EVENT_BEAT_ERIKA",
+                        "access_rules": [
+                            "^$cut"
+                        ],
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    },
+                    {
                         "name": "Erika",
                         "hosted_item": "erika_beaten",
                         "chest_unopened_img": "images/trainers/erika.png",
@@ -800,6 +842,18 @@
                         ]
                     },
                     {
+                        "name": "Beat Giovanni (Event)",
+                        "hosted_item": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI",
+                        "access_rules": [
+							"opt_er_on",
+                            "^$viridiangym,^$cut",
+                            "^$viridiangym,^$old_man"
+                        ],
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    },
+                    {
                         "name": "Giovanni",
                         "hosted_item": "giovanni_beaten",
                         "chest_unopened_img": "images/trainers/giovanni.png",
@@ -911,6 +965,14 @@
                         ]
                     },
                     {
+                        "name": "Beat Brock (Event)",
+                        "hosted_item": "EVENT_BEAT_BROCK",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    },
+                    {
                         "name": "Brock",
                         "hosted_item": "brock_beaten",
                         "chest_unopened_img": "images/trainers/brock.png",
@@ -1004,6 +1066,14 @@
                         "access_rules": [],
                         "visibility_rules": [
                             "trainersanity", "trainer_172000500"
+                        ]
+                    },
+                    {
+                        "name": "Beat Misty (Event)",
+                        "hosted_item": "EVENT_BEAT_MISTY",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "variant_events"
                         ]
                     },
                     {
@@ -1251,10 +1321,25 @@
                     {
                         "name": "Bill",
                         "item_count": 1,
-                        "hosted_item": "bill_hosted",
                         "access_rules": [],
                         "visibility_rules": [
                             ""
+                        ]
+                    },
+                    {
+                        "name": "Help Bill (Manual Event)",
+                        "hosted_item": "bill_hosted",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "variant_manual"
+                        ]
+                    },
+                    {
+                        "name": "Help Bill (Event)",
+                        "hosted_item": "EVENT_GOT_SS_TICKET",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "variant_events"
                         ]
                     },
                     {
@@ -1292,7 +1377,8 @@
                     {
                         "name": "Mr. Fuji",
                         "access_rules": [
-                            "fuji"
+                            "variant_manual, fuji",
+                            "variant_events, EVENT_RESCUED_MR_FUJI"
                         ],
                         "visibility_rules": []
                     }
@@ -1423,7 +1509,8 @@
                 "name": "Silph Co 1F - 6F",
                 "access_rules": [
 					"opt_er_on",
-                    "@Kanto/Saffron City, fuji"
+                    "@Kanto/Saffron City, variant_manual, fuji",
+                    "@Kanto/Saffron City, variant_events, EVENT_RESCUED_MR_FUJI"
                 ],
                 "sections": [
                     {
@@ -1748,7 +1835,8 @@
                 "name": "Silph Co 7F - 11F",
                 "access_rules": [
 					"opt_er_on",
-                    "@Kanto/Saffron City, fuji"
+                    "@Kanto/Saffron City, variant_manual, fuji",
+                    "@Kanto/Saffron City, variant_events, EVENT_RESCUED_MR_FUJI"
                 ],
                 "sections": [
                     {
@@ -1991,11 +2079,24 @@
                         ]
                     },
                     {
-                        "name": "Liberate Silph Co (Event)",
+                        "name": "Liberate Silph Co (Manual Event)",
                         "access_rules": [
                             "^$cardkey|11,^$cardkey|3"
                         ],
-                        "hosted_item": "silphco_hosted"
+                        "hosted_item": "silphco_hosted",
+                        "visibility_rules": [
+                            "variant_manual"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Giovanni in Silph Co (Event)",
+                        "access_rules": [
+                            "^$cardkey|11,^$cardkey|3"
+                        ],
+                        "hosted_item": "EVENT_BEAT_SILPH_CO_GIOVANNI",
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
                     },
                     {
                         "name": "11F Silph Co President",
@@ -2502,6 +2603,17 @@
                         ]
                     },
                     {
+                        "name": "Beat Blaine (Event)",
+                        "hosted_item": "EVENT_BEAT_BLAINE",
+                        "access_rules": [
+							"opt_er_on",
+                            "secretkey"
+                        ],
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    },
+                    {
                         "name": "Blaine",
                         "hosted_item": "blaine_beaten",
                         "chest_unopened_img": "images/trainers/blaine.png",
@@ -2710,6 +2822,17 @@
                         ],
                         "visibility_rules": [
                             "trainersanity", "trainer_172000462"
+                        ]
+                    },
+                    {
+                        "name": "Beat Sabrina (Event)",
+                        "hosted_item": "EVENT_BEAT_SABRINA",
+                        "access_rules": [
+							"opt_er_on",
+                            "silphco"
+                        ],
+                        "visibility_rules": [
+                            "variant_events"
                         ]
                     },
                     {
@@ -3305,12 +3428,27 @@
                         ]
                     },
                     {
-                        "name": "7F Save Mr. Fuji (Event)",
+                        "name": "7F Save Mr. Fuji (Manual Event)",
                         "hosted_item": "fuji_hosted",
                         "access_rules": [
 							"opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
+                        ],
+                        "visibility_rules": [
+                            "variant_manual"
+                        ]
+                    },
+                    {
+                        "name": "7F Save Mr. Fuji (Event)",
+                        "hosted_item": "EVENT_RESCUED_MR_FUJI",
+                        "access_rules": [
+							"opt_er_on",
+                            "silphscope",
+                            "opt_pokedoll_skip_on"
+                        ],
+                        "visibility_rules": [
+                            "variant_events"
                         ]
                     }
                 ],
@@ -5028,8 +5166,8 @@
                     },
                     {
                         "name": "Engineer 1",
-                        "chest_unopened_img": "images/trainers/Engineer.png",
-                        "chest_opened_img": "images/trainers/Engineer_done.png",
+                        "chest_unopened_img": "images/trainers/engineer.png",
+                        "chest_opened_img": "images/trainers/engineer_done.png",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
@@ -5038,8 +5176,8 @@
                     },
                     {
                         "name": "Engineer 2",
-                        "chest_unopened_img": "images/trainers/Engineer.png",
-                        "chest_opened_img": "images/trainers/Engineer_done.png",
+                        "chest_unopened_img": "images/trainers/engineer.png",
+                        "chest_opened_img": "images/trainers/engineer_done.png",
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
@@ -6628,6 +6766,31 @@
                         "map": "map",
                         "x": 320,
                         "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Route 22",
+                "access_rules": [
+                    "@Kanto/Viridian City"
+                ],
+                "sections": [
+                    {
+                        "name": "First Rival Fight (Event)",
+                        "access_rules": [
+                            "EVENT_OAK_GOT_PARCEL"
+                        ],
+                        "hosted_item": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
+                        "visibility_rules": [
+                            "variant_events"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 112,
+                        "y": 272
                     }
                 ]
             }

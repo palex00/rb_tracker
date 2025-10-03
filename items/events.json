@@ -1,16 +1,34 @@
 [
-{"name": "EVENT_BEAT_BROCK", "type": "toggle", "codes": "EVENT_BEAT_BROCK"},
-{"name": "EVENT_BEAT_MISTY", "type": "toggle", "codes": "EVENT_BEAT_MISTY"},
-{"name": "EVENT_BEAT_LT_SURGE", "type": "toggle", "codes": "EVENT_BEAT_LT_SURGE"},
-{"name": "EVENT_BEAT_ERIKA", "type": "toggle", "codes": "EVENT_BEAT_ERIKA"},
-{"name": "EVENT_BEAT_KOGA", "type": "toggle", "codes": "EVENT_BEAT_KOGA"},
-{"name": "EVENT_BEAT_SABRINA", "type": "toggle", "codes": "EVENT_BEAT_SABRINA"},
-{"name": "EVENT_BEAT_BLAINE", "type": "toggle", "codes": "EVENT_BEAT_BLAINE"},
-{"name": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI", "type": "toggle", "codes": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI"},
-{"name": "EVENT_OAK_GOT_PARCEL", "type": "toggle", "codes": "EVENT_OAK_GOT_PARCEL"},
-{"name": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE", "type": "toggle", "codes": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"},
-{"name": "EVENT_RESCUED_MR_FUJI", "type": "toggle", "codes": "EVENT_RESCUED_MR_FUJI"},
-{"name": "EVENT_GOT_SS_TICKET", "type": "toggle", "codes": "EVENT_GOT_SS_TICKET"},
-{"name": "EVENT_BEAT_SILPH_CO_GIOVANNI", "type": "toggle", "codes": "EVENT_BEAT_SILPH_CO_GIOVANNI"},
-{"name": "EVENT_BEAT_CHAMPION_RIVAL", "type": "toggle", "codes": "EVENT_BEAT_CHAMPION_RIVAL"}
+    {
+        "name": "Variant Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "variants",
+        "stages": [
+            {
+                "name": "Variant: Manual",
+                "codes": "variant_normal",
+                "inherit_codes": false,
+            },
+            {
+                "name": "Variant: Events",
+                "codes": "variant_events",
+                "inherit_codes": false,
+            }
+        ]
+    },
+{"name": "EVENT_BEAT_BROCK",                    "type": "toggle", "img": "images/events/brock.png",         "codes": "EVENT_BEAT_BROCK"},
+{"name": "EVENT_BEAT_MISTY",                    "type": "toggle", "img": "images/events/misty.png",         "codes": "EVENT_BEAT_MISTY"},
+{"name": "EVENT_BEAT_LT_SURGE",                 "type": "toggle", "img": "images/events/lt_surge.png",      "codes": "EVENT_BEAT_LT_SURGE"},
+{"name": "EVENT_BEAT_ERIKA",                    "type": "toggle", "img": "images/events/erika.png",         "codes": "EVENT_BEAT_ERIKA"},
+{"name": "EVENT_BEAT_KOGA",                     "type": "toggle", "img": "images/events/koga.png",          "codes": "EVENT_BEAT_KOGA"},
+{"name": "EVENT_BEAT_SABRINA",                  "type": "toggle", "img": "images/events/sabrina.png",       "codes": "EVENT_BEAT_SABRINA"},
+{"name": "EVENT_BEAT_BLAINE",                   "type": "toggle", "img": "images/events/blaine.png",        "codes": "EVENT_BEAT_BLAINE"},
+{"name": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI",    "type": "toggle", "img": "images/events/giovanni.png",      "codes": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI"},
+{"name": "EVENT_OAK_GOT_PARCEL",                "type": "toggle", "img": "images/events/oak_parcel.png",    "codes": "EVENT_OAK_GOT_PARCEL"},
+{"name": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE", "type": "toggle", "img": "images/events/first_rival.png",   "codes": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"},
+{"name": "EVENT_RESCUED_MR_FUJI",               "type": "toggle", "img": "images/events/fuji.png",          "codes": "EVENT_RESCUED_MR_FUJI"},
+{"name": "EVENT_GOT_SS_TICKET",                 "type": "toggle", "img": "images/events/bill.png",          "codes": "EVENT_GOT_SS_TICKET"},
+{"name": "EVENT_BEAT_SILPH_CO_GIOVANNI",        "type": "toggle", "img": "images/events/giovanni.png",      "codes": "EVENT_BEAT_SILPH_CO_GIOVANNI"},
+{"name": "EVENT_BEAT_CHAMPION_RIVAL",           "type": "toggle", "img": "images/events/champ.png",         "codes": "EVENT_BEAT_CHAMPION_RIVAL"}
 ]

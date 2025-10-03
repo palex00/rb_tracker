@@ -30,7 +30,7 @@
             },
             {
                 "type": "group",
-                "header": "Manually Tracked Events",
+                "header": "Events",
                 "dock": "left",
                 "margin": "0,0,3,0",
                 "content": {

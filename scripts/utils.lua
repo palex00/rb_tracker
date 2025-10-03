@@ -39,6 +39,16 @@ function has(item, amount)
     return AccessibilityLevel.None
 end
 
+function has_new(item, amount)
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count >= amount
+    end
+end
+
 function has_location(loc)
     if loc.AvailableChestCount == 0 then
         return AccessibilityLevel.Normal
@@ -274,10 +284,29 @@ function toggle_maingrid()
 end
 
 function toggle_grayscale()
-    if Tracker:FindObjectForCode("colormap").CurrentStage == 0 then
-        Tracker:AddMaps("maps/maps.json") 
-    elseif Tracker:FindObjectForCode("colormap").CurrentStage == 1 then
-        Tracker:AddMaps("maps/maps_bw.json") 
+    local bw = Tracker:FindObjectForCode("colormap").CurrentStage == 1
+
+    if not bw then
+        Tracker:AddMaps("maps/maps.json")
+    elseif bw then
+        Tracker:AddMaps("maps/maps_bw.json")
+    else
+        print("Oh Oh.")
+    end
+end
+
+function toggle_boulders()
+    local boulders = Tracker:FindObjectForCode("opt_extra_boulders").CurrentStage == 1
+    local bw = Tracker:FindObjectForCode("colormap").CurrentStage == 1
+
+    if not bw and not boulders then
+        Tracker:AddMaps("maps/maps_boulder_vanilla.json")
+    elseif bw and not boulders then
+        Tracker:AddMaps("maps/maps_bw_boulder_vanilla.json")
+    elseif not bw and boulders then
+        Tracker:AddMaps("maps/maps_boulder.json")
+    elseif bw and boulders then
+        Tracker:AddMaps("maps/maps_bw_boulder.json")
     else
         print("Oh Oh.")
     end

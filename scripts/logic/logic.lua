@@ -144,7 +144,15 @@ end
 
 -- ROADBLOCK CHECKS
 function old_man()
-    return max(has('opt_old_man_on'), has('parcel'))
+    if has_new("opt_old_man_on") then
+        return AccessibilityLevel.Normal
+    elseif has_new("variant_events") and has_new("EVENT_OAK_GOT_PARCEL") then
+        return AccessibilityLevel.Normal
+    elseif has_new("variant_normal") and has_new("parcel") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function rt11_boulders()
@@ -166,28 +174,52 @@ function rock_tunnel()
 end
 
 function officer()
-    return max(has('bill'),has("opt_officer_off"))
+    if has_new("opt_officer_off") then
+        return AccessibilityLevel.Normal
+    elseif has_new("variant_manual") and has_new("bill") then
+        return AccessibilityLevel.Normal
+    elseif has_new("variant_events") and has_new("EVENT_GOT_SS_TICKET") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 -- LOCATION ACCESS CHECKS
 function tea()
     local celadon = Tracker:FindObjectForCode("@Kanto/Celadon City").AccessibilityLevel
     
-    if has("opt_tea_on") == 6 then
+    if has_new("opt_tea_on") then
         return has("tea")
     else
         return celadon
     end
 end
 
-function rt3()
-    local brock = access(has('opt_rt3brock'), has('brock_beaten'))
-    local any_gym = access(has('opt_rt3gym'),has('gym_beaten'))
-    local open = has('opt_rt3open')
-    local boulder = access(has('opt_rt3boulder'),has('boulder'))
-    local any_badge = access(has('opt_rt3badge'),has('badge'))
+function gyms()
+    return
+    Tracker:ProviderCountForCode("EVENT_BEAT_BROCK") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_MISTY") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_LT_SURGE") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_ERIKA") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_JANINE") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_SABRINA") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_BLAINE") +
+    Tracker:ProviderCountForCode("EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI")
+end
 
-    return max(open, boulder, any_badge, brock, any_gym)
+function rt3()
+    local open = has_new('opt_rt3open')
+    local brock = has_new("opt_rt3brock") and ((has_new("variant_manual") and has_new("brock_beaten")) or (has_new("variant_events") and has_new("EVENT_BEAT_BROCK")))
+    local boulder = has_new('opt_rt3boulder') and has_new('boulder')
+    local any_gym = has_new("opt_rt3gym") and ((has_new("variant_manual") and has_new("gym_beaten")) or (has_new("variant_events") and (gyms() >= 1)))
+    local any_badge = has_new('opt_rt3badge') and has_new("badge")
+    
+    if open or brock or boulder or any_gym or any_badge then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 

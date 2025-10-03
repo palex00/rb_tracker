@@ -711,13 +711,13 @@
     {
         "name": "Helped Bill (Event)",
         "type": "toggle",
-        "img": "images/items/bill.png",
+        "img": "images/events/bill.png",
         "codes": "bill"
     },
     {
         "name": "Helped Bill (Event)",
         "type": "toggle",
-        "img": "images/items/bill.png",,
+        "img": "images/events/bill.png",,
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "codes": "bill_hosted"
@@ -725,13 +725,13 @@
     {
         "name": "Saved Mr. Fuji (Event)",
         "type": "toggle",
-        "img": "images/items/fuji.png",
+        "img": "images/events/fuji_propaganda.png",
         "codes": "fuji"
     },
     {
         "name": "Saved Mr. Fuji (Event)",
         "type": "toggle",
-        "img": "/images/items/fuji.png",
+        "img": "/images/events/fuji_propaganda.png",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "codes": "fuji_hosted"
@@ -739,13 +739,13 @@
     {
         "name": "Liberated Silph Co. (Event)",
         "type": "toggle",
-        "img": "images/items/silph.png",
+        "img": "images/events/silph.png",
         "codes": "silphco"
     },
     {
         "name": "Liberated Silph Co. (Event)",
         "type": "toggle",
-        "img": "/images/items/silph.png",
+        "img": "/images/events/silph.png",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "codes": "silphco_hosted"
@@ -753,7 +753,7 @@
     {
         "name": "Beat the Champ (Event)",
         "type": "toggle",
-        "img": "images/items/champ.png",
+        "img": "images/events/champ.png",
         "codes": "champ"
     }
 ]

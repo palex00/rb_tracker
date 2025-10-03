@@ -8,13 +8,13 @@
     "min_poptracker_version": "0.30.4",
     "variants": {
         "standard": {
-            "display_name": "Map Tracker",
+            "display_name": "Map Tracker (Manual Events)",
             "flags": [
                 "ap"
             ]
         },
-        "var_eventpseudotracking": {
-            "display_name": "Map Tracker + Event Pseudo Tracking",
+        "var_eventtracking": {
+            "display_name": "Map Tracker (using the special apworld with Event-Tracking Support",
             "flags": [
                 "ap"
             ]

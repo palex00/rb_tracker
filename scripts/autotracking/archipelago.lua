@@ -1,13 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/slot_options.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
-
-if IS_PSEUDOTRACKING then
-	ScriptHost:LoadScript("scripts/autotracking/location_and_event_mapping.lua")
-	else
-	ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
-end
-
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -95,7 +89,7 @@ function onClear(slot_data)
     dexsanity_init(ap_locations)
 
     if PLAYER_ID>-1 then
-        --updateEvents(0)
+        updateEvents(0)
         
         EVENT_ID="pokemon_rb_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
@@ -169,8 +163,6 @@ function onNotify(key, value, old_value)
 end
 
 function onNotifyLaunch(key, value)
-    print(key)
-    print(value)
     if value ~= nil and value ~= 0 then
         if key == EVENT_ID then
             updateEvents(value)
