@@ -148,7 +148,7 @@ function old_man()
         return AccessibilityLevel.Normal
     elseif has_new("variant_events") and has_new("EVENT_OAK_GOT_PARCEL") then
         return AccessibilityLevel.Normal
-    elseif has_new("variant_normal") and has_new("parcel") then
+    elseif has_new("variant_manual") and has_new("parcel") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None

@@ -383,7 +383,7 @@
                         "name": "Rival's Sister",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_normal, parcel",
+                            "variant_manual, parcel",
                             "variant_events, EVENT_OAK_GOT_PARCEL"
                         ],
                         "visibility_rules": [
@@ -394,7 +394,7 @@
                         "name": "Oak's Post-Route-22-Rival Gift",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_normal, parcel",
+                            "variant_manual, parcel",
                             "variant_events, EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"
                         ],
                         "visibility_rules": [

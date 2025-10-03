@@ -7,7 +7,7 @@
         "stages": [
             {
                 "name": "Variant: Manual",
-                "codes": "variant_normal",
+                "codes": "variant_manual",
                 "inherit_codes": false,
             },
             {

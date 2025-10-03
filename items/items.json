@@ -723,13 +723,13 @@
         "codes": "bill_hosted"
     },
     {
-        "name": "Saved Mr. Fuji (Event)",
+        "name": "Saved Mr. Fuji (Manual Event)",
         "type": "toggle",
         "img": "images/events/fuji_propaganda.png",
         "codes": "fuji"
     },
     {
-        "name": "Saved Mr. Fuji (Event)",
+        "name": "Saved Mr. Fuji (Manual Event)",
         "type": "toggle",
         "img": "/images/events/fuji_propaganda.png",
         "img_mods": "@disabled",
@@ -737,13 +737,13 @@
         "codes": "fuji_hosted"
     },
     {
-        "name": "Liberated Silph Co. (Event)",
+        "name": "Liberated Silph Co. (Manual Event)",
         "type": "toggle",
         "img": "images/events/silph.png",
         "codes": "silphco"
     },
     {
-        "name": "Liberated Silph Co. (Event)",
+        "name": "Liberated Silph Co. (Manual Event)",
         "type": "toggle",
         "img": "/images/events/silph.png",
         "img_mods": "@disabled",
@@ -751,7 +751,7 @@
         "codes": "silphco_hosted"
     },
     {
-        "name": "Beat the Champ (Event)",
+        "name": "Beat the Champ (Manual Event)",
         "type": "toggle",
         "img": "images/events/champ.png",
         "codes": "champ"

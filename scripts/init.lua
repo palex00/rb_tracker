@@ -66,8 +66,6 @@ else
     Tracker:FindObjectForCode("variants").CurrentStage = 0
 end
 
-print(Tracker:FindObjectForCode("variants").CurrentStage)
-
 initialize_watch_items()
 
 -- This is debug code
