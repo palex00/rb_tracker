@@ -23,7 +23,8 @@ STAGE_CODES = {
     dark_rock_tunnel_logic = "opt_dark_rock_tunnel",
     require_pokedex = "opt_dex_required",
     area_1_to_1_mapping = "opt_encounter",
-    split_card_key = "opt_cardkey"
+    split_card_key = "opt_cardkey",
+    exp_all = "opt_exp_all"
 }
 
 AMOUNT_CODES = {

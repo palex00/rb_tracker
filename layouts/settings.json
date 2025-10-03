@@ -106,7 +106,8 @@
                         "trainersanity",
                         "opt_stonesanity",
                         "opt_keyonly",
-                        "opt_cardkey"
+                        "opt_cardkey",
+                        "opt_exp_all"
             ]
         ]
     },

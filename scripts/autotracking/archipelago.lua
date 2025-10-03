@@ -60,10 +60,14 @@ function onClear(slot_data)
         end
     end
     
-    -- reset Events
+    -- reset manually tracked events
     for _, item in ipairs(HOSTED_ITEMS) do
         Tracker:FindObjectForCode(item).Active = false
     end
+
+    -- This is a fallback since not all games have this slot data yet
+    Tracker:FindObjectForCode("game_version").CurrentStage = 0
+    Tracker:FindObjectForCode("exp_all").CurrentStage = 1
 
     for k, v in pairs(slot_data) do
         if STAGE_CODES[k] then
@@ -72,6 +76,12 @@ function onClear(slot_data)
         elseif AMOUNT_CODES[k] then
             --print("Setting "..k.." to "..v)
             Tracker:FindObjectForCode(AMOUNT_CODES[k]).AcquiredCount = v
+        elseif k == "game_version" then
+            if v == 0 then
+                Tracker:FindObjectForCode("opt_game_version").CurrentStage = 1
+            elseif v == 1 then
+                Tracker:FindObjectForCode("opt_game_version").CurrentStage = 2
+            end
         elseif IGNORED_CODES[k] then
             --print("Ignored slot_data: "..k)
         else

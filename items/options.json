@@ -1343,5 +1343,54 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Game Version",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Game Version: Unknown",
+                "codes": "opt_game_version, opt_game_version_red, opt_game_version_blue"
+            },
+            {
+                "name": "Game Version: Red",
+                "codes": "opt_game_version, opt_game_version_red",
+                "inherit_codes": false
+            },
+            {
+                "name": "Game Version: Blue",
+                "codes": "opt_game_version, opt_game_version_blue",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "EXP. All",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "EXP. All: Removed",
+                "img": "images/items/expall.png",
+                "img_mods": "@disabled",
+                "codes": "opt_exp_all, opt_exp_all_removed"
+            },
+            {
+                "name": "EXP. All: Randomized",
+                "img": "images/items/expall.png",
+                "codes": "opt_exp_all, opt_exp_all_randomized",
+                "inherit_codes": false
+            },
+            {
+                "name": "EXP. All: Start With",
+                "img": "images/items/expall.png",
+                "codes": "opt_exp_all, opt_exp_all_startwith",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
