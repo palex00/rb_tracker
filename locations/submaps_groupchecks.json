@@ -235,8 +235,8 @@
 {"name": "HI: Northwest By Trainer", "ref": "Kanto/Viridian Forest/HI: Northwest By Trainer"},
 {"name": "Northwest Item", "ref": "Kanto/Viridian Forest/Northwest Item"},
 {"name": "Southwest Item", "ref": "Kanto/Viridian Forest/Southwest Item"}
-], "map_locations": [{"map": "route2", "x": 56, "y": 200},
-{"map": "route2", "x": 56, "y": 696}]},
+], "map_locations": [{"map": "route2_top", "x": 56, "y": 200},
+{"map": "route2_bottom", "x": 56, "y": 104}]},
 {"name": "Fighting Dojo", "sections": [
 {"name": "Blackbelt 1", "ref": "Kanto/Saffron City/Fighting Dojo: Blackbelt 1"},
 {"name": "Blackbelt 2", "ref": "Kanto/Saffron City/Fighting Dojo: Blackbelt 2"},
@@ -385,8 +385,8 @@
 {"name": "3F Cooltrainer M 2", "ref": "Kanto/Victory Road/3F Cooltrainer M 2"},
 {"name": "3F Cooltrainer F 2", "ref": "Kanto/Victory Road/3F Cooltrainer F 2"},
 {"name": "HI: 2F Rock In Final Room", "ref": "Kanto/Victory Road/HI: 2F Rock In Final Room"}
-], "map_locations": [{"map": "route23", "x": 72, "y": 504},
-{"map": "route23", "x": 232, "y": 504}]},
+], "map_locations": [{"map": "route23_top", "x": 72, "y": 40},
+{"map": "route23_top", "x": 232, "y": 40}]},
 {"name": "S.S. Anne", "sections": [
 {"name": "1F Item", "ref": "Kanto/S.S. Anne/1F Item"},
 {"name": "1F Lass", "ref": "Kanto/S.S. Anne/1F Lass"},

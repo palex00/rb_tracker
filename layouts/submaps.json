@@ -759,7 +759,8 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "route2"
+                                    "route2_bottom",
+                                    "route2_top"
                                 ]
                             }
                         },
@@ -849,7 +850,8 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "route12"
+                                    "route12_top",
+                                    "route12_bottom"
                                 ]
                             }
                         },
@@ -894,7 +896,8 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "route17"
+                                    "route17_top",
+                                    "route17_bottom"
                                 ]
                             }
                         },
@@ -948,7 +951,8 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "route23"
+                                    "route23_bottom",
+                                    "route23_top"
                                 ]
                             }
                         },
