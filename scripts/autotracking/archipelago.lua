@@ -191,9 +191,6 @@ function updateEvents(value)
             if #code > 0 then
                 local obj = Tracker:FindObjectForCode(code)
                 obj.Active = obj.Active or bit == 1
-                if obj.Active == true then
-                    print(code .. " is now active!")
-                end
             end
         end
     end

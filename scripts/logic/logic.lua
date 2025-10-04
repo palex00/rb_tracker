@@ -119,7 +119,9 @@ end
 
 -- ITEM ACCESS CHECKS
 function cardkey(floor)
-    return max(has('cardkey'), has('cardkey'..floor..'f'), has('cardkey_progressive', floor-1))
+    if has_new("cardkey") or has_new("cardkey"..floor.."f") or (Tracker:FindObjectForCode("cardkey_progressive").CurrentStage >= floor-1) then
+        return AccessibilityLevel.Normal
+    end
 end
 
 function hidden()
