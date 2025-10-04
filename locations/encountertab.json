@@ -2611,6 +2611,26 @@
                 ]
             },
             {
+                "name": "Underground Tunnel North-South",
+                "access_rules": [
+					"opt_er_on",
+                    "@Kanto/Vermilion City"
+                ],
+                "sections": [
+                    {
+                        "name": "Trade",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "encounters",
+                        "x": 400,
+                        "y": 144
+                    }
+                ]
+            },
+            {
                 "name": "Fishing Is Fun",
                 "access_rules": [
                     ""
