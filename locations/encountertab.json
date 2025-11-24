@@ -2618,6 +2618,25 @@
                 ]
             },
             {
+                "name": "Underground Tunnel North-South",
+                "access_rules": [
+                    "@Kanto/Underground Tunnel North-Southy"
+                ],
+                "sections": [
+                    {
+                        "name": "Trade",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "encounters",
+                        "x": 400,
+                        "y": 144
+                    }
+                ]
+            },
+            {
                 "name": "Fishing Is Fun",
                 "access_rules": [
                     ""
@@ -2979,3 +2998,4 @@
         ]
     }
 ]
+
