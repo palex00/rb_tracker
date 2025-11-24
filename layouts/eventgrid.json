@@ -17,9 +17,13 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "bill",
-                                "fuji",
-                                "silphco"
+                                "EVENT_OAK_GOT_PARCEL",
+                                "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
+                                "EVENT_GOT_SS_TICKET"
+                            ],
+                            [
+                                "EVENT_RESCUED_MR_FUJI",
+                                "EVENT_BEAT_SILPH_CO_GIOVANNI"
                             ]
                         ]
                     }

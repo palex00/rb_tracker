@@ -1,22 +1,4 @@
 [
-    {
-        "name": "Variant Tracking",
-        "type": "progressive",
-        "allow_disabled": false,
-        "codes": "variants",
-        "stages": [
-            {
-                "name": "Variant: Manual",
-                "codes": "variant_manual",
-                "inherit_codes": false,
-            },
-            {
-                "name": "Variant: Events",
-                "codes": "variant_events",
-                "inherit_codes": false,
-            }
-        ]
-    },
 {"name": "Beat Brock (Event)",              "type": "toggle", "img": "images/events/brock.png",         "codes": "EVENT_BEAT_BROCK"},
 {"name": "Beat Misty (Event)",              "type": "toggle", "img": "images/events/misty.png",         "codes": "EVENT_BEAT_MISTY"},
 {"name": "Beat Lt. Surge (Event)",          "type": "toggle", "img": "images/events/lt_surge.png",      "codes": "EVENT_BEAT_LT_SURGE"},

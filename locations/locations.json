@@ -7,7 +7,7 @@
             {
                 "name": "Vermilion City",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|vermilion",
                     "@Kanto/Saffron City, ^$tea",
                     "@Kanto/Pewter City, ^$cut",
@@ -48,12 +48,13 @@
                         "chest_opened_img": "images/trainers/sailor_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut",
                             "^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000480"
+                            "trainersanity",
+                            "trainer_172000480"
                         ]
                     },
                     {
@@ -62,12 +63,13 @@
                         "chest_opened_img": "images/trainers/rocker_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut",
                             "^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000481"
+                            "trainersanity",
+                            "trainer_172000481"
                         ]
                     },
                     {
@@ -76,24 +78,25 @@
                         "chest_opened_img": "images/trainers/gentleman_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut",
                             "^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000482"
+                            "trainersanity",
+                            "trainer_172000482"
                         ]
                     },
                     {
                         "name": "Beat Lt. Surge (Event)",
                         "hosted_item": "EVENT_BEAT_LT_SURGE",
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut",
                             "^$surf"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -103,7 +106,7 @@
                         "chest_opened_img": "images/trainers/ltsurge_done.png",
                         "item_count": 2,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut",
                             "^$surf"
                         ],
@@ -118,7 +121,7 @@
                         "chest_opened_img": "images/trainers/ltsurge_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut",
                             "^$surf"
                         ],
@@ -140,7 +143,7 @@
             {
                 "name": "Fuchsia City",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|fuchsia",
                     "@Kanto/Cinnabar Island, ^$surf, $strength",
                     "@Kanto/Celadon City, pokeflute, $cyclingroad",
@@ -184,7 +187,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000467"
+                            "trainersanity",
+                            "trainer_172000467"
                         ]
                     },
                     {
@@ -194,7 +198,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000468"
+                            "trainersanity",
+                            "trainer_172000468"
                         ]
                     },
                     {
@@ -204,7 +209,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000469"
+                            "trainersanity",
+                            "trainer_172000469"
                         ]
                     },
                     {
@@ -214,7 +220,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000470"
+                            "trainersanity",
+                            "trainer_172000470"
                         ]
                     },
                     {
@@ -224,7 +231,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000471"
+                            "trainersanity",
+                            "trainer_172000471"
                         ]
                     },
                     {
@@ -234,7 +242,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000472"
+                            "trainersanity",
+                            "trainer_172000472"
                         ]
                     },
                     {
@@ -242,7 +251,7 @@
                         "hosted_item": "EVENT_BEAT_KOGA",
                         "access_rules": [],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -281,7 +290,7 @@
             {
                 "name": "Route 12 South",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Fuchsia City, ^$boardwalk_boulders",
                     "@Kanto/Lavender Town, pokeflute",
                     "@Kanto/Lavender Town, ^$surf",
@@ -297,7 +306,8 @@
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000391"
+                            "trainersanity",
+                            "trainer_172000391"
                         ]
                     },
                     {
@@ -325,7 +335,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000389"
+                            "trainersanity",
+                            "trainer_172000389"
                         ]
                     },
                     {
@@ -335,7 +346,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000390"
+                            "trainersanity",
+                            "trainer_172000390"
                         ]
                     }
                 ],
@@ -366,7 +378,7 @@
                             "parcel"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -383,8 +395,7 @@
                         "name": "Rival's Sister",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_manual, parcel",
-                            "variant_events, EVENT_OAK_GOT_PARCEL"
+                            "EVENT_OAK_GOT_PARCEL"
                         ],
                         "visibility_rules": [
                             ""
@@ -394,8 +405,7 @@
                         "name": "Oak's Post-Route-22-Rival Gift",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_manual, parcel",
-                            "variant_events, EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"
+                            "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -415,7 +425,7 @@
             {
                 "name": "Celadon City",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|celadon",
                     "@Kanto/Fuchsia City, pokeflute, $cyclingroad",
                     "@Kanto/Saffron City, ^$tea",
@@ -536,11 +546,12 @@
                         "chest_opened_img": "images/trainers/lass_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000473"
+                            "trainersanity",
+                            "trainer_172000473"
                         ]
                     },
                     {
@@ -549,11 +560,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000474"
+                            "trainersanity",
+                            "trainer_172000474"
                         ]
                     },
                     {
@@ -562,11 +574,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000475"
+                            "trainersanity",
+                            "trainer_172000475"
                         ]
                     },
                     {
@@ -575,11 +588,12 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000476"
+                            "trainersanity",
+                            "trainer_172000476"
                         ]
                     },
                     {
@@ -591,7 +605,8 @@
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000477"
+                            "trainersanity",
+                            "trainer_172000477"
                         ]
                     },
                     {
@@ -601,7 +616,8 @@
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000478"
+                            "trainersanity",
+                            "trainer_172000478"
                         ]
                     },
                     {
@@ -613,7 +629,8 @@
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000479"
+                            "trainersanity",
+                            "trainer_172000479"
                         ]
                     },
                     {
@@ -623,7 +640,7 @@
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -721,7 +738,7 @@
                         "name": "Item in Gym",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym, ^$cut",
                             "^$viridiangym, ^$old_man"
                         ],
@@ -735,12 +752,13 @@
                         "chest_opened_img": "images/trainers/tamer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000502"
+                            "trainersanity",
+                            "trainer_172000502"
                         ]
                     },
                     {
@@ -749,12 +767,13 @@
                         "chest_opened_img": "images/trainers/blackbelt_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000503"
+                            "trainersanity",
+                            "trainer_172000503"
                         ]
                     },
                     {
@@ -763,12 +782,13 @@
                         "chest_opened_img": "images/trainers/cooltrainerm_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000504"
+                            "trainersanity",
+                            "trainer_172000504"
                         ]
                     },
                     {
@@ -777,12 +797,13 @@
                         "chest_opened_img": "images/trainers/cooltrainerm_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000505"
+                            "trainersanity",
+                            "trainer_172000505"
                         ]
                     },
                     {
@@ -791,12 +812,13 @@
                         "chest_opened_img": "images/trainers/blackbelt_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000506"
+                            "trainersanity",
+                            "trainer_172000506"
                         ]
                     },
                     {
@@ -805,12 +827,13 @@
                         "chest_opened_img": "images/trainers/tamer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000507"
+                            "trainersanity",
+                            "trainer_172000507"
                         ]
                     },
                     {
@@ -819,12 +842,13 @@
                         "chest_opened_img": "images/trainers/blackbelt_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000508"
+                            "trainersanity",
+                            "trainer_172000508"
                         ]
                     },
                     {
@@ -833,24 +857,25 @@
                         "chest_opened_img": "images/trainers/cooltrainerm_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000509"
+                            "trainersanity",
+                            "trainer_172000509"
                         ]
                     },
                     {
                         "name": "Beat Giovanni (Event)",
                         "hosted_item": "EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI",
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -860,7 +885,7 @@
                         "chest_opened_img": "images/trainers/giovanni_done.png",
                         "item_count": 2,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
@@ -875,7 +900,7 @@
                         "chest_opened_img": "images/trainers/giovanni_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$viridiangym,^$cut",
                             "^$viridiangym,^$old_man"
                         ],
@@ -897,7 +922,7 @@
             {
                 "name": "Route 2",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "^$cut"
                 ],
                 "sections": [
@@ -936,9 +961,9 @@
             {
                 "name": "Pewter City",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|pewter",
-                    "^$cut", 
+                    "^$cut",
                     "$old_man",
                     "@Kanto/Cerulean City, ^$surf"
                 ],
@@ -947,7 +972,7 @@
                         "name": "Museum Scientist",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cut"
                         ],
                         "visibility_rules": [
@@ -961,7 +986,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000501"
+                            "trainersanity",
+                            "trainer_172000501"
                         ]
                     },
                     {
@@ -969,7 +995,7 @@
                         "hosted_item": "EVENT_BEAT_BROCK",
                         "access_rules": [],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -1008,7 +1034,7 @@
             {
                 "name": "Cerulean City",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|cerulean",
                     "@Kanto/Route 3",
                     "@Kanto/Vermilion City",
@@ -1055,7 +1081,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000499"
+                            "trainersanity",
+                            "trainer_172000499"
                         ]
                     },
                     {
@@ -1065,7 +1092,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000500"
+                            "trainersanity",
+                            "trainer_172000500"
                         ]
                     },
                     {
@@ -1073,7 +1101,7 @@
                         "hosted_item": "EVENT_BEAT_MISTY",
                         "access_rules": [],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -1112,7 +1140,7 @@
             {
                 "name": "Route 24",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Cerulean City"
                 ],
                 "sections": [
@@ -1123,7 +1151,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000301"
+                            "trainersanity",
+                            "trainer_172000301"
                         ]
                     },
                     {
@@ -1133,7 +1162,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000302"
+                            "trainersanity",
+                            "trainer_172000302"
                         ]
                     },
                     {
@@ -1143,7 +1173,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000303"
+                            "trainersanity",
+                            "trainer_172000303"
                         ]
                     },
                     {
@@ -1153,7 +1184,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000304"
+                            "trainersanity",
+                            "trainer_172000304"
                         ]
                     },
                     {
@@ -1163,7 +1195,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000305"
+                            "trainersanity",
+                            "trainer_172000305"
                         ]
                     },
                     {
@@ -1181,7 +1214,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000306"
+                            "trainersanity",
+                            "trainer_172000306"
                         ]
                     },
                     {
@@ -1204,7 +1238,7 @@
             {
                 "name": "Route 25",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Cerulean City"
                 ],
                 "sections": [
@@ -1215,7 +1249,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000292"
+                            "trainersanity",
+                            "trainer_172000292"
                         ]
                     },
                     {
@@ -1235,7 +1270,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000293"
+                            "trainersanity",
+                            "trainer_172000293"
                         ]
                     },
                     {
@@ -1245,7 +1281,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000294"
+                            "trainersanity",
+                            "trainer_172000294"
                         ]
                     },
                     {
@@ -1255,7 +1292,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000295"
+                            "trainersanity",
+                            "trainer_172000295"
                         ]
                     },
                     {
@@ -1265,7 +1303,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000296"
+                            "trainersanity",
+                            "trainer_172000296"
                         ]
                     },
                     {
@@ -1275,7 +1314,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000297"
+                            "trainersanity",
+                            "trainer_172000297"
                         ]
                     },
                     {
@@ -1285,7 +1325,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000298"
+                            "trainersanity",
+                            "trainer_172000298"
                         ]
                     },
                     {
@@ -1305,7 +1346,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000299"
+                            "trainersanity",
+                            "trainer_172000299"
                         ]
                     },
                     {
@@ -1315,7 +1357,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000300"
+                            "trainersanity",
+                            "trainer_172000300"
                         ]
                     },
                     {
@@ -1327,19 +1370,11 @@
                         ]
                     },
                     {
-                        "name": "Help Bill (Manual Event)",
-                        "hosted_item": "bill_hosted",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "variant_manual"
-                        ]
-                    },
-                    {
                         "name": "Help Bill (Event)",
                         "hosted_item": "EVENT_GOT_SS_TICKET",
                         "access_rules": [],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -1364,21 +1399,20 @@
             {
                 "name": "Lavender Town",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|lavender",
                     "@Kanto/Cerulean City, $cut, ^$rock_tunnel",
                     "@Kanto/Celadon City",
                     "@Kanto/Saffron City, ^$tea",
                     "@Kanto/Fuchsia City, pokeflute, ^$boardwalk_boulders",
                     "@Kanto/Fuchsia City, ^$surf, ^$boardwalk_boulders",
-                    "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders",
+                    "@Kanto/Vermilion City, pokeflute, ^$rt11_boulders"
                 ],
                 "sections": [
                     {
                         "name": "Mr. Fuji",
                         "access_rules": [
-                            "variant_manual, fuji",
-                            "variant_events, EVENT_RESCUED_MR_FUJI"
+                            "EVENT_RESCUED_MR_FUJI"
                         ],
                         "visibility_rules": []
                     }
@@ -1396,7 +1430,7 @@
             {
                 "name": "Route 12 North",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Lavender Town"
                 ],
                 "sections": [
@@ -1415,7 +1449,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000385"
+                            "trainersanity",
+                            "trainer_172000385"
                         ]
                     },
                     {
@@ -1435,7 +1470,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000386"
+                            "trainersanity",
+                            "trainer_172000386"
                         ]
                     },
                     {
@@ -1445,7 +1481,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000387"
+                            "trainersanity",
+                            "trainer_172000387"
                         ]
                     },
                     {
@@ -1455,7 +1492,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000388"
+                            "trainersanity",
+                            "trainer_172000388"
                         ]
                     }
                 ],
@@ -1470,7 +1508,7 @@
             {
                 "name": "Route 11-12 Gatehouse",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Vermilion City, ^$rt11_boulders",
                     "@Kanto/Lavender Town, pokeflute"
                 ],
@@ -1508,17 +1546,15 @@
             {
                 "name": "Silph Co 1F - 6F",
                 "access_rules": [
-					"opt_er_on",
-                    "@Kanto/Saffron City, variant_manual, fuji",
-                    "@Kanto/Saffron City, variant_events, EVENT_RESCUED_MR_FUJI"
+                    "opt_er_on",
+                    "@Kanto/Saffron City, EVENT_RESCUED_MR_FUJI"
                 ],
                 "sections": [
                     {
                         "name": "1F Receptionist",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_cardkey_prog",
@@ -1540,7 +1576,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000247"
+                            "trainersanity",
+                            "trainer_172000247"
                         ]
                     },
                     {
@@ -1550,7 +1587,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000248"
+                            "trainersanity",
+                            "trainer_172000248"
                         ]
                     },
                     {
@@ -1560,7 +1598,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000249"
+                            "trainersanity",
+                            "trainer_172000249"
                         ]
                     },
                     {
@@ -1570,14 +1609,15 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000250"
+                            "trainersanity",
+                            "trainer_172000250"
                         ]
                     },
                     {
                         "name": "3F Item",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cardkey|3",
                             "^$cardkey|9"
                         ],
@@ -1595,7 +1635,8 @@
                             "^$cardkey|9"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000245"
+                            "trainersanity",
+                            "trainer_172000245"
                         ]
                     },
                     {
@@ -1605,7 +1646,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000246"
+                            "trainersanity",
+                            "trainer_172000246"
                         ]
                     },
                     {
@@ -1645,7 +1687,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000242"
+                            "trainersanity",
+                            "trainer_172000242"
                         ]
                     },
                     {
@@ -1655,7 +1698,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000243"
+                            "trainersanity",
+                            "trainer_172000243"
                         ]
                     },
                     {
@@ -1665,7 +1709,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000244"
+                            "trainersanity",
+                            "trainer_172000244"
                         ]
                     },
                     {
@@ -1720,7 +1765,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000238"
+                            "trainersanity",
+                            "trainer_172000238"
                         ]
                     },
                     {
@@ -1730,7 +1776,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000239"
+                            "trainersanity",
+                            "trainer_172000239"
                         ]
                     },
                     {
@@ -1740,7 +1787,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000240"
+                            "trainersanity",
+                            "trainer_172000240"
                         ]
                     },
                     {
@@ -1750,7 +1798,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000241"
+                            "trainersanity",
+                            "trainer_172000241"
                         ]
                     },
                     {
@@ -1791,7 +1840,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000235"
+                            "trainersanity",
+                            "trainer_172000235"
                         ]
                     },
                     {
@@ -1801,7 +1851,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000236"
+                            "trainersanity",
+                            "trainer_172000236"
                         ]
                     },
                     {
@@ -1811,7 +1862,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000237"
+                            "trainersanity",
+                            "trainer_172000237"
                         ]
                     },
                     {
@@ -1835,9 +1887,8 @@
             {
                 "name": "Silph Co 7F - 11F",
                 "access_rules": [
-					"opt_er_on",
-                    "@Kanto/Saffron City, variant_manual, fuji",
-                    "@Kanto/Saffron City, variant_events, EVENT_RESCUED_MR_FUJI"
+                    "opt_er_on",
+                    "@Kanto/Saffron City, EVENT_RESCUED_MR_FUJI"
                 ],
                 "sections": [
                     {
@@ -1865,7 +1916,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000231"
+                            "trainersanity",
+                            "trainer_172000231"
                         ]
                     },
                     {
@@ -1875,7 +1927,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000232"
+                            "trainersanity",
+                            "trainer_172000232"
                         ]
                     },
                     {
@@ -1885,7 +1938,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000233"
+                            "trainersanity",
+                            "trainer_172000233"
                         ]
                     },
                     {
@@ -1895,7 +1949,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000234"
+                            "trainersanity",
+                            "trainer_172000234"
                         ]
                     },
                     {
@@ -1916,7 +1971,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000228"
+                            "trainersanity",
+                            "trainer_172000228"
                         ]
                     },
                     {
@@ -1926,7 +1982,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000229"
+                            "trainersanity",
+                            "trainer_172000229"
                         ]
                     },
                     {
@@ -1936,7 +1993,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000230"
+                            "trainersanity",
+                            "trainer_172000230"
                         ]
                     },
                     {
@@ -1955,7 +2013,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000225"
+                            "trainersanity",
+                            "trainer_172000225"
                         ]
                     },
                     {
@@ -1965,7 +2024,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000226"
+                            "trainersanity",
+                            "trainer_172000226"
                         ]
                     },
                     {
@@ -1974,12 +2034,13 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cardkey|9",
                             "^$cardkey|3"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000227"
+                            "trainersanity",
+                            "trainer_172000227"
                         ]
                     },
                     {
@@ -2034,7 +2095,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000223"
+                            "trainersanity",
+                            "trainer_172000223"
                         ]
                     },
                     {
@@ -2044,7 +2106,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000224"
+                            "trainersanity",
+                            "trainer_172000224"
                         ]
                     },
                     {
@@ -2063,7 +2126,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000221"
+                            "trainersanity",
+                            "trainer_172000221"
                         ]
                     },
                     {
@@ -2072,21 +2136,12 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$cardkey|3"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000222"
-                        ]
-                    },
-                    {
-                        "name": "11F Liberate Silph Co (Manual Event)",
-                        "access_rules": [
-                            "^$cardkey|11,^$cardkey|3"
-                        ],
-                        "hosted_item": "silphco_hosted",
-                        "visibility_rules": [
-                            "variant_manual"
+                            "trainersanity",
+                            "trainer_172000222"
                         ]
                     },
                     {
@@ -2096,15 +2151,14 @@
                         ],
                         "hosted_item": "EVENT_BEAT_SILPH_CO_GIOVANNI",
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
                         "name": "11F Silph Co President",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -2114,8 +2168,7 @@
                         "name": "11F Secretary",
                         "item_count": 1,
                         "access_rules": [
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_cardkey_prog",
@@ -2139,7 +2192,7 @@
                         "name": "Fly House Woman",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Celadon City, ^$cut"
                         ],
                         "visibility_rules": [
@@ -2152,11 +2205,12 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000349"
+                            "trainersanity",
+                            "trainer_172000349"
                         ]
                     },
                     {
@@ -2165,11 +2219,12 @@
                         "chest_opened_img": "images/trainers/cueball_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000350"
+                            "trainersanity",
+                            "trainer_172000350"
                         ]
                     },
                     {
@@ -2178,11 +2233,12 @@
                         "chest_opened_img": "images/trainers/cueball_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000351"
+                            "trainersanity",
+                            "trainer_172000351"
                         ]
                     },
                     {
@@ -2191,11 +2247,12 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000352"
+                            "trainersanity",
+                            "trainer_172000352"
                         ]
                     },
                     {
@@ -2204,11 +2261,12 @@
                         "chest_opened_img": "images/trainers/cueball_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000353"
+                            "trainersanity",
+                            "trainer_172000353"
                         ]
                     },
                     {
@@ -2217,11 +2275,12 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$cyclingroad"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000354"
+                            "trainersanity",
+                            "trainer_172000354"
                         ]
                     }
                 ],
@@ -2236,7 +2295,7 @@
             {
                 "name": "Route 15",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Fuchsia City"
                 ],
                 "sections": [
@@ -2249,7 +2308,8 @@
                             "^$cut"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000355"
+                            "trainersanity",
+                            "trainer_172000355"
                         ]
                     },
                     {
@@ -2269,7 +2329,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000356"
+                            "trainersanity",
+                            "trainer_172000356"
                         ]
                     },
                     {
@@ -2279,7 +2340,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000357"
+                            "trainersanity",
+                            "trainer_172000357"
                         ]
                     },
                     {
@@ -2289,7 +2351,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000358"
+                            "trainersanity",
+                            "trainer_172000358"
                         ]
                     },
                     {
@@ -2299,7 +2362,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000359"
+                            "trainersanity",
+                            "trainer_172000359"
                         ]
                     },
                     {
@@ -2309,7 +2373,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000360"
+                            "trainersanity",
+                            "trainer_172000360"
                         ]
                     },
                     {
@@ -2319,7 +2384,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000361"
+                            "trainersanity",
+                            "trainer_172000361"
                         ]
                     },
                     {
@@ -2329,7 +2395,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000362"
+                            "trainersanity",
+                            "trainer_172000362"
                         ]
                     },
                     {
@@ -2339,7 +2406,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000363"
+                            "trainersanity",
+                            "trainer_172000363"
                         ]
                     },
                     {
@@ -2349,7 +2417,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000364"
+                            "trainersanity",
+                            "trainer_172000364"
                         ]
                     },
                     {
@@ -2375,8 +2444,8 @@
             {
                 "name": "Safari Zone",
                 "access_rules": [
-					"opt_er_on, safaripass",
-					"opt_er_on, opt_extra_key_items_off",
+                    "opt_er_on, safaripass",
+                    "opt_er_on, opt_extra_key_items_off",
                     "@Kanto/Fuchsia City, safaripass",
                     "@Kanto/Fuchsia City, opt_extra_key_items_off"
                 ],
@@ -2501,7 +2570,7 @@
             {
                 "name": "Cinnabar Island",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "^$surf",
                     "$flyto|cinnabar"
                 ],
@@ -2520,11 +2589,12 @@
                         "chest_opened_img": "images/trainers/burglar_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000525"
+                            "trainersanity",
+                            "trainer_172000525"
                         ]
                     },
                     {
@@ -2533,11 +2603,12 @@
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000526"
+                            "trainersanity",
+                            "trainer_172000526"
                         ]
                     },
                     {
@@ -2546,11 +2617,12 @@
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000527"
+                            "trainersanity",
+                            "trainer_172000527"
                         ]
                     },
                     {
@@ -2559,11 +2631,12 @@
                         "chest_opened_img": "images/trainers/burglar_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000528"
+                            "trainersanity",
+                            "trainer_172000528"
                         ]
                     },
                     {
@@ -2572,11 +2645,12 @@
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000529"
+                            "trainersanity",
+                            "trainer_172000529"
                         ]
                     },
                     {
@@ -2585,11 +2659,12 @@
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000530"
+                            "trainersanity",
+                            "trainer_172000530"
                         ]
                     },
                     {
@@ -2598,22 +2673,23 @@
                         "chest_opened_img": "images/trainers/supernerd_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000531"
+                            "trainersanity",
+                            "trainer_172000531"
                         ]
                     },
                     {
                         "name": "Beat Blaine (Event)",
                         "hosted_item": "EVENT_BEAT_BLAINE",
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -2623,7 +2699,7 @@
                         "chest_opened_img": "images/trainers/blaine_done.png",
                         "item_count": 2,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
@@ -2637,7 +2713,7 @@
                         "chest_opened_img": "images/trainers/blaine_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "secretkey"
                         ],
                         "visibility_rules": [
@@ -2658,7 +2734,7 @@
             {
                 "name": "Saffron City",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|saffron",
                     "@Kanto/Cerulean City, ^$tea",
                     "@Kanto/Celadon City, ^$tea",
@@ -2670,9 +2746,8 @@
                         "name": "Copycat",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -2682,9 +2757,8 @@
                         "name": "HI: Copycat Desk",
                         "item_count": 1,
                         "access_rules": [
-							"^$hidden, opt_er_on",
-                            "^$hidden, variant_manual, silphco",
-                            "^$hidden, variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "^$hidden, opt_er_on",
+                            "^$hidden, EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_hidden_items_on"
@@ -2705,7 +2779,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000463"
+                            "trainersanity",
+                            "trainer_172000463"
                         ]
                     },
                     {
@@ -2715,7 +2790,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000464"
+                            "trainersanity",
+                            "trainer_172000464"
                         ]
                     },
                     {
@@ -2725,7 +2801,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000465"
+                            "trainersanity",
+                            "trainer_172000465"
                         ]
                     },
                     {
@@ -2735,7 +2812,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000466"
+                            "trainersanity",
+                            "trainer_172000466"
                         ]
                     },
                     {
@@ -2744,12 +2822,12 @@
                         "chest_opened_img": "images/trainers/psychic_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000456"
+                            "trainersanity",
+                            "trainer_172000456"
                         ]
                     },
                     {
@@ -2758,12 +2836,12 @@
                         "chest_opened_img": "images/trainers/psychic_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000457"
+                            "trainersanity",
+                            "trainer_172000457"
                         ]
                     },
                     {
@@ -2772,12 +2850,12 @@
                         "chest_opened_img": "images/trainers/psychic_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000458"
+                            "trainersanity",
+                            "trainer_172000458"
                         ]
                     },
                     {
@@ -2786,12 +2864,12 @@
                         "chest_opened_img": "images/trainers/channeler_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000459"
+                            "trainersanity",
+                            "trainer_172000459"
                         ]
                     },
                     {
@@ -2800,12 +2878,12 @@
                         "chest_opened_img": "images/trainers/psychic_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000460"
+                            "trainersanity",
+                            "trainer_172000460"
                         ]
                     },
                     {
@@ -2814,12 +2892,12 @@
                         "chest_opened_img": "images/trainers/channeler_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000461"
+                            "trainersanity",
+                            "trainer_172000461"
                         ]
                     },
                     {
@@ -2828,24 +2906,23 @@
                         "chest_opened_img": "images/trainers/channeler_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000462"
+                            "trainersanity",
+                            "trainer_172000462"
                         ]
                     },
                     {
                         "name": "Beat Sabrina (Event)",
                         "hosted_item": "EVENT_BEAT_SABRINA",
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     },
                     {
@@ -2855,9 +2932,8 @@
                         "chest_opened_img": "images/trainers/sabrina_done.png",
                         "item_count": 2,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -2870,9 +2946,8 @@
                         "chest_opened_img": "images/trainers/sabrina_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
-                            "variant_manual, silphco",
-                            "variant_events, EVENT_BEAT_SILPH_CO_GIOVANNI"
+                            "opt_er_on",
+                            "EVENT_BEAT_SILPH_CO_GIOVANNI"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_on"
@@ -2923,7 +2998,7 @@
             {
                 "name": "Route 4",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Route 3",
                     "@Kanto/Cerulean City, ^$surf"
                 ],
@@ -2952,11 +3027,12 @@
                         "chest_opened_img": "images/trainers/lass_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"^$ceruleancave, opt_er_on",
+                            "^$ceruleancave, opt_er_on",
                             "^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000447"
+                            "trainersanity",
+                            "trainer_172000447"
                         ]
                     }
                 ],
@@ -2971,7 +3047,7 @@
             {
                 "name": "Route 9",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Cerulean City, ^$cut",
                     "@Kanto/Lavender Town, ^$rock_tunnel"
                 ],
@@ -2983,7 +3059,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000423"
+                            "trainersanity",
+                            "trainer_172000423"
                         ]
                     },
                     {
@@ -2993,7 +3070,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000424"
+                            "trainersanity",
+                            "trainer_172000424"
                         ]
                     },
                     {
@@ -3011,7 +3089,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000425"
+                            "trainersanity",
+                            "trainer_172000425"
                         ]
                     },
                     {
@@ -3021,7 +3100,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000426"
+                            "trainersanity",
+                            "trainer_172000426"
                         ]
                     },
                     {
@@ -3041,7 +3121,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000427"
+                            "trainersanity",
+                            "trainer_172000427"
                         ]
                     },
                     {
@@ -3051,7 +3132,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000428"
+                            "trainersanity",
+                            "trainer_172000428"
                         ]
                     },
                     {
@@ -3061,7 +3143,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000429"
+                            "trainersanity",
+                            "trainer_172000429"
                         ]
                     },
                     {
@@ -3071,7 +3154,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000430"
+                            "trainersanity",
+                            "trainer_172000430"
                         ]
                     },
                     {
@@ -3081,7 +3165,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000431"
+                            "trainersanity",
+                            "trainer_172000431"
                         ]
                     }
                 ],
@@ -3096,7 +3181,7 @@
             {
                 "name": "Cerulean Cave",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Cerulean City, ^$ceruleancave, ^$surf"
                 ],
                 "sections": [
@@ -3112,8 +3197,8 @@
                         "name": "1F Northeast Item",
                         "item_count": 1,
                         "access_rules": [
-							"^$surf"
-						],
+                            "^$surf"
+                        ],
                         "visibility_rules": [
                             "opt_keyonly_off"
                         ]
@@ -3138,8 +3223,8 @@
                         "name": "1F Southwest Item",
                         "item_count": 1,
                         "access_rules": [
-							"^$surf"
-						],
+                            "^$surf"
+                        ],
                         "visibility_rules": [
                             "opt_keyonly_off"
                         ]
@@ -3200,7 +3285,7 @@
             {
                 "name": "Pokemon Tower",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Lavender Town"
                 ],
                 "sections": [
@@ -3211,7 +3296,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000483"
+                            "trainersanity",
+                            "trainer_172000483"
                         ]
                     },
                     {
@@ -3229,7 +3315,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000484"
+                            "trainersanity",
+                            "trainer_172000484"
                         ]
                     },
                     {
@@ -3239,7 +3326,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000485"
+                            "trainersanity",
+                            "trainer_172000485"
                         ]
                     },
                     {
@@ -3249,7 +3337,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000486"
+                            "trainersanity",
+                            "trainer_172000486"
                         ]
                     },
                     {
@@ -3275,7 +3364,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000487"
+                            "trainersanity",
+                            "trainer_172000487"
                         ]
                     },
                     {
@@ -3293,7 +3383,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000488"
+                            "trainersanity",
+                            "trainer_172000488"
                         ]
                     },
                     {
@@ -3313,7 +3404,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000489"
+                            "trainersanity",
+                            "trainer_172000489"
                         ]
                     },
                     {
@@ -3323,7 +3415,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000490"
+                            "trainersanity",
+                            "trainer_172000490"
                         ]
                     },
                     {
@@ -3333,7 +3426,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000491"
+                            "trainersanity",
+                            "trainer_172000491"
                         ]
                     },
                     {
@@ -3351,7 +3445,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000492"
+                            "trainersanity",
+                            "trainer_172000492"
                         ]
                     },
                     {
@@ -3361,7 +3456,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000493"
+                            "trainersanity",
+                            "trainer_172000493"
                         ]
                     },
                     {
@@ -3379,7 +3475,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000494"
+                            "trainersanity",
+                            "trainer_172000494"
                         ]
                     },
                     {
@@ -3389,7 +3486,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000495"
+                            "trainersanity",
+                            "trainer_172000495"
                         ]
                     },
                     {
@@ -3406,12 +3504,13 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000496"
+                            "trainersanity",
+                            "trainer_172000496"
                         ]
                     },
                     {
@@ -3420,12 +3519,13 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000497"
+                            "trainersanity",
+                            "trainer_172000497"
                         ]
                     },
                     {
@@ -3434,36 +3534,25 @@
                         "chest_opened_img": "images/trainers/rocket_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000498"
-                        ]
-                    },
-                    {
-                        "name": "7F Save Mr. Fuji (Manual Event)",
-                        "hosted_item": "fuji_hosted",
-                        "access_rules": [
-							"opt_er_on",
-                            "silphscope",
-                            "opt_pokedoll_skip_on"
-                        ],
-                        "visibility_rules": [
-                            "variant_manual"
+                            "trainersanity",
+                            "trainer_172000498"
                         ]
                     },
                     {
                         "name": "7F Save Mr. Fuji (Event)",
                         "hosted_item": "EVENT_RESCUED_MR_FUJI",
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "silphscope",
                             "opt_pokedoll_skip_on"
                         ],
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     }
                 ],
@@ -3478,7 +3567,7 @@
             {
                 "name": "Pokemon Mansion",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Cinnabar Island, mansionkey",
                     "@Kanto/Cinnabar Island, opt_extra_key_items_off"
                 ],
@@ -3509,7 +3598,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000216"
+                            "trainersanity",
+                            "trainer_172000216"
                         ]
                     },
                     {
@@ -3527,7 +3617,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000218"
+                            "trainersanity",
+                            "trainer_172000218"
                         ]
                     },
                     {
@@ -3563,7 +3654,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000217"
+                            "trainersanity",
+                            "trainer_172000217"
                         ]
                     },
                     {
@@ -3573,7 +3665,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000215"
+                            "trainersanity",
+                            "trainer_172000215"
                         ]
                     },
                     {
@@ -3599,7 +3692,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000220"
+                            "trainersanity",
+                            "trainer_172000220"
                         ]
                     },
                     {
@@ -3617,7 +3711,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000219"
+                            "trainersanity",
+                            "trainer_172000219"
                         ]
                     },
                     {
@@ -3666,7 +3761,7 @@
             {
                 "name": "Power Plant",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Route 9, ^$surf, plantkey",
                     "@Kanto/Route 9, ^$surf, opt_extra_key_items_off"
                 ],
@@ -3743,7 +3838,7 @@
             {
                 "name": "Victory Road",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Indigo Plateau, ^$strength",
                     "@Kanto/Route 23, ^$surf, ^$strength, ^$victoryroad"
                 ],
@@ -3755,15 +3850,16 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000510"
+                            "trainersanity",
+                            "trainer_172000510"
                         ]
                     },
                     {
                         "name": "1F Top Item",
                         "item_count": 1,
                         "access_rules": [
-							"^$strength"
-						],
+                            "^$strength"
+                        ],
                         "visibility_rules": [
                             "opt_keyonly_off"
                         ]
@@ -3772,8 +3868,8 @@
                         "name": "1F Left Item",
                         "item_count": 1,
                         "access_rules": [
-							"^$strength"
-						],
+                            "^$strength"
+                        ],
                         "visibility_rules": [
                             "opt_keyonly_off"
                         ]
@@ -3785,7 +3881,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000511"
+                            "trainersanity",
+                            "trainer_172000511"
                         ]
                     },
                     {
@@ -3795,7 +3892,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000512"
+                            "trainersanity",
+                            "trainer_172000512"
                         ]
                     },
                     {
@@ -3805,7 +3903,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000513"
+                            "trainersanity",
+                            "trainer_172000513"
                         ]
                     },
                     {
@@ -3823,7 +3922,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000514"
+                            "trainersanity",
+                            "trainer_172000514"
                         ]
                     },
                     {
@@ -3841,7 +3941,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000515"
+                            "trainersanity",
+                            "trainer_172000515"
                         ]
                     },
                     {
@@ -3859,7 +3960,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000517"
+                            "trainersanity",
+                            "trainer_172000517"
                         ]
                     },
                     {
@@ -3885,7 +3987,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000516"
+                            "trainersanity",
+                            "trainer_172000516"
                         ]
                     },
                     {
@@ -3913,7 +4016,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000518"
+                            "trainersanity",
+                            "trainer_172000518"
                         ]
                     },
                     {
@@ -3923,7 +4027,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000519"
+                            "trainersanity",
+                            "trainer_172000519"
                         ]
                     },
                     {
@@ -3933,7 +4038,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000520"
+                            "trainersanity",
+                            "trainer_172000520"
                         ]
                     },
                     {
@@ -3958,7 +4064,7 @@
             {
                 "name": "Viridian Forest",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Pewter City"
                 ],
                 "sections": [
@@ -3987,7 +4093,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000289"
+                            "trainersanity",
+                            "trainer_172000289"
                         ]
                     },
                     {
@@ -3997,7 +4104,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000290"
+                            "trainersanity",
+                            "trainer_172000290"
                         ]
                     },
                     {
@@ -4033,7 +4141,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000291"
+                            "trainersanity",
+                            "trainer_172000291"
                         ]
                     }
                 ],
@@ -4048,7 +4157,7 @@
             {
                 "name": "Mt Moon",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Route 4"
                 ],
                 "sections": [
@@ -4059,7 +4168,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000278"
+                            "trainersanity",
+                            "trainer_172000278"
                         ]
                     },
                     {
@@ -4085,7 +4195,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000279"
+                            "trainersanity",
+                            "trainer_172000279"
                         ]
                     },
                     {
@@ -4095,7 +4206,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000285"
+                            "trainersanity",
+                            "trainer_172000285"
                         ]
                     },
                     {
@@ -4113,7 +4225,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000280"
+                            "trainersanity",
+                            "trainer_172000280"
                         ]
                     },
                     {
@@ -4131,7 +4244,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000281"
+                            "trainersanity",
+                            "trainer_172000281"
                         ]
                     },
                     {
@@ -4157,7 +4271,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000282"
+                            "trainersanity",
+                            "trainer_172000282"
                         ]
                     },
                     {
@@ -4167,7 +4282,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000286"
+                            "trainersanity",
+                            "trainer_172000286"
                         ]
                     },
                     {
@@ -4195,7 +4311,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000283"
+                            "trainersanity",
+                            "trainer_172000283"
                         ]
                     },
                     {
@@ -4205,7 +4322,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000284"
+                            "trainersanity",
+                            "trainer_172000284"
                         ]
                     },
                     {
@@ -4221,7 +4339,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000287"
+                            "trainersanity",
+                            "trainer_172000287"
                         ]
                     },
                     {
@@ -4231,7 +4350,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000288"
+                            "trainersanity",
+                            "trainer_172000288"
                         ]
                     },
                     {
@@ -4257,7 +4377,7 @@
             {
                 "name": "Rocket Hideout",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Celadon City, hideoutkey",
                     "@Kanto/Celadon City, opt_extra_key_items_off"
                 ],
@@ -4269,7 +4389,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000251"
+                            "trainersanity",
+                            "trainer_172000251"
                         ]
                     },
                     {
@@ -4279,7 +4400,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000252"
+                            "trainersanity",
+                            "trainer_172000252"
                         ]
                     },
                     {
@@ -4307,7 +4429,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000256"
+                            "trainersanity",
+                            "trainer_172000256"
                         ]
                     },
                     {
@@ -4317,7 +4440,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000257"
+                            "trainersanity",
+                            "trainer_172000257"
                         ]
                     },
                     {
@@ -4353,7 +4477,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000258"
+                            "trainersanity",
+                            "trainer_172000258"
                         ]
                     },
                     {
@@ -4371,7 +4496,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000259"
+                            "trainersanity",
+                            "trainer_172000259"
                         ]
                     },
                     {
@@ -4430,7 +4556,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000253"
+                            "trainersanity",
+                            "trainer_172000253"
                         ]
                     },
                     {
@@ -4440,7 +4567,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000254"
+                            "trainersanity",
+                            "trainer_172000254"
                         ]
                     },
                     {
@@ -4458,10 +4586,11 @@
                         "item_count": 1,
                         "access_rules": [
                             "liftkey",
-							"opt_er_on"
+                            "opt_er_on"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000255"
+                            "trainersanity",
+                            "trainer_172000255"
                         ]
                     },
                     {
@@ -4469,7 +4598,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "liftkey",
-							"opt_er_on"
+                            "opt_er_on"
                         ],
                         "visibility_rules": [
                             "opt_keyonly_off"
@@ -4482,10 +4611,11 @@
                         "item_count": 1,
                         "access_rules": [
                             "liftkey",
-							"opt_er_on"
+                            "opt_er_on"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000260"
+                            "trainersanity",
+                            "trainer_172000260"
                         ]
                     },
                     {
@@ -4495,10 +4625,11 @@
                         "item_count": 1,
                         "access_rules": [
                             "liftkey",
-							"opt_er_on"
+                            "opt_er_on"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000261"
+                            "trainersanity",
+                            "trainer_172000261"
                         ]
                     },
                     {
@@ -4506,7 +4637,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "liftkey",
-							"opt_er_on"
+                            "opt_er_on"
                         ],
                         "visibility_rules": [
                             ""
@@ -4517,7 +4648,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "^$hidden,liftkey",
-							"^$hidden,opt_er_on"
+                            "^$hidden,opt_er_on"
                         ],
                         "visibility_rules": [
                             "opt_hidden_items_on"
@@ -4535,7 +4666,7 @@
             {
                 "name": "Rock Tunnel",
                 "access_rules": [
-					"opt_er_on, ^$rock_tunnel",
+                    "opt_er_on, ^$rock_tunnel",
                     "@Kanto/Lavender Town, ^$rock_tunnel",
                     "@Kanto/Cerulean City, ^$cut, ^$rock_tunnel"
                 ],
@@ -4547,7 +4678,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000402"
+                            "trainersanity",
+                            "trainer_172000402"
                         ]
                     },
                     {
@@ -4557,7 +4689,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000409"
+                            "trainersanity",
+                            "trainer_172000409"
                         ]
                     },
                     {
@@ -4567,7 +4700,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000410"
+                            "trainersanity",
+                            "trainer_172000410"
                         ]
                     },
                     {
@@ -4585,7 +4719,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000411"
+                            "trainersanity",
+                            "trainer_172000411"
                         ]
                     },
                     {
@@ -4595,7 +4730,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000412"
+                            "trainersanity",
+                            "trainer_172000412"
                         ]
                     },
                     {
@@ -4605,7 +4741,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000413"
+                            "trainersanity",
+                            "trainer_172000413"
                         ]
                     },
                     {
@@ -4615,7 +4752,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000403"
+                            "trainersanity",
+                            "trainer_172000403"
                         ]
                     },
                     {
@@ -4625,7 +4763,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000404"
+                            "trainersanity",
+                            "trainer_172000404"
                         ]
                     },
                     {
@@ -4635,7 +4774,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000405"
+                            "trainersanity",
+                            "trainer_172000405"
                         ]
                     },
                     {
@@ -4669,7 +4809,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000414"
+                            "trainersanity",
+                            "trainer_172000414"
                         ]
                     },
                     {
@@ -4679,7 +4820,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000415"
+                            "trainersanity",
+                            "trainer_172000415"
                         ]
                     },
                     {
@@ -4689,7 +4831,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000416"
+                            "trainersanity",
+                            "trainer_172000416"
                         ]
                     },
                     {
@@ -4699,7 +4842,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000406"
+                            "trainersanity",
+                            "trainer_172000406"
                         ]
                     },
                     {
@@ -4709,7 +4853,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000407"
+                            "trainersanity",
+                            "trainer_172000407"
                         ]
                     },
                     {
@@ -4719,7 +4864,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000408"
+                            "trainersanity",
+                            "trainer_172000408"
                         ]
                     }
                 ],
@@ -4734,7 +4880,7 @@
             {
                 "name": "Route 10 North",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Lavender Town, ^$rock_tunnel",
                     "@Kanto/Cerulean City, ^$cut"
                 ],
@@ -4746,7 +4892,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000417"
+                            "trainersanity",
+                            "trainer_172000417"
                         ]
                     },
                     {
@@ -4765,11 +4912,12 @@
                         "chest_opened_img": "images/trainers/pokemaniac_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000418"
+                            "trainersanity",
+                            "trainer_172000418"
                         ]
                     }
                 ],
@@ -4784,7 +4932,7 @@
             {
                 "name": "Route 10 South",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Lavender Town"
                 ],
                 "sections": [
@@ -4795,7 +4943,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000419"
+                            "trainersanity",
+                            "trainer_172000419"
                         ]
                     },
                     {
@@ -4805,7 +4954,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000420"
+                            "trainersanity",
+                            "trainer_172000420"
                         ]
                     },
                     {
@@ -4825,7 +4975,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000422"
+                            "trainersanity",
+                            "trainer_172000422"
                         ]
                     },
                     {
@@ -4835,7 +4986,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000421"
+                            "trainersanity",
+                            "trainer_172000421"
                         ]
                     }
                 ],
@@ -4857,13 +5009,14 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$boardwalk_boulders",
                             "@Kanto/Lavender Town,^$surf",
                             "@Kanto/Lavender Town,pokeflute"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000375"
+                            "trainersanity",
+                            "trainer_172000375"
                         ]
                     },
                     {
@@ -4872,13 +5025,14 @@
                         "chest_opened_img": "images/trainers/birdkeeper_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$boardwalk_boulders",
                             "@Kanto/Lavender Town,^$surf",
                             "@Kanto/Lavender Town,pokeflute"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000376"
+                            "trainersanity",
+                            "trainer_172000376"
                         ]
                     },
                     {
@@ -4887,13 +5041,14 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City, ^$boardwalk_boulders",
                             "@Kanto/Lavender Town,^$surf",
                             "@Kanto/Lavender Town,pokeflute"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000377"
+                            "trainersanity",
+                            "trainer_172000377"
                         ]
                     },
                     {
@@ -4902,11 +5057,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000378"
+                            "trainersanity",
+                            "trainer_172000378"
                         ]
                     },
                     {
@@ -4915,11 +5071,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000379"
+                            "trainersanity",
+                            "trainer_172000379"
                         ]
                     },
                     {
@@ -4928,18 +5085,19 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000380"
+                            "trainersanity",
+                            "trainer_172000380"
                         ]
                     },
                     {
                         "name": "HI: Dead End By Water Corner",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on,^$hidden",
+                            "opt_er_on,^$hidden",
                             "@Kanto/Fuchsia City,^$hidden"
                         ],
                         "visibility_rules": [
@@ -4952,11 +5110,12 @@
                         "chest_opened_img": "images/trainers/jrtrainerf_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000381"
+                            "trainersanity",
+                            "trainer_172000381"
                         ]
                     },
                     {
@@ -4965,18 +5124,19 @@
                         "chest_opened_img": "images/trainers/birdkeeper_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000382"
+                            "trainersanity",
+                            "trainer_172000382"
                         ]
                     },
                     {
                         "name": "HI: Dead End Bush",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on,^$hidden",
+                            "opt_er_on,^$hidden",
                             "@Kanto/Fuchsia City,^$hidden"
                         ],
                         "visibility_rules": [
@@ -4989,11 +5149,12 @@
                         "chest_opened_img": "images/trainers/birdkeeper_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000383"
+                            "trainersanity",
+                            "trainer_172000383"
                         ]
                     },
                     {
@@ -5002,11 +5163,12 @@
                         "chest_opened_img": "images/trainers/biker_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000384"
+                            "trainersanity",
+                            "trainer_172000384"
                         ]
                     }
                 ],
@@ -5021,7 +5183,7 @@
             {
                 "name": "Seafoam Islands",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Cinnabar Island, ^$surf",
                     "@Kanto/Fuchsia City, ^$surf"
                 ],
@@ -5068,7 +5230,7 @@
             {
                 "name": "Route 23",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "^$rt23, ^$surf",
                     "@Kanto/Victory Road, ^$rt23"
                 ],
@@ -5115,7 +5277,7 @@
             {
                 "name": "Route 11",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Vermilion City"
                 ],
                 "sections": [
@@ -5126,7 +5288,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000392"
+                            "trainersanity",
+                            "trainer_172000392"
                         ]
                     },
                     {
@@ -5136,7 +5299,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000393"
+                            "trainersanity",
+                            "trainer_172000393"
                         ]
                     },
                     {
@@ -5146,7 +5310,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000394"
+                            "trainersanity",
+                            "trainer_172000394"
                         ]
                     },
                     {
@@ -5156,7 +5321,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000395"
+                            "trainersanity",
+                            "trainer_172000395"
                         ]
                     },
                     {
@@ -5166,7 +5332,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000396"
+                            "trainersanity",
+                            "trainer_172000396"
                         ]
                     },
                     {
@@ -5176,7 +5343,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000397"
+                            "trainersanity",
+                            "trainer_172000397"
                         ]
                     },
                     {
@@ -5186,7 +5354,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000398"
+                            "trainersanity",
+                            "trainer_172000398"
                         ]
                     },
                     {
@@ -5196,7 +5365,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000399"
+                            "trainersanity",
+                            "trainer_172000399"
                         ]
                     },
                     {
@@ -5206,7 +5376,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000400"
+                            "trainersanity",
+                            "trainer_172000400"
                         ]
                     },
                     {
@@ -5216,7 +5387,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000401"
+                            "trainersanity",
+                            "trainer_172000401"
                         ]
                     },
                     {
@@ -5241,7 +5413,7 @@
             {
                 "name": "Route 17",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Fuchsia City, ^$cyclingroad"
                 ],
                 "sections": [
@@ -5262,7 +5434,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000339"
+                            "trainersanity",
+                            "trainer_172000339"
                         ]
                     },
                     {
@@ -5272,7 +5445,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000340"
+                            "trainersanity",
+                            "trainer_172000340"
                         ]
                     },
                     {
@@ -5282,7 +5456,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000341"
+                            "trainersanity",
+                            "trainer_172000341"
                         ]
                     },
                     {
@@ -5292,7 +5467,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000342"
+                            "trainersanity",
+                            "trainer_172000342"
                         ]
                     },
                     {
@@ -5302,7 +5478,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000343"
+                            "trainersanity",
+                            "trainer_172000343"
                         ]
                     },
                     {
@@ -5322,7 +5499,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000344"
+                            "trainersanity",
+                            "trainer_172000344"
                         ]
                     },
                     {
@@ -5332,7 +5510,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000345"
+                            "trainersanity",
+                            "trainer_172000345"
                         ]
                     },
                     {
@@ -5362,7 +5541,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000346"
+                            "trainersanity",
+                            "trainer_172000346"
                         ]
                     },
                     {
@@ -5372,7 +5552,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000347"
+                            "trainersanity",
+                            "trainer_172000347"
                         ]
                     },
                     {
@@ -5382,7 +5563,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000348"
+                            "trainersanity",
+                            "trainer_172000348"
                         ]
                     },
                     {
@@ -5407,7 +5589,7 @@
             {
                 "name": "Underground Tunnel North-South",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Vermilion City"
                 ],
                 "sections": [
@@ -5443,7 +5625,7 @@
             {
                 "name": "Underground Tunnel West-East",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Celadon City"
                 ],
                 "sections": [
@@ -5479,7 +5661,7 @@
             {
                 "name": "S.S. Anne",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Vermilion City, ssticket"
                 ],
                 "sections": [
@@ -5490,7 +5672,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000262"
+                            "trainersanity",
+                            "trainer_172000262"
                         ]
                     },
                     {
@@ -5500,7 +5683,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000263"
+                            "trainersanity",
+                            "trainer_172000263"
                         ]
                     },
                     {
@@ -5510,7 +5694,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000264"
+                            "trainersanity",
+                            "trainer_172000264"
                         ]
                     },
                     {
@@ -5520,7 +5705,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000265"
+                            "trainersanity",
+                            "trainer_172000265"
                         ]
                     },
                     {
@@ -5546,7 +5732,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000272"
+                            "trainersanity",
+                            "trainer_172000272"
                         ]
                     },
                     {
@@ -5556,7 +5743,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000273"
+                            "trainersanity",
+                            "trainer_172000273"
                         ]
                     },
                     {
@@ -5574,7 +5762,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000274"
+                            "trainersanity",
+                            "trainer_172000274"
                         ]
                     },
                     {
@@ -5592,7 +5781,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000275"
+                            "trainersanity",
+                            "trainer_172000275"
                         ]
                     },
                     {
@@ -5612,7 +5802,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000276"
+                            "trainersanity",
+                            "trainer_172000276"
                         ]
                     },
                     {
@@ -5622,7 +5813,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000277"
+                            "trainersanity",
+                            "trainer_172000277"
                         ]
                     },
                     {
@@ -5642,7 +5834,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000270"
+                            "trainersanity",
+                            "trainer_172000270"
                         ]
                     },
                     {
@@ -5652,7 +5845,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000271"
+                            "trainersanity",
+                            "trainer_172000271"
                         ]
                     },
                     {
@@ -5662,7 +5856,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000266"
+                            "trainersanity",
+                            "trainer_172000266"
                         ]
                     },
                     {
@@ -5672,7 +5867,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000267"
+                            "trainersanity",
+                            "trainer_172000267"
                         ]
                     },
                     {
@@ -5690,7 +5886,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000268"
+                            "trainersanity",
+                            "trainer_172000268"
                         ]
                     },
                     {
@@ -5700,7 +5897,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000269"
+                            "trainersanity",
+                            "trainer_172000269"
                         ]
                     },
                     {
@@ -5741,7 +5939,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000307"
+                            "trainersanity",
+                            "trainer_172000307"
                         ]
                     },
                     {
@@ -5751,7 +5950,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000308"
+                            "trainersanity",
+                            "trainer_172000308"
                         ]
                     },
                     {
@@ -5761,7 +5961,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000309"
+                            "trainersanity",
+                            "trainer_172000309"
                         ]
                     },
                     {
@@ -5771,7 +5972,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000310"
+                            "trainersanity",
+                            "trainer_172000310"
                         ]
                     },
                     {
@@ -5781,7 +5983,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000311"
+                            "trainersanity",
+                            "trainer_172000311"
                         ]
                     },
                     {
@@ -5791,7 +5994,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000312"
+                            "trainersanity",
+                            "trainer_172000312"
                         ]
                     },
                     {
@@ -5801,7 +6005,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000313"
+                            "trainersanity",
+                            "trainer_172000313"
                         ]
                     },
                     {
@@ -5811,7 +6016,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000314"
+                            "trainersanity",
+                            "trainer_172000314"
                         ]
                     },
                     {
@@ -5821,7 +6027,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000315"
+                            "trainersanity",
+                            "trainer_172000315"
                         ]
                     }
                 ],
@@ -5846,7 +6053,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000316"
+                            "trainersanity",
+                            "trainer_172000316"
                         ]
                     },
                     {
@@ -5856,7 +6064,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000317"
+                            "trainersanity",
+                            "trainer_172000317"
                         ]
                     },
                     {
@@ -5866,7 +6075,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000318"
+                            "trainersanity",
+                            "trainer_172000318"
                         ]
                     },
                     {
@@ -5876,7 +6086,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000319"
+                            "trainersanity",
+                            "trainer_172000319"
                         ]
                     },
                     {
@@ -5886,7 +6097,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000320"
+                            "trainersanity",
+                            "trainer_172000320"
                         ]
                     },
                     {
@@ -5896,7 +6108,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000321"
+                            "trainersanity",
+                            "trainer_172000321"
                         ]
                     }
                 ],
@@ -5911,7 +6124,7 @@
             {
                 "name": "Route 20 East",
                 "access_rules": [
-					"opt_er_on, ^$surf",
+                    "opt_er_on, ^$surf",
                     "@Kanto/Fuchsia City, ^$surf",
                     "^$surf, ^$strength"
                 ],
@@ -5923,7 +6136,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000322"
+                            "trainersanity",
+                            "trainer_172000322"
                         ]
                     },
                     {
@@ -5933,7 +6147,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000323"
+                            "trainersanity",
+                            "trainer_172000323"
                         ]
                     },
                     {
@@ -5943,7 +6158,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000324"
+                            "trainersanity",
+                            "trainer_172000324"
                         ]
                     },
                     {
@@ -5953,7 +6169,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000325"
+                            "trainersanity",
+                            "trainer_172000325"
                         ]
                     }
                 ],
@@ -5975,11 +6192,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000326"
+                            "trainersanity",
+                            "trainer_172000326"
                         ]
                     },
                     {
@@ -5988,11 +6206,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on",
+                            "opt_er_on",
                             "@Kanto/Fuchsia City"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000327"
+                            "trainersanity",
+                            "trainer_172000327"
                         ]
                     },
                     {
@@ -6001,11 +6220,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000328"
+                            "trainersanity",
+                            "trainer_172000328"
                         ]
                     },
                     {
@@ -6014,11 +6234,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000329"
+                            "trainersanity",
+                            "trainer_172000329"
                         ]
                     },
                     {
@@ -6027,11 +6248,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000330"
+                            "trainersanity",
+                            "trainer_172000330"
                         ]
                     },
                     {
@@ -6040,11 +6262,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000331"
+                            "trainersanity",
+                            "trainer_172000331"
                         ]
                     },
                     {
@@ -6053,11 +6276,12 @@
                         "chest_opened_img": "images/trainers/swimmer_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000332"
+                            "trainersanity",
+                            "trainer_172000332"
                         ]
                     },
                     {
@@ -6066,11 +6290,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000333"
+                            "trainersanity",
+                            "trainer_172000333"
                         ]
                     },
                     {
@@ -6079,11 +6304,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000334"
+                            "trainersanity",
+                            "trainer_172000334"
                         ]
                     },
                     {
@@ -6092,11 +6318,12 @@
                         "chest_opened_img": "images/trainers/beauty_done.png",
                         "item_count": 1,
                         "access_rules": [
-							"opt_er_on, ^$surf",
+                            "opt_er_on, ^$surf",
                             "@Kanto/Fuchsia City, ^$surf"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000335"
+                            "trainersanity",
+                            "trainer_172000335"
                         ]
                     }
                 ],
@@ -6111,7 +6338,7 @@
             {
                 "name": "Route 18",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Fuchsia City"
                 ],
                 "sections": [
@@ -6122,7 +6349,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000336"
+                            "trainersanity",
+                            "trainer_172000336"
                         ]
                     },
                     {
@@ -6132,7 +6360,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000337"
+                            "trainersanity",
+                            "trainer_172000337"
                         ]
                     },
                     {
@@ -6142,7 +6371,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000338"
+                            "trainersanity",
+                            "trainer_172000338"
                         ]
                     }
                 ],
@@ -6157,7 +6387,7 @@
             {
                 "name": "Route 14",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Fuchsia City"
                 ],
                 "sections": [
@@ -6168,7 +6398,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000365"
+                            "trainersanity",
+                            "trainer_172000365"
                         ]
                     },
                     {
@@ -6178,7 +6409,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000366"
+                            "trainersanity",
+                            "trainer_172000366"
                         ]
                     },
                     {
@@ -6188,7 +6420,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000367"
+                            "trainersanity",
+                            "trainer_172000367"
                         ]
                     },
                     {
@@ -6198,7 +6431,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000368"
+                            "trainersanity",
+                            "trainer_172000368"
                         ]
                     },
                     {
@@ -6208,7 +6442,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000369"
+                            "trainersanity",
+                            "trainer_172000369"
                         ]
                     },
                     {
@@ -6218,7 +6453,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000370"
+                            "trainersanity",
+                            "trainer_172000370"
                         ]
                     },
                     {
@@ -6228,7 +6464,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000371"
+                            "trainersanity",
+                            "trainer_172000371"
                         ]
                     },
                     {
@@ -6238,7 +6475,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000372"
+                            "trainersanity",
+                            "trainer_172000372"
                         ]
                     },
                     {
@@ -6248,7 +6486,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000373"
+                            "trainersanity",
+                            "trainer_172000373"
                         ]
                     },
                     {
@@ -6258,7 +6497,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000374"
+                            "trainersanity",
+                            "trainer_172000374"
                         ]
                     }
                 ],
@@ -6285,7 +6525,7 @@
             {
                 "name": "Route 8",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Lavender Town"
                 ],
                 "sections": [
@@ -6296,7 +6536,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000432"
+                            "trainersanity",
+                            "trainer_172000432"
                         ]
                     },
                     {
@@ -6306,7 +6547,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000433"
+                            "trainersanity",
+                            "trainer_172000433"
                         ]
                     },
                     {
@@ -6316,7 +6558,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000434"
+                            "trainersanity",
+                            "trainer_172000434"
                         ]
                     },
                     {
@@ -6326,7 +6569,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000435"
+                            "trainersanity",
+                            "trainer_172000435"
                         ]
                     },
                     {
@@ -6336,7 +6580,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000436"
+                            "trainersanity",
+                            "trainer_172000436"
                         ]
                     },
                     {
@@ -6346,7 +6591,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000437"
+                            "trainersanity",
+                            "trainer_172000437"
                         ]
                     },
                     {
@@ -6356,7 +6602,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000438"
+                            "trainersanity",
+                            "trainer_172000438"
                         ]
                     },
                     {
@@ -6366,7 +6613,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000439"
+                            "trainersanity",
+                            "trainer_172000439"
                         ]
                     },
                     {
@@ -6376,7 +6624,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000440"
+                            "trainersanity",
+                            "trainer_172000440"
                         ]
                     }
                 ],
@@ -6391,7 +6640,7 @@
             {
                 "name": "Route 6",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Vermilion City"
                 ],
                 "sections": [
@@ -6402,7 +6651,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000441"
+                            "trainersanity",
+                            "trainer_172000441"
                         ]
                     },
                     {
@@ -6412,7 +6662,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000442"
+                            "trainersanity",
+                            "trainer_172000442"
                         ]
                     },
                     {
@@ -6422,7 +6673,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000443"
+                            "trainersanity",
+                            "trainer_172000443"
                         ]
                     },
                     {
@@ -6432,7 +6684,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000444"
+                            "trainersanity",
+                            "trainer_172000444"
                         ]
                     },
                     {
@@ -6442,7 +6695,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000445"
+                            "trainersanity",
+                            "trainer_172000445"
                         ]
                     },
                     {
@@ -6452,7 +6706,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000446"
+                            "trainersanity",
+                            "trainer_172000446"
                         ]
                     }
                 ],
@@ -6467,7 +6722,7 @@
             {
                 "name": "Route 3",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "@Kanto/Pewter City, ^$rt3",
                     "@Kanto/Cerulean City, ^$surf"
                 ],
@@ -6479,7 +6734,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000448"
+                            "trainersanity",
+                            "trainer_172000448"
                         ]
                     },
                     {
@@ -6489,7 +6745,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000449"
+                            "trainersanity",
+                            "trainer_172000449"
                         ]
                     },
                     {
@@ -6499,7 +6756,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000450"
+                            "trainersanity",
+                            "trainer_172000450"
                         ]
                     },
                     {
@@ -6509,7 +6767,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000451"
+                            "trainersanity",
+                            "trainer_172000451"
                         ]
                     },
                     {
@@ -6519,7 +6778,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000452"
+                            "trainersanity",
+                            "trainer_172000452"
                         ]
                     },
                     {
@@ -6529,7 +6789,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000453"
+                            "trainersanity",
+                            "trainer_172000453"
                         ]
                     },
                     {
@@ -6539,7 +6800,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000454"
+                            "trainersanity",
+                            "trainer_172000454"
                         ]
                     },
                     {
@@ -6549,7 +6811,8 @@
                         "item_count": 1,
                         "access_rules": [],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000455"
+                            "trainersanity",
+                            "trainer_172000455"
                         ]
                     }
                 ],
@@ -6564,7 +6827,7 @@
             {
                 "name": "Indigo Plateau",
                 "access_rules": [
-					"opt_er_on",
+                    "opt_er_on",
                     "$flyto|indigo",
                     "@Kanto/Victory Road"
                 ],
@@ -6578,7 +6841,8 @@
                             "^$elite4"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000521"
+                            "trainersanity",
+                            "trainer_172000521"
                         ]
                     },
                     {
@@ -6590,7 +6854,8 @@
                             "^$elite4"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000522"
+                            "trainersanity",
+                            "trainer_172000522"
                         ]
                     },
                     {
@@ -6602,7 +6867,8 @@
                             "^$elite4"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000523"
+                            "trainersanity",
+                            "trainer_172000523"
                         ]
                     },
                     {
@@ -6614,17 +6880,8 @@
                             "^$elite4"
                         ],
                         "visibility_rules": [
-                            "trainersanity", "trainer_172000524"
-                        ]
-                    },
-                    {
-                        "name": "Beat The Game (Manual Event)",
-                        "access_rules": [
-                            "^$elite4"
-                        ],
-                        "hosted_item": "champ",
-                        "visibility_rules": [
-                            "variant_manual"
+                            "trainersanity",
+                            "trainer_172000524"
                         ]
                     },
                     {
@@ -6634,7 +6891,7 @@
                         ],
                         "hosted_item": "EVENT_BEAT_CHAMPION_RIVAL",
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     }
                 ],
@@ -6810,7 +7067,7 @@
                         ],
                         "hosted_item": "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
                         "visibility_rules": [
-                            "variant_events"
+                            ""
                         ]
                     }
                 ],

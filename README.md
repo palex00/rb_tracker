@@ -11,7 +11,7 @@ Just download the lastest release and put it in your packs folder.
 ## Explanations
 
 ### Event Tracking
-This tracker features manual event tracking if you use base-0.6.3-AP or automatic event tracking if you use the apworld [from this post](https://discord.com/channels/731205301247803413/1385260958192242689/1423751528900067368) or source-AP. Please use the appropriate variant.
+As of AP 0.6.4, this tracker tracks in-game Events automatically.
 
 ### Encounter & Pokédex Related
 The tracker can currently not track which Pokémon you have obtained or where which Pokémon is. It will show you what Pokémon are Dexsanity Checks and which dexsanity checks have been sent out already.

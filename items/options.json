@@ -421,13 +421,13 @@
 		"codes": "opt_dex_required",
         "stages": [
             {
-                "name": "Pokédex not required [Manual]",
+                "name": "Pokédex not required",
                 "img_mods": "@disabled",
                 "img": "images/options/pokedex_required.png",
                 "codes": "opt_dex_required,opt_dex_required_off"
             },
             {
-                "name": "Pokédex required for Aide/Dexsanity checks [Manual]",
+                "name": "Pokédex required for Aide/Dexsanity checks",
                 "img": "images/options/pokedex_required.png",
                 "codes": "opt_dex_required,opt_dex_required_on",
                 "inherit_codes": false

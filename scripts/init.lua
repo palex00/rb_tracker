@@ -60,12 +60,6 @@ ScriptHost:AddWatchForCode("colormap2", "colormap", toggle_boulders)
 ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("opt_extra_boulders", "opt_extra_boulders", toggle_boulders)
 
-if variant == "var_eventtracking" then
-    Tracker:FindObjectForCode("variants").CurrentStage = 1
-else
-    Tracker:FindObjectForCode("variants").CurrentStage = 0
-end
-
 initialize_watch_items()
 
 -- This is debug code

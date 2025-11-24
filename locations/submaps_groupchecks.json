@@ -156,7 +156,6 @@
 {"name": "10F Scientist", "ref": "Kanto/Silph Co 7F - 11F/10F Scientist"},
 {"name": "11F Rocket 1", "ref": "Kanto/Silph Co 7F - 11F/11F Rocket 1"},
 {"name": "11F Rocket 2", "ref": "Kanto/Silph Co 7F - 11F/11F Rocket 2"},
-{"name": "11F Liberate Silph Co (Manual Event)", "ref": "Kanto/Silph Co 7F - 11F/11F Liberate Silph Co (Manual Event)"},
 {"name": "11F Liberate Silph Co (Event)", "ref": "Kanto/Silph Co 7F - 11F/11F Liberate Silph Co (Event)"},
 {"name": "11F Secretary", "ref": "Kanto/Silph Co 7F - 11F/11F Secretary"},
 {"name": "11F Silph Co President", "ref": "Kanto/Silph Co 7F - 11F/11F Silph Co President"}
@@ -325,7 +324,6 @@
 {"name": "7F Rocket 1", "ref": "Kanto/Pokemon Tower/7F Rocket 1"},
 {"name": "7F Rocket 2", "ref": "Kanto/Pokemon Tower/7F Rocket 2"},
 {"name": "7F Rocket 3", "ref": "Kanto/Pokemon Tower/7F Rocket 3"},
-{"name": "7F Save Mr. Fuji (Manual Event)", "ref": "Kanto/Pokemon Tower/7F Save Mr. Fuji (Manual Event)"},
 {"name": "7F Save Mr. Fuji (Event)", "ref": "Kanto/Pokemon Tower/7F Save Mr. Fuji (Event)"}
 ], "map_locations": [{"map": "lavendertown", "x": 232, "y": 88}]},
 {"name": "Copycat House", "sections": [
@@ -429,7 +427,6 @@
 ], "map_locations": [{"map": "pallettown", "x": 200, "y": 184}]},
 {"name": "Bill's House", "sections": [
 {"name": "Bill", "ref": "Kanto/Route 25/Bill"},
-{"name": "Help Bill (Manual Event)", "ref": "Kanto/Route 25/Help Bill (Manual Event)"},
 {"name": "Help Bill (Event)", "ref": "Kanto/Route 25/Help Bill (Event)"},
 ], "map_locations": [{"map": "route25", "x": 728, "y": 56}]}
 ]}]
