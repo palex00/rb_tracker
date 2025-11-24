@@ -2613,8 +2613,7 @@
             {
                 "name": "Underground Tunnel North-South",
                 "access_rules": [
-					"opt_er_on",
-                    "@Kanto/Vermilion City"
+                    "@Kanto/Underground Tunnel North-Southy"
                 ],
                 "sections": [
                     {
@@ -2992,3 +2991,4 @@
         ]
     }
 ]
+
