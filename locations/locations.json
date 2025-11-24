@@ -5239,7 +5239,7 @@
                         "name": "HI: On Island",
                         "item_count": 1,
                         "access_rules": [
-                            "^$hidden"
+                            "^$hidden, ^$surf"
                         ],
                         "visibility_rules": [
                             "opt_hidden_items_on"
