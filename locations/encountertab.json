@@ -2620,7 +2620,7 @@
             {
                 "name": "Underground Tunnel North-South",
                 "access_rules": [
-                    "@Kanto/Underground Tunnel North-Southy"
+                    "@Kanto/Underground Tunnel North-South"
                 ],
                 "sections": [
                     {
