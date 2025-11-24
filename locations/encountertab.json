@@ -1310,11 +1310,18 @@
                         ]
                     },
                     {
-                        "name": "Static Encounter: Balls",
+                        "name": "Static Encounter: Voltorb Balls",
                         "access_rules": [],
                         "item_count": 6,
                         "clear_as_group": false,
                         "chest_unopened_img": "images/pokedex/voltorb.png"
+                    },
+                    {
+                        "name": "Static Encounter: Electrode Balls",
+                        "access_rules": [],
+                        "item_count": 2,
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/pokedex/electrode.png"
                     },
                     {
                         "name": "Static Encounter: Zapdos",
