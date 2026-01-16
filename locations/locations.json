@@ -1631,6 +1631,7 @@
                         "chest_opened_img": "images/trainers/scientist_done.png",
                         "item_count": 1,
                         "access_rules": [
+                            "opt_er_on",
                             "^$cardkey|3",
                             "^$cardkey|9"
                         ],
