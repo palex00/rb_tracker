@@ -17,15 +17,24 @@
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "shared_item_grid"
+                "key": "main_item_horizontal_grid"
               }
-            }          
+            },
+            {
+              "type": "group",
+              "header": "Events",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "event_grid"
+              }
+            }
           ]
         }
       ]
     }
-  },
-  "tracker_horizontal": {
+  }
+  /*"tracker_horizontal": {
     "type": "container",
     "background": "#000000",
     "content": {
@@ -45,7 +54,7 @@
                 "type": "layout",
                 "h_alignment": "center",
                 "v_alignment": "center",
-                "key": "shared_item_grid"
+                "key": "item_grids"
               }
             },
             /*{
@@ -60,7 +69,7 @@
                 "key": "doors_item_grid"
               }
             },*/
-            {
+  /*{
               "type": "group",
               "header": "Transitions",
               "dock": "left",
@@ -71,10 +80,5 @@
                 "v_alignment": "center",
                 "key": "transitions_item_grid"
               }
-            }
-          ]
-        }
-      ]
-    }
-  }
+            }*/
 }
