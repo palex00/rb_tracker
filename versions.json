@@ -2,98 +2,10 @@
   "versions": [
     {
       "package_version": "3.2.0",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/3.2.0.zip",
-      "sha256": "33178fd3bb92a6588eefbe6c3abffd4dd469b5851c866fb303d433660b31b307",
+      "download_url": "https://github.com/palex00/rby-ap-tracker/archive/refs/tags/3.2.0.zip",
+      "sha256": "f63f1c1af2d8f93cb33b9b96c6ff10b0fdc9ad6b22fed2b9f0f7b176357eb3e2",
       "changelog": [
         "Check release notes"
-      ]
-    },
-    {
-      "package_version": "3.1.1",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/3.1.1.zip",
-      "sha256": "715255d78999f52a2ab95c51164445ce60cedb530e3932e0a044f90960492064",
-      "changelog": [
-        "Check release notes"
-      ]
-    },
-    {
-      "package_version": "3.1.0",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/3.1.0.zip",
-      "sha256": "9213450b7fe6969eca4e4c7d51b61f2e679b936e1e3ab4abcd91abecd5b741a7",
-      "changelog": [
-        "See Changelog"
-      ]
-    },
-    {
-      "package_version": "3.0.1",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/3.0.1.zip",
-      "sha256": "47171fc21efddf32fc9dd81d5d1bd3f96f7cd21176528c49a8975d634e71ec6a",
-      "changelog": [
-        "See Changelog"
-      ]
-    },
-    {
-      "package_version": "3.0.0",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/3.0.0.zip",
-      "sha256": "1c106216f6a0ba682726b3e6a11849ef6ef523f624c9796ec308981d46fc4319",
-      "changelog": [
-        "See Changelog"
-      ]
-    },
-    {
-      "package_version": "2.1.1",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.1.1.zip",
-      "sha256": "aa74e6c0ec027cdf24a7d8cd5acd486d534babe373cc85a0d8f9346427abd0f3",
-      "changelog": [
-        "See Changelog"
-      ]
-    },
-    {
-      "package_version": "2.1.0",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.1.0.zip",
-      "sha256": "c2cc634871bc4d8fb82a612013e9b0307fd2b9f4437d2223f427acfbf823cf0f",
-      "changelog": [
-        "Dumb ER Logic Mode & Fixes"
-      ]
-    },
-    {
-      "package_version": "2.0.4",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.4.zip",
-      "sha256": "2e6a62707e5380d25c5208a1a69c163f8c1e6e51dd7d87248bd1c08e406ee2fc",
-      "changelog": [
-        "Minor Fixes"
-      ]
-    },
-    {
-      "package_version": "2.0.3",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.3.zip",
-      "sha256": "4dad5644069e9bcaa5cf2e470caf70a22048f02bf1eb45d153042caa278c67ab",
-      "changelog": [
-        "Logic Rework"
-      ]
-    },
-    {
-      "package_version": "2.0.2",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.2.zip",
-      "sha256": "5a6c10bb2935908948bbd1742e448ddc13033e1674f4d8a586289e696b1804be",
-      "changelog": [
-        "Small Fixes"
-      ]
-    },
-    {
-      "package_version": "2.0.1",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.1.zip",
-      "sha256": "32e56c81fad6e4850aeef8668988b731706cf900f708f4c53fbe60b042ec5d15",
-      "changelog": [
-        "Layout Fix"
-      ]
-    },
-    {
-      "package_version": "2.0.0",
-      "download_url": "https://github.com/palex00/rb_tracker/archive/refs/tags/2.0.0.zip",
-      "sha256": "65266e4196f89192e179dec9ff074b833b9b08d79a6f0f10a28846d7b4b1d7ff",
-      "changelog": [
-        "Re-launch"
       ]
     }
   ]
