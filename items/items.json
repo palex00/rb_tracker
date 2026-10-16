@@ -9,55 +9,70 @@
             {
                 "name": "HM01 Cut",
                 "codes": "cut,cut_noextra",
-                "img": "images/items/hm_normal.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png"
             },
             {
                 "name": "HM01 Cut - Extra: Boulder Badge",
                 "codes": "cut,cut_boulder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/boulderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/boulderextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Cascade Badge",
                 "codes": "cut,cut_cascade",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/cascadeextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/cascadeextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Thunder Badge",
                 "codes": "cut,cut_thunder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/thunderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/thunderextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Rainbow Badge",
                 "codes": "cut,cut_rainbow",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/rainbowextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/rainbowextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Soul Badge",
                 "codes": "cut,cut_soul",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/soul.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/soulextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/soulextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Marsh Badge",
                 "codes": "cut,cut_marsh",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/marshextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/marshextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Volcano Badge",
                 "codes": "cut,cut_volcano",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/volcanoextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/volcanoextra.png"
             },
             {
                 "name": "HM01 Cut - Extra: Earth Badge",
                 "codes": "cut,cut_earth",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "img": "images/items/hm01_cut.png",
+                "img_mods": "overlay|images/overlays/cascade.png,overlay|images/overlays/earthextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/cascade.png,overlay|images/overlays/earthextra.png"
+            },
+            {
+                "name": "HM01 Cut - Free",
+                "codes": "cut,cut_free",
+                "img": "images/items/hm01_cut.png"
             }
         ]
     },
@@ -70,55 +85,70 @@
             {
                 "name": "HM02 Fly",
                 "codes": "fly,fly_noextra",
-                "img": "images/items/hm_flying.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png"
             },
             {
                 "name": "HM02 Fly - Extra: Boulder Badge",
                 "codes": "fly,fly_boulder",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/boulderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/boulderextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Cascade Badge",
                 "codes": "fly,fly_cascade",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/cascadeextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/cascadeextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Thunder Badge",
                 "codes": "fly,fly_thunder",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/thunderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/thunderextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Rainbow Badge",
                 "codes": "fly,fly_rainbow",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/rainbowextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/rainbowextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Soul Badge",
                 "codes": "fly,fly_soul",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/soul.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/soulextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/soulextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Marsh Badge",
                 "codes": "fly,fly_marsh",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png, overlay|images/overlays/marshextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/marshextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Volcano Badge",
                 "codes": "fly,fly_volcano",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/volcanoextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/volcanoextra.png"
             },
             {
                 "name": "HM02 Fly - Extra: Earth Badge",
                 "codes": "fly,fly_earth",
-                "img": "images/items/hm_flying.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "img": "images/items/hm02_fly.png",
+                "img_mods": "overlay|images/overlays/thunder.png,overlay|images/overlays/earthextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/thunder.png,overlay|images/overlays/earthextra.png"
+            },
+            {
+                "name": "HM02 Fly - Free",
+                "codes": "fly,fly_free",
+                "img": "images/items/hm02_fly.png"
             }
         ]
     },
@@ -131,55 +161,70 @@
             {
                 "name": "HM03 Surf",
                 "codes": "surf,surf_noextra",
-                "img": "images/items/hm_water.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png"
             },
             {
                 "name": "HM03 Surf - Extra: Boulder Badge",
                 "codes": "surf,surf_boulder",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/boulderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/boulderextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Cascade Badge",
                 "codes": "surf,surf_cascade",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/cascadeextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/cascadeextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Thunder Badge",
                 "codes": "surf,surf_thunder",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/thunderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/thunderextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Rainbow Badge",
                 "codes": "surf,surf_rainbow",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/rainbowextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/rainbowextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Soul Badge",
                 "codes": "surf,surf_soul",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/soul.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/soulextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/soulextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Marsh Badge",
                 "codes": "surf,surf_marsh",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/marshextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/marshextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Volcano Badge",
                 "codes": "surf,surf_volcano",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/volcanoextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/volcanoextra.png"
             },
             {
                 "name": "HM03 Surf - Extra: Earth Badge",
                 "codes": "surf,surf_earth",
-                "img": "images/items/hm_water.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "img": "images/items/hm03_surf.png",
+                "img_mods": "overlay|images/overlays/soul.png,overlay|images/overlays/earthextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/soul.png,overlay|images/overlays/earthextra.png"
+            },
+            {
+                "name": "HM03 Surf - Free",
+                "codes": "surf,surf_free",
+                "img": "images/items/hm03_surf.png"
             }
         ]
     },
@@ -192,55 +237,70 @@
             {
                 "name": "HM04 Strength",
                 "codes": "strength,strength_noextra",
-                "img": "images/items/hm_normal.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png"
             },
             {
                 "name": "HM04 Strength - Extra: Boulder Badge",
                 "codes": "strength,strength_boulder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/boulderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/boulderextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Cascade Badge",
                 "codes": "strength,strength_cascade",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/cascadeextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/cascadeextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Thunder Badge",
                 "codes": "strength,strength_thunder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/thunderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/thunderextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Rainbow Badge",
                 "codes": "strength,strength_rainbow",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/rainbowextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/rainbowextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Soul Badge",
                 "codes": "strength,strength_soul",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/soul.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/soulextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/soulextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Marsh Badge",
                 "codes": "strength,strength_marsh",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/marshextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/marshextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Volcano Badge",
                 "codes": "strength,strength_volcano",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/volcanoextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/volcanoextra.png"
             },
             {
                 "name": "HM04 Strength - Extra: Earth Badge",
                 "codes": "strength,strength_earth",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "img": "images/items/hm04_strength.png",
+                "img_mods": "overlay|images/overlays/rainbow.png,overlay|images/overlays/earthextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/rainbow.png,overlay|images/overlays/earthextra.png"
+            },
+            {
+                "name": "HM04 Strength - Free",
+                "codes": "strength,strength_free",
+                "img": "images/items/hm04_strength.png"
             }
         ]
     },
@@ -253,55 +313,70 @@
             {
                 "name": "HM05 Flash",
                 "codes": "flash,flash_noextra",
-                "img": "images/items/hm_normal.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png"
             },
             {
                 "name": "HM05 Flash - Extra: Boulder Badge",
                 "codes": "flash,flash_boulder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/boulder.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/boulderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/boulderextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Cascade Badge",
                 "codes": "flash,flash_cascade",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/cascade.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/cascadeextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/cascadeextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Thunder Badge",
                 "codes": "flash,flash_thunder",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/thunder.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/thunderextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/thunderextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Rainbow Badge",
                 "codes": "flash,flash_rainbow",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/rainbow.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/rainbowextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/rainbowextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Soul Badge",
                 "codes": "flash,flash_soul",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/soul.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/soulextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/soulextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Marsh Badge",
                 "codes": "flash,flash_marsh",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/marsh.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/marshextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/marshextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Volcano Badge",
                 "codes": "flash,flash_volcano",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/volcano.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/volcanoextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/volcanoextra.png"
             },
             {
                 "name": "HM05 Flash - Extra: Earth Badge",
                 "codes": "flash,flash_earth",
-                "img": "images/items/hm_normal.png",
-                "img_mods": "overlay|images/overlays/earth.png"
+                "img": "images/items/hm05_flash.png",
+                "img_mods": "overlay|images/overlays/boulder.png,overlay|images/overlays/earthextra.png",
+                "disabled_img_mods": "@disabled,overlay|images/overlays/boulder.png,overlay|images/overlays/earthextra.png"
+            },
+            {
+                "name": "HM05 Flash - Free",
+                "codes": "flash,flash_free",
+                "img": "images/items/hm05_flash.png"
             }
         ]
     },

@@ -129,7 +129,23 @@ function get_slot_options(slot_data)
 			ones.CurrentStage = val % 10
 		end
 	end
-    
+
+    if slot_data["badges_needed_for_hm_moves"] then
+		local cut = Tracker:FindObjectForCode("cut")
+		local fly = Tracker:FindObjectForCode("fly")
+		local surf = Tracker:FindObjectForCode("surf")
+		local strength = Tracker:FindObjectForCode("strength")
+		local flash = Tracker:FindObjectForCode("flash")
+		local val = slot_data["badges_needed_for_hm_moves"]
+		if val == 0 then
+			cut.CurrentStage = 9
+			fly.CurrentStage = 9
+			surf.CurrentStage = 9
+			strength.CurrentStage = 9
+			flash.CurrentStage = 9
+		end
+	end
+
     if slot_data["extra_badges"] then
 		hm_list = {"Cut", "Fly", "Surf", "Strength", "Flash"}
 		stages = { boulder=1, cascade=2, thunder=3, rainbow=4, soul=5, marsh=6, volcano=7, earth=8}
