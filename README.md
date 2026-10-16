@@ -1,3 +1,5 @@
+# This has moved to https://github.com/palex00/rby-ap-tracker
+
 # Archipelago Pokémon Red & Blue Tracker
 <img width="1920" height="1040" alt="grafik" src="https://github.com/user-attachments/assets/7b7e783e-6016-4012-995d-1df239c14431" />
 
